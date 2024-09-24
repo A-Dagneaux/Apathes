@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout active="1" order="0">Level-1</layout>
+        <event-sheet order="1">Level-1ES</event-sheet>
+        <event-sheet order="2">Backlog</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="0">
+        <family expanded="0" name="Barres" />
+        <family expanded="0" name="Apathes" />
+        <family expanded="0" name="Cartes" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="0" path="object-folder/" />
+        <folder expanded="0" path="object-folder/Apathes/" />
+        <folder expanded="0" path="object-folder/décor/" />
+        <folder expanded="0" path="object-folder/cartes/" />
+        <folder expanded="0" path="object-folder/cartes/par terre/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Apathe_Base/" />
+        <folder expanded="1" path="animation-folder/Apathe_Hurleur/" />
+        <folder expanded="1" path="animation-folder/Apathe_MangeLumiere/" />
+        <folder expanded="1" path="animation-folder/Apathe_Obscur/" />
+        <folder expanded="1" path="animation-folder/Apathe_AntiBruit/" />
+        <folder expanded="1" path="animation-folder/fond/" />
+        <folder expanded="1" path="animation-folder/mur/" />
+        <folder expanded="1" path="animation-folder/MurPoussable/" />
+        <folder expanded="1" path="animation-folder/noir/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/enjouée/" />
+        <folder expanded="1" path="animation-folder/craintive/" />
+        <folder expanded="1" path="animation-folder/Furieuse/" />
+        <folder expanded="1" path="animation-folder/Honteuse/" />
+        <folder expanded="1" path="animation-folder/CarteSprite/" />
+        <folder expanded="1" path="animation-folder/MainPlace/" />
+        <folder expanded="1" path="animation-folder/Hisia/" />
+        <folder expanded="1" path="animation-folder/BarreBase/" />
+        <folder expanded="1" path="animation-folder/BarreMilieu/" />
+        <folder expanded="1" path="animation-folder/BarreHaut/" />
+        <folder expanded="1" path="animation-folder/lumière/" />
+        <folder expanded="1" path="animation-folder/pioche/" />
+        <folder expanded="1" path="animation-folder/flèchebas/" />
+        <folder expanded="1" path="animation-folder/flèchehaut/" />
+        <folder expanded="1" path="animation-folder/AutourDeMain/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sortie/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/block/" />
+        <folder expanded="1" path="animation-folder/out/" />
+        <folder expanded="1" path="animation-folder/wall/" />
+        <folder expanded="1" path="animation-folder/noise/" />
+        <folder expanded="1" path="animation-folder/lightblocker/" />
+        <folder expanded="1" path="animation-folder/BloqueurDeVueSalle1/" />
+        <folder expanded="1" path="animation-folder/BloqueurDeVueSalle2/" />
+        <folder expanded="1" path="animation-folder/BloqueurDeVueSalle3/" />
+    </folders-expanded>
+</c2uistate>

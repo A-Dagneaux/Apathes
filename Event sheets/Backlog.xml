@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Backlog</name>
+    <events>
+        <event-group description="" sid="749964301549580" title="22/09/2024 - Sophie PAGES">
+            <sub-events>
+                <comment>Mix des 3 versions (barres de Rémi, niveau de Aloïs, layout de Sophie). Manque : capacités des émotions et des ennemis</comment>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="534515129920304" title="23/09/2024 - Sophie PAGES">
+            <sub-events>
+                <comment>Brouillard de guerre</comment>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="649646597495745" title="23/09/2024 - Matéo NININGER">
+            <sub-events>
+                <comment>Délétion des Layouts VICTOIRE/DÉFAITE/COMMENCER et leurs Event Sheet</comment>
+                <comment>Adjustement des proportions SPRITES</comment>
+                <comment>Fog o&apos; War destruction lors d&apos;intéraction avec joueur</comment>
+                <comment>Agrandissement de la taille de lumière</comment>
+            </sub-events>
+        </event-group>
+        <comment>Il y a une problème avec la logique de mouvement des ennemis. Faudra voir qu&apos;est ce qui passe.</comment>
+        <event-group description="" sid="610948266748054" title="24/09/2024" />
+        <comment></comment>
+    </events>
+</c2eventsheet>

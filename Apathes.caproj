@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Apathes</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>qhmpp43xcmak</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
+        <plugin author="Scirra" id="shadowlight" version="1">Shadow Light</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="LOS" version="1">Line Of Sight</behavior>
+        <behavior author="Scirra" id="Pathfinding" version="1">Pathfinding</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
+        <behavior author="Scirra" id="shadowcaster" version="1">Shadow Caster</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects>
+        <effect author="Scirra" id="brightness">Brightness</effect>
+    </used-effects>
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>320</width>
+        <height>180</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="Apathes">
+            <object-type name="Apathe_Base" sid="128374855682251">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="4" loop="0" name="Attaque" pingpong="0" repeatcount="1" repeatto="0" sid="612693076629339" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Marche" pingpong="0" repeatcount="1" repeatto="0" sid="187996547537768" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Apathe_Hurleur" sid="600041083337749">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="813543833955046" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Apathe_MangeLumiere" sid="555858705963468">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="375710903015705" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Apathe_Obscur" sid="320317570480341">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708372910108099" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Apathe_AntiBruit" sid="164218256417712">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Attaque" pingpong="0" repeatcount="1" repeatto="0" sid="775657855092622" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Marche" pingpong="0" repeatcount="1" repeatto="0" sid="148817204023356" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="décor">
+            <object-type name="fond" sid="392868419353482">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="827360421923227" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Downloads\construct\sol2.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="mur" sid="626372402224959">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="639346799110065">
+                        <behavior id="solid" />
+                    </behavior-type>
+                    <behavior-type name="ShadowCaster" sid="766565889701190">
+                        <behavior id="shadowcaster" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="220378145629885" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\User\Downloads\construct\apathes\DALL·E 2024-09-16 01.44.00 - A top-down pixel art view with a 3_2 aspect ratio showing a very dark, nearly black scene of cobblestone streets. The background is extremely minimal,3.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MurPoussable" sid="351866846049925">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="817220475901552">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="197950830445909" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Downloads\construct\brique.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="noir" sid="338715035058973">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="630498237036010" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite" sid="572403941976921">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="126650462305393">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="411667178295748" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Downloads\construct\mur.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="cartes">
+            <object-folder name="par terre">
+                <object-type name="enjouée" sid="129258435936949">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="703840005175497" speed="5">
+                            <frame duration="1" hotspotX="0.583643" hotspotY="0.512088" original-source="C:\Users\User\Downloads\construct\joyeuse.jpg" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="craintive" sid="693113250622226">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="832877721999201" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.56351" original-source="C:\Users\User\Downloads\construct\craintive.jpg" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Furieuse" sid="922271184868626">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="812651972192497" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501104" original-source="C:\Users\User\Downloads\construct\furiuse.jpg" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Honteuse" sid="588681126850626">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="379882589813544" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.50116" original-source="C:\Users\User\Downloads\construct\honteuse.jpg" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-type name="CarteSprite" sid="979137183249941">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="589434542433366">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="1" name="Craintive" pingpong="0" repeatcount="1" repeatto="0" sid="742546855550725" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501155" original-source="C:\Users\User\Downloads\construct\craintive.jpg" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="Honteuse" pingpong="0" repeatcount="1" repeatto="0" sid="706433760434524" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50116" original-source="C:\Users\User\Downloads\construct\honteuse.jpg" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="Furieuse" pingpong="0" repeatcount="1" repeatto="0" sid="548134745965908" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.501104" original-source="C:\Users\User\Downloads\construct\furiuse.jpg" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="Enjouée" pingpong="0" repeatcount="1" repeatto="0" sid="393343325047295" speed="5">
+                        <frame duration="1" hotspotX="0.594796" hotspotY="0.542857" original-source="C:\Users\User\Downloads\construct\joyeuse.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type global="1" name="Main" sid="966644326085276">
+                <plugin id="Arr" />
+            </object-type>
+            <object-type name="MainPlace" sid="903328211434277">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="759266854336714" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-type name="Hisia" sid="396807986507934">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="état" sid="193009539091046" type="string" />
+                <instance-variable name="Vie" sid="954189597585013" type="number" />
+                <instance-variable name="knockback" sid="940012139446055" type="boolean" />
+                <instance-variable name="Emotion" sid="931612223270254" type="string" />
+                <instance-variable name="Vitesse" sid="114845858993879" type="number" />
+                <instance-variable name="Largeur" sid="519437483963153" type="number" />
+                <instance-variable name="Hauteur" sid="133808097236934" type="number" />
+                <instance-variable name="Bruit" sid="301139220873802" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="8Direction" sid="958459754648602">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="LineOfSight" sid="590517104571430">
+                    <behavior id="LOS" />
+                </behavior-type>
+                <behavior-type name="Timer" sid="184129068988143">
+                    <behavior id="Timer" />
+                </behavior-type>
+            </behaviors>
+            <effects>
+                <effect-type name="Brightness">
+                    <effect id="brightness" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Neutre" pingpong="0" repeatcount="1" repeatto="0" sid="702688949144009" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="1" name="Honteuse" pingpong="0" repeatcount="1" repeatto="0" sid="219747527356137" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="1" name="Furieuse" pingpong="0" repeatcount="1" repeatto="0" sid="245673024823828" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="1" name="Enjouée" pingpong="0" repeatcount="1" repeatto="0" sid="993589058763373" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="1" name="Craintive" pingpong="0" repeatcount="1" repeatto="0" sid="885676849387589" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="598802472430230">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Mouse" sid="716411042276172">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="BarreBase" sid="359121973980971">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="551947317191529" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.5" original-source="C:\Users\User\Downloads\construct\RoguelikeAssets\Sprites Roguelike\BarraBase.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BarreMilieu" sid="380313428192252">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="427457156452352" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.5" original-source="C:\Users\User\Downloads\construct\RoguelikeAssets\Sprites Roguelike\BarraMeio.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BarreHaut" sid="904582934303576">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="907115749760634" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0.5" original-source="C:\Users\User\Downloads\construct\RoguelikeAssets\Sprites Roguelike\BarraCima.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ShadowLight" sid="430893487699317">
+            <plugin id="shadowlight" />
+        </object-type>
+        <object-type name="lumière" sid="961317367370314">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="taille" sid="549376967119111" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760910869220772" speed="5">
+                    <frame duration="1" hotspotX="0.500514" hotspotY="0.5" original-source="C:\Users\User\Downloads\construct\light\light\Light.png">
+                        <collision-poly>
+                            <point x="0.382323" y="0.380368" />
+                            <point x="0.499486" y="0.332311" />
+                            <point x="0.617677" y="0.380368" />
+                            <point x="0.668037" y="0.5" />
+                            <point x="0.618705" y="0.620654" />
+                            <point x="0.499486" y="0.669734" />
+                            <point x="0.380267" y="0.621677" />
+                            <point x="0.329908" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PasDoux" sid="469512581851611">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="pioche" sid="750817719658055">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="707605550332725" speed="5">
+                    <frame duration="1" hotspotX="0.501887" hotspotY="0.5" original-source="C:\Users\User\Downloads\construct\DALL·E 2024-09-16 03.26.08 - Four pixel art cards, each featuring a different abstract symbol representing emotions in a city-themed style. _1. A cracked or broken road, symbolizi.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RangementDesCartes" sid="819755264054972">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="murstests" sid="666064349835366">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\User\Downloads\construct\murentier.png" />
+            <tiles />
+        </object-type>
+        <object-type name="flèchebas" sid="777037391909522">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="591912001767117" speed="5">
+                    <frame duration="1" hotspotX="0.502778" hotspotY="0.503401" original-source="C:\Users\oeild\Downloads\GD\Apathes\fleche.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="E" sid="952238146863962">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="flèchehaut" sid="247868704475243">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="742759929298477" speed="5">
+                    <frame duration="1" hotspotX="0.50293" hotspotY="1" original-source="C:\Users\oeild\Downloads\GD\Apathes\main.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AutourDeMain" sid="970837007530082">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="273211092881105" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\User\Downloads\construct\apathes\murentier.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="120853318708206">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="838069737430499" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\User\Downloads\construct\57a5ef0d-9f4d-4f89-ae2a-9c17e9d051b1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sortie" sid="115371735841698">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="185881532182651" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="rejouer" sid="244803581181982">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text" sid="119598184722011">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite5" sid="427597639380274">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="374172519775977" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text2" sid="612179909166075">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="block" sid="563773479268635">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="speed" sid="780880995937722" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Solid" sid="787216585488477">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="372936018015397">
+                    <behavior id="EightDir" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="179054382389019" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="out" sid="755860061497724">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="855466657570719" speed="5">
+                    <frame duration="1" hotspotX="0.505556" hotspotY="0.495208" original-source="C:\Users\dagne\Desktop\Screenshot_1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wall" sid="329923421455913">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="685752251169539">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="ShadowCaster" sid="294836521485376">
+                    <behavior id="shadowcaster" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="699645412911602" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="noise" sid="850208281378681">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="size_normal" sid="229427352873775" type="number" />
+                <instance-variable name="size_emo2" sid="899432088843405" type="number" />
+                <instance-variable name="size_emo3" sid="787230533503137" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="720559526824216" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="lightblocker" sid="239185369609322">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="561891626051111" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text3" sid="858716725633111">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="BloqueurDeVueSalle1" sid="750907620504399">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="182545849312251" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BloqueurDeVueSalle2" sid="925573918950292">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="907053236869412" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BloqueurDeVueSalle3" sid="423355580482113">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="122429246773443" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="Barres" plugin-id="Sprite" sid="719636993966341">
+            <members>
+                <member>BarreBase</member>
+                <member>BarreHaut</member>
+                <member>BarreMilieu</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Pin" sid="528946373316573">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="Apathes" plugin-id="Sprite" sid="195361571858189">
+            <members>
+                <member>Apathe_AntiBruit</member>
+                <member>Apathe_Base</member>
+                <member>Apathe_Hurleur</member>
+                <member>Apathe_MangeLumiere</member>
+                <member>Apathe_Obscur</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="Vie" sid="821897275966866" type="number" />
+                <instance-variable name="Etat" sid="352148952834185" type="string" />
+                <instance-variable name="Attaque" sid="741751144415736" type="number" />
+                <instance-variable name="Directions" sid="639359733256339" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="8Direction" sid="879948321275020">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="LineOfSight" sid="777928021925118">
+                    <behavior id="LOS" />
+                </behavior-type>
+                <behavior-type name="Pathfinding" sid="482105994565292">
+                    <behavior id="Pathfinding" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="Cartes" plugin-id="Sprite" sid="603989546394805">
+            <members>
+                <member>craintive</member>
+                <member>enjouée</member>
+                <member>Furieuse</member>
+                <member>Honteuse</member>
+            </members>
+            <instance-variables>
+                <instance-variable name="Type" sid="350561315295116" type="string" />
+            </instance-variables>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>Level-1.xml</layout>
+        <layout>Ancien niveau 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Level-1ES.xml</event-sheet>
+        <event-sheet>Backlog.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Keyboard" uid="3" />
+        <global-instance type="Mouse" uid="4" />
+        <global-instance type="PasDoux" uid="15">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="RangementDesCartes" uid="114" />
+    </global-instances>
+    <sounds-folder>
+        <file name="sfx_step_grass_l.m4a" />
+        <file name="sfx_step_grass_l.ogg" />
+        <file name="sfx_step_grass_r.m4a" />
+        <file name="sfx_step_grass_r.ogg" />
+        <file name="SnowWalk.ogg" />
+        <file name="SnowWalk2.ogg" />
+        <file name="snow_step_wet-01.m4a" />
+        <file name="snow_step_wet-02.m4a" />
+        <file name="snow_step_wet-03.m4a" />
+        <file name="snow_step_wet-04.m4a" />
+        <file name="snow_step_wet-05.m4a" />
+        <file name="snow_step_wet-06.m4a" />
+        <file name="snow_step_wet-07.m4a" />
+        <file name="snow_step_wet-08.m4a" />
+        <file name="snow_step_wet-09.m4a" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
