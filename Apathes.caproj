@@ -169,6 +169,32 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Mur1" sid="500670008511518">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="993389759334850">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="272941840486413" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Barreaux" sid="347433644611419">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="883915736431435">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="592758100174530" speed="5">
+                        <frame duration="1" hotspotX="0.52" hotspotY="0.6" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="cartes">
             <object-folder name="par terre">
@@ -517,14 +543,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite3" sid="170561499283043">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="709636200456962" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Text4" sid="266686973144439">
             <plugin id="Text" />
         </object-type>
@@ -583,7 +601,7 @@
     <layout-folder>
         <layout>Level-1.xml</layout>
         <layout>Ancien niveau 1.xml</layout>
-        <layout>Layout 1.xml</layout>
+        <layout>Scène 1 et tuto furrieux.xml</layout>
         <layout>Layout 2.xml</layout>
     </layout-folder>
     <event-folder>
