@@ -7372,8 +7372,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>200</x>
-                        <y>24</y>
+                        <x>232</x>
+                        <y>72</y>
                         <z>0</z>
                         <width>16</width>
                         <height>16</height>
