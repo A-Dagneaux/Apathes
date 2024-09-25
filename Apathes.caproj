@@ -525,6 +525,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Text4" sid="266686973144439">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families>
         <family name="Barres" plugin-id="Sprite" sid="719636993966341">
@@ -581,11 +584,13 @@
         <layout>Level-1.xml</layout>
         <layout>Ancien niveau 1.xml</layout>
         <layout>Layout 1.xml</layout>
+        <layout>Layout 2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Level-1ES.xml</event-sheet>
         <event-sheet>Backlog.xml</event-sheet>
         <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="3" />
