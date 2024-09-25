@@ -109,6 +109,39 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="GardeNaration" sid="846552721186737">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="sens" sid="506914172235427" type="number" />
+                    <instance-variable name="vitesse" sid="664483163414721" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="8Direction" sid="543368308498672">
+                        <behavior id="EightDir" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="450055212581842" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GardeNaration2" sid="802133417043481">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="sens" sid="350015047177555" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="8Direction" sid="788730975497421">
+                        <behavior id="EightDir" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="501288228233585" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="décor">
             <object-type name="fond" sid="392868419353482">
@@ -192,6 +225,14 @@
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="592758100174530" speed="5">
                         <frame duration="1" hotspotX="0.52" hotspotY="0.6" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Porte" sid="922274266058586">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="511462058197133" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -544,6 +585,27 @@
             </animation-folder>
         </object-type>
         <object-type name="Text4" sid="266686973144439">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Dialog1" sid="283044460018695">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Dialog2" sid="689104311355261">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Dialog3" sid="930611189668080">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Dialog4" sid="111589179978363">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Dialog5" sid="334078533914902">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Dialog6" sid="269005455522061">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Dialog7" sid="197961902227345">
             <plugin id="Text" />
         </object-type>
     </object-folder>

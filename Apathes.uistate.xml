@@ -46,6 +46,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Apathe_MangeLumiere/" />
         <folder expanded="1" path="animation-folder/Apathe_Obscur/" />
         <folder expanded="1" path="animation-folder/Apathe_AntiBruit/" />
+        <folder expanded="1" path="animation-folder/GardeNaration/" />
+        <folder expanded="1" path="animation-folder/GardeNaration2/" />
         <folder expanded="1" path="animation-folder/fond/" />
         <folder expanded="1" path="animation-folder/mur/" />
         <folder expanded="1" path="animation-folder/MurPoussable/" />
@@ -53,6 +55,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/Mur1/" />
         <folder expanded="1" path="animation-folder/Barreaux/" />
+        <folder expanded="1" path="animation-folder/Porte/" />
         <folder expanded="1" path="animation-folder/enjouée/" />
         <folder expanded="1" path="animation-folder/craintive/" />
         <folder expanded="1" path="animation-folder/Furieuse/" />
