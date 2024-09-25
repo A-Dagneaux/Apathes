@@ -517,6 +517,14 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite3" sid="170561499283043">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="709636200456962" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Barres" plugin-id="Sprite" sid="719636993966341">
@@ -572,10 +580,12 @@
     <layout-folder>
         <layout>Level-1.xml</layout>
         <layout>Ancien niveau 1.xml</layout>
+        <layout>Layout 1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Level-1ES.xml</event-sheet>
         <event-sheet>Backlog.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="3" />
