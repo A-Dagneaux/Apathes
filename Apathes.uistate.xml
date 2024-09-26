@@ -10,29 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-<<<<<<< HEAD
         <layout order="0">Global_test</layout>
-        <layout active="1" order="3">Scène 1 et tuto furrieux</layout>
-        <layout order="5">Layout 2</layout>
-        <layout order="7">UI_layout</layout>
-        <event-sheet order="1">UI_ES</event-sheet>
-        <event-sheet order="2">Global</event-sheet>
-        <event-sheet order="4">Narrative scène 1</event-sheet>
-        <event-sheet order="6">Event sheet 2</event-sheet>
-=======
-        <layout active="1" order="0">Global_test</layout>
-        <layout order="2">Scène 1 et tuto furrieux</layout>
-        <layout order="4">Layout 2</layout>
-        <layout order="5">UI_layout</layout>
-        <event-sheet order="1">Global</event-sheet>
-        <event-sheet order="3">Event sheet 1</event-sheet>
-        <event-sheet order="0">UI_ES</event-sheet>
->>>>>>> 635d87cece8eddea1e007f435345e8e9c412ba85
+        <layout active="1" order="1">UI_layout</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />
-        <property expanded="1" name="Window Size" />
+        <property expanded="0" name="Window Size" />
         <property expanded="1" name="Configuration Settings" />
     </properties>
     <families-expanded root="1">
@@ -41,18 +25,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="0" path="object-folder/Apathes/" />
-        <folder expanded="0" path="object-folder/décor/" />
+        <folder expanded="1" path="object-folder/Apathes/" />
+        <folder expanded="1" path="object-folder/décor/" />
         <folder expanded="1" path="object-folder/cartes/" />
-        <folder expanded="0" path="object-folder/cartes/par terre/" />
+        <folder expanded="1" path="object-folder/cartes/par terre/" />
         <folder expanded="1" path="object-folder/UI/" />
         <folder expanded="1" path="object-folder/Textes/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="0" path="file-folder/" />
-        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
-        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/Apathe_Base/" />
         <folder expanded="1" path="animation-folder/Apathe_Hurleur/" />
         <folder expanded="1" path="animation-folder/Apathe_MangeLumiere/" />
