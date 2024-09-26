@@ -166,7 +166,7 @@
                                             <param id="0" name="Scale">Hisia.Bruit</param>
                                         </action>
                                         <action behavior="8Direction" id="4" name="Set max speed" sid="266479718019877" type="Hisia">
-                                            <param id="0" name="Max Speed">50</param>
+                                            <param id="0" name="Max Speed">200</param>
                                         </action>
                                         <action id="9" name="Set scale" sid="338217188457692" type="Hisia">
                                             <param id="0" name="Scale">1</param>
@@ -225,7 +225,7 @@
                                             <param id="1" name="From">1</param>
                                         </action>
                                         <action behavior="8Direction" id="4" name="Set max speed" sid="141631388792404" type="Hisia">
-                                            <param id="0" name="Max Speed">50</param>
+                                            <param id="0" name="Max Speed">200</param>
                                         </action>
                                         <action id="-10" name="Set value" sid="793330212776930" type="Hisia">
                                             <param id="0" name="Instance variable">bruit</param>
@@ -271,7 +271,7 @@
                                                     <param id="0" name="Scale">Hisia.Bruit</param>
                                                 </action>
                                                 <action behavior="8Direction" id="4" name="Set max speed" sid="944112010296952" type="Hisia">
-                                                    <param id="0" name="Max Speed">100</param>
+                                                    <param id="0" name="Max Speed">200</param>
                                                 </action>
                                                 <action id="-7" name="Set size" sid="809539314439464" type="Hisia">
                                                     <param id="0" name="Width">13</param>
