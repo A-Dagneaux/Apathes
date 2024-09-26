@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
     <events>
+        <include>Global</include>
+        <include>UI_ES</include>
         <event-group description="" sid="808045740099026" title="Start of layout2">
             <sub-events>
                 <event-block sid="628826169769528">
@@ -17,19 +19,6 @@
                         <action id="-7" name="Set size" sid="635311722398752" type="noise">
                             <param id="0" name="Width">noise.size_normal</param>
                             <param id="1" name="Height">noise.size_normal</param>
-                        </action>
-                        <action id="1" name="Set size" sid="237271595413124" type="Main">
-                            <param id="0" name="Width">6</param>
-                            <param id="1" name="Height">1</param>
-                            <param id="2" name="Depth">1</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="593270220043759" type="System">
-                            <param id="0" name="Variable">IndexMain</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="146963004058200" type="System">
-                            <param id="0" name="Variable">Emotion</param>
-                            <param id="1" name="Value">&quot;Neutre&quot;</param>
                         </action>
                         <action id="-4" name="Set layer visible" sid="661657020814620" type="System">
                             <param id="0" name="Layer">3</param>
@@ -130,11 +119,6 @@
                             <sub-events>
                                 <event-block sid="189896107437269">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="189215761835015" type="System">
-                                            <param id="0" name="Variable">Emotion</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">&quot;Neutre&quot;</param>
-                                        </condition>
                                         <condition id="-4" name="Trigger once while true" sid="486636563371529" type="System" />
                                     </conditions>
                                     <actions>
@@ -143,7 +127,7 @@
                                             <param id="1" name="From">1</param>
                                         </action>
                                         <action id="-10" name="Set value" sid="776431196208203" type="Hisia">
-                                            <param id="0" name="Instance variable">Bruit</param>
+                                            <param id="0" name="Instance variable">bruit</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
                                         <action behavior="8Direction" id="4" name="Set max speed" sid="472312278973573" type="Hisia">
@@ -160,11 +144,6 @@
                             <sub-events>
                                 <event-block sid="400913950194975">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="535194781991782" type="System">
-                                            <param id="0" name="Variable">Emotion</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">&quot;Honteuse&quot;</param>
-                                        </condition>
                                         <condition id="-4" name="Trigger once while true" sid="705493404525367" type="System" />
                                     </conditions>
                                     <actions>
@@ -176,7 +155,7 @@
                                             <param id="0" name="Max Speed">25</param>
                                         </action>
                                         <action id="-10" name="Set value" sid="115410603312347" type="Hisia">
-                                            <param id="0" name="Instance variable">Bruit</param>
+                                            <param id="0" name="Instance variable">bruit</param>
                                             <param id="1" name="Value">0.5</param>
                                         </action>
                                         <action id="9" name="Set scale" sid="446082319462614" type="Hisia">
@@ -190,11 +169,6 @@
                             <sub-events>
                                 <event-block sid="293292564064156">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="180932938673389" type="System">
-                                            <param id="0" name="Variable">Emotion</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">&quot;Craintive&quot;</param>
-                                        </condition>
                                         <condition id="-4" name="Trigger once while true" sid="622794375210301" type="System" />
                                     </conditions>
                                     <actions>
@@ -206,7 +180,7 @@
                                             <param id="0" name="Max Speed">50</param>
                                         </action>
                                         <action id="-10" name="Set value" sid="103454789879641" type="Hisia">
-                                            <param id="0" name="Instance variable">Bruit</param>
+                                            <param id="0" name="Instance variable">bruit</param>
                                             <param id="1" name="Value">0.5</param>
                                         </action>
                                         <action id="-7" name="Set size" sid="184130421368349" type="Hisia">
@@ -220,20 +194,14 @@
                         <event-group description="" sid="955134299176243" title="Furieux2">
                             <sub-events>
                                 <event-block sid="692894354259668">
-                                    <conditions>
-                                        <condition id="-14" name="Compare variable" sid="825417145628578" type="System">
-                                            <param id="0" name="Variable">Emotion</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">&quot;Furieuse&quot;</param>
-                                        </condition>
-                                    </conditions>
+                                    <conditions />
                                     <actions>
                                         <action id="4" name="Set animation" sid="993045744828961" type="Hisia">
                                             <param id="0" name="Animation">&quot;Furieuse&quot;</param>
                                             <param id="1" name="From">1</param>
                                         </action>
                                         <action id="-10" name="Set value" sid="641041066009085" type="Hisia">
-                                            <param id="0" name="Instance variable">Bruit</param>
+                                            <param id="0" name="Instance variable">bruit</param>
                                             <param id="1" name="Value">2</param>
                                         </action>
                                         <action behavior="8Direction" id="4" name="Set max speed" sid="701178725613717" type="Hisia">
@@ -327,11 +295,6 @@
                             <sub-events>
                                 <event-block sid="852589998336795">
                                     <conditions>
-                                        <condition id="-14" name="Compare variable" sid="843686191342030" type="System">
-                                            <param id="0" name="Variable">Emotion</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">&quot;Enjouée&quot;</param>
-                                        </condition>
                                         <condition id="-4" name="Trigger once while true" sid="913529082663959" type="System" />
                                     </conditions>
                                     <actions>
@@ -347,7 +310,7 @@
                                             <param id="0" name="Max Speed">100</param>
                                         </action>
                                         <action id="-10" name="Set value" sid="159069216831759" type="Hisia">
-                                            <param id="0" name="Instance variable">Bruit</param>
+                                            <param id="0" name="Instance variable">bruit</param>
                                             <param id="1" name="Value">2</param>
                                         </action>
                                         <action id="-7" name="Set size" sid="558523368607106" type="Hisia">
@@ -432,141 +395,6 @@
                 </event-group>
             </sub-events>
         </event-group>
-        <event-group description="" sid="263897652583937" title="UI et CARTES2">
-            <sub-events>
-                <event-block sid="522063022945689">
-                    <conditions>
-                        <condition behavior="DragDrop" id="2" name="On drop" sid="226182873570736" type="CarteSprite" />
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="338045671939907" type="System">
-                            <param id="0" name="Variable">Emotion</param>
-                            <param id="1" name="Value">CarteSprite.AnimationName</param>
-                        </action>
-                        <action id="-9" name="Destroy" sid="216692183114086" type="CarteSprite" />
-                    </actions>
-                </event-block>
-                <event-block sid="107684523962021">
-                    <conditions>
-                        <condition id="1" name="Is overlapping another object" sid="965988118467629" type="Hisia">
-                            <param id="0" name="Object">Cartes</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="2" name="Set at X" sid="686069397720652" type="Main">
-                            <param id="0" name="X">IndexMain</param>
-                            <param id="1" name="Value">Cartes.Type</param>
-                        </action>
-                        <action id="-3" name="Create object" sid="339133475929544" type="System">
-                            <param id="0" name="Object to create">CarteSprite</param>
-                            <param id="1" name="Layer">4</param>
-                            <param id="2" name="X">192+20*(IndexMain+1)</param>
-                            <param id="3" name="Y">162</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="248158616535075" type="CarteSprite">
-                            <param id="0" name="Animation">Cartes.Type</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="3" name="Start" sid="133416578594709" type="CarteSprite">
-                            <param id="0" name="From">0</param>
-                        </action>
-                        <action id="-10" name="Add to" sid="590117312477588" type="System">
-                            <param id="0" name="Variable">IndexMain</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-9" name="Destroy" sid="483539832705203" type="Cartes" />
-                    </actions>
-                </event-block>
-                <event-block sid="298509079052154">
-                    <conditions>
-                        <condition id="6" name="On object clicked" sid="223229633519190" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">flèchebas</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-4" name="Set layer visible" sid="876133681563760" type="System">
-                            <param id="0" name="Layer">4</param>
-                            <param id="1" name="Visibility">0</param>
-                        </action>
-                        <action id="-4" name="Set layer visible" sid="676897354532359" type="System">
-                            <param id="0" name="Layer">3</param>
-                            <param id="1" name="Visibility">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="983360060679405">
-                    <conditions>
-                        <condition id="6" name="On object clicked" sid="299663002269524" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">flèchehaut</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-4" name="Set layer visible" sid="572622408921787" type="System">
-                            <param id="0" name="Layer">4</param>
-                            <param id="1" name="Visibility">1</param>
-                        </action>
-                        <action id="-4" name="Set layer visible" sid="603555320350486" type="System">
-                            <param id="0" name="Layer">3</param>
-                            <param id="1" name="Visibility">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="562447701471138">
-                    <conditions>
-                        <condition id="0" name="On key pressed" sid="460537456912395" type="Keyboard">
-                            <param id="0" name="Key">69</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="429384843065675">
-                            <conditions>
-                                <condition id="-9" name="Layer is visible" sid="607005418230100" type="System">
-                                    <param id="0" name="Layer">6</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-4" name="Set layer visible" sid="291326003412159" type="System">
-                                    <param id="0" name="Layer">4</param>
-                                    <param id="1" name="Visibility">0</param>
-                                </action>
-                                <action id="-4" name="Set layer visible" sid="316985401622165" type="System">
-                                    <param id="0" name="Layer">3</param>
-                                    <param id="1" name="Visibility">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="178527272975471">
-                            <conditions>
-                                <condition id="-22" name="Else" sid="207731851048993" type="System" />
-                            </conditions>
-                            <actions>
-                                <action id="-4" name="Set layer visible" sid="114191895680519" type="System">
-                                    <param id="0" name="Layer">4</param>
-                                    <param id="1" name="Visibility">1</param>
-                                </action>
-                                <action id="-4" name="Set layer visible" sid="679579125686790" type="System">
-                                    <param id="0" name="Layer">3</param>
-                                    <param id="1" name="Visibility">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-block>
-                <event-block sid="680953499964988">
-                    <conditions>
-                        <condition id="1" name="Is overlapping another object" sid="911153758900020" type="Hisia">
-                            <param id="0" name="Object">Sortie</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                </event-block>
-            </sub-events>
-        </event-group>
         <event-group description="" sid="818348549425804" title="Narrative">
             <sub-events>
                 <event-group description="" sid="234202009266155" title="Narrative scène 1">
@@ -576,7 +404,7 @@
                                 <condition id="-2" name="On start of layout" sid="864069213304867" type="System" />
                             </conditions>
                             <actions>
-                                <action behavior="8Direction" id="8" name="Set enabled" sid="902759013569258" type="Hisia">
+                                <action behavior="8Direction" disabled="1" id="8" name="Set enabled" sid="902759013569258" type="Hisia">
                                     <param id="0" name="State">0</param>
                                 </action>
                                 <action id="-16" name="Wait" sid="795358626060925" type="System">

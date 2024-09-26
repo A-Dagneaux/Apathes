@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>UI_ES</name>
+    <events>
+        <event-group description="" sid="290062029718556" title="Overlapping">
+            <sub-events>
+                <event-block sid="434458758763730">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="240369130192961" type="Hisia">
+                            <param id="0" name="Object">Masques</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="932686585774987" type="Masques" />
+                    </actions>
+                    <sub-events>
+                        <event-block sid="797998616461764">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="359132156920366" type="Hisia">
+                                    <param id="0" name="Object">craintive</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Add to" sid="511598912783179" type="text_craintive">
+                                    <param id="0" name="Instance variable">value</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="408392455608837" type="text_craintive">
+                                    <param id="0" name="Text">text_craintive.value</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="830834609556865">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="787247207851705" type="Hisia">
+                                    <param id="0" name="Object">furieuse</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Add to" sid="587754180907637" type="text_furieuse">
+                                    <param id="0" name="Instance variable">value</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="937921034016293" type="text_furieuse">
+                                    <param id="0" name="Text">text_furieuse.value</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="289370222146668">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="179570736641749" type="Hisia">
+                                    <param id="0" name="Object">honteuse</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Add to" sid="850060783415173" type="text_honteuse">
+                                    <param id="0" name="Instance variable">value</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="946365410234594" type="text_honteuse">
+                                    <param id="0" name="Text">text_honteuse.value</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="810027618303283">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="214204018205699" type="Hisia">
+                                    <param id="0" name="Object">rayonnante</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-11" name="Add to" sid="571592998071294" type="text_rayonnanteI">
+                                    <param id="0" name="Instance variable">value</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="0" name="Set text" sid="345918624396447" type="text_rayonnanteI">
+                                    <param id="0" name="Text">text_rayonnanteI.value</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="970122489332394" title="Changement Émotion">
+            <sub-events>
+                <comment>Craintive</comment>
+                <event-block sid="302893839740183">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="482433583791326" type="Keyboard">
+                            <param id="0" name="Key">49</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="331910191877308" type="text_craintive">
+                            <param id="0" name="Instance variable">value</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="303016733642673" type="Hisia">
+                            <param id="0" name="Instance variable">emotion</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">&quot;craintive&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="664983965924755" type="text_craintive">
+                            <param id="0" name="Instance variable">value</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="167274751608435" type="text_craintive">
+                            <param id="0" name="Text">text_craintive.value</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="717371620058909" type="Hisia">
+                            <param id="0" name="Instance variable">emotion</param>
+                            <param id="1" name="Value">&quot;craintive&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Furieuse</comment>
+                <event-block sid="695565757043159">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="945349283907100" type="Keyboard">
+                            <param id="0" name="Key">50</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="815258844181829" type="text_furieuse">
+                            <param id="0" name="Instance variable">value</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="441033581293474" type="Hisia">
+                            <param id="0" name="Instance variable">emotion</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">&quot;furieuse&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="968948636661057" type="text_furieuse">
+                            <param id="0" name="Instance variable">value</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="477449710396417" type="text_furieuse">
+                            <param id="0" name="Text">text_furieuse.value</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="475462550448065" type="Hisia">
+                            <param id="0" name="Instance variable">emotion</param>
+                            <param id="1" name="Value">&quot;furieuse&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Honteuse</comment>
+                <event-block sid="811042164202152">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="926079809862864" type="Keyboard">
+                            <param id="0" name="Key">51</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="284584539873166" type="text_honteuse">
+                            <param id="0" name="Instance variable">value</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="617584016491287" type="Hisia">
+                            <param id="0" name="Instance variable">emotion</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">&quot;honteuse&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="999221024608264" type="text_honteuse">
+                            <param id="0" name="Instance variable">value</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="384405769972330" type="text_honteuse">
+                            <param id="0" name="Text">text_honteuse.value</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="749014034589235" type="Hisia">
+                            <param id="0" name="Instance variable">emotion</param>
+                            <param id="1" name="Value">&quot;honteuse&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <comment>Rayonnante</comment>
+                <event-block sid="367592843446813">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="334450704717205" type="Keyboard">
+                            <param id="0" name="Key">52</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="412194065693440" type="text_rayonnanteI">
+                            <param id="0" name="Instance variable">value</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="654750319201260" type="Hisia">
+                            <param id="0" name="Instance variable">emotion</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">&quot;rayonnante&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="865236580323228" type="text_rayonnanteI">
+                            <param id="0" name="Instance variable">value</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="504590588153690" type="text_rayonnanteI">
+                            <param id="0" name="Text">text_rayonnanteI.value</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="368949191652017" type="Hisia">
+                            <param id="0" name="Instance variable">emotion</param>
+                            <param id="1" name="Value">&quot;rayonnante&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

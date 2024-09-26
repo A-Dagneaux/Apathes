@@ -10,13 +10,13 @@
     <unique-id>qhmpp43xcmak</unique-id>
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
         <plugin author="Scirra" id="shadowlight" version="1">Shadow Light</plugin>
     </used-plugins>
@@ -25,7 +25,6 @@
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
         <behavior author="Scirra" id="LOS" version="1">Line Of Sight</behavior>
         <behavior author="Scirra" id="Pathfinding" version="1">Pathfinding</behavior>
-        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
         <behavior author="Scirra" id="shadowcaster" version="1">Shadow Caster</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
@@ -239,7 +238,7 @@
         </object-folder>
         <object-folder name="cartes">
             <object-folder name="par terre">
-                <object-type name="enjouée" sid="129258435936949">
+                <object-type name="rayonnante" sid="129258435936949">
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="703840005175497" speed="5">
@@ -255,7 +254,7 @@
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="Furieuse" sid="922271184868626">
+                <object-type name="furieuse" sid="922271184868626">
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="812651972192497" speed="5">
@@ -263,7 +262,7 @@
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="Honteuse" sid="588681126850626">
+                <object-type name="honteuse" sid="588681126850626">
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="379882589813544" speed="5">
@@ -294,9 +293,6 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type global="1" name="Main" sid="966644326085276">
-                <plugin id="Arr" />
-            </object-type>
             <object-type name="MainPlace" sid="903328211434277">
                 <plugin id="Sprite" />
                 <animation-folder>
@@ -306,17 +302,89 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+        <object-folder name="UI">
+            <object-type name="hisia_state_UI" sid="579834081763728">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="craintive" pingpong="0" repeatcount="1" repeatto="0" sid="140041071061826" speed="5">
+                        <frame duration="1" hotspotX="0.464844" hotspotY="0.476563" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Hisia_CRAINTIVE.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="rayonnante" pingpong="0" repeatcount="1" repeatto="0" sid="254974579196034" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Hisia_LUMINEUSE.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="honteuse" pingpong="0" repeatcount="1" repeatto="0" sid="256939572549557" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Hisia_HONTEUSE.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="furieuse" pingpong="0" repeatcount="1" repeatto="0" sid="789809759856893" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Hisia_COLÉRE.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="craintive_UI" sid="663282463036273">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="648064792585961" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="honteuse_UI" sid="879285567735733">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="460966599280057" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="furieuse_UI" sid="586501140552802">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="962071268295542" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="rayonnante_UI" sid="467909804452125">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="686455917135998" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="text_craintive" sid="872461176885398">
+                <plugin id="Text" />
+                <instance-variables>
+                    <instance-variable comment="Nombre utilisation Craintive" name="value" sid="675186947420597" type="number" />
+                </instance-variables>
+            </object-type>
+            <object-type name="text_furieuse" sid="226455000382038">
+                <plugin id="Text" />
+                <instance-variables>
+                    <instance-variable comment="Nombre utilisation Furieuse" name="value" sid="839082995210290" type="number" />
+                </instance-variables>
+            </object-type>
+            <object-type name="text_rayonnanteI" sid="114936501146354">
+                <plugin id="Text" />
+                <instance-variables>
+                    <instance-variable comment="Nombre utilisation Rayonnante" name="value" sid="612868426340931" type="number" />
+                </instance-variables>
+            </object-type>
+            <object-type name="text_honteuse" sid="796146112244881">
+                <plugin id="Text" />
+                <instance-variables>
+                    <instance-variable comment="Nombre utilisation Honteuse" name="value" sid="283933429365403" type="number" />
+                </instance-variables>
+            </object-type>
+        </object-folder>
         <object-type name="Hisia" sid="396807986507934">
             <plugin id="Sprite" />
             <instance-variables>
-                <instance-variable name="état" sid="193009539091046" type="string" />
-                <instance-variable name="Vie" sid="954189597585013" type="number" />
-                <instance-variable name="knockback" sid="940012139446055" type="boolean" />
-                <instance-variable name="Emotion" sid="931612223270254" type="string" />
-                <instance-variable name="Vitesse" sid="114845858993879" type="number" />
-                <instance-variable name="Largeur" sid="519437483963153" type="number" />
-                <instance-variable name="Hauteur" sid="133808097236934" type="number" />
-                <instance-variable name="Bruit" sid="301139220873802" type="number" />
+                <instance-variable name="emotion" sid="931612223270254" type="string" />
+                <instance-variable name="vitesse" sid="114845858993879" type="number" />
+                <instance-variable name="largeur" sid="519437483963153" type="number" />
+                <instance-variable name="hauteur" sid="133808097236934" type="number" />
+                <instance-variable name="bruit" sid="301139220873802" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="8Direction" sid="958459754648602">
@@ -335,19 +403,19 @@
                 </effect-type>
             </effects>
             <animation-folder>
-                <animation framecount="1" loop="1" name="Neutre" pingpong="0" repeatcount="1" repeatto="0" sid="702688949144009" speed="5">
+                <animation framecount="1" loop="1" name="neutre" pingpong="0" repeatcount="1" repeatto="0" sid="702688949144009" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
-                <animation framecount="1" loop="1" name="Honteuse" pingpong="0" repeatcount="1" repeatto="0" sid="219747527356137" speed="5">
+                <animation framecount="1" loop="1" name="craintive" pingpong="0" repeatcount="1" repeatto="0" sid="885676849387589" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
-                <animation framecount="1" loop="1" name="Furieuse" pingpong="0" repeatcount="1" repeatto="0" sid="245673024823828" speed="5">
+                <animation framecount="1" loop="1" name="furieuse" pingpong="0" repeatcount="1" repeatto="0" sid="245673024823828" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
-                <animation framecount="1" loop="1" name="Enjouée" pingpong="0" repeatcount="1" repeatto="0" sid="993589058763373" speed="5">
+                <animation framecount="1" loop="1" name="honteuse" pingpong="0" repeatcount="1" repeatto="0" sid="219747527356137" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
-                <animation framecount="1" loop="1" name="Craintive" pingpong="0" repeatcount="1" repeatto="0" sid="885676849387589" speed="5">
+                <animation framecount="1" loop="1" name="rayonnante" pingpong="0" repeatcount="1" repeatto="0" sid="993589058763373" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
@@ -357,30 +425,6 @@
         </object-type>
         <object-type name="Mouse" sid="716411042276172">
             <plugin id="Mouse" />
-        </object-type>
-        <object-type name="BarreBase" sid="359121973980971">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="551947317191529" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0.5" original-source="C:\Users\User\Downloads\construct\RoguelikeAssets\Sprites Roguelike\BarraBase.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="BarreMilieu" sid="380313428192252">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="427457156452352" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0.5" original-source="C:\Users\User\Downloads\construct\RoguelikeAssets\Sprites Roguelike\BarraMeio.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="BarreHaut" sid="904582934303576">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="907115749760634" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="0.5" original-source="C:\Users\User\Downloads\construct\RoguelikeAssets\Sprites Roguelike\BarraCima.png" />
-                </animation>
-            </animation-folder>
         </object-type>
         <object-type name="ShadowLight" sid="430893487699317">
             <plugin id="shadowlight" />
@@ -425,33 +469,6 @@
             <plugin id="Tilemap" />
             <texture original-source="C:\Users\User\Downloads\construct\murentier.png" />
             <tiles />
-        </object-type>
-        <object-type name="flèchebas" sid="777037391909522">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="591912001767117" speed="5">
-                    <frame duration="1" hotspotX="0.502778" hotspotY="0.503401" original-source="C:\Users\oeild\Downloads\GD\Apathes\fleche.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="E" sid="952238146863962">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="flèchehaut" sid="247868704475243">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="742759929298477" speed="5">
-                    <frame duration="1" hotspotX="0.50293" hotspotY="1" original-source="C:\Users\oeild\Downloads\GD\Apathes\main.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="AutourDeMain" sid="970837007530082">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="273211092881105" speed="5">
-                    <frame duration="1" hotspotX="0" hotspotY="1" original-source="C:\Users\User\Downloads\construct\apathes\murentier.png" />
-                </animation>
-            </animation-folder>
         </object-type>
         <object-type name="Sprite2" sid="120853318708206">
             <plugin id="Sprite" />
@@ -608,20 +625,22 @@
         <object-type name="Dialog7" sid="197961902227345">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Sprite3" sid="946848894113586">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="230129008105022" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextBox" sid="701473464064787">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Text5" sid="342743179070266">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families>
-        <family name="Barres" plugin-id="Sprite" sid="719636993966341">
-            <members>
-                <member>BarreBase</member>
-                <member>BarreHaut</member>
-                <member>BarreMilieu</member>
-            </members>
-            <behaviors>
-                <behavior-type name="Pin" sid="528946373316573">
-                    <behavior id="Pin" />
-                </behavior-type>
-            </behaviors>
-        </family>
         <family name="Apathes" plugin-id="Sprite" sid="195361571858189">
             <members>
                 <member>Apathe_AntiBruit</member>
@@ -648,12 +667,12 @@
                 </behavior-type>
             </behaviors>
         </family>
-        <family name="Cartes" plugin-id="Sprite" sid="603989546394805">
+        <family name="Masques" plugin-id="Sprite" sid="603989546394805">
             <members>
                 <member>craintive</member>
-                <member>enjouée</member>
-                <member>Furieuse</member>
-                <member>Honteuse</member>
+                <member>furieuse</member>
+                <member>honteuse</member>
+                <member>rayonnante</member>
             </members>
             <instance-variables>
                 <instance-variable name="Type" sid="350561315295116" type="string" />
@@ -661,16 +680,17 @@
         </family>
     </families>
     <layout-folder>
-        <layout>Level-1.xml</layout>
+        <layout>Global_test.xml</layout>
         <layout>Ancien niveau 1.xml</layout>
         <layout>Scène 1 et tuto furrieux.xml</layout>
         <layout>Layout 2.xml</layout>
+        <layout>UI_layout.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Level-1ES.xml</event-sheet>
-        <event-sheet>Backlog.xml</event-sheet>
+        <event-sheet>Global.xml</event-sheet>
         <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>UI_ES.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="3" />

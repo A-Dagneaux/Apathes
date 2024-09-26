@@ -7314,14 +7314,11 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <état>&quot;arrêt&quot;</état>
-                        <Vie>10</Vie>
-                        <knockback>false</knockback>
-                        <Emotion>&quot;Neutre&quot;</Emotion>
-                        <Vitesse>100</Vitesse>
-                        <Largeur>10</Largeur>
-                        <Hauteur>10</Hauteur>
-                        <Bruit>5</Bruit>
+                        <emotion>&quot;Neutre&quot;</emotion>
+                        <vitesse>100</vitesse>
+                        <largeur>10</largeur>
+                        <hauteur>10</hauteur>
+                        <bruit>5</bruit>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="8Direction">
