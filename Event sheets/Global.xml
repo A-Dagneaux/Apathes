@@ -290,7 +290,7 @@
                                                 <event-block sid="308060639194509">
                                                     <conditions>
                                                         <condition id="2" name="Key is down" sid="326394592350986" type="Keyboard">
-                                                            <param id="0" name="Key">40</param>
+                                                            <param id="0" name="Key">83</param>
                                                         </condition>
                                                         <condition id="-2" name="Compare Y" sid="944626677976071" type="Hisia">
                                                             <param id="0" name="Comparison">2</param>
@@ -306,7 +306,7 @@
                                                 <event-block sid="612111293225007">
                                                     <conditions>
                                                         <condition id="2" name="Key is down" sid="318554545537854" type="Keyboard">
-                                                            <param id="0" name="Key">38</param>
+                                                            <param id="0" name="Key">90</param>
                                                         </condition>
                                                         <condition id="-2" name="Compare Y" sid="461758676182454" type="Hisia">
                                                             <param id="0" name="Comparison">4</param>
@@ -322,7 +322,7 @@
                                                 <event-block sid="518789875394111">
                                                     <conditions>
                                                         <condition id="2" name="Key is down" sid="321403441763779" type="Keyboard">
-                                                            <param id="0" name="Key">37</param>
+                                                            <param id="0" name="Key">81</param>
                                                         </condition>
                                                         <condition id="-1" name="Compare X" sid="567127628565368" type="Hisia">
                                                             <param id="0" name="Comparison">4</param>
@@ -338,7 +338,7 @@
                                                 <event-block sid="415325344103646">
                                                     <conditions>
                                                         <condition id="2" name="Key is down" sid="462550403823600" type="Keyboard">
-                                                            <param id="0" name="Key">39</param>
+                                                            <param id="0" name="Key">68</param>
                                                         </condition>
                                                         <condition id="-1" name="Compare X" sid="731467091429876" type="Hisia">
                                                             <param id="0" name="Comparison">2</param>
@@ -421,34 +421,16 @@
                 </event-group>
                 <event-group description="" sid="754137577912167" title="Déplacements">
                     <sub-events>
-                        <event-block sid="410716110771997">
-                            <conditions>
-                                <condition id="2" name="Key is down" sid="433578958026105" type="Keyboard">
-                                    <param id="0" name="Key">37</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action behavior="8Direction" id="7" name="Simulate control" sid="219372203552579" type="Hisia">
-                                    <param id="0" name="Control">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="318368563495748">
-                            <conditions>
-                                <condition id="2" name="Key is down" sid="396965513942783" type="Keyboard">
-                                    <param id="0" name="Key">40</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action behavior="8Direction" id="7" name="Simulate control" sid="368122915237341" type="Hisia">
-                                    <param id="0" name="Control">3</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="115514252018805">
+                        <event-block any="1" sid="115514252018805">
                             <conditions>
                                 <condition id="2" name="Key is down" sid="730602138976455" type="Keyboard">
-                                    <param id="0" name="Key">38</param>
+                                    <param id="0" name="Key">90</param>
+                                </condition>
+                                <condition id="5" name="Compare axis" sid="778755072078668" type="Gamepad">
+                                    <param id="0" name="Gamepad">0</param>
+                                    <param id="1" name="Axis">1</param>
+                                    <param id="2" name="Comparison">2</param>
+                                    <param id="3" name="Value">-30</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -457,10 +439,52 @@
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="956014925949626">
+                        <event-block any="1" sid="410716110771997">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="433578958026105" type="Keyboard">
+                                    <param id="0" name="Key">81</param>
+                                </condition>
+                                <condition id="5" name="Compare axis" sid="846855463007270" type="Gamepad">
+                                    <param id="0" name="Gamepad">0</param>
+                                    <param id="1" name="Axis">0</param>
+                                    <param id="2" name="Comparison">2</param>
+                                    <param id="3" name="Value">-30</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="8Direction" id="7" name="Simulate control" sid="219372203552579" type="Hisia">
+                                    <param id="0" name="Control">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block any="1" sid="318368563495748">
+                            <conditions>
+                                <condition id="2" name="Key is down" sid="396965513942783" type="Keyboard">
+                                    <param id="0" name="Key">83</param>
+                                </condition>
+                                <condition id="5" name="Compare axis" sid="489110506233990" type="Gamepad">
+                                    <param id="0" name="Gamepad">0</param>
+                                    <param id="1" name="Axis">1</param>
+                                    <param id="2" name="Comparison">4</param>
+                                    <param id="3" name="Value">30</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="8Direction" id="7" name="Simulate control" sid="368122915237341" type="Hisia">
+                                    <param id="0" name="Control">3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block any="1" sid="956014925949626">
                             <conditions>
                                 <condition id="2" name="Key is down" sid="315666893487489" type="Keyboard">
-                                    <param id="0" name="Key">39</param>
+                                    <param id="0" name="Key">68</param>
+                                </condition>
+                                <condition id="5" name="Compare axis" sid="795577477487993" type="Gamepad">
+                                    <param id="0" name="Gamepad">0</param>
+                                    <param id="1" name="Axis">0</param>
+                                    <param id="2" name="Comparison">4</param>
+                                    <param id="3" name="Value">30</param>
                                 </condition>
                             </conditions>
                             <actions>

@@ -10,6 +10,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
+<<<<<<< HEAD
         <layout order="0">Global_test</layout>
         <layout active="1" order="3">Scène 1 et tuto furrieux</layout>
         <layout order="5">Layout 2</layout>
@@ -18,11 +19,20 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="2">Global</event-sheet>
         <event-sheet order="4">Narrative scène 1</event-sheet>
         <event-sheet order="6">Event sheet 2</event-sheet>
+=======
+        <layout active="1" order="0">Global_test</layout>
+        <layout order="2">Scène 1 et tuto furrieux</layout>
+        <layout order="4">Layout 2</layout>
+        <layout order="5">UI_layout</layout>
+        <event-sheet order="1">Global</event-sheet>
+        <event-sheet order="3">Event sheet 1</event-sheet>
+        <event-sheet order="0">UI_ES</event-sheet>
+>>>>>>> 635d87cece8eddea1e007f435345e8e9c412ba85
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />
-        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Window Size" />
         <property expanded="1" name="Configuration Settings" />
     </properties>
     <families-expanded root="1">
@@ -71,6 +81,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/honteuse_UI/" />
         <folder expanded="1" path="animation-folder/furieuse_UI/" />
         <folder expanded="1" path="animation-folder/rayonnante_UI/" />
+        <folder expanded="1" path="animation-folder/background/" />
         <folder expanded="1" path="animation-folder/Hisia/" />
         <folder expanded="1" path="animation-folder/lumière/" />
         <folder expanded="1" path="animation-folder/pioche/" />
@@ -86,5 +97,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/BloqueurDeVueSalle2/" />
         <folder expanded="1" path="animation-folder/BloqueurDeVueSalle3/" />
         <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
     </folders-expanded>
 </c2uistate>
