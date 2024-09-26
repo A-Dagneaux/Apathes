@@ -18,6 +18,7 @@
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
+        <plugin author="Scirra" id="gamepad" version="1">Gamepad</plugin>
         <plugin author="Scirra" id="shadowlight" version="1">Shadow Light</plugin>
     </used-plugins>
     <used-behaviors>
@@ -307,7 +308,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="craintive" pingpong="0" repeatcount="1" repeatto="0" sid="140041071061826" speed="5">
-                        <frame duration="1" hotspotX="0.464844" hotspotY="0.476563" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Hisia_CRAINTIVE.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Hisia_CRAINTIVE.png" />
                     </animation>
                     <animation framecount="1" loop="0" name="rayonnante" pingpong="0" repeatcount="1" repeatto="0" sid="254974579196034" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Hisia_LUMINEUSE.png" />
@@ -364,7 +365,7 @@
                     <instance-variable comment="Nombre utilisation Furieuse" name="value" sid="839082995210290" type="number" />
                 </instance-variables>
             </object-type>
-            <object-type name="text_rayonnanteI" sid="114936501146354">
+            <object-type name="text_rayonnante" sid="114936501146354">
                 <plugin id="Text" />
                 <instance-variables>
                     <instance-variable comment="Nombre utilisation Rayonnante" name="value" sid="612868426340931" type="number" />
@@ -375,6 +376,26 @@
                 <instance-variables>
                     <instance-variable comment="Nombre utilisation Honteuse" name="value" sid="283933429365403" type="number" />
                 </instance-variables>
+            </object-type>
+            <object-type name="shortcut_craintive" sid="342743179070266">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="shortcut_honteuse" sid="530015032606309">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="shortcut_rayonnante" sid="372756850862913">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="shortcut_furieuse" sid="777112253882698">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="background" sid="700856899585662">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="970843394788699" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
             </object-type>
         </object-folder>
         <object-type name="Hisia" sid="396807986507934">
@@ -636,8 +657,16 @@
         <object-type name="TextBox" sid="701473464064787">
             <plugin id="TextBox" />
         </object-type>
-        <object-type name="Text5" sid="342743179070266">
-            <plugin id="Text" />
+        <object-type name="Gamepad" sid="535366539987407">
+            <plugin id="gamepad" />
+        </object-type>
+        <object-type name="Sprite4" sid="931387897500277">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="882724582964447" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families>
@@ -710,6 +739,11 @@
             </properties>
         </global-instance>
         <global-instance type="RangementDesCartes" uid="114" />
+        <global-instance type="Gamepad" uid="124">
+            <properties>
+                <analog-deadzone>25</analog-deadzone>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder>
         <file name="sfx_step_grass_l.m4a" />

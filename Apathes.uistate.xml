@@ -10,19 +10,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Global_test</layout>
+        <layout active="1" order="0">Global_test</layout>
         <layout order="2">Scène 1 et tuto furrieux</layout>
         <layout order="4">Layout 2</layout>
-        <layout order="6">UI_layout</layout>
+        <layout order="5">UI_layout</layout>
         <event-sheet order="1">Global</event-sheet>
-        <event-sheet active="1" order="3">Event sheet 1</event-sheet>
-        <event-sheet order="5">Event sheet 2</event-sheet>
+        <event-sheet order="3">Event sheet 1</event-sheet>
         <event-sheet order="0">UI_ES</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
         <property expanded="1" name="Project settings" />
-        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Window Size" />
         <property expanded="1" name="Configuration Settings" />
     </properties>
     <families-expanded root="1">
@@ -68,6 +67,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/honteuse_UI/" />
         <folder expanded="1" path="animation-folder/furieuse_UI/" />
         <folder expanded="1" path="animation-folder/rayonnante_UI/" />
+        <folder expanded="1" path="animation-folder/background/" />
         <folder expanded="1" path="animation-folder/Hisia/" />
         <folder expanded="1" path="animation-folder/lumière/" />
         <folder expanded="1" path="animation-folder/pioche/" />
@@ -83,5 +83,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/BloqueurDeVueSalle2/" />
         <folder expanded="1" path="animation-folder/BloqueurDeVueSalle3/" />
         <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
     </folders-expanded>
 </c2uistate>
