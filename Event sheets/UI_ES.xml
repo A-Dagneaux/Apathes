@@ -14,7 +14,7 @@
                 </action>
                 <action id="-3" name="Set position" sid="217452448573457" type="shortcut_craintive">
                     <param id="0" name="X">craintive_UI.X</param>
-                    <param id="1" name="Y">craintive_UI.Y + 8</param>
+                    <param id="1" name="Y">craintive_UI.Y + 40</param>
                 </action>
                 <action id="-3" name="Set position" sid="358964529257885" type="text_furieuse">
                     <param id="0" name="X">furieuse_UI.X</param>
@@ -22,7 +22,7 @@
                 </action>
                 <action id="-3" name="Set position" sid="482465170433215" type="shortcut_furieuse">
                     <param id="0" name="X">furieuse_UI.X</param>
-                    <param id="1" name="Y">furieuse_UI.Y+ 8</param>
+                    <param id="1" name="Y">furieuse_UI.Y+ 40</param>
                 </action>
                 <action id="-3" name="Set position" sid="219044130737292" type="text_honteuse">
                     <param id="0" name="X">honteuse_UI.X</param>
@@ -30,7 +30,7 @@
                 </action>
                 <action id="-3" name="Set position" sid="879754980155113" type="shortcut_honteuse">
                     <param id="0" name="X">honteuse_UI.X</param>
-                    <param id="1" name="Y">honteuse_UI.Y+ 8</param>
+                    <param id="1" name="Y">honteuse_UI.Y+ 40</param>
                 </action>
                 <action id="-3" name="Set position" sid="806086670426330" type="text_rayonnante">
                     <param id="0" name="X">rayonnante_UI.X</param>
@@ -38,7 +38,7 @@
                 </action>
                 <action id="-3" name="Set position" sid="430113271930296" type="shortcut_rayonnante">
                     <param id="0" name="X">rayonnante_UI.X</param>
-                    <param id="1" name="Y">rayonnante_UI.Y+ 8</param>
+                    <param id="1" name="Y">rayonnante_UI.Y+ 40</param>
                 </action>
             </actions>
         </event-block>
@@ -162,6 +162,10 @@
                                     <param id="0" name="Instance variable">emotion</param>
                                     <param id="1" name="Value">&quot;craintive&quot;</param>
                                 </action>
+                                <action id="4" name="Set animation" sid="267543104337647" type="hisia_state_UI">
+                                    <param id="0" name="Animation">&quot;craintive&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -203,6 +207,10 @@
                                 <action id="-10" name="Set value" sid="475462550448065" type="Hisia">
                                     <param id="0" name="Instance variable">emotion</param>
                                     <param id="1" name="Value">&quot;furieuse&quot;</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="767173677096474" type="hisia_state_UI">
+                                    <param id="0" name="Animation">&quot;furieuse&quot;</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -246,6 +254,10 @@
                                     <param id="0" name="Instance variable">emotion</param>
                                     <param id="1" name="Value">&quot;honteuse&quot;</param>
                                 </action>
+                                <action id="4" name="Set animation" sid="512226814652668" type="hisia_state_UI">
+                                    <param id="0" name="Animation">&quot;honteuse&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -287,6 +299,10 @@
                                 <action id="-10" name="Set value" sid="368949191652017" type="Hisia">
                                     <param id="0" name="Instance variable">emotion</param>
                                     <param id="1" name="Value">&quot;rayonnante&quot;</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="686065818770098" type="hisia_state_UI">
+                                    <param id="0" name="Animation">&quot;rayonnante&quot;</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
                             </actions>
                         </event-block>
