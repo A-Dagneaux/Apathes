@@ -36,8 +36,8 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>320</width>
-        <height>180</height>
+        <width>1920</width>
+        <height>1080</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -137,6 +137,30 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="501288228233585" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="ApatheActeur" sid="393213535552674">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="sens" sid="942158598722462" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="8Direction" sid="816903310889941">
+                        <behavior id="EightDir" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="778555115572511" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="ApatheActeur2" sid="313030669376243">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="687987188943997" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
@@ -377,6 +401,29 @@
                 </instance-variables>
             </object-type>
         </object-folder>
+        <object-folder name="Textes">
+            <object-type name="Dialog1" sid="283044460018695">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Dialog2" sid="689104311355261">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Dialog3" sid="930611189668080">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Dialog4" sid="111589179978363">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Dialog5" sid="334078533914902">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Dialog6" sid="269005455522061">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Dialog7" sid="197961902227345">
+                <plugin id="Text" />
+            </object-type>
+        </object-folder>
         <object-type name="Hisia" sid="396807986507934">
             <plugin id="Sprite" />
             <instance-variables>
@@ -604,27 +651,6 @@
         <object-type name="Text4" sid="266686973144439">
             <plugin id="Text" />
         </object-type>
-        <object-type name="Dialog1" sid="283044460018695">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Dialog2" sid="689104311355261">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Dialog3" sid="930611189668080">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Dialog4" sid="111589179978363">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Dialog5" sid="334078533914902">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Dialog6" sid="269005455522061">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="Dialog7" sid="197961902227345">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="Sprite3" sid="946848894113586">
             <plugin id="Sprite" />
             <animation-folder>
@@ -688,7 +714,7 @@
     </layout-folder>
     <event-folder>
         <event-sheet>Global.xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Narrative scène 1.xml</event-sheet>
         <event-sheet>Event sheet 2.xml</event-sheet>
         <event-sheet>UI_ES.xml</event-sheet>
     </event-folder>
