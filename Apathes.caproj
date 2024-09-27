@@ -160,6 +160,14 @@
             </object-type>
             <object-type name="ApatheActeur2" sid="313030669376243">
                 <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="8Direction" sid="295396365377490">
+                        <behavior id="EightDir" />
+                    </behavior-type>
+                    <behavior-type name="LineOfSight" sid="222159940515784">
+                        <behavior id="LOS" />
+                    </behavior-type>
+                </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="687987188943997" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -254,8 +262,26 @@
             </object-type>
             <object-type name="Porte" sid="922274266058586">
                 <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="367607351802308">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="511462058197133" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="portePrison" sid="178244222069683">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="442716825291382">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="141443027961844" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
@@ -442,6 +468,20 @@
                 <plugin id="Text" />
             </object-type>
             <object-type name="Dialog7" sid="197961902227345">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="AnimeText" sid="491588455100998">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="694007324002923" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Dialog8" sid="280938911291169">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="PorteFermée" sid="972414848684708">
                 <plugin id="Text" />
             </object-type>
         </object-folder>
@@ -693,6 +733,9 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Text5" sid="247419770440379">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families>
