@@ -247,6 +247,24 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="243013747322185">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="547205429027566" type="Hisia">
+                                    <param id="0" name="Object">AnimeText0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="348800451384320" type="Dialog7bis3">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="189544860430671" type="System">
+                                    <param id="0" name="Seconds">2.0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="461399295701150" type="Dialog7bis3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-group>
             </sub-events>
@@ -335,6 +353,54 @@
                         <action id="-3" name="Set position" sid="476109295666600" type="Hisia">
                             <param id="0" name="X">688</param>
                             <param id="1" name="Y">210</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="451439223511170">
+                    <conditions>
+                        <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="885479742661398" type="Hisia">
+                            <param id="0" name="Object">ApatheActeur2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="532097398753362" type="Dialog7bis">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="992813918167380">
+                    <conditions>
+                        <condition behavior="LineOfSight" id="0" inverted="1" name="Has LOS to object" sid="238963415003773" type="Hisia">
+                            <param id="0" name="Object">ApatheActeur2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="835190060575080" type="Dialog7bis">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="755124312483708">
+                    <conditions>
+                        <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="938500641602992" type="Hisia">
+                            <param id="0" name="Object">ApatheActeur3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="416550071148029" type="Dialog7bis2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="271111194474126">
+                    <conditions>
+                        <condition behavior="LineOfSight" id="0" inverted="1" name="Has LOS to object" sid="656402398632714" type="Hisia">
+                            <param id="0" name="Object">ApatheActeur3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="523202375440224" type="Dialog7bis2">
+                            <param id="0" name="Visibility">0</param>
                         </action>
                     </actions>
                 </event-block>
