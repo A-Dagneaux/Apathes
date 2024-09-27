@@ -865,9 +865,9 @@
         <event-sheet>UI_ES.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="15" />
-        <global-instance type="Mouse" uid="114" />
-        <global-instance type="PasDoux" uid="124">
+        <global-instance type="Keyboard" uid="543" />
+        <global-instance type="Mouse" uid="544" />
+        <global-instance type="PasDoux" uid="545">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
@@ -881,8 +881,8 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
-        <global-instance type="RangementDesCartes" uid="125" />
-        <global-instance type="Gamepad" uid="126">
+        <global-instance type="RangementDesCartes" uid="546" />
+        <global-instance type="Gamepad" uid="547">
             <properties>
                 <analog-deadzone>25</analog-deadzone>
             </properties>
