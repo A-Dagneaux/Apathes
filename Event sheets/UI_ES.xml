@@ -3,47 +3,273 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>UI_ES</name>
     <events>
-        <event-block sid="150888791396210">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="613412163913709" type="System" />
-            </conditions>
-            <actions>
-                <action id="-3" name="Set position" sid="204541315419192" type="text_craintive">
-                    <param id="0" name="X">craintive_UI.X</param>
-                    <param id="1" name="Y">craintive_UI.Y + 2</param>
-                </action>
-                <action id="-3" name="Set position" sid="217452448573457" type="shortcut_craintive">
-                    <param id="0" name="X">craintive_UI.X</param>
-                    <param id="1" name="Y">craintive_UI.Y + 40</param>
-                </action>
-                <action id="-3" name="Set position" sid="358964529257885" type="text_furieuse">
-                    <param id="0" name="X">furieuse_UI.X</param>
-                    <param id="1" name="Y">furieuse_UI.Y + 2</param>
-                </action>
-                <action id="-3" name="Set position" sid="482465170433215" type="shortcut_furieuse">
-                    <param id="0" name="X">furieuse_UI.X</param>
-                    <param id="1" name="Y">furieuse_UI.Y+ 40</param>
-                </action>
-                <action id="-3" name="Set position" sid="219044130737292" type="text_honteuse">
-                    <param id="0" name="X">honteuse_UI.X</param>
-                    <param id="1" name="Y">honteuse_UI.Y + 2</param>
-                </action>
-                <action id="-3" name="Set position" sid="879754980155113" type="shortcut_honteuse">
-                    <param id="0" name="X">honteuse_UI.X</param>
-                    <param id="1" name="Y">honteuse_UI.Y+ 40</param>
-                </action>
-                <action id="-3" name="Set position" sid="806086670426330" type="text_rayonnante">
-                    <param id="0" name="X">rayonnante_UI.X</param>
-                    <param id="1" name="Y">rayonnante_UI.Y + 2</param>
-                </action>
-                <action id="-3" name="Set position" sid="430113271930296" type="shortcut_rayonnante">
-                    <param id="0" name="X">rayonnante_UI.X</param>
-                    <param id="1" name="Y">rayonnante_UI.Y+ 40</param>
-                </action>
-            </actions>
-        </event-block>
+        <include>Global</include>
+        <event-group description="" sid="941289488189315" title="Startup &amp; Déplacement UI">
+            <sub-events>
+                <event-block sid="150888791396210">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="613412163913709" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="204541315419192" type="text_craintive">
+                            <param id="0" name="X">craintive_UI.X</param>
+                            <param id="1" name="Y">craintive_UI.Y + 2</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="217452448573457" type="shortcut_craintive">
+                            <param id="0" name="X">craintive_UI.X</param>
+                            <param id="1" name="Y">craintive_UI.Y + 40</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="358964529257885" type="text_furieuse">
+                            <param id="0" name="X">furieuse_UI.X</param>
+                            <param id="1" name="Y">furieuse_UI.Y + 2</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="482465170433215" type="shortcut_furieuse">
+                            <param id="0" name="X">furieuse_UI.X</param>
+                            <param id="1" name="Y">furieuse_UI.Y+ 40</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="219044130737292" type="text_honteuse">
+                            <param id="0" name="X">honteuse_UI.X</param>
+                            <param id="1" name="Y">honteuse_UI.Y + 2</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="879754980155113" type="shortcut_honteuse">
+                            <param id="0" name="X">honteuse_UI.X</param>
+                            <param id="1" name="Y">honteuse_UI.Y+ 40</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="806086670426330" type="text_rayonnante">
+                            <param id="0" name="X">rayonnante_UI.X</param>
+                            <param id="1" name="Y">rayonnante_UI.Y + 2</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="430113271930296" type="shortcut_rayonnante">
+                            <param id="0" name="X">rayonnante_UI.X</param>
+                            <param id="1" name="Y">rayonnante_UI.Y+ 40</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="535631638812576" type="background_UI">
+                            <param id="0" name="Instance variable">placement</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="760789452841255">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="631382888935493" type="square_ui">
+                                    <param id="0" name="Unique ID">517</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="572688101685013" type="square_ui">
+                                    <param id="0" name="X">craintive_UI.X - 1</param>
+                                    <param id="1" name="Y">craintive_ui.Y +36</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="391820947543308">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="322593202358157" type="circle_ui">
+                                    <param id="0" name="Unique ID">530</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="167557700957936" type="circle_ui">
+                                    <param id="0" name="X">craintive_UI.X </param>
+                                    <param id="1" name="Y">craintive_ui.Y +38</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="497297006828677">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="952437275229628" type="square_ui">
+                                    <param id="0" name="Unique ID">527</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="425272674922214" type="square_ui">
+                                    <param id="0" name="X">furieuse_UI.X</param>
+                                    <param id="1" name="Y">furieuse_ui.Y +36</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="211376005247585">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="924228531257972" type="circle_ui">
+                                    <param id="0" name="Unique ID">531</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="649217825330634" type="circle_ui">
+                                    <param id="0" name="X">furieuse_UI.X</param>
+                                    <param id="1" name="Y">furieuse_ui.Y +38</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="901424568432586">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="175063733127707" type="square_ui">
+                                    <param id="0" name="Unique ID">528</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="464313002388034" type="square_ui">
+                                    <param id="0" name="X">rayonnante_UI.X</param>
+                                    <param id="1" name="Y">rayonnante_ui.Y +36</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="824457264010662">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="639922317807310" type="circle_ui">
+                                    <param id="0" name="Unique ID">532</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="234327834195378" type="circle_ui">
+                                    <param id="0" name="X">rayonnante_UI.X</param>
+                                    <param id="1" name="Y">rayonnante_ui.Y +37</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="998712038396333">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="245116234335595" type="square_ui">
+                                    <param id="0" name="Unique ID">529</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="841800526275916" type="square_ui">
+                                    <param id="0" name="X">honteuse_UI.X</param>
+                                    <param id="1" name="Y">honteuse_ui.Y +36</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="204841767577834">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="659815491751855" type="circle_ui">
+                                    <param id="0" name="Unique ID">533</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="190377005317190" type="circle_ui">
+                                    <param id="0" name="X">honteuse_UI.X</param>
+                                    <param id="1" name="Y">honteuse_ui.Y +38</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="132212138570709">
+                    <conditions>
+                        <condition id="-1" name="Compare X" sid="450827229170933" type="Hisia">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="X co-ordinate">LayoutWidth / 2</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="668004842982766" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="317163899186701" type="background_UI">
+                            <param id="0" name="Instance variable">placement</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="329295611569889" type="UI">
+                            <param id="0" name="X">UI.X + 1760</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="571772291180927" type="text_craintive">
+                            <param id="0" name="X">craintive_UI.X</param>
+                            <param id="1" name="Y">craintive_UI.Y + 2</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="992227234525328" type="shortcut_craintive">
+                            <param id="0" name="X">craintive_UI.X</param>
+                            <param id="1" name="Y">craintive_UI.Y + 40</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="632589487336846" type="text_furieuse">
+                            <param id="0" name="X">furieuse_UI.X</param>
+                            <param id="1" name="Y">furieuse_UI.Y + 2</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="874427706306574" type="shortcut_furieuse">
+                            <param id="0" name="X">furieuse_UI.X</param>
+                            <param id="1" name="Y">furieuse_UI.Y+ 40</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="505417871842363" type="text_honteuse">
+                            <param id="0" name="X">honteuse_UI.X</param>
+                            <param id="1" name="Y">honteuse_UI.Y + 2</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="101469362115029" type="shortcut_honteuse">
+                            <param id="0" name="X">honteuse_UI.X</param>
+                            <param id="1" name="Y">honteuse_UI.Y+ 40</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="660382565643556" type="text_rayonnante">
+                            <param id="0" name="X">rayonnante_UI.X</param>
+                            <param id="1" name="Y">rayonnante_UI.Y + 2</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="451192646832549" type="shortcut_rayonnante">
+                            <param id="0" name="X">rayonnante_UI.X</param>
+                            <param id="1" name="Y">rayonnante_UI.Y+ 40</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="620574294647775" type="background_UI">
+                            <param id="0" name="Instance variable">placement</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="508014910718292">
+                    <conditions>
+                        <condition id="-1" name="Compare X" sid="723121659575899" type="Hisia">
+                            <param id="0" name="Comparison">4</param>
+                            <param id="1" name="X co-ordinate">LayoutWidth / 2</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="455062988459049" type="System" />
+                        <condition id="-7" name="Compare instance variable" sid="964538015775345" type="background_UI">
+                            <param id="0" name="Instance variable">placement</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="898698018678117" type="UI">
+                            <param id="0" name="X">UI.X - 1760</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="852370317052442" type="text_craintive">
+                            <param id="0" name="X">craintive_UI.X</param>
+                            <param id="1" name="Y">craintive_UI.Y + 2</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="855119065571477" type="shortcut_craintive">
+                            <param id="0" name="X">craintive_UI.X</param>
+                            <param id="1" name="Y">craintive_UI.Y + 40</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="373239761015871" type="text_furieuse">
+                            <param id="0" name="X">furieuse_UI.X</param>
+                            <param id="1" name="Y">furieuse_UI.Y + 2</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="238009359501653" type="shortcut_furieuse">
+                            <param id="0" name="X">furieuse_UI.X</param>
+                            <param id="1" name="Y">furieuse_UI.Y+ 40</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="279913876647679" type="text_honteuse">
+                            <param id="0" name="X">honteuse_UI.X</param>
+                            <param id="1" name="Y">honteuse_UI.Y + 2</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="495640029937304" type="shortcut_honteuse">
+                            <param id="0" name="X">honteuse_UI.X</param>
+                            <param id="1" name="Y">honteuse_UI.Y+ 40</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="412301167978054" type="text_rayonnante">
+                            <param id="0" name="X">rayonnante_UI.X</param>
+                            <param id="1" name="Y">rayonnante_UI.Y + 2</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="909253118710361" type="shortcut_rayonnante">
+                            <param id="0" name="X">rayonnante_UI.X</param>
+                            <param id="1" name="Y">rayonnante_UI.Y+ 40</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="291546399418402" type="background_UI">
+                            <param id="0" name="Instance variable">placement</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-group description="" sid="290062029718556" title="Overlapping Masque">
             <sub-events>
+                <comment>Si PJ touche Masque, Masque disparait et valeur utilisable +1</comment>
                 <event-block sid="434458758763730">
                     <conditions>
                         <condition id="1" name="Is overlapping another object" sid="240369130192961" type="Hisia">
@@ -124,6 +350,7 @@
         </event-group>
         <event-group description="" sid="970122489332394" title="Changement Émotion">
             <sub-events>
+                <comment>Si joueur utilise masque, changement émotion si pas déjà dans le même état et valeur utilisable -1</comment>
                 <comment>Craintive</comment>
                 <event-block any="1" sid="302893839740183">
                     <conditions>
@@ -312,6 +539,7 @@
         </event-group>
         <event-group description="" sid="521209532319621" title="Raccourcis">
             <sub-events>
+                <comment>Changement des raccourcis utilisation clavier / manette</comment>
                 <event-block sid="912914985673200">
                     <conditions>
                         <condition id="1" name="On any key pressed" sid="549058626202838" type="Keyboard" />
@@ -329,9 +557,15 @@
                         <action id="0" name="Set text" sid="994335529874699" type="shortcut_rayonnante">
                             <param id="0" name="Text">&quot;&apos;&quot;</param>
                         </action>
+                        <action id="-15" name="Set visible" sid="116041609199047" type="square_ui">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="662931308376882" type="circle_ui">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
                     </actions>
                 </event-block>
-                <event-block sid="475070838049798">
+                <event-block any="1" sid="475070838049798">
                     <conditions>
                         <condition id="8" name="On any button pressed" sid="600085606182230" type="Gamepad">
                             <param id="0" name="Gamepad">0</param>
@@ -349,6 +583,12 @@
                         </action>
                         <action id="0" name="Set text" sid="502348085051008" type="shortcut_rayonnante">
                             <param id="0" name="Text">&quot;←&quot;</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="269721890262006" type="square_ui">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="337606382493148" type="circle_ui">
+                            <param id="0" name="Visibility">1</param>
                         </action>
                     </actions>
                 </event-block>
