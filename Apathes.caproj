@@ -64,7 +64,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="4" loop="0" name="Attaque" pingpong="0" repeatcount="1" repeatto="0" sid="612693076629339" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="1" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -78,7 +78,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="813543833955046" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="1" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -86,7 +86,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="375710903015705" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="1" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -94,7 +94,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708372910108099" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="1" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -102,7 +102,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Attaque" pingpong="0" repeatcount="1" repeatto="0" sid="775657855092622" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                     <animation framecount="1" loop="0" name="Marche" pingpong="0" repeatcount="1" repeatto="0" sid="148817204023356" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -147,11 +147,6 @@
                 <instance-variables>
                     <instance-variable name="sens" sid="942158598722462" type="number" />
                 </instance-variables>
-                <behaviors>
-                    <behavior-type name="8Direction" sid="816903310889941">
-                        <behavior id="EightDir" />
-                    </behavior-type>
-                </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="778555115572511" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -160,14 +155,6 @@
             </object-type>
             <object-type name="ApatheActeur2" sid="313030669376243">
                 <plugin id="Sprite" />
-                <behaviors>
-                    <behavior-type name="8Direction" sid="295396365377490">
-                        <behavior id="EightDir" />
-                    </behavior-type>
-                    <behavior-type name="LineOfSight" sid="222159940515784">
-                        <behavior id="LOS" />
-                    </behavior-type>
-                </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="687987188943997" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -534,9 +521,9 @@
             <instance-variables>
                 <instance-variable name="emotion" sid="931612223270254" type="string" />
                 <instance-variable name="vitesse" sid="114845858993879" type="number" />
-                <instance-variable name="largeur" sid="519437483963153" type="number" />
-                <instance-variable name="hauteur" sid="133808097236934" type="number" />
                 <instance-variable name="bruit" sid="301139220873802" type="number" />
+                <instance-variable name="SaveX" sid="402408941600887" type="number" />
+                <instance-variable name="SaveY" sid="522484420078058" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="8Direction" sid="958459754648602">
@@ -808,17 +795,15 @@
                 <member>Apathe_Hurleur</member>
                 <member>Apathe_MangeLumiere</member>
                 <member>Apathe_Obscur</member>
+                <member>ApatheActeur</member>
+                <member>ApatheActeur2</member>
+                <member>ApatheActeur3</member>
             </members>
             <instance-variables>
-                <instance-variable name="Vie" sid="821897275966866" type="number" />
-                <instance-variable name="Etat" sid="352148952834185" type="string" />
-                <instance-variable name="Attaque" sid="741751144415736" type="number" />
-                <instance-variable name="Directions" sid="639359733256339" type="number" />
+                <instance-variable name="X_initial" sid="706110401807351" type="number" />
+                <instance-variable name="Y_initial" sid="292876268318931" type="number" />
             </instance-variables>
             <behaviors>
-                <behavior-type name="8Direction" sid="879948321275020">
-                    <behavior id="EightDir" />
-                </behavior-type>
                 <behavior-type name="LineOfSight" sid="777928021925118">
                     <behavior id="LOS" />
                 </behavior-type>
@@ -853,7 +838,6 @@
     </families>
     <layout-folder>
         <layout>Global_test.xml</layout>
-        <layout>Ancien niveau 1.xml</layout>
         <layout>Scène 1 et tuto furrieux.xml</layout>
         <layout>Layout 2.xml</layout>
         <layout>UI_layout.xml</layout>

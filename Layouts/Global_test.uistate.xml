@@ -4,11 +4,11 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>225.261</position-x>
-        <position-y>124.138</position-y>
-        <position-z>73.3328</position-z>
-        <lookat-x>225.261</lookat-x>
-        <lookat-y>124.138</lookat-y>
+        <position-x>50</position-x>
+        <position-y>90</position-y>
+        <position-z>96.7992</position-z>
+        <lookat-x>50</lookat-x>
+        <lookat-y>90</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>1</snap-to-grid>
@@ -23,14 +23,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="1" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="UI" />
+    <active-layer name="personnages" />
     <layers>
         <layer locked="1" name="backg" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="objets" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="murs" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="lumière" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="personnages" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Salles fermées" parallax-in-editor="0" visible="0" />
-        <layer locked="0" name="UI" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Salles fermées" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>

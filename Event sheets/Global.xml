@@ -19,6 +19,17 @@
                             <param id="0" name="Width">noise.size_normal</param>
                             <param id="1" name="Height">noise.size_normal</param>
                         </action>
+                        <action id="-10" name="Set value" sid="776229568495027" type="Apathes">
+                            <param id="0" name="Instance variable">X_initial</param>
+                            <param id="1" name="Value">Apathes.X</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="952186039159199" type="Apathes">
+                            <param id="0" name="Instance variable">Y_initial</param>
+                            <param id="1" name="Value">Apathes.Y</param>
+                        </action>
+                        <action behavior="Pathfinding" id="5" name="Add obstacle" sid="133154761456009" type="Apathes">
+                            <param id="0" name="Obstacle">wall</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -142,34 +153,36 @@
                 </event-group>
                 <event-group description="" sid="522699024927292" title="Emotions">
                     <sub-events>
-                        <event-group description="" sid="634892084330974" title="Neutre">
+                        <event-group description="" sid="822161048303203" title="Craintif (état neutre)">
                             <sub-events>
-                                <event-block sid="118300599230097">
+                                <event-block sid="807272839580359">
                                     <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="916526103328741" type="Hisia">
+                                        <condition id="-7" name="Compare instance variable" sid="818730379176632" type="Hisia">
                                             <param id="0" name="Instance variable">emotion</param>
                                             <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">&quot;neutre&quot;</param>
+                                            <param id="2" name="Value">&quot;craintive&quot;</param>
                                         </condition>
-                                        <condition id="-4" name="Trigger once while true" sid="646082639461819" type="System" />
+                                        <condition id="-4" name="Trigger once while true" sid="626478515462319" type="System" />
                                     </conditions>
                                     <actions>
-                                        <action id="4" name="Set animation" sid="521853663474506" type="Hisia">
-                                            <param id="0" name="Animation">&quot;neutre&quot;</param>
+                                        <action id="4" name="Set animation" sid="347758240148400" type="Hisia">
+                                            <param id="0" name="Animation">&quot;craintive&quot;</param>
                                             <param id="1" name="From">1</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="175231037060125" type="Hisia">
-                                            <param id="0" name="Instance variable">bruit</param>
-                                            <param id="1" name="Value">1</param>
-                                        </action>
-                                        <action id="9" name="Set scale" sid="181654677914564" type="noise">
-                                            <param id="0" name="Scale">Hisia.Bruit</param>
-                                        </action>
-                                        <action behavior="8Direction" id="4" name="Set max speed" sid="266479718019877" type="Hisia">
+                                        <action behavior="8Direction" id="4" name="Set max speed" sid="141631388792404" type="Hisia">
                                             <param id="0" name="Max Speed">200</param>
                                         </action>
-                                        <action id="9" name="Set scale" sid="338217188457692" type="Hisia">
-                                            <param id="0" name="Scale">1</param>
+                                        <action id="-10" name="Set value" sid="678069600821779" type="Hisia">
+                                            <param id="0" name="Instance variable">bruit</param>
+                                            <param id="1" name="Value">450</param>
+                                        </action>
+                                        <action id="-7" name="Set size" sid="836838240328878" type="noise">
+                                            <param id="0" name="Width">Hisia.Bruit</param>
+                                            <param id="1" name="Height">Hisia.Bruit</param>
+                                        </action>
+                                        <action id="-7" name="Set size" sid="603944722055750" type="Hisia">
+                                            <param id="0" name="Width">90</param>
+                                            <param id="1" name="Height">90</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -192,51 +205,19 @@
                                             <param id="1" name="From">1</param>
                                         </action>
                                         <action behavior="8Direction" id="4" name="Set max speed" sid="786753962572832" type="Hisia">
-                                            <param id="0" name="Max Speed">25</param>
+                                            <param id="0" name="Max Speed">50</param>
                                         </action>
                                         <action id="-10" name="Set value" sid="334115887521156" type="Hisia">
                                             <param id="0" name="Instance variable">bruit</param>
-                                            <param id="1" name="Value">0.5</param>
+                                            <param id="1" name="Value">200</param>
                                         </action>
-                                        <action id="9" name="Set scale" sid="135752677400873" type="noise">
-                                            <param id="0" name="Scale">Hisia.Bruit</param>
+                                        <action id="-7" name="Set size" sid="135752677400873" type="noise">
+                                            <param id="0" name="Width">Hisia.Bruit</param>
+                                            <param id="1" name="Height">Hisia.Bruit</param>
                                         </action>
-                                        <action id="9" name="Set scale" sid="443289847152536" type="Hisia">
-                                            <param id="0" name="Scale">0.9</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
-                        </event-group>
-                        <event-group description="" sid="822161048303203" title="Craintif">
-                            <sub-events>
-                                <event-block sid="807272839580359">
-                                    <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="818730379176632" type="Hisia">
-                                            <param id="0" name="Instance variable">emotion</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">&quot;craintive&quot;</param>
-                                        </condition>
-                                        <condition id="-4" name="Trigger once while true" sid="626478515462319" type="System" />
-                                    </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="347758240148400" type="Hisia">
-                                            <param id="0" name="Animation">&quot;craintive&quot;</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action behavior="8Direction" id="4" name="Set max speed" sid="141631388792404" type="Hisia">
-                                            <param id="0" name="Max Speed">200</param>
-                                        </action>
-                                        <action id="-10" name="Set value" sid="793330212776930" type="Hisia">
-                                            <param id="0" name="Instance variable">bruit</param>
-                                            <param id="1" name="Value">0.5</param>
-                                        </action>
-                                        <action id="9" name="Set scale" sid="722963356542201" type="noise">
-                                            <param id="0" name="Scale">Hisia.Bruit</param>
-                                        </action>
-                                        <action id="-7" name="Set size" sid="650763918147529" type="Hisia">
-                                            <param id="0" name="Width">10</param>
-                                            <param id="1" name="Height">10</param>
+                                        <action id="-7" name="Set size" sid="443289847152536" type="Hisia">
+                                            <param id="0" name="Width">70</param>
+                                            <param id="1" name="Height">70</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -263,19 +244,20 @@
                                                     <param id="0" name="Animation">&quot;furieuse&quot;</param>
                                                     <param id="1" name="From">1</param>
                                                 </action>
-                                                <action id="-10" name="Set value" sid="469281207104107" type="Hisia">
-                                                    <param id="0" name="Instance variable">bruit</param>
-                                                    <param id="1" name="Value">2</param>
-                                                </action>
-                                                <action id="9" name="Set scale" sid="166207573983373" type="noise">
-                                                    <param id="0" name="Scale">Hisia.Bruit</param>
-                                                </action>
                                                 <action behavior="8Direction" id="4" name="Set max speed" sid="944112010296952" type="Hisia">
                                                     <param id="0" name="Max Speed">200</param>
                                                 </action>
+                                                <action id="-10" name="Set value" sid="469281207104107" type="Hisia">
+                                                    <param id="0" name="Instance variable">bruit</param>
+                                                    <param id="1" name="Value">600</param>
+                                                </action>
+                                                <action id="-7" name="Set size" sid="166207573983373" type="noise">
+                                                    <param id="0" name="Width">Hisia.Bruit</param>
+                                                    <param id="1" name="Height">Hisia.Bruit</param>
+                                                </action>
                                                 <action id="-7" name="Set size" sid="809539314439464" type="Hisia">
-                                                    <param id="0" name="Width">13</param>
-                                                    <param id="1" name="Height">13</param>
+                                                    <param id="0" name="Width">90</param>
+                                                    <param id="1" name="Height">90</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -373,27 +355,18 @@
                                             <param id="0" name="Animation">&quot;rayonnante&quot;</param>
                                             <param id="1" name="From">1</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="159272301429570" type="lumière">
-                                            <param id="0" name="Instance variable">taille</param>
-                                            <param id="1" name="Value">500</param>
-                                        </action>
-                                        <action id="-7" name="Set size" sid="989094632268751" type="lumière">
-                                            <param id="0" name="Width">lumière.taille</param>
-                                            <param id="1" name="Height">lumière.taille</param>
-                                        </action>
                                         <action behavior="8Direction" id="4" name="Set max speed" sid="286039606690694" type="Hisia">
                                             <param id="0" name="Max Speed">100</param>
+                                        </action>
+                                        <action id="9" name="Set scale" sid="989094632268751" type="lumière">
+                                            <param id="0" name="Scale">2</param>
                                         </action>
                                         <action behavior="LineOfSight" id="1" name="Set cone of view" sid="895868132947525" type="Hisia">
                                             <param id="0" name="Cone of view">600</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="569899096263574" type="Hisia">
-                                            <param id="0" name="Instance variable">bruit</param>
-                                            <param id="1" name="Value">2</param>
-                                        </action>
                                         <action id="-7" name="Set size" sid="368291874901545" type="Hisia">
-                                            <param id="0" name="Width">10</param>
-                                            <param id="1" name="Height">10</param>
+                                            <param id="0" name="Width">70</param>
+                                            <param id="1" name="Height">70</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -401,7 +374,7 @@
                         </event-group>
                     </sub-events>
                 </event-group>
-                <event-group description="" sid="918019254699734" title="Interaction Ennemi">
+                <event-group description="début de travail sur une save" sid="918019254699734" title="Interaction Ennemi">
                     <sub-events>
                         <event-block sid="416337789003885">
                             <conditions>
@@ -410,11 +383,15 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="4" name="Set animation" sid="460261088030462" type="Hisia">
-                                    <param id="0" name="Animation">&quot;Neutre&quot;</param>
-                                    <param id="1" name="From">1</param>
+                                <action disabled="1" id="-3" name="Set position" sid="239363623761613" type="Hisia">
+                                    <param id="0" name="X">Hisia.SaveX</param>
+                                    <param id="1" name="Y">Hisia.SaveY</param>
                                 </action>
-                                <action id="-26" name="Restart layout" sid="358560620173118" type="System" />
+                                <action disabled="1" id="-10" name="Set value" sid="563288998540480" type="Hisia">
+                                    <param id="0" name="Instance variable">emotion</param>
+                                    <param id="1" name="Value">&quot;Craintive&quot;</param>
+                                </action>
+                                <action id="-26" name="Restart layout" sid="730148154922134" type="System" />
                             </actions>
                         </event-block>
                     </sub-events>
@@ -499,167 +476,83 @@
         </event-group>
         <event-group description="" sid="978572723870566" title="Ennemis">
             <sub-events>
-                <event-group description="" disabled="1" sid="606621663585605" title="Movement">
+                <event-group description="Comportements pour tous les Apathes : &#x0D;&#x0A;- retourne à sa place quand il n&apos;a plujs de ligne de vue" sid="143205985739188" title="Base">
                     <sub-events>
-                        <event-block sid="824300295285129">
+                        <comment>Si pas ligne de vue, retourne à sa place initiale. </comment>
+                        <event-block sid="977020596307553">
                             <conditions>
-                                <condition id="-7" name="Compare instance variable" sid="691965228958458" type="Apathes">
-                                    <param id="0" name="Instance variable">Directions</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">0</param>
+                                <condition behavior="LineOfSight" id="0" inverted="1" name="Has LOS to object" sid="337035224653352" type="Apathes">
+                                    <param id="0" name="Object">Hisia</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="637213530569343" type="Apathes">
+                                    <param id="0" name="Instance variable">Y_initial</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Value">Apathes.Y</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="312057422979540" type="Apathes">
+                                    <param id="0" name="Instance variable">X_initial</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Value">Apathes.X</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action behavior="8Direction" id="7" name="Simulate control" sid="782300531539690" type="Apathes">
-                                    <param id="0" name="Control">0</param>
+                                <action id="-22" name="Set angle toward position" sid="397117121205494" type="Apathes">
+                                    <param id="0" name="X">Apathes.X_initial</param>
+                                    <param id="1" name="Y">Apathes.Y_initial</param>
                                 </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="182107693099081">
-                            <conditions>
-                                <condition id="-7" name="Compare instance variable" sid="615218349354878" type="Apathes">
-                                    <param id="0" name="Instance variable">Directions</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">1</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action behavior="8Direction" id="7" name="Simulate control" sid="122101187143250" type="Apathes">
-                                    <param id="0" name="Control">3</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="448177355915136">
-                            <conditions>
-                                <condition id="-7" name="Compare instance variable" sid="270211574929172" type="Apathes">
-                                    <param id="0" name="Instance variable">Directions</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">2</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action behavior="8Direction" id="7" name="Simulate control" sid="836115967701512" type="Apathes">
-                                    <param id="0" name="Control">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="967577796305238">
-                            <conditions>
-                                <condition id="-7" name="Compare instance variable" sid="947874216018108" type="Apathes">
-                                    <param id="0" name="Instance variable">Directions</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">3</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action behavior="8Direction" id="7" name="Simulate control" sid="357138246334129" type="Apathes">
-                                    <param id="0" name="Control">2</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="563484653699359">
-                            <conditions>
-                                <condition id="9" name="Is overlapping at offset" sid="162802609210621" type="Apathes">
-                                    <param id="0" name="Object">mur</param>
-                                    <param id="1" name="Offset X">-2</param>
-                                    <param id="2" name="Offset Y">0</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-10" name="Set value" sid="194965317732305" type="Apathes">
-                                    <param id="0" name="Instance variable">Directions</param>
-                                    <param id="1" name="Value">2</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="949379021017584">
-                            <conditions>
-                                <condition id="9" name="Is overlapping at offset" sid="537126506970429" type="Apathes">
-                                    <param id="0" name="Object">mur</param>
-                                    <param id="1" name="Offset X">2</param>
-                                    <param id="2" name="Offset Y">0</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-10" name="Set value" sid="153844262494610" type="Apathes">
-                                    <param id="0" name="Instance variable">Directions</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="346042156446262">
-                            <conditions>
-                                <condition id="9" name="Is overlapping at offset" sid="276136509516550" type="Apathes">
-                                    <param id="0" name="Object">mur</param>
-                                    <param id="1" name="Offset X">0</param>
-                                    <param id="2" name="Offset Y">2</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-10" name="Set value" sid="857345220814354" type="Apathes">
-                                    <param id="0" name="Instance variable">Directions</param>
-                                    <param id="1" name="Value">3</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="215409313469645">
-                            <conditions>
-                                <condition id="9" name="Is overlapping at offset" sid="144796939641891" type="Apathes">
-                                    <param id="0" name="Object">mur</param>
-                                    <param id="1" name="Offset X">0</param>
-                                    <param id="2" name="Offset Y">-2</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-10" name="Set value" sid="338446856241330" type="Apathes">
-                                    <param id="0" name="Instance variable">Directions</param>
-                                    <param id="1" name="Value">1</param>
+                                <action id="-17" name="Move forward" sid="907655349570072" type="Apathes">
+                                    <param id="0" name="Distance">3</param>
                                 </action>
                             </actions>
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-group description="Il se déplace dans une direction précise en boucle jusqu’à ce que le joueur soit détecté, revient à sa position initiale s’il ne le détecte plus. &#x0D;&#x0A;Reste immobile jusqu’à voir le joueur et revient à sa position initiale s’il ne le voit plus.&#x0D;&#x0A;Reste immobile constamment.&#x0D;&#x0A;Ne bouge que s’il voit le joueur et ne revient pas à sa position initial&#x0D;&#x0A;" sid="143205985739188" title="Base">
+                <event-group description="quand le joueur s’approche avec Enjoué d’activé, il le poursuit." sid="731629042920509" title="Mange Lumière">
                     <sub-events>
-                        <event-block sid="177912345985385">
-                            <conditions />
-                            <actions />
-                            <sub-events>
-                                <event-block sid="392219593427089">
-                                    <conditions>
-                                        <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="341186009335108" type="Apathe_Base">
-                                            <param id="0" name="Object">Hisia</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-22" name="Set angle toward position" sid="751227626467127" type="Apathe_Base">
-                                            <param id="0" name="X">Hisia.X</param>
-                                            <param id="1" name="Y">Hisia.Y</param>
-                                        </action>
-                                        <action id="-17" name="Move forward" sid="110755806540418" type="Apathe_Base">
-                                            <param id="0" name="Distance">0.5</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="977020596307553">
-                                    <conditions>
-                                        <condition behavior="LineOfSight" id="0" inverted="1" name="Has LOS to object" sid="337035224653352" type="Apathe_Base">
-                                            <param id="0" name="Object">Hisia</param>
-                                        </condition>
-                                        <condition id="-4" name="Trigger once while true" sid="649059594154026" type="System" />
-                                    </conditions>
-                                    <actions>
-                                        <action id="-10" name="Set value" sid="872834949226912" type="Apathe_Base">
-                                            <param id="0" name="Instance variable">Directions</param>
-                                            <param id="1" name="Value">round(random(0, 3)) </param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
+                        <event-block sid="819534617838525">
+                            <conditions>
+                                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="692072655452469" type="Apathe_MangeLumiere">
+                                    <param id="0" name="Object">Hisia</param>
+                                </condition>
+                                <condition disabled="1" id="1" name="Is overlapping another object" sid="728258828821429" type="lumière">
+                                    <param id="0" name="Object">Apathe_MangeLumiere</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-22" name="Set angle toward position" sid="264966473187228" type="Apathe_MangeLumiere">
+                                    <param id="0" name="X">Hisia.X</param>
+                                    <param id="1" name="Y">Hisia.Y</param>
+                                </action>
+                                <action id="-17" name="Move forward" sid="398548799532076" type="Apathe_MangeLumiere">
+                                    <param id="0" name="Distance">1</param>
+                                </action>
+                            </actions>
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-group description="quand le joueur passe près de lui, il se met à hurler et tous les autres Apathie accourent vers lui.   &#x0D;&#x0A;" sid="365544888620343" title="Hurleur" />
+                <event-group description="quand le joueur s’approche avec Enjoué d’activé, il recule." sid="814662479975936" title="Oscur">
+                    <sub-events>
+                        <event-block sid="520512012118217">
+                            <conditions>
+                                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="865874439411076" type="Apathe_Obscur">
+                                    <param id="0" name="Object">Hisia</param>
+                                </condition>
+                                <condition disabled="1" id="1" name="Is overlapping another object" sid="385861477785622" type="lumière">
+                                    <param id="0" name="Object">Apathe_Obscur</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-22" name="Set angle toward position" sid="776507190960975" type="Apathe_Obscur">
+                                    <param id="0" name="X">Hisia.X</param>
+                                    <param id="1" name="Y">Hisia.Y</param>
+                                </action>
+                                <action id="-17" name="Move forward" sid="135723795473277" type="Apathe_Obscur">
+                                    <param id="0" name="Distance">-3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
                 <event-group description="Quand le joueur se déplace avec Furieux d’activé, il peut le sentir et se déplacer vers lui. &#x0D;&#x0A;" sid="292971181668268" title="AntiBruit">
                     <sub-events>
                         <event-block sid="672456616805429">
@@ -677,80 +570,71 @@
                                     <param id="1" name="Y">Hisia.Y</param>
                                 </action>
                                 <action id="-17" name="Move forward" sid="244537633158707" type="Apathe_AntiBruit">
-                                    <param id="0" name="Distance">0.3</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-group>
-                <event-group description="quand le joueur s’approche avec Enjoué d’activé, il le poursuit." sid="731629042920509" title="Mange Lumière">
-                    <sub-events>
-                        <event-block sid="819534617838525">
-                            <conditions>
-                                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="692072655452469" type="Apathe_MangeLumiere">
-                                    <param id="0" name="Object">Hisia</param>
-                                </condition>
-                                <condition id="1" name="Is overlapping another object" sid="728258828821429" type="lumière">
-                                    <param id="0" name="Object">Apathe_MangeLumiere</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-17" name="Move forward" sid="398548799532076" type="Apathe_MangeLumiere">
                                     <param id="0" name="Distance">1</param>
-                                </action>
-                                <action id="-22" name="Set angle toward position" sid="264966473187228" type="Apathe_MangeLumiere">
-                                    <param id="0" name="X">Hisia.X</param>
-                                    <param id="1" name="Y">Hisia.Y</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-group>
-                <event-group description="quand le joueur s’approche avec Enjoué d’activé, il recule." sid="814662479975936" title="Oscur">
-                    <sub-events>
-                        <event-block sid="520512012118217">
-                            <conditions>
-                                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="865874439411076" type="Apathe_Obscur">
-                                    <param id="0" name="Object">Hisia</param>
-                                </condition>
-                                <condition id="1" name="Is overlapping another object" sid="385861477785622" type="lumière">
-                                    <param id="0" name="Object">Apathe_Obscur</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-17" name="Move forward" sid="135723795473277" type="Apathe_Obscur">
-                                    <param id="0" name="Distance">0.1</param>
-                                </action>
-                                <action id="-22" name="Set angle toward position" sid="776507190960975" type="Apathe_Obscur">
-                                    <param id="0" name="X">Hisia.X</param>
-                                    <param id="1" name="Y">Hisia.Y</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="895707681101887">
-                            <conditions>
-                                <condition behavior="LineOfSight" id="0" inverted="1" name="Has LOS to object" sid="289158442585263" type="Apathe_Obscur">
-                                    <param id="0" name="Object">Hisia</param>
-                                </condition>
-                                <condition id="-6" name="Every X seconds" sid="397207641971314" type="System">
-                                    <param id="0" name="Interval (seconds)">5</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-10" name="Set value" sid="388050189316853" type="Apathe_Obscur">
-                                    <param id="0" name="Instance variable">Directions</param>
-                                    <param id="1" name="Value">round(random(0, 3)) </param>
                                 </action>
                             </actions>
                             <sub-events>
-                                <event-block sid="595733982071681">
+                                <event-block sid="474313758156869">
                                     <conditions>
-                                        <condition id="-1" name="Every tick" sid="477225421784184" type="System" />
+                                        <condition id="-7" name="Compare instance variable" sid="836680982327387" type="Hisia">
+                                            <param id="0" name="Instance variable">emotion</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;craintive&quot;</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="188733958552158" type="Apathe_AntiBruit">
+                                            <param id="0" name="Instance variable">X_initial</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">Apathe_AntiBruit.X</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="701317310702004" type="Apathe_AntiBruit">
+                                            <param id="0" name="Instance variable">Y_initial</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">Apathe_AntiBruit.Y</param>
+                                        </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-17" name="Move forward" sid="245731138606538" type="Apathe_Obscur">
-                                            <param id="0" name="Distance">1</param>
+                                        <action id="-22" name="Set angle toward position" sid="652026414878960" type="Apathes">
+                                            <param id="0" name="X">Apathes.X_initial</param>
+                                            <param id="1" name="Y">Apathes.Y_initial</param>
                                         </action>
+                                        <action id="-17" name="Move forward" sid="374256049666001" type="Apathes">
+                                            <param id="0" name="Distance">3</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="quand le joueur passe près de lui, il se met à hurler et tous les autres Apathie accourent vers lui.   &#x0D;&#x0A;" sid="365544888620343" title="Hurleur">
+                    <sub-events>
+                        <event-block sid="567055868242764">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="514535338725808" type="Apathe_Hurleur">
+                                    <param id="0" name="Object">noise</param>
+                                </condition>
+                                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="895575912124244" type="Apathe_Hurleur">
+                                    <param id="0" name="Object">Hisia</param>
+                                </condition>
+                                <condition id="-3" name="Is on-screen" sid="803020025754633" type="Apathes" />
+                            </conditions>
+                            <actions>
+                                <action id="-22" name="Set angle toward position" sid="322635978816965" type="Apathe_Hurleur">
+                                    <param id="0" name="X">Hisia.X</param>
+                                    <param id="1" name="Y">Hisia.Y</param>
+                                </action>
+                                <action behavior="Pathfinding" id="0" name="Find path" sid="671554518229765" type="Apathes">
+                                    <param id="0" name="X">Hisia.X</param>
+                                    <param id="1" name="Y">Hisia.Y</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="261270963990872">
+                                    <conditions>
+                                        <condition behavior="Pathfinding" id="0" name="On path found" sid="977375221116255" type="Apathes" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Pathfinding" id="1" name="Move along path" sid="294546848865546" type="Apathes" />
                                     </actions>
                                 </event-block>
                             </sub-events>

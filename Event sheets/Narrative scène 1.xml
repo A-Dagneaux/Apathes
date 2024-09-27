@@ -279,11 +279,7 @@
                             <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action behavior="8Direction" id="7" name="Simulate control" sid="948219962299997" type="ApatheActeur">
-                            <param id="0" name="Control">1</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block sid="860581992683431">
                     <conditions>
@@ -293,11 +289,7 @@
                             <param id="2" name="Value">1</param>
                         </condition>
                     </conditions>
-                    <actions>
-                        <action behavior="8Direction" id="7" name="Simulate control" sid="901681349640036" type="ApatheActeur">
-                            <param id="0" name="Control">0</param>
-                        </action>
-                    </actions>
+                    <actions />
                 </event-block>
                 <event-block sid="671546897155629">
                     <conditions>
@@ -334,14 +326,6 @@
                             </actions>
                         </event-block>
                     </sub-events>
-                </event-block>
-                <event-block sid="832785614603601">
-                    <conditions>
-                        <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="721173753702438" type="ApatheActeur2">
-                            <param id="0" name="Object">Hisia</param>
-                        </condition>
-                    </conditions>
-                    <actions />
                 </event-block>
                 <event-block sid="980011205831176">
                     <conditions>
@@ -425,6 +409,14 @@
                 </action>
                 <action id="-15" name="Set visible" sid="262406640121443" type="PorteFermée">
                     <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-10" name="Set value" sid="105338608687275" type="Hisia">
+                    <param id="0" name="Instance variable">SaveX</param>
+                    <param id="1" name="Value">Hisia.X</param>
+                </action>
+                <action id="-10" name="Set value" sid="937373254129620" type="Hisia">
+                    <param id="0" name="Instance variable">SaveY</param>
+                    <param id="1" name="Value">Hisia.Y</param>
                 </action>
             </actions>
         </event-block>
