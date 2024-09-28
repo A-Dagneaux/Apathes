@@ -825,9 +825,9 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Tilemap" sid="250675309557407">
+        <object-type name="TilemapSolMur1" sid="250675309557407">
             <plugin id="Tilemap" />
-            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmur.png" />
+            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmurtest.png" />
             <tiles />
         </object-type>
         <object-type name="Tilemap4" sid="862491937916404">
@@ -858,6 +858,26 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Tilemap2" sid="241013207101092">
+            <plugin id="Tilemap" />
+            <texture />
+            <tiles />
+        </object-type>
+        <object-type name="TilemapDécor1" sid="519738955970731">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\Tilemap Autres.png" />
+            <tiles />
+        </object-type>
+        <object-type name="TilemapPlafond1" sid="464714664223468">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmur.png" />
+            <tiles />
+        </object-type>
+        <object-type name="TilemapDécorSol1" sid="372915215250839">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmurtest.png" />
+            <tiles />
         </object-type>
     </object-folder>
     <families>
