@@ -30,9 +30,7 @@
         <behavior author="Scirra" id="shadowcaster" version="1">Shadow Caster</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
-    <used-effects>
-        <effect author="Scirra" id="brightness">Brightness</effect>
-    </used-effects>
+    <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
@@ -234,6 +232,9 @@
                 <behaviors>
                     <behavior-type name="Solid" sid="993389759334850">
                         <behavior id="solid" />
+                    </behavior-type>
+                    <behavior-type name="ShadowCaster" sid="304237453257900">
+                        <behavior id="shadowcaster" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
@@ -521,9 +522,12 @@
             <instance-variables>
                 <instance-variable name="emotion" sid="931612223270254" type="string" />
                 <instance-variable name="vitesse" sid="114845858993879" type="number" />
-                <instance-variable name="bruit" sid="301139220873802" type="number" />
                 <instance-variable name="SaveX" sid="402408941600887" type="number" />
                 <instance-variable name="SaveY" sid="522484420078058" type="number" />
+                <instance-variable name="size_craintif" sid="670245603820149" type="number" />
+                <instance-variable name="size_honteuse" sid="575682694574236" type="number" />
+                <instance-variable name="size_furieux" sid="204107199479047" type="number" />
+                <instance-variable name="size_rayonnante" sid="394145203048180" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="8Direction" sid="958459754648602">
@@ -536,11 +540,6 @@
                     <behavior id="Timer" />
                 </behavior-type>
             </behaviors>
-            <effects>
-                <effect-type name="Brightness">
-                    <effect id="brightness" />
-                </effect-type>
-            </effects>
             <animation-folder>
                 <animation framecount="1" loop="1" name="neutre" pingpong="0" repeatcount="1" repeatto="0" sid="702688949144009" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -571,7 +570,8 @@
         <object-type name="lumière" sid="961317367370314">
             <plugin id="Sprite" />
             <instance-variables>
-                <instance-variable name="taille" sid="549376967119111" type="number" />
+                <instance-variable name="size_normal" sid="549376967119111" type="number" />
+                <instance-variable comment="400" name="size_rayonnante" sid="668688216267365" type="number" />
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760910869220772" speed="5">
@@ -688,9 +688,9 @@
         <object-type name="noise" sid="850208281378681">
             <plugin id="Sprite" />
             <instance-variables>
-                <instance-variable name="size_normal" sid="229427352873775" type="number" />
-                <instance-variable name="size_emo2" sid="899432088843405" type="number" />
-                <instance-variable name="size_emo3" sid="787230533503137" type="number" />
+                <instance-variable name="size_craintif" sid="229427352873775" type="number" />
+                <instance-variable name="size_honteux" sid="899432088843405" type="number" />
+                <instance-variable name="size_furieux" sid="787230533503137" type="number" />
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="720559526824216" speed="5">

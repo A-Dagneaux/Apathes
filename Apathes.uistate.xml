@@ -10,10 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Global_test</layout>
-        <layout order="1">Scène 1 et tuto furrieux</layout>
-        <event-sheet active="1" order="2">Global</event-sheet>
-        <event-sheet order="3">Event sheet 2</event-sheet>
+        <layout order="0">Scène 1 et tuto furrieux</layout>
+        <event-sheet active="1" order="1">Global</event-sheet>
         <event-sheet order="4">Narrative scène 1</event-sheet>
         <event-sheet order="5">UI_ES</event-sheet>
     </open-tabs>
