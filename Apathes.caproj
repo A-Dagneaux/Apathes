@@ -17,6 +17,7 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
         <plugin author="Scirra" id="gamepad" version="1">Gamepad</plugin>
         <plugin author="Scirra" id="shadowlight" version="1">Shadow Light</plugin>
@@ -169,6 +170,14 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Apathe_Océjoli" sid="640521147167055">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443355327299716" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="décor">
             <object-type name="fond" sid="392868419353482">
@@ -277,6 +286,46 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="141443027961844" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="nouriture" sid="791947175972183">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="432310816513878" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="table" sid="957902714444960">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="741807532813307" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="banc" sid="278548187571811">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="543182550342950" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="torcheEteint" sid="394725945360257">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="803146467826090" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="pillier" sid="913913870237198">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301006641443305" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
@@ -781,10 +830,34 @@
             <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmur.png" />
             <tiles />
         </object-type>
-        <object-type name="Tilemap2" sid="614223906903830">
+        <object-type name="Tilemap4" sid="862491937916404">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="728876729190399" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\matpo\OneDrive\Bureau\apathe\Apathes\Textures\Tilemap2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground" sid="751840010388608">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\matpo\OneDrive\Bureau\map 1.png" />
+        </object-type>
+        <object-type name="TiledBackground2" sid="253215164187234">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\matpo\Downloads\drive-download-20240928T101532Z-001\paves.png" />
+        </object-type>
+        <object-type name="sol" sid="569667810071931">
             <plugin id="Tilemap" />
-            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\Tilemap Autres.png" />
+            <texture original-source="C:\Users\matpo\OneDrive\Bureau\apathe\Apathes\Textures\Tilemap.png" />
             <tiles />
+        </object-type>
+        <object-type name="Sprite7" sid="434616623548446">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="635562010902523" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families>
@@ -839,7 +912,7 @@
     <layout-folder>
         <layout>Global_test.xml</layout>
         <layout>Scène 1 et tuto furrieux.xml</layout>
-        <layout>Layout 2.xml</layout>
+        <layout>cinematique +tuto rayonnante.xml</layout>
         <layout>UI_layout.xml</layout>
     </layout-folder>
     <event-folder>

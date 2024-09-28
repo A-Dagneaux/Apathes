@@ -12,10 +12,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">Global_test</layout>
         <layout order="1">Scène 1 et tuto furrieux</layout>
-        <event-sheet active="1" order="2">Global</event-sheet>
-        <event-sheet order="3">Event sheet 2</event-sheet>
-        <event-sheet order="4">Narrative scène 1</event-sheet>
-        <event-sheet order="5">UI_ES</event-sheet>
+        <layout active="1" order="5">cinematique +tuto rayonnante</layout>
+        <event-sheet order="2">Global</event-sheet>
+        <event-sheet order="6">Event sheet 2</event-sheet>
+        <event-sheet order="3">Narrative scène 1</event-sheet>
+        <event-sheet order="4">UI_ES</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -31,7 +32,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
         <folder expanded="1" path="object-folder/Apathes/" />
-        <folder expanded="0" path="object-folder/décor/" />
+        <folder expanded="1" path="object-folder/décor/" />
         <folder expanded="1" path="object-folder/cartes/" />
         <folder expanded="1" path="object-folder/cartes/par terre/" />
         <folder expanded="0" path="object-folder/UI/" />
@@ -52,6 +53,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/ApatheActeur/" />
         <folder expanded="1" path="animation-folder/ApatheActeur2/" />
         <folder expanded="1" path="animation-folder/ApatheActeur3/" />
+        <folder expanded="1" path="animation-folder/Apathe_Océjoli/" />
         <folder expanded="1" path="animation-folder/fond/" />
         <folder expanded="1" path="animation-folder/mur/" />
         <folder expanded="1" path="animation-folder/MurPoussable/" />
@@ -61,6 +63,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Barreaux/" />
         <folder expanded="1" path="animation-folder/Porte/" />
         <folder expanded="1" path="animation-folder/portePrison/" />
+        <folder expanded="1" path="animation-folder/nouriture/" />
+        <folder expanded="1" path="animation-folder/table/" />
+        <folder expanded="1" path="animation-folder/banc/" />
+        <folder expanded="1" path="animation-folder/torcheEteint/" />
+        <folder expanded="1" path="animation-folder/pillier/" />
         <folder expanded="1" path="animation-folder/rayonnante/" />
         <folder expanded="1" path="animation-folder/craintive/" />
         <folder expanded="1" path="animation-folder/furieuse/" />
@@ -94,5 +101,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite3/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
         <folder expanded="1" path="animation-folder/PorteLevel2/" />
+        <folder expanded="1" path="animation-folder/Tilemap4/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
     </folders-expanded>
 </c2uistate>
