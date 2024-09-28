@@ -879,6 +879,11 @@
             <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmurtest.png" />
             <tiles />
         </object-type>
+        <object-type name="TilemapSang" sid="648125621115032">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmurtest.png" />
+            <tiles />
+        </object-type>
     </object-folder>
     <families>
         <family name="Apathes" plugin-id="Sprite" sid="195361571858189">
