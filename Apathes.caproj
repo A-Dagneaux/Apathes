@@ -874,6 +874,7 @@
             <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmurtest.png" />
             <tiles />
         </object-type>
+<<<<<<< HEAD
         <object-type name="tilemap_matheo_fonda2" sid="351241971945002">
             <plugin id="Tilemap" />
             <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmur.png" />
@@ -927,6 +928,13 @@
                 </animation>
             </animation-folder>
         </object-type>
+=======
+        <object-type name="TilemapSang" sid="648125621115032">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmurtest.png" />
+            <tiles />
+        </object-type>
+>>>>>>> 4a42e6c977763d2dac757006843e2308ea88bc47
     </object-folder>
     <families>
         <family name="Apathes" plugin-id="Sprite" sid="195361571858189">
