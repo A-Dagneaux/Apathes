@@ -846,9 +846,9 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\matpo\Downloads\drive-download-20240928T101532Z-001\paves.png" />
         </object-type>
-        <object-type name="sol" sid="569667810071931">
+        <object-type name="tilemap_matheo_fonda" sid="569667810071931">
             <plugin id="Tilemap" />
-            <texture original-source="C:\Users\matpo\OneDrive\Bureau\apathe\Apathes\Textures\Tilemap.png" />
+            <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmur.png" />
             <tiles />
         </object-type>
         <object-type name="Sprite7" sid="434616623548446">
