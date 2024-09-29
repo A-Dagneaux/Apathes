@@ -353,7 +353,7 @@
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-group description="" sid="754137577912167" title="Déplacements">
+                <event-group description="" sid="754137577912167" title="Déplacements &amp; Animations">
                     <sub-events>
                         <event-block any="1" sid="115514252018805">
                             <conditions>
@@ -370,6 +370,9 @@
                             <actions>
                                 <action behavior="8Direction" id="7" name="Simulate control" sid="808172984391183" type="Hisia">
                                     <param id="0" name="Control">2</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="358453727135186" type="Hisia">
+                                    <param id="0" name="Frame number">2</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -389,6 +392,12 @@
                                 <action behavior="8Direction" id="7" name="Simulate control" sid="219372203552579" type="Hisia">
                                     <param id="0" name="Control">0</param>
                                 </action>
+                                <action id="5" name="Set frame" sid="471208213098741" type="Hisia">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="386004928066690" type="Hisia">
+                                    <param id="0" name="State">1</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block any="1" sid="318368563495748">
@@ -407,6 +416,9 @@
                                 <action behavior="8Direction" id="7" name="Simulate control" sid="368122915237341" type="Hisia">
                                     <param id="0" name="Control">3</param>
                                 </action>
+                                <action id="5" name="Set frame" sid="581184613025837" type="Hisia">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block any="1" sid="956014925949626">
@@ -424,6 +436,12 @@
                             <actions>
                                 <action behavior="8Direction" id="7" name="Simulate control" sid="551430601429968" type="Hisia">
                                     <param id="0" name="Control">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="108752401149891" type="Hisia">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="142501281255331" type="Hisia">
+                                    <param id="0" name="State">0</param>
                                 </action>
                             </actions>
                         </event-block>
