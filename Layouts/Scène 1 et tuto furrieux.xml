@@ -3222,7 +3222,7 @@
                         <text>GRRRRR FAIM !</text>
                         <initial-visibility>Invisible</initial-visibility>
                         <font>Arial,-96,700,0</font>
-                        <color>255,51,0</color>
+                        <color>0,204,51</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
