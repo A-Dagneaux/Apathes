@@ -10,9 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">Scène 1 et tuto furrieux</layout>
-        <event-sheet order="1">Narrative scène 1</event-sheet>
-        <event-sheet order="2">UI_ES</event-sheet>
+        <layout order="0">Global_test</layout>
+        <layout active="1" order="2">cinematique +tuto rayonnante</layout>
+        <layout order="1">Scène 1 et tuto furrieux</layout>
+        <event-sheet order="3">Event sheet 2</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -21,22 +22,22 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="1" name="Configuration Settings" />
     </properties>
     <families-expanded root="1">
-        <family expanded="1" name="Apathes" />
+        <family expanded="0" name="Apathes" />
         <family expanded="0" name="Masques" />
         <family expanded="0" name="UI" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
         <folder expanded="1" path="object-folder/Apathes/" />
-        <folder expanded="0" path="object-folder/décor/" />
+        <folder expanded="1" path="object-folder/décor/" />
         <folder expanded="1" path="object-folder/cartes/" />
         <folder expanded="1" path="object-folder/cartes/par terre/" />
-        <folder expanded="0" path="object-folder/UI/" />
-        <folder expanded="0" path="object-folder/Textes/" />
+        <folder expanded="1" path="object-folder/UI/" />
+        <folder expanded="1" path="object-folder/Textes/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="0" path="file-folder/" />
-        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="1" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/Apathe_Base/" />
