@@ -174,7 +174,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>640</x>
+                        <x>256</x>
                         <y>704</y>
                         <z>0</z>
                         <width>250</width>
