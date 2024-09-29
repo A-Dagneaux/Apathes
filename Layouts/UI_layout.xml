@@ -568,6 +568,60 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Hisia" uid="329">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <emotion>craintive</emotion>
+                        <vitesse>100</vitesse>
+                        <SaveX>0</SaveX>
+                        <SaveY>0</SaveY>
+                        <size_craintif>90</size_craintif>
+                        <size_honteuse>70</size_honteuse>
+                        <size_furieux>110</size_furieux>
+                        <size_rayonnante>90</size_rayonnante>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>100</max-speed>
+                                <acceleration>300</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>8 directions</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="LineOfSight">
+                            <properties>
+                                <obstacles>Solids</obstacles>
+                                <range>1000</range>
+                                <cone-of-view>360</cone-of-view>
+                                <use-collision-cells>Yes</use-collision-cells>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Timer" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>343</x>
+                        <y>533</y>
+                        <z>0</z>
+                        <width>90</width>
+                        <height>92</height>
+                        <depth>0</depth>
+                        <hotspotX>0.444444448</hotspotX>
+                        <hotspotY>0.478260875</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>

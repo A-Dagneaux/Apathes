@@ -100,8 +100,9 @@
             <object-type name="Apathe_AntiBruit" sid="164218256417712">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Attaque" pingpong="0" repeatcount="1" repeatto="0" sid="775657855092622" speed="5">
+                    <animation framecount="2" loop="0" name="Attaque" pingpong="0" repeatcount="1" repeatto="0" sid="775657855092622" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe_1.png" />
                     </animation>
                     <animation framecount="1" loop="0" name="Marche" pingpong="0" repeatcount="1" repeatto="0" sid="148817204023356" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -590,19 +591,27 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
+                <animation framecount="3" loop="0" name="craintive" pingpong="0" repeatcount="1" repeatto="0" sid="885676849387589" speed="0">
+                    <frame duration="1" hotspotX="0.444444" hotspotY="0.478261" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\Hisia_CRAINTIVE_FACE.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\Hisia_CRAINTIVE_PROFIL.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\Hisia_CRAINTIVE_DERRIERE.png" />
+                </animation>
+                <animation framecount="3" loop="0" name="furieuse" pingpong="0" repeatcount="1" repeatto="0" sid="245673024823828" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\Hisia_FURIEUSE_FACE.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\Hisia_FURIEUSE_PROFIL.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\Hisia_FURIEUSE_DERRIERE.png" />
+                </animation>
+                <animation framecount="3" loop="0" name="honteuse" pingpong="0" repeatcount="1" repeatto="0" sid="219747527356137" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\Hisia_HONTEUSE_FACE.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\Hisia_HONTEUSE_PROFIL.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\Hisia_DERRIERE.png" />
+                </animation>
+                <animation framecount="3" loop="0" name="rayonnante" pingpong="0" repeatcount="1" repeatto="0" sid="993589058763373" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\Hisia_RAYONNANTE_FACE.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\Hisia_RAYONNANTE_PROFIL.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\Hisia_RAYONNANTE_DERRIERE.png" />
+                </animation>
                 <animation framecount="1" loop="1" name="neutre" pingpong="0" repeatcount="1" repeatto="0" sid="702688949144009" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-                <animation framecount="1" loop="1" name="craintive" pingpong="0" repeatcount="1" repeatto="0" sid="885676849387589" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-                <animation framecount="1" loop="1" name="furieuse" pingpong="0" repeatcount="1" repeatto="0" sid="245673024823828" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-                <animation framecount="1" loop="1" name="honteuse" pingpong="0" repeatcount="1" repeatto="0" sid="219747527356137" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-                <animation framecount="1" loop="1" name="rayonnante" pingpong="0" repeatcount="1" repeatto="0" sid="993589058763373" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
