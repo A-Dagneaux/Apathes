@@ -2214,8 +2214,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2243</x>
-                        <y>1875</y>
+                        <x>370</x>
+                        <y>424</y>
                         <z>0</z>
                         <width>90</width>
                         <height>90</height>
@@ -3086,8 +3086,8 @@
                     <properties>
                         <text>Roi manger Elle ?</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-48,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Caladea,-48,700,0</font>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -3113,8 +3113,8 @@
                     <properties>
                         <text>Loi c&apos;est loi !  </text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-48,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Caladea,-48,700,0</font>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -3140,8 +3140,8 @@
                     <properties>
                         <text>Si émotion alors toi jambon !</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-48,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Caladea,-48,700,0</font>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -3167,8 +3167,8 @@
                     <properties>
                         <text>Moi manger Elle maintenant !</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-48,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Caladea,-48,700,0</font>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -3194,8 +3194,8 @@
                     <properties>
                         <text>Noooon ! Pour Roi ! Manger autre !</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-48,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Caladea,-48,700,0</font>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -3221,8 +3221,8 @@
                     <properties>
                         <text>GRRRRR FAIM !</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-96,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Caladea,-96,700,0</font>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -3248,8 +3248,8 @@
                     <properties>
                         <text>Moi pas mourir comme ça ! </text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-32,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Caladea,-32,700,0</font>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -3275,8 +3275,8 @@
                     <properties>
                         <text>Manger ! Toujours Manger !</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-32,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Caladea,-32,700,0</font>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -3329,8 +3329,8 @@
                     <properties>
                         <text>MOI ET PEUR FINI !</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-32,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Caladea,-32,700,0</font>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -3340,10 +3340,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1147</x>
-                        <y>1316</y>
+                        <x>1110</x>
+                        <y>1321</y>
                         <z>0</z>
-                        <width>273</width>
+                        <width>288</width>
                         <height>126</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -3378,8 +3378,8 @@
                     <properties>
                         <text>Moi faire trop de bruit ! Moi doit me calmer !</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-32,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Caladea,-32,700,0</font>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -3430,8 +3430,8 @@
                     <properties>
                         <text>Moi pas sauter ça ! </text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-32,700,0</font>
-                        <color>0,0,0</color>
+                        <font>Caladea,-32,700,0</font>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
