@@ -546,7 +546,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="221452204262638" type="shortcut_craintive">
-                            <param id="0" name="Text">&quot;&amp;&quot;</param>
+                            <param id="0" name="Text">&quot;x&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="362231176680859" type="shortcut_furieuse">
                             <param id="0" name="Text">&quot;é&quot;</param>
