@@ -880,16 +880,6 @@
             <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmur.png" />
             <tiles />
         </object-type>
-        <object-type name="tile_map_limit" sid="714796772943178">
-            <plugin id="Tilemap" />
-            <behaviors>
-                <behavior-type name="Solid" sid="649203124998867">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <texture />
-            <tiles />
-        </object-type>
         <object-type name="Tilemap" sid="670451191083031">
             <plugin id="Tilemap" />
             <texture />
