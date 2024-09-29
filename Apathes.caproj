@@ -846,6 +846,11 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\matpo\Downloads\drive-download-20240928T101532Z-001\paves.png" />
         </object-type>
+        <object-type name="tilemap_matheo_fonda" sid="569667810071931">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmur.png" />
+            <tiles />
+        </object-type>
         <object-type name="Sprite7" sid="434616623548446">
             <plugin id="Sprite" />
             <animation-folder>
@@ -874,58 +879,10 @@
             <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmurtest.png" />
             <tiles />
         </object-type>
-        <object-type name="tilemap_matheo_fonda2" sid="351241971945002">
+        <object-type name="TilemapSang" sid="648125621115032">
             <plugin id="Tilemap" />
-            <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmur.png" />
+            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmurtest.png" />
             <tiles />
-        </object-type>
-        <object-type name="tile_map_limit" sid="714796772943178">
-            <plugin id="Tilemap" />
-            <behaviors>
-                <behavior-type name="Solid" sid="649203124998867">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
-            <texture />
-            <tiles />
-        </object-type>
-        <object-type name="Tilemap" sid="670451191083031">
-            <plugin id="Tilemap" />
-            <texture />
-            <tiles />
-        </object-type>
-        <object-type name="tilemap_matheo_haut" sid="858442954943742">
-            <plugin id="Tilemap" />
-            <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmurtest.png" />
-            <tiles />
-        </object-type>
-        <object-type name="tilemap_matheo_bas" sid="201073220569607">
-            <plugin id="Tilemap" />
-            <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmurtest.png" />
-            <tiles />
-        </object-type>
-        <object-type name="tilemap_matheo_sol_plafond" sid="374263355003062">
-            <plugin id="Tilemap" />
-            <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmurtest nv.png" />
-            <tiles />
-        </object-type>
-        <object-type name="Sprite6" sid="527712233888585">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="449781954940331" speed="5">
-                    <frame duration="1" hotspotX="0.508772" hotspotY="0.510638" original-source="C:\Users\matpo\OneDrive\Bureau\Calque 2.png">
-                        <collision-poly>
-                            <point x="0" y="0" />
-                            <point x="1" y="0" />
-                            <point x="1" y="0.489362" />
-                            <point x="0.947368" y="0.93617" />
-                            <point x="0.491228" y="0.638298" />
-                            <point x="0.0526316" y="0.93617" />
-                            <point x="0" y="0.489362" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
         </object-type>
     </object-folder>
     <families>
@@ -980,7 +937,7 @@
     <layout-folder>
         <layout>Global_test.xml</layout>
         <layout>Scène 1 et tuto furrieux.xml</layout>
-        <layout>teste.xml</layout>
+        <layout>cinematique +tuto rayonnante.xml</layout>
         <layout>UI_layout.xml</layout>
     </layout-folder>
     <event-folder>
