@@ -286,11 +286,6 @@
             </object-type>
             <object-type name="portePrison" sid="178244222069683">
                 <plugin id="Sprite" />
-                <behaviors>
-                    <behavior-type name="Solid" sid="442716825291382">
-                        <behavior id="solid" />
-                    </behavior-type>
-                </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="141443027961844" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -1061,6 +1056,14 @@
                             <point x="0.0208333" y="0.5" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="167949211809260">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="973274199419205" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
