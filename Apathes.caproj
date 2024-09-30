@@ -931,7 +931,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="850904203376380" speed="5">
-                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
+                    <frame duration="1" hotspotX="-1" hotspotY="-1" />
                 </animation>
             </animation-folder>
         </object-type>
