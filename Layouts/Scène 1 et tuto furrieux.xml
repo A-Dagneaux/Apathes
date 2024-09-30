@@ -2923,8 +2923,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-5</x>
-                        <y>45</y>
+                        <x>0</x>
+                        <y>0</y>
                         <z>0</z>
                         <width>4096</width>
                         <height>3200</height>

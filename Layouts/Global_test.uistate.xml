@@ -4,36 +4,26 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-<<<<<<< HEAD
-        <position-x>343.963</position-x>
-        <position-y>115.845</position-y>
-        <position-z>60.1047</position-z>
-        <lookat-x>343.963</lookat-x>
-        <lookat-y>115.845</lookat-y>
-=======
-        <position-x>281.048</position-x>
-        <position-y>90</position-y>
-        <position-z>66.1152</position-z>
-        <lookat-x>281.048</lookat-x>
-        <lookat-y>90</lookat-y>
->>>>>>> 57838731fbd9a154c0137bf07e2f0b8eaadb9919
+        <position-x>427</position-x>
+        <position-y>59</position-y>
+        <position-z>100</position-z>
+        <lookat-x>427</lookat-x>
+        <lookat-y>59</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
-    <snap-to-grid>1</snap-to-grid>
-    <show-grid>1</show-grid>
-    <snap-width>8</snap-width>
-    <snap-height>8</snap-height>
+    <snap-to-grid>0</snap-to-grid>
+    <show-grid>0</show-grid>
+    <snap-width>32</snap-width>
+    <snap-height>32</snap-height>
     <show-collision-polys>0</show-collision-polys>
     <translucent-inactive-layers>0</translucent-inactive-layers>
     <properties>
-        <property expanded="1" name="Layout properties" />
-        <property expanded="1" name="Layout Size" />
-        <property expanded="1" name="Margins" />
-        <property expanded="1" name="Effects" />
+        <property expanded="0" name="Layout Size" />
+        <property expanded="0" name="Margins" />
     </properties>
-    <active-layer name="lumière" />
+    <active-layer name="backg" />
     <layers>
-        <layer locked="1" name="backg" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="backg" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="objets" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="murs" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="lumière" parallax-in-editor="0" visible="1" />

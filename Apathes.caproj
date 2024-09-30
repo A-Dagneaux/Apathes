@@ -332,6 +332,22 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="etagère" sid="479801188086440">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="732393363113970" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\matpo\OneDrive\Bureau\banc.png">
+                            <collision-poly>
+                                <point x="0.820313" y="0.5" />
+                                <point x="0.820313" y="0.640625" />
+                                <point x="0.5" y="0.71875" />
+                                <point x="0.132813" y="0.734375" />
+                                <point x="0.125" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="cartes">
             <object-folder name="par terre">
@@ -920,6 +936,57 @@
         <object-type name="Tilemap_matheo_murbas" sid="501949577427194">
             <plugin id="Tilemap" />
             <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmurtest nv.png" />
+            <tiles />
+        </object-type>
+        <object-type name="sol_abime" sid="190031291727091">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="745984471432620" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\matpo\Downloads\sol_abime03.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tilemap" sid="613133008809449">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\matpo\OneDrive\Bureau\testes.png" />
+            <tiles />
+        </object-type>
+        <object-type name="plat" sid="730732709490832">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="340073698095001" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\matpo\OneDrive\Bureau\plat.png">
+                        <collision-poly>
+                            <point x="0.28125" y="0.28125" />
+                            <point x="0.5" y="0.296875" />
+                            <point x="0.65625" y="0.34375" />
+                            <point x="0.78125" y="0.5" />
+                            <point x="0.546875" y="0.546875" />
+                            <point x="0.453125" y="0.546875" />
+                            <point x="0.25" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tilemap_matheo_decors" sid="662116056191669">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmurtest nv.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap_matheo_details" sid="677496011650043">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmurtest nv.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Tilemap_matheo_limit" sid="457444063663900">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="397027710199450">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture />
             <tiles />
         </object-type>
     </object-folder>
