@@ -5,27 +5,5 @@
     <events>
         <include>Global</include>
         <include>UI_ES</include>
-        <event-block sid="304988986820709">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="317982719459162" type="System" />
-            </conditions>
-            <actions>
-                <action behavior="8Direction" id="8" name="Set enabled" sid="604312286884622" type="Hisia">
-                    <param id="0" name="State">0</param>
-                </action>
-                <action id="-16" name="Wait" sid="249401863800220" type="System">
-                    <param id="0" name="Seconds">1.0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="699606574229107" type="Dialog10">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-16" name="Wait" sid="998151166192496" type="System">
-                    <param id="0" name="Seconds">2.0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="369457369753792" type="Dialog10">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>
