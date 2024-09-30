@@ -13,35 +13,35 @@
                     <actions>
                         <action id="-3" name="Set position" sid="204541315419192" type="text_craintive">
                             <param id="0" name="X">craintive_UI.X</param>
-                            <param id="1" name="Y">craintive_UI.Y + 2</param>
+                            <param id="1" name="Y">craintive_UI.Y - 20</param>
                         </action>
                         <action id="-3" name="Set position" sid="217452448573457" type="shortcut_craintive">
                             <param id="0" name="X">craintive_UI.X</param>
-                            <param id="1" name="Y">craintive_UI.Y + 40</param>
+                            <param id="1" name="Y">craintive_UI.Y + 30</param>
                         </action>
                         <action id="-3" name="Set position" sid="358964529257885" type="text_furieuse">
                             <param id="0" name="X">furieuse_UI.X</param>
-                            <param id="1" name="Y">furieuse_UI.Y + 2</param>
+                            <param id="1" name="Y">furieuse_UI.Y - 20</param>
                         </action>
                         <action id="-3" name="Set position" sid="482465170433215" type="shortcut_furieuse">
                             <param id="0" name="X">furieuse_UI.X</param>
-                            <param id="1" name="Y">furieuse_UI.Y+ 40</param>
+                            <param id="1" name="Y">furieuse_UI.Y+ 30</param>
                         </action>
                         <action id="-3" name="Set position" sid="219044130737292" type="text_honteuse">
                             <param id="0" name="X">honteuse_UI.X</param>
-                            <param id="1" name="Y">honteuse_UI.Y + 2</param>
+                            <param id="1" name="Y">honteuse_UI.Y - 20</param>
                         </action>
                         <action id="-3" name="Set position" sid="879754980155113" type="shortcut_honteuse">
                             <param id="0" name="X">honteuse_UI.X</param>
-                            <param id="1" name="Y">honteuse_UI.Y+ 40</param>
+                            <param id="1" name="Y">honteuse_UI.Y+ 30</param>
                         </action>
                         <action id="-3" name="Set position" sid="806086670426330" type="text_rayonnante">
                             <param id="0" name="X">rayonnante_UI.X</param>
-                            <param id="1" name="Y">rayonnante_UI.Y + 2</param>
+                            <param id="1" name="Y">rayonnante_UI.Y - 20</param>
                         </action>
                         <action id="-3" name="Set position" sid="430113271930296" type="shortcut_rayonnante">
                             <param id="0" name="X">rayonnante_UI.X</param>
-                            <param id="1" name="Y">rayonnante_UI.Y+ 40</param>
+                            <param id="1" name="Y">rayonnante_UI.Y+ 30</param>
                         </action>
                         <action id="-10" name="Set value" sid="535631638812576" type="background_UI">
                             <param id="0" name="Instance variable">placement</param>
@@ -172,37 +172,37 @@
                         <action id="-1" name="Set X" sid="329295611569889" type="UI">
                             <param id="0" name="X">UI.X + 1760</param>
                         </action>
-                        <action id="-3" name="Set position" sid="571772291180927" type="text_craintive">
+                        <action id="-3" name="Set position" sid="444974854550895" type="text_craintive">
                             <param id="0" name="X">craintive_UI.X</param>
-                            <param id="1" name="Y">craintive_UI.Y + 2</param>
+                            <param id="1" name="Y">craintive_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="992227234525328" type="shortcut_craintive">
+                        <action id="-3" name="Set position" sid="646235908660038" type="shortcut_craintive">
                             <param id="0" name="X">craintive_UI.X</param>
-                            <param id="1" name="Y">craintive_UI.Y + 40</param>
+                            <param id="1" name="Y">craintive_UI.Y + 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="632589487336846" type="text_furieuse">
+                        <action id="-3" name="Set position" sid="232302408817157" type="text_furieuse">
                             <param id="0" name="X">furieuse_UI.X</param>
-                            <param id="1" name="Y">furieuse_UI.Y + 2</param>
+                            <param id="1" name="Y">furieuse_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="874427706306574" type="shortcut_furieuse">
+                        <action id="-3" name="Set position" sid="313849645566260" type="shortcut_furieuse">
                             <param id="0" name="X">furieuse_UI.X</param>
-                            <param id="1" name="Y">furieuse_UI.Y+ 40</param>
+                            <param id="1" name="Y">furieuse_UI.Y+ 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="505417871842363" type="text_honteuse">
+                        <action id="-3" name="Set position" sid="881864840496809" type="text_honteuse">
                             <param id="0" name="X">honteuse_UI.X</param>
-                            <param id="1" name="Y">honteuse_UI.Y + 2</param>
+                            <param id="1" name="Y">honteuse_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="101469362115029" type="shortcut_honteuse">
+                        <action id="-3" name="Set position" sid="483625698193366" type="shortcut_honteuse">
                             <param id="0" name="X">honteuse_UI.X</param>
-                            <param id="1" name="Y">honteuse_UI.Y+ 40</param>
+                            <param id="1" name="Y">honteuse_UI.Y+ 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="660382565643556" type="text_rayonnante">
+                        <action id="-3" name="Set position" sid="596376054279420" type="text_rayonnante">
                             <param id="0" name="X">rayonnante_UI.X</param>
-                            <param id="1" name="Y">rayonnante_UI.Y + 2</param>
+                            <param id="1" name="Y">rayonnante_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="451192646832549" type="shortcut_rayonnante">
+                        <action id="-3" name="Set position" sid="495445831221730" type="shortcut_rayonnante">
                             <param id="0" name="X">rayonnante_UI.X</param>
-                            <param id="1" name="Y">rayonnante_UI.Y+ 40</param>
+                            <param id="1" name="Y">rayonnante_UI.Y+ 30</param>
                         </action>
                         <action id="-10" name="Set value" sid="620574294647775" type="background_UI">
                             <param id="0" name="Instance variable">placement</param>
@@ -227,37 +227,37 @@
                         <action id="-1" name="Set X" sid="898698018678117" type="UI">
                             <param id="0" name="X">UI.X - 1760</param>
                         </action>
-                        <action id="-3" name="Set position" sid="852370317052442" type="text_craintive">
+                        <action id="-3" name="Set position" sid="169644775565232" type="text_craintive">
                             <param id="0" name="X">craintive_UI.X</param>
-                            <param id="1" name="Y">craintive_UI.Y + 2</param>
+                            <param id="1" name="Y">craintive_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="855119065571477" type="shortcut_craintive">
+                        <action id="-3" name="Set position" sid="519983011768300" type="shortcut_craintive">
                             <param id="0" name="X">craintive_UI.X</param>
-                            <param id="1" name="Y">craintive_UI.Y + 40</param>
+                            <param id="1" name="Y">craintive_UI.Y + 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="373239761015871" type="text_furieuse">
+                        <action id="-3" name="Set position" sid="995827029716208" type="text_furieuse">
                             <param id="0" name="X">furieuse_UI.X</param>
-                            <param id="1" name="Y">furieuse_UI.Y + 2</param>
+                            <param id="1" name="Y">furieuse_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="238009359501653" type="shortcut_furieuse">
+                        <action id="-3" name="Set position" sid="867770537869007" type="shortcut_furieuse">
                             <param id="0" name="X">furieuse_UI.X</param>
-                            <param id="1" name="Y">furieuse_UI.Y+ 40</param>
+                            <param id="1" name="Y">furieuse_UI.Y+ 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="279913876647679" type="text_honteuse">
+                        <action id="-3" name="Set position" sid="588293986066801" type="text_honteuse">
                             <param id="0" name="X">honteuse_UI.X</param>
-                            <param id="1" name="Y">honteuse_UI.Y + 2</param>
+                            <param id="1" name="Y">honteuse_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="495640029937304" type="shortcut_honteuse">
+                        <action id="-3" name="Set position" sid="723449840397620" type="shortcut_honteuse">
                             <param id="0" name="X">honteuse_UI.X</param>
-                            <param id="1" name="Y">honteuse_UI.Y+ 40</param>
+                            <param id="1" name="Y">honteuse_UI.Y+ 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="412301167978054" type="text_rayonnante">
+                        <action id="-3" name="Set position" sid="976394352277307" type="text_rayonnante">
                             <param id="0" name="X">rayonnante_UI.X</param>
-                            <param id="1" name="Y">rayonnante_UI.Y + 2</param>
+                            <param id="1" name="Y">rayonnante_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="909253118710361" type="shortcut_rayonnante">
+                        <action id="-3" name="Set position" sid="222726908554805" type="shortcut_rayonnante">
                             <param id="0" name="X">rayonnante_UI.X</param>
-                            <param id="1" name="Y">rayonnante_UI.Y+ 40</param>
+                            <param id="1" name="Y">rayonnante_UI.Y+ 30</param>
                         </action>
                         <action id="-10" name="Set value" sid="291546399418402" type="background_UI">
                             <param id="0" name="Instance variable">placement</param>
