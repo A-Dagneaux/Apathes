@@ -4,19 +4,11 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-<<<<<<< HEAD
-        <position-x>1841.74</position-x>
-        <position-y>1179.06</position-y>
-        <position-z>313.843</position-z>
-        <lookat-x>1841.74</lookat-x>
-        <lookat-y>1179.06</lookat-y>
-=======
         <position-x>1377.44</position-x>
         <position-y>1216.36</position-y>
         <position-z>99.9999</position-z>
         <lookat-x>1377.44</lookat-x>
         <lookat-y>1216.36</lookat-y>
->>>>>>> b03090585af4e7de23dff4917733ddda90612e45
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>0</snap-to-grid>
@@ -31,25 +23,17 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="immobile" />
+    <active-layer name="Personnage et items" />
     <layers>
         <layer locked="1" name="immobile" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Sol et Murs" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Tache et Sang" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Décor sol" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Personnage et items" parallax-in-editor="0" visible="1" />
-<<<<<<< HEAD
-        <layer locked="0" name="Plafond" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Décor voit à travers" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Lumière" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Narration" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="UI" parallax-in-editor="0" visible="1" />
-=======
         <layer locked="1" name="Plafond" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Lumière" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Décor voit à travers" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Narration" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="UI" parallax-in-editor="0" visible="1" />
->>>>>>> b03090585af4e7de23dff4917733ddda90612e45
     </layers>
 </c2uistate>
