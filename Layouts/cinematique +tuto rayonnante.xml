@@ -423,11 +423,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>133</x>
-                        <y>351</y>
+                        <x>256</x>
+                        <y>640</y>
                         <z>0</z>
-                        <width>1012.5</width>
-                        <height>1058</height>
+                        <width>108.441436768</width>
+                        <height>113.314613342</height>
                         <depth>0</depth>
                         <hotspotX>0.444444448</hotspotX>
                         <hotspotY>0.478260875</hotspotY>
@@ -1737,6 +1737,11 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <Close_P>false</Close_P>
+                        <Wall_Col_Hori>false</Wall_Col_Hori>
+                        <Wall_Col_Verti>false</Wall_Col_Verti>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -1766,6 +1771,11 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <Close_P>false</Close_P>
+                        <Wall_Col_Hori>false</Wall_Col_Hori>
+                        <Wall_Col_Verti>false</Wall_Col_Verti>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -1795,6 +1805,11 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <Close_P>false</Close_P>
+                        <Wall_Col_Hori>false</Wall_Col_Hori>
+                        <Wall_Col_Verti>false</Wall_Col_Verti>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -1928,6 +1943,24 @@
                     </world>
                 </instance>
             </instances>
+            <effects />
+        </layer>
+        <layer name="UI" sid="552422847416785">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
             <effects />
         </layer>
     </layers>
