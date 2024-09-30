@@ -931,9 +931,19 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="850904203376380" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Tilemap_mahteo_limit" sid="958126711460336">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="Solid" sid="663132273309706">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture />
+            <tiles />
         </object-type>
     </object-folder>
     <families>
