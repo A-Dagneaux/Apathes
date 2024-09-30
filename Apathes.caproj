@@ -421,7 +421,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="648064792585961" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\Hisia_VISAGE_CRAINTIVE.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -429,7 +429,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="460966599280057" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\Hisia_MASQUE_HONTEUX.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -437,7 +437,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="962071268295542" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\Hisia_MASQUE_FURIEUX.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -445,7 +445,7 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="686455917135998" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\Hisia_MASQUE_RAYONNANT.png" />
                     </animation>
                 </animation-folder>
             </object-type>

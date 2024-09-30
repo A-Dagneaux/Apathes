@@ -51,7 +51,7 @@
                         <hotspotX>0</hotspotX>
                         <hotspotY>1</hotspotY>
                         <angle>0</angle>
-                        <opacity>1</opacity>
+                        <opacity>0.5</opacity>
                     </world>
                 </instance>
                 <instance type="furieuse_UI" uid="41">
@@ -65,10 +65,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>140</x>
-                        <y>953</y>
+                        <y>960</y>
                         <z>0</z>
-                        <width>23.999998093</width>
-                        <height>42</height>
+                        <width>50</width>
+                        <height>50</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -87,10 +87,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>80</x>
-                        <y>1030</y>
+                        <y>1040</y>
                         <z>0</z>
-                        <width>24</width>
-                        <height>42</height>
+                        <width>50</width>
+                        <height>50</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -109,10 +109,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>80</x>
-                        <y>861</y>
+                        <y>869</y>
                         <z>0</z>
-                        <width>24</width>
-                        <height>42</height>
+                        <width>50</width>
+                        <height>50</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -131,10 +131,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>21</x>
-                        <y>953</y>
+                        <y>960</y>
                         <z>0</z>
-                        <width>24</width>
-                        <height>42</height>
+                        <width>50</width>
+                        <height>50</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -147,7 +147,7 @@
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-21,400,0</font>
-                        <color>0,0,0</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Center</hotspot>
@@ -177,7 +177,7 @@
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-21,400,0</font>
-                        <color>0,0,0</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Center</hotspot>
@@ -207,7 +207,7 @@
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-21,400,0</font>
-                        <color>0,0,0</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Center</hotspot>
@@ -237,7 +237,7 @@
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-21,400,0</font>
-                        <color>0,0,0</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Center</hotspot>
@@ -289,7 +289,7 @@
                         <text>&amp;</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-21,700,0</font>
-                        <color>0,0,0</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Center</hotspot>
@@ -316,7 +316,7 @@
                         <text>é</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-21,700,0</font>
-                        <color>0,0,0</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Center</hotspot>
@@ -343,7 +343,7 @@
                         <text>&apos;</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-21,700,0</font>
-                        <color>0,0,0</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Center</hotspot>
@@ -370,7 +370,7 @@
                         <text>&quot;</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-21,700,0</font>
-                        <color>0,0,0</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Center</hotspot>
