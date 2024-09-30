@@ -1910,11 +1910,6 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <Close_P>false</Close_P>
-                        <Wall_Col_Hori>false</Wall_Col_Hori>
-                        <Wall_Col_Verti>false</Wall_Col_Verti>
-                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -1944,11 +1939,6 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <Close_P>false</Close_P>
-                        <Wall_Col_Hori>false</Wall_Col_Hori>
-                        <Wall_Col_Verti>false</Wall_Col_Verti>
-                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -1978,11 +1968,6 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <Close_P>false</Close_P>
-                        <Wall_Col_Hori>false</Wall_Col_Hori>
-                        <Wall_Col_Verti>false</Wall_Col_Verti>
-                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2318,11 +2303,6 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <Close_P>false</Close_P>
-                        <Wall_Col_Hori>false</Wall_Col_Hori>
-                        <Wall_Col_Verti>false</Wall_Col_Verti>
-                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
