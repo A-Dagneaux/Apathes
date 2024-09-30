@@ -10,10 +10,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
+<<<<<<< HEAD
         <layout order="0">Global_test</layout>
         <layout active="1" order="2">cinematique +tuto rayonnante</layout>
         <layout order="1">Scène 1 et tuto furrieux</layout>
         <layout order="3">UI_layout</layout>
+=======
+        <layout order="0">Scène 1 et tuto furrieux</layout>
+        <event-sheet active="1" order="1">Global</event-sheet>
+>>>>>>> b03090585af4e7de23dff4917733ddda90612e45
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -28,12 +33,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="1" path="object-folder/Apathes/" />
-        <folder expanded="1" path="object-folder/décor/" />
-        <folder expanded="1" path="object-folder/cartes/" />
-        <folder expanded="1" path="object-folder/cartes/par terre/" />
-        <folder expanded="1" path="object-folder/UI/" />
-        <folder expanded="1" path="object-folder/Textes/" />
+        <folder expanded="0" path="object-folder/Apathes/" />
+        <folder expanded="0" path="object-folder/décor/" />
+        <folder expanded="0" path="object-folder/cartes/" />
+        <folder expanded="0" path="object-folder/cartes/par terre/" />
+        <folder expanded="0" path="object-folder/UI/" />
+        <folder expanded="0" path="object-folder/Textes/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
@@ -102,7 +107,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Tilemap4/" />
         <folder expanded="1" path="animation-folder/Sprite7/" />
         <folder expanded="1" path="animation-folder/Sprite6/" />
+<<<<<<< HEAD
         <folder expanded="1" path="animation-folder/sol_abime/" />
         <folder expanded="1" path="animation-folder/plat/" />
+=======
+        <folder expanded="1" path="animation-folder/Sprite8/" />
+>>>>>>> b03090585af4e7de23dff4917733ddda90612e45
     </folders-expanded>
 </c2uistate>

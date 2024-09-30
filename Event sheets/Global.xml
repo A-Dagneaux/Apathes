@@ -224,10 +224,18 @@
                                                     <param id="0" name="Object">MurPoussable</param>
                                                 </condition>
                                             </conditions>
-                                            <actions />
+                                            <actions>
+                                                <action id="-13" name="Set boolean" sid="293530237336212" type="MurPoussable">
+                                                    <param id="0" name="Instance variable">Close_P</param>
+                                                    <param id="1" name="Value">1</param>
+                                                </action>
+                                            </actions>
                                             <sub-events>
                                                 <event-block sid="308060639194509">
                                                     <conditions>
+                                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="458559413588980" type="MurPoussable">
+                                                            <param id="0" name="Instance variable">Wall_Col_Hori</param>
+                                                        </condition>
                                                         <condition id="2" name="Key is down" sid="326394592350986" type="Keyboard">
                                                             <param id="0" name="Key">83</param>
                                                         </condition>
@@ -240,10 +248,28 @@
                                                         <action id="-2" name="Set Y" sid="904450683506392" type="MurPoussable">
                                                             <param id="0" name="Y">MurPoussable.Y + 3</param>
                                                         </action>
+                                                        <action id="-13" name="Set boolean" sid="996327628078201" type="MurPoussable">
+                                                            <param id="0" name="Instance variable">Wall_Col_Verti</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="137551541567678">
+                                                    <conditions>
+                                                        <condition id="-22" name="Else" sid="744845121118806" type="System" />
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-13" name="Set boolean" sid="508313304326535" type="MurPoussable">
+                                                            <param id="0" name="Instance variable">Wall_Col_Verti</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="612111293225007">
                                                     <conditions>
+                                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="453283323576003" type="MurPoussable">
+                                                            <param id="0" name="Instance variable">Wall_Col_Hori</param>
+                                                        </condition>
                                                         <condition id="2" name="Key is down" sid="318554545537854" type="Keyboard">
                                                             <param id="0" name="Key">90</param>
                                                         </condition>
@@ -256,10 +282,28 @@
                                                         <action id="-2" name="Set Y" sid="467862248910274" type="MurPoussable">
                                                             <param id="0" name="Y">MurPoussable.Y - 3</param>
                                                         </action>
+                                                        <action id="-13" name="Set boolean" sid="848777188212259" type="MurPoussable">
+                                                            <param id="0" name="Instance variable">Wall_Col_Verti</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="218906903492449">
+                                                    <conditions>
+                                                        <condition id="-22" name="Else" sid="233509526077168" type="System" />
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-13" name="Set boolean" sid="473715483642469" type="MurPoussable">
+                                                            <param id="0" name="Instance variable">Wall_Col_Verti</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="518789875394111">
                                                     <conditions>
+                                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="929746065663789" type="MurPoussable">
+                                                            <param id="0" name="Instance variable">Wall_Col_Verti</param>
+                                                        </condition>
                                                         <condition id="2" name="Key is down" sid="321403441763779" type="Keyboard">
                                                             <param id="0" name="Key">81</param>
                                                         </condition>
@@ -272,10 +316,28 @@
                                                         <action id="-1" name="Set X" sid="146912073164284" type="MurPoussable">
                                                             <param id="0" name="X">MurPoussable.X - 3</param>
                                                         </action>
+                                                        <action id="-13" name="Set boolean" sid="993736070928194" type="MurPoussable">
+                                                            <param id="0" name="Instance variable">Wall_Col_Hori</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="857647266792677">
+                                                    <conditions>
+                                                        <condition id="-22" name="Else" sid="582977685024020" type="System" />
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-13" name="Set boolean" sid="738710765149099" type="MurPoussable">
+                                                            <param id="0" name="Instance variable">Wall_Col_Hori</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
                                                     </actions>
                                                 </event-block>
                                                 <event-block sid="415325344103646">
                                                     <conditions>
+                                                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="433804948005545" type="MurPoussable">
+                                                            <param id="0" name="Instance variable">Wall_Col_Verti</param>
+                                                        </condition>
                                                         <condition id="2" name="Key is down" sid="462550403823600" type="Keyboard">
                                                             <param id="0" name="Key">68</param>
                                                         </condition>
@@ -287,6 +349,21 @@
                                                     <actions>
                                                         <action id="-1" name="Set X" sid="952318168951339" type="MurPoussable">
                                                             <param id="0" name="X">MurPoussable.X + 3</param>
+                                                        </action>
+                                                        <action id="-13" name="Set boolean" sid="577756094553009" type="MurPoussable">
+                                                            <param id="0" name="Instance variable">Wall_Col_Hori</param>
+                                                            <param id="1" name="Value">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="569267794027563">
+                                                    <conditions>
+                                                        <condition id="-22" name="Else" sid="924508477076653" type="System" />
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-13" name="Set boolean" sid="612136367270932" type="MurPoussable">
+                                                            <param id="0" name="Instance variable">Wall_Col_Hori</param>
+                                                            <param id="1" name="Value">0</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -331,9 +408,9 @@
                         </event-group>
                     </sub-events>
                 </event-group>
-                <event-group description="début de travail sur une save//remettre les cartes à zéro" sid="918019254699734" title="Interaction Ennemi">
+                <event-group description="début de travail sur une save//remettre les cartes à zéro" disabled="1" sid="918019254699734" title="Interaction Ennemi">
                     <sub-events>
-                        <event-block sid="416337789003885">
+                        <event-block disabled="1" sid="416337789003885">
                             <conditions>
                                 <condition id="0" name="On collision with another object" sid="560564266355735" type="Hisia">
                                     <param id="0" name="Object">Apathes</param>
@@ -588,5 +665,98 @@
                 </event-group>
             </sub-events>
         </event-group>
+        <event-block sid="678949775322665">
+            <conditions>
+                <condition id="1" name="Is overlapping another object" sid="974607705272647" type="MurPoussable">
+                    <param id="0" name="Object">Mur1</param>
+                </condition>
+                <condition id="-8" name="Is boolean instance variable set" sid="540792621261093" type="MurPoussable">
+                    <param id="0" name="Instance variable">Close_P</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="306358214585377">
+                    <conditions>
+                        <condition id="-1" name="Compare X" sid="929401751442449" type="Mur1">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="X co-ordinate">MurPoussable.X</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="843291397267934" type="MurPoussable">
+                            <param id="0" name="X">MurPoussable.X + 3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="344017331027609">
+                    <conditions>
+                        <condition id="-1" name="Compare X" sid="941991265901577" type="Mur1">
+                            <param id="0" name="Comparison">4</param>
+                            <param id="1" name="X co-ordinate">MurPoussable.X</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="481149812734500" type="MurPoussable">
+                            <param id="0" name="X">MurPoussable.X - 3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="436177129177450">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="880214898150865" type="System" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="898497852457018" type="MurPoussable">
+                            <param id="0" name="Object">Mur1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" sid="297596803531984" type="MurPoussable">
+                            <param id="0" name="Instance variable">Wall_Col_Hori</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="493632581996479">
+                    <conditions>
+                        <condition id="-2" name="Compare Y" sid="504111210220675" type="Mur1">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Y co-ordinate">MurPoussable.Y</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="198014753821081" type="MurPoussable">
+                            <param id="0" name="Y">MurPoussable.Y + 3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="105470750707287">
+                    <conditions>
+                        <condition id="-2" name="Compare Y" sid="575369975700471" type="Mur1">
+                            <param id="0" name="Comparison">4</param>
+                            <param id="1" name="Y co-ordinate">MurPoussable.Y</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="506438597950106" type="MurPoussable">
+                            <param id="0" name="Y">MurPoussable.Y - 3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="184828784038252">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="341032197008513" type="System" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="474471547576384" type="MurPoussable">
+                            <param id="0" name="Object">Mur1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set boolean" sid="256367083851772" type="MurPoussable">
+                            <param id="0" name="Instance variable">Wall_Col_Verti</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>

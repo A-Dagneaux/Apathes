@@ -205,6 +205,11 @@
             </object-type>
             <object-type name="MurPoussable" sid="351866846049925">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Close_P" sid="479392281032094" type="boolean" />
+                    <instance-variable comment="Checks Horizontal Wall Collision" name="Wall_Col_Hori" sid="241681908714496" type="boolean" />
+                    <instance-variable comment="Checks Vertical Wall Collision" name="Wall_Col_Verti" sid="618186537024974" type="boolean" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="817220475901552">
                         <behavior id="solid" />
@@ -938,6 +943,7 @@
             <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmurtest nv.png" />
             <tiles />
         </object-type>
+<<<<<<< HEAD
         <object-type name="sol_abime" sid="190031291727091">
             <plugin id="Sprite" />
             <animation-folder>
@@ -989,6 +995,16 @@
             <texture />
             <tiles />
         </object-type>
+=======
+        <object-type name="Sprite8" sid="955310016028994">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="850904203376380" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+>>>>>>> b03090585af4e7de23dff4917733ddda90612e45
     </object-folder>
     <families>
         <family name="Apathes" plugin-id="Sprite" sid="195361571858189">
