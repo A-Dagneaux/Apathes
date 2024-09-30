@@ -203,22 +203,6 @@
                                 <action id="-9" name="Destroy" sid="413570122648411" type="GardeNaration2" />
                             </actions>
                         </event-block>
-                        <event-block sid="571188236874086">
-                            <conditions>
-                                <condition id="0" name="On collision with another object" sid="754664385078912" type="Hisia">
-                                    <param id="0" name="Object">portePrison</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-3" name="Set position" sid="877671109978613" type="Hisia">
-                                    <param id="0" name="X">2125</param>
-                                    <param id="1" name="Y">645</param>
-                                </action>
-                                <action id="11" name="Set collisions enabled" sid="643265293926933" type="portePrison">
-                                    <param id="0" name="Collisions">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
                         <event-block sid="236829936511832">
                             <conditions>
                                 <condition id="0" name="On collision with another object" sid="607856572444393" type="Hisia">
