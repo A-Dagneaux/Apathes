@@ -139,7 +139,7 @@
                                             <param id="1" name="From">1</param>
                                         </action>
                                         <action behavior="8Direction" id="4" name="Set max speed" sid="141631388792404" type="Hisia">
-                                            <param id="0" name="Max Speed">200</param>
+                                            <param id="0" name="Max Speed">300</param>
                                         </action>
                                         <action id="-7" name="Set size" sid="836838240328878" type="noise">
                                             <param id="0" name="Width">noise.size_craintif</param>
@@ -170,7 +170,7 @@
                                             <param id="1" name="From">1</param>
                                         </action>
                                         <action behavior="8Direction" id="4" name="Set max speed" sid="786753962572832" type="Hisia">
-                                            <param id="0" name="Max Speed">50</param>
+                                            <param id="0" name="Max Speed">200</param>
                                         </action>
                                         <action id="-7" name="Set size" sid="135752677400873" type="noise">
                                             <param id="0" name="Width">noise.size_honteux</param>
@@ -206,7 +206,7 @@
                                                     <param id="1" name="From">1</param>
                                                 </action>
                                                 <action behavior="8Direction" id="4" name="Set max speed" sid="944112010296952" type="Hisia">
-                                                    <param id="0" name="Max Speed">200</param>
+                                                    <param id="0" name="Max Speed">300</param>
                                                 </action>
                                                 <action id="-7" name="Set size" sid="166207573983373" type="noise">
                                                     <param id="0" name="Width">noise.size_furieux</param>
@@ -313,7 +313,7 @@
                                             <param id="1" name="From">1</param>
                                         </action>
                                         <action behavior="8Direction" id="4" name="Set max speed" sid="286039606690694" type="Hisia">
-                                            <param id="0" name="Max Speed">100</param>
+                                            <param id="0" name="Max Speed">200</param>
                                         </action>
                                         <action id="9" name="Set scale" sid="989094632268751" type="lumière">
                                             <param id="0" name="Scale">2</param>
