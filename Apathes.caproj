@@ -205,11 +205,6 @@
             </object-type>
             <object-type name="MurPoussable" sid="351866846049925">
                 <plugin id="Sprite" />
-                <instance-variables>
-                    <instance-variable name="Close_P" sid="479392281032094" type="boolean" />
-                    <instance-variable comment="Checks Horizontal Wall Collision" name="Wall_Col_Hori" sid="241681908714496" type="boolean" />
-                    <instance-variable comment="Checks Vertical Wall Collision" name="Wall_Col_Verti" sid="618186537024974" type="boolean" />
-                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="817220475901552">
                         <behavior id="solid" />
