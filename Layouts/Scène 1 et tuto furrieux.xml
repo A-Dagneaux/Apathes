@@ -2169,7 +2169,7 @@
                     </properties>
                     <instance-variables>
                         <emotion>craintive</emotion>
-                        <vitesse>100</vitesse>
+                        <vitesse>200</vitesse>
                         <SaveX>0</SaveX>
                         <SaveY>0</SaveY>
                         <size_craintif>90</size_craintif>
@@ -2180,9 +2180,9 @@
                     <behavior-instances>
                         <behavior-instance type="8Direction">
                             <properties>
-                                <max-speed>300</max-speed>
-                                <acceleration>500</acceleration>
-                                <deceleration>500</deceleration>
+                                <max-speed>500</max-speed>
+                                <acceleration>9000</acceleration>
+                                <deceleration>9000</deceleration>
                                 <directions>8 directions</directions>
                                 <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
@@ -2202,8 +2202,13 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
+<<<<<<< HEAD
                         <x>393</x>
                         <y>355</y>
+=======
+                        <x>1216</x>
+                        <y>1249</y>
+>>>>>>> 59eab8c164ae3f249ef9e5813252f3ebdd58290e
                         <z>0</z>
                         <width>90</width>
                         <height>92</height>
@@ -2747,11 +2752,6 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <Close_P>false</Close_P>
-                        <Wall_Col_Hori>false</Wall_Col_Hori>
-                        <Wall_Col_Verti>false</Wall_Col_Verti>
-                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2781,11 +2781,6 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <Close_P>false</Close_P>
-                        <Wall_Col_Hori>false</Wall_Col_Hori>
-                        <Wall_Col_Verti>false</Wall_Col_Verti>
-                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
@@ -2815,11 +2810,6 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
-                    <instance-variables>
-                        <Close_P>false</Close_P>
-                        <Wall_Col_Hori>false</Wall_Col_Hori>
-                        <Wall_Col_Verti>false</Wall_Col_Verti>
-                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Solid">
                             <properties>
