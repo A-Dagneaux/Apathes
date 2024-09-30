@@ -945,6 +945,125 @@
             <texture />
             <tiles />
         </object-type>
+        <object-type name="Tilemap" sid="818501561756414">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmurtest nv.png" />
+            <tiles />
+        </object-type>
+        <object-type name="Sprite9" sid="145753296327948">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="514466954838854" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\matpo\Downloads\blood-spray-pixel-art-maker-562088.png">
+                        <collision-poly>
+                            <point x="0.4" y="0.428571" />
+                            <point x="0.5" y="0.357143" />
+                            <point x="0.8" y="0.214286" />
+                            <point x="0.933333" y="0.5" />
+                            <point x="0.733333" y="0.714286" />
+                            <point x="0.5" y="0.857143" />
+                            <point x="0.6" y="0.357143" />
+                            <point x="0.266667" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="917157851058805">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="865098581335594" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\matpo\Downloads\blood-spray-pixel-art-maker-562088.png">
+                        <collision-poly>
+                            <point x="0.4" y="0.428571" />
+                            <point x="0.5" y="0.357143" />
+                            <point x="0.8" y="0.214286" />
+                            <point x="0.933333" y="0.5" />
+                            <point x="0.733333" y="0.714286" />
+                            <point x="0.5" y="0.857143" />
+                            <point x="0.6" y="0.357143" />
+                            <point x="0.266667" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="450717297898171">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="564275781178477" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\matpo\Downloads\blood-pixel-art-maker-561730.png">
+                        <collision-poly>
+                            <point x="0.372549" y="0.279412" />
+                            <point x="0.5" y="0.191176" />
+                            <point x="0.568627" y="0.323529" />
+                            <point x="0.764706" y="0.5" />
+                            <point x="0.784314" y="0.838235" />
+                            <point x="0.5" y="0.602941" />
+                            <point x="0.529412" y="0.602941" />
+                            <point x="0.254902" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="353272731316710">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="798242731677661" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\matpo\Downloads\blood-splat-pixel-art-maker-562054.png">
+                        <collision-poly>
+                            <point x="0.24" y="0.2" />
+                            <point x="0.5" y="0.366667" />
+                            <point x="0.6" y="0.333333" />
+                            <point x="0.72" y="0.5" />
+                            <point x="0.68" y="0.733333" />
+                            <point x="0.5" y="0.533333" />
+                            <point x="0.32" y="0.733333" />
+                            <point x="0.48" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite14" sid="252744473346429">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="506807687905110" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\matpo\Downloads\blood test.png">
+                        <collision-poly>
+                            <point x="0.25" y="0.25" />
+                            <point x="0.5" y="0.203125" />
+                            <point x="0.71875" y="0.28125" />
+                            <point x="0.78125" y="0.5" />
+                            <point x="0.765625" y="0.765625" />
+                            <point x="0.5" y="0.8125" />
+                            <point x="0.25" y="0.75" />
+                            <point x="0.171875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite17" sid="444261326486022">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="129678581676249" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\matpo\Downloads\blood grande tache.png">
+                        <collision-poly>
+                            <point x="0.190833" y="0.190833" />
+                            <point x="0.5" y="0.110833" />
+                            <point x="0.820833" y="0.179167" />
+                            <point x="0.920833" y="0.5" />
+                            <point x="0.780833" y="0.780833" />
+                            <point x="0.5" y="0.930833" />
+                            <point x="0.139167" y="0.860833" />
+                            <point x="0.0208333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Apathes" plugin-id="Sprite" sid="195361571858189">
