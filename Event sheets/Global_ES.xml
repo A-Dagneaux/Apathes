@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Global_ES</name>
     <events>
-        <variable constant="0" name="apathe_speed" sid="287228382108666" static="0" type="number">4.5</variable>
+        <variable constant="0" name="apathe_speed" sid="287228382108666" static="0" type="number">1.6</variable>
         <include>UI_ES</include>
         <event-group description="" sid="821477231640925" title="Start of layout">
             <sub-events>

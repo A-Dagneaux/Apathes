@@ -62,11 +62,16 @@
             <object-type name="Apathe_Base" sid="128374855682251">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="4" loop="0" name="Attaque" pingpong="0" repeatcount="1" repeatto="0" sid="612693076629339" speed="5">
+                    <animation framecount="2" loop="0" name="Attaque" pingpong="0" repeatcount="1" repeatto="0" sid="612693076629339" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.138095" y="0.00952381" />
+                                <point x="0.747618" y="0.00952381" />
+                                <point x="0.709523" y="0.995238" />
+                                <point x="0.219048" y="1" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="Marche" pingpong="0" repeatcount="1" repeatto="0" sid="187996547537768" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -100,9 +105,15 @@
             <object-type name="Apathe_AntiBruit" sid="164218256417712">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="2" loop="0" name="Attaque" pingpong="0" repeatcount="1" repeatto="0" sid="775657855092622" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe_1.png" />
+                    <animation framecount="1" loop="0" name="Attaque" pingpong="0" repeatcount="1" repeatto="0" sid="775657855092622" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.228571" y="0" />
+                                <point x="0.747618" y="0" />
+                                <point x="0.719047" y="1" />
+                                <point x="0.214286" y="1" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="Marche" pingpong="0" repeatcount="1" repeatto="0" sid="148817204023356" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -157,7 +168,14 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="687987188943997" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.305" y="0.02" />
+                                <point x="0.695" y="0.035" />
+                                <point x="0.715" y="1" />
+                                <point x="0.335" y="1" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -165,7 +183,14 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="237663254374462" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.295" y="0.02" />
+                                <point x="0.69" y="0.02" />
+                                <point x="0.7" y="0.995" />
+                                <point x="0.295" y="0.995" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
