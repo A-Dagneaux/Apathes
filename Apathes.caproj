@@ -205,9 +205,15 @@
             </object-type>
             <object-type name="MurPoussable" sid="351866846049925">
                 <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="speed" sid="147256217621346" type="number" />
+                </instance-variables>
                 <behaviors>
                     <behavior-type name="Solid" sid="817220475901552">
                         <behavior id="solid" />
+                    </behavior-type>
+                    <behavior-type name="8Direction" sid="959936331167182">
+                        <behavior id="EightDir" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
@@ -334,7 +340,7 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="703840005175497" speed="5">
-                            <frame duration="1" hotspotX="0.583643" hotspotY="0.512088" original-source="C:\Users\User\Downloads\construct\joyeuse.jpg" />
+                            <frame duration="1" hotspotX="0.505376" hotspotY="0.529412" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\Hisia_MASQUE_RAYONNANT.png" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -342,7 +348,7 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="832877721999201" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.56351" original-source="C:\Users\User\Downloads\construct\craintive.jpg" />
+                            <frame duration="1" hotspotX="0.484211" hotspotY="0.479167" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\Hisia_VISAGE_CRAINTIVE.png" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -350,7 +356,7 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="812651972192497" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.501104" original-source="C:\Users\User\Downloads\construct\furiuse.jpg" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.607143" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\Hisia_MASQUE_FURIEUX.png" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -358,7 +364,7 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="379882589813544" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.50116" original-source="C:\Users\User\Downloads\construct\honteuse.jpg" />
+                            <frame duration="1" hotspotX="0.506667" hotspotY="0.657534" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\Hisia_MASQUE_HONTEUX.png" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -565,14 +571,13 @@
         <object-type name="Hisia" sid="396807986507934">
             <plugin id="Sprite" />
             <instance-variables>
-                <instance-variable name="emotion" sid="931612223270254" type="string" />
-                <instance-variable name="vitesse" sid="114845858993879" type="number" />
+                <instance-variable comment="rayonnante ; furieuse ; honteuse ; craintive" name="emotion" sid="931612223270254" type="string" />
+                <instance-variable name="speed" sid="114845858993879" type="number" />
+                <instance-variable name="slow_honteuse" sid="296750128835974" type="number" />
                 <instance-variable name="SaveX" sid="402408941600887" type="number" />
                 <instance-variable name="SaveY" sid="522484420078058" type="number" />
-                <instance-variable name="size_craintif" sid="670245603820149" type="number" />
+                <instance-variable name="size_normal" sid="670245603820149" type="number" />
                 <instance-variable name="size_honteuse" sid="575682694574236" type="number" />
-                <instance-variable name="size_furieux" sid="204107199479047" type="number" />
-                <instance-variable name="size_rayonnante" sid="394145203048180" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="8Direction" sid="958459754648602">
@@ -587,7 +592,7 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="3" loop="0" name="craintive" pingpong="0" repeatcount="1" repeatto="0" sid="885676849387589" speed="0">
-                    <frame duration="1" hotspotX="0.444444" hotspotY="0.478261" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\Hisia_CRAINTIVE_FACE.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\Hisia_CRAINTIVE_FACE.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\Hisia_CRAINTIVE_PROFIL.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\Hisia_CRAINTIVE_DERRIERE.png" />
                 </animation>
@@ -628,7 +633,7 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760910869220772" speed="5">
-                    <frame duration="1" hotspotX="0.500514" hotspotY="0.5" original-source="C:\Users\User\Downloads\construct\light\light\Light.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Downloads\construct\light\light\Light.png">
                         <collision-poly>
                             <point x="0.382323" y="0.380368" />
                             <point x="0.499486" y="0.332311" />
@@ -642,9 +647,6 @@
                     </frame>
                 </animation>
             </animation-folder>
-        </object-type>
-        <object-type name="PasDoux" sid="469512581851611">
-            <plugin id="Audio" />
         </object-type>
         <object-type name="pioche" sid="750817719658055">
             <plugin id="Sprite" />
@@ -909,11 +911,24 @@
         </object-type>
         <object-type name="Tilemap_matheo_murhaut" sid="917266724695947">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="ShadowCaster" sid="105179864687006">
+                    <behavior id="shadowcaster" />
+                </behavior-type>
+            </behaviors>
             <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmurtest nv.png" />
             <tiles />
         </object-type>
         <object-type name="Tilemap_matheo_murbas" sid="501949577427194">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="ShadowCaster" sid="556833418621345">
+                    <behavior id="shadowcaster" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="756270968138669">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmurtest nv.png" />
             <tiles />
         </object-type>
@@ -930,6 +945,9 @@
             <behaviors>
                 <behavior-type name="Solid" sid="663132273309706">
                     <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="ShadowCaster" sid="859595634726390">
+                    <behavior id="shadowcaster" />
                 </behavior-type>
             </behaviors>
             <texture />
@@ -1062,6 +1080,17 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="collision_UI" sid="824117931837954">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="932156494915608" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="927108359617799">
+            <plugin id="Audio" />
+        </object-type>
     </object-folder>
     <families>
         <family name="Apathes" plugin-id="Sprite" sid="195361571858189">
@@ -1114,20 +1143,26 @@
     </families>
     <layout-folder>
         <layout>Global_test.xml</layout>
-        <layout>Scène 1 et tuto furrieux.xml</layout>
-        <layout>cinematique +tuto rayonnante.xml</layout>
-        <layout>UI_layout.xml</layout>
+        <layout>Mathéo_Rayonnante.xml</layout>
+        <layout>Rémi_Furieuse.xml</layout>
+        <layout>UI.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Global.xml</event-sheet>
-        <event-sheet>Narrative scène 1.xml</event-sheet>
-        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Global_ES.xml</event-sheet>
+        <event-sheet>Rémi_Furieuse_ES.xml</event-sheet>
+        <event-sheet>Mathéo_Rayonnante_ES.xml</event-sheet>
         <event-sheet>UI_ES.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="543" />
         <global-instance type="Mouse" uid="544" />
-        <global-instance type="PasDoux" uid="545">
+        <global-instance type="RangementDesCartes" uid="546" />
+        <global-instance type="Gamepad" uid="547">
+            <properties>
+                <analog-deadzone>25</analog-deadzone>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="384">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
@@ -1139,12 +1174,6 @@
                 <reference-distance>600</reference-distance>
                 <maximum-distance>10000</maximum-distance>
                 <roll-off-factor>1</roll-off-factor>
-            </properties>
-        </global-instance>
-        <global-instance type="RangementDesCartes" uid="546" />
-        <global-instance type="Gamepad" uid="547">
-            <properties>
-                <analog-deadzone>25</analog-deadzone>
             </properties>
         </global-instance>
     </global-instances>
@@ -1164,8 +1193,13 @@
         <file name="snow_step_wet-07.m4a" />
         <file name="snow_step_wet-08.m4a" />
         <file name="snow_step_wet-09.m4a" />
+        <file name="pj_marche.m4a" />
+        <file name="pj_marche.ogg" />
     </sounds-folder>
-    <music-folder />
+    <music-folder>
+        <file name="music_test.m4a" />
+        <file name="music_test.ogg" />
+    </music-folder>
     <files-folder>
         <file-folder name="Icons">
             <file name="icon-16.png" />

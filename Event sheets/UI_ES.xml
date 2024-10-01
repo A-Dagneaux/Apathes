@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>UI_ES</name>
     <events>
-        <include>Global</include>
+        <include>Global_ES</include>
         <event-group description="" sid="941289488189315" title="Startup &amp; Déplacement UI">
             <sub-events>
                 <event-block sid="150888791396210">
@@ -157,16 +157,15 @@
                 </event-block>
                 <event-block sid="132212138570709">
                     <conditions>
-                        <condition id="-1" name="Compare X" sid="450827229170933" type="Hisia">
-                            <param id="0" name="Comparison">2</param>
-                            <param id="1" name="X co-ordinate">LayoutWidth / 2</param>
-                        </condition>
-                        <condition id="-4" name="Trigger once while true" sid="668004842982766" type="System" />
                         <condition id="-7" name="Compare instance variable" sid="317163899186701" type="background_UI">
                             <param id="0" name="Instance variable">placement</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">0</param>
                         </condition>
+                        <condition id="1" name="Is overlapping another object" sid="265654962543696" type="Hisia">
+                            <param id="0" name="Object">collision_UI</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="668004842982766" type="System" />
                     </conditions>
                     <actions>
                         <action id="-1" name="Set X" sid="329295611569889" type="UI">
@@ -212,16 +211,15 @@
                 </event-block>
                 <event-block sid="508014910718292">
                     <conditions>
-                        <condition id="-1" name="Compare X" sid="723121659575899" type="Hisia">
-                            <param id="0" name="Comparison">4</param>
-                            <param id="1" name="X co-ordinate">LayoutWidth / 2</param>
-                        </condition>
-                        <condition id="-4" name="Trigger once while true" sid="455062988459049" type="System" />
                         <condition id="-7" name="Compare instance variable" sid="964538015775345" type="background_UI">
                             <param id="0" name="Instance variable">placement</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>
                         </condition>
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="931608934570824" type="Hisia">
+                            <param id="0" name="Object">collision_UI</param>
+                        </condition>
+                        <condition id="-4" name="Trigger once while true" sid="455062988459049" type="System" />
                     </conditions>
                     <actions>
                         <action id="-1" name="Set X" sid="898698018678117" type="UI">

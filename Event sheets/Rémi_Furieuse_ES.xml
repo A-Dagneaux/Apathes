@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>Narrative scène 1</name>
+    <name>Rémi_Furieuse_ES</name>
     <events>
-        <include>Global</include>
+        <include>Global_ES</include>
         <include>UI_ES</include>
         <event-group description="" sid="818348549425804" title="Narrative">
             <sub-events>
