@@ -12,6 +12,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">Global_test</layout>
         <layout active="1" order="1">Rémi_Furieuse</layout>
+        <layout order="4">Mathéo_Rayonnante</layout>
         <event-sheet order="2">Rémi_Furieuse_ES</event-sheet>
         <event-sheet order="3">Global_ES</event-sheet>
     </open-tabs>

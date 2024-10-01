@@ -274,9 +274,6 @@
                     <behavior-type name="Solid" sid="993389759334850">
                         <behavior id="solid" />
                     </behavior-type>
-                    <behavior-type name="ShadowCaster" sid="304237453257900">
-                        <behavior id="shadowcaster" />
-                    </behavior-type>
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="272941840486413" speed="5">
@@ -856,7 +853,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="TilemapSolMur1" sid="250675309557407">
+        <object-type name="TilemapSol1" sid="250675309557407">
             <plugin id="Tilemap" />
             <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmurtest.png" />
             <tiles />
@@ -902,6 +899,11 @@
         </object-type>
         <object-type name="TilemapPlafond1" sid="464714664223468">
             <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="ShadowCaster" sid="817590451381111">
+                    <behavior id="shadowcaster" />
+                </behavior-type>
+            </behaviors>
             <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmur.png" />
             <tiles />
         </object-type>
@@ -1115,6 +1117,16 @@
         </object-type>
         <object-type name="Audio" sid="927108359617799">
             <plugin id="Audio" />
+        </object-type>
+        <object-type name="TilemapMurs1" sid="143095008644349">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="ShadowCaster" sid="891144820287539">
+                    <behavior id="shadowcaster" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmurtest.png" />
+            <tiles />
         </object-type>
     </object-folder>
     <families>
