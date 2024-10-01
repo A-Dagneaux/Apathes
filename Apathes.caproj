@@ -943,7 +943,7 @@
                     <behavior id="shadowcaster" />
                 </behavior-type>
             </behaviors>
-            <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmurtest nv.png" />
+            <texture original-source="C:\Users\matpo\OneDrive\Bureau\murs02.png" />
             <tiles />
         </object-type>
         <object-type name="Tilemap_matheo_murbas" sid="501949577427194">
@@ -951,9 +951,6 @@
             <behaviors>
                 <behavior-type name="ShadowCaster" sid="556833418621345">
                     <behavior id="shadowcaster" />
-                </behavior-type>
-                <behavior-type name="Solid" sid="756270968138669">
-                    <behavior id="solid" />
                 </behavior-type>
             </behaviors>
             <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmurtest nv.png" />

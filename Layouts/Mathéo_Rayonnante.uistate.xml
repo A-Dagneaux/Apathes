@@ -4,11 +4,11 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>2048</position-x>
-        <position-y>1123.68</position-y>
-        <position-z>259.374</position-z>
-        <lookat-x>2048</lookat-x>
-        <lookat-y>1123.68</lookat-y>
+        <position-x>2377.62</position-x>
+        <position-y>2093.03</position-y>
+        <position-z>146.41</position-z>
+        <lookat-x>2377.62</lookat-x>
+        <lookat-y>2093.03</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>0</snap-to-grid>
@@ -23,20 +23,20 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="sol et plafond" />
+    <active-layer name="apathe hisia" />
     <layers>
-        <layer locked="0" name="sol et plafond" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="blood" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="mur haut" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="decors" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="details" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="tilmmap details" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="mur bas" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="masque" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="limit" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="shadow blocker" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="sol et plafond" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="blood" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="mur haut" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="decors" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="details" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="tilmmap details" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="masque" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="limit" parallax-in-editor="0" visible="0" />
         <layer locked="1" name="light" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="apathe hisia" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="mur bas" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="shadow blocker" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="UI" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>
