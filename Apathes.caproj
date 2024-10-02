@@ -11,10 +11,12 @@
     <saved-with-version>28000</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -25,6 +27,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="LOS" version="1">Line Of Sight</behavior>
         <behavior author="Scirra" id="Pathfinding" version="1">Pathfinding</behavior>
         <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
@@ -590,6 +593,89 @@
                 <plugin id="Text" />
             </object-type>
         </object-folder>
+        <object-folder name="Menus">
+            <object-type name="nouvelle_partie" sid="933829949343017">
+                <plugin id="Text" />
+                <behaviors>
+                    <behavior-type name="Fade" sid="754146985148534">
+                        <behavior id="Fade" />
+                    </behavior-type>
+                </behaviors>
+            </object-type>
+            <object-type name="parametres" sid="111341383118912">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="quitter_jeu" sid="653158544096434">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Apathe" sid="217033066533506">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable comment="0 : NOTHING ; 1 : PARAMETERS ; 2 : PENDING CONFIRMATION" name="menu" sid="721482404709401" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Fade" sid="299208899812505">
+                        <behavior id="Fade" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="831139604926235" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50096" original-source="C:\Users\dagne\Desktop\Apathe.png">
+                            <collision-poly>
+                                <point x="0.189953" y="0.464491" />
+                                <point x="0.5" y="0.236084" />
+                                <point x="0.810832" y="0.462572" />
+                                <point x="0.810047" y="0.49904" />
+                                <point x="0.802198" y="0.516315" />
+                                <point x="0.5" y="0.259117" />
+                                <point x="0.198587" y="0.514395" />
+                                <point x="0.182889" y="0.49904" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="continuer" sid="980241771732941">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="menu_principal" sid="948547871115516">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="pause_background" sid="218058474939567">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Fade" sid="975752366448245">
+                        <behavior id="Fade" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="513681218879427" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="confirmer" sid="325541065913229">
+                <plugin id="Text" />
+                <instance-variables>
+                    <instance-variable comment="0 : no confirmation ; 1 : back to menu ; 2 : quit game" name="confirmation" sid="543576864464557" type="number" />
+                </instance-variables>
+            </object-type>
+            <object-type name="confirmer_non" sid="817902299367247">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="confirmer_oui" sid="873811965063423">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="musique" sid="434287631462946">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="bruitages" sid="622958933934779">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="retour" sid="445102706686005">
+                <plugin id="Text" />
+            </object-type>
+        </object-folder>
         <object-type name="Hisia" sid="396807986507934">
             <plugin id="Sprite" />
             <instance-variables>
@@ -1125,6 +1211,13 @@
             <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmurtest.png" />
             <tiles />
         </object-type>
+        <object-type name="SpriteFont" sid="939398243982347">
+            <plugin id="Spritefont2" />
+            <texture />
+        </object-type>
+        <object-type name="Browser" sid="750671492065125">
+            <plugin id="Browser" />
+        </object-type>
     </object-folder>
     <families>
         <family name="Apathes" plugin-id="Sprite" sid="195361571858189">
@@ -1174,18 +1267,60 @@
                 <member>square_ui</member>
             </members>
         </family>
+        <family name="text_menu" plugin-id="Text" sid="787621672859420">
+            <members>
+                <member>continuer</member>
+                <member>menu_principal</member>
+                <member>nouvelle_partie</member>
+                <member>parametres</member>
+                <member>quitter_jeu</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Fade2" sid="643952538461023">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="text_confirmation" plugin-id="Text" sid="796536784202108">
+            <members>
+                <member>confirmer</member>
+                <member>confirmer_non</member>
+                <member>confirmer_oui</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Fade3" sid="290474560670498">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </family>
+        <family name="text_parameters" plugin-id="Text" sid="370701086686671">
+            <members>
+                <member>bruitages</member>
+                <member>musique</member>
+                <member>retour</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Fade2" sid="857679776441984">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+        </family>
     </families>
     <layout-folder>
         <layout>Global_test.xml</layout>
         <layout>Mathéo_Rayonnante.xml</layout>
         <layout>Rémi_Furieuse.xml</layout>
         <layout>UI.xml</layout>
+        <layout>Menu Principal.xml</layout>
+        <layout>Menu Pause.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Global_ES.xml</event-sheet>
         <event-sheet>Rémi_Furieuse_ES.xml</event-sheet>
         <event-sheet>Mathéo_Rayonnante_ES.xml</event-sheet>
         <event-sheet>UI_ES.xml</event-sheet>
+        <event-sheet>Menu_Principal_ES.xml</event-sheet>
+        <event-sheet>Menu_Pause_ES.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="543" />
@@ -1210,6 +1345,7 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
+        <global-instance type="Browser" uid="401" />
     </global-instances>
     <sounds-folder>
         <file name="sfx_step_grass_l.m4a" />

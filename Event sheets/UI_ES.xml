@@ -374,6 +374,11 @@
                                     <param id="1" name="Comparison">1</param>
                                     <param id="2" name="Value">&quot;craintive&quot;</param>
                                 </condition>
+                                <condition id="-14" name="Compare variable" sid="473784052309188" type="System">
+                                    <param id="0" name="Variable">is_paused</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="-12" name="Subtract from" sid="664983965924755" type="text_craintive">
@@ -419,6 +424,11 @@
                                     <param id="0" name="Instance variable">emotion</param>
                                     <param id="1" name="Comparison">1</param>
                                     <param id="2" name="Value">&quot;furieuse&quot;</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="484695620624017" type="System">
+                                    <param id="0" name="Variable">is_paused</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -466,6 +476,11 @@
                                     <param id="1" name="Comparison">1</param>
                                     <param id="2" name="Value">&quot;honteuse&quot;</param>
                                 </condition>
+                                <condition id="-14" name="Compare variable" sid="115877097792032" type="System">
+                                    <param id="0" name="Variable">is_paused</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="-12" name="Subtract from" sid="999221024608264" type="text_honteuse">
@@ -512,6 +527,11 @@
                                     <param id="1" name="Comparison">1</param>
                                     <param id="2" name="Value">&quot;rayonnante&quot;</param>
                                 </condition>
+                                <condition id="-14" name="Compare variable" sid="642355411815616" type="System">
+                                    <param id="0" name="Variable">is_paused</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="-12" name="Subtract from" sid="865236580323228" type="text_rayonnante">
@@ -541,6 +561,11 @@
                 <event-block sid="912914985673200">
                     <conditions>
                         <condition id="1" name="On any key pressed" sid="549058626202838" type="Keyboard" />
+                        <condition id="-14" name="Compare variable" sid="278484586382851" type="System">
+                            <param id="0" name="Variable">is_paused</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="221452204262638" type="shortcut_craintive">
@@ -563,10 +588,15 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block any="1" sid="475070838049798">
+                <event-block sid="475070838049798">
                     <conditions>
                         <condition id="8" name="On any button pressed" sid="600085606182230" type="Gamepad">
                             <param id="0" name="Gamepad">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="395245891938772" type="System">
+                            <param id="0" name="Variable">is_paused</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>

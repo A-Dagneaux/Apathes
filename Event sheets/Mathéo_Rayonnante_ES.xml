@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Mathéo_Rayonnante_ES</name>
     <events>
+        <include>Menu_Pause_ES</include>
         <include>Global_ES</include>
         <include>UI_ES</include>
     </events>

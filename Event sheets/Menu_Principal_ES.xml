@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Menu_Principal_ES</name>
+    <events>
+        <event-block sid="920205759813835">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="835469853115909" type="System" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="869402425194793" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="-15" name="Set visible" sid="352580702467766" type="Apathe">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="384708974531311" type="Apathe" />
+                <action id="-16" name="Wait" sid="635106878327568" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-15" name="Set visible" sid="451910946416701" type="nouvelle_partie">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="802025476344949" type="nouvelle_partie" />
+                <action id="-16" name="Wait" sid="634257429012748" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-15" name="Set visible" sid="889567695231727" type="parametres">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade2" id="1" name="Start fade" sid="631472689279575" type="parametres" />
+                <action id="-16" name="Wait" sid="129042882840791" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="Fade2" id="1" name="Start fade" sid="582725463520707" type="quitter_jeu" />
+                <action id="-15" name="Set visible" sid="308556850910931" type="quitter_jeu">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="458703809650184">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="172178757733336" type="Apathe">
+                    <param id="0" name="Instance variable">menu</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="401679793776498">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="673907578148590" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">nouvelle_partie</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="709304317554784" type="System">
+                            <param id="0" name="Layout">Rémi_Furieuse</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="367219812484166">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="262080119326510" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">parametres</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Fade2" id="2" name="Set fade-in time" sid="433577401034400" type="text_menu">
+                            <param id="0" name="Fade-in time">0</param>
+                        </action>
+                        <action behavior="Fade2" id="4" name="Set fade-out time" sid="292416759869989" type="text_menu">
+                            <param id="0" name="Fade-out time">0.3</param>
+                        </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="962559857458132" type="Apathe">
+                            <param id="0" name="Fade-in time">0</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="541908684233847" type="Apathe">
+                            <param id="0" name="Fade-out time">0.3</param>
+                        </action>
+                        <action behavior="Fade2" id="1" name="Start fade" sid="871128732134280" type="text_menu" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="406118136472076" type="Apathe" />
+                        <action id="-15" name="Set visible" sid="371302205067838" type="text_menu">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action behavior="Fade2" id="2" name="Set fade-in time" sid="194513257380999" type="text_parameters">
+                            <param id="0" name="Fade-in time">0.3</param>
+                        </action>
+                        <action behavior="Fade2" id="4" name="Set fade-out time" sid="270523089216032" type="text_parameters">
+                            <param id="0" name="Fade-out time">0</param>
+                        </action>
+                        <action behavior="Fade2" id="1" name="Start fade" sid="905570995403198" type="text_parameters" />
+                        <action id="-15" name="Set visible" sid="880328023946712" type="text_parameters">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="953495183593562" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="347023270098030" type="Apathe">
+                            <param id="0" name="Instance variable">menu</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="204760242706136">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="975243960845558" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">quitter_jeu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Fade2" id="2" name="Set fade-in time" sid="951690661604635" type="text_menu">
+                            <param id="0" name="Fade-in time">0</param>
+                        </action>
+                        <action behavior="Fade2" id="4" name="Set fade-out time" sid="641286924694342" type="text_menu">
+                            <param id="0" name="Fade-out time">0.3</param>
+                        </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="452068500574820" type="Apathe">
+                            <param id="0" name="Fade-in time">0</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="536442445089202" type="Apathe">
+                            <param id="0" name="Fade-out time">0.3</param>
+                        </action>
+                        <action behavior="Fade2" id="1" name="Start fade" sid="284849652749350" type="text_menu" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="329329400496171" type="Apathe" />
+                        <action id="-15" name="Set visible" sid="733849093665813" type="text_menu">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action behavior="Fade3" id="2" name="Set fade-in time" sid="864552895507646" type="text_confirmation">
+                            <param id="0" name="Fade-in time">0.3</param>
+                        </action>
+                        <action behavior="Fade3" id="4" name="Set fade-out time" sid="936505109681956" type="text_confirmation">
+                            <param id="0" name="Fade-out time">0</param>
+                        </action>
+                        <action behavior="Fade3" id="1" name="Start fade" sid="416062686370632" type="text_confirmation" />
+                        <action id="-15" name="Set visible" sid="165652891092869" type="text_confirmation">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="106286155835129" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="789819791421945" type="Apathe">
+                            <param id="0" name="Instance variable">menu</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="854446822406606">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="886103458817378" type="Apathe">
+                    <param id="0" name="Instance variable">menu</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="884111579208763">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="158522815693146" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">retour</param>
+                        </condition>
+                        <condition id="0" name="On key pressed" sid="448510212845331" type="Keyboard">
+                            <param id="0" name="Key">27</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Fade2" id="2" name="Set fade-in time" sid="531745074572041" type="text_parameters">
+                            <param id="0" name="Fade-in time">0</param>
+                        </action>
+                        <action behavior="Fade2" id="4" name="Set fade-out time" sid="866061493069178" type="text_parameters">
+                            <param id="0" name="Fade-out time">0.3</param>
+                        </action>
+                        <action behavior="Fade2" id="1" name="Start fade" sid="194133035711212" type="text_parameters" />
+                        <action id="-15" name="Set visible" sid="868471747228327" type="text_parameters">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="952537026253537" type="Apathe">
+                            <param id="0" name="Fade-in time">0.3</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="206991578234291" type="Apathe">
+                            <param id="0" name="Fade-out time">0</param>
+                        </action>
+                        <action behavior="Fade2" id="2" name="Set fade-in time" sid="480859928234215" type="text_menu">
+                            <param id="0" name="Fade-in time">0.3</param>
+                        </action>
+                        <action behavior="Fade2" id="4" name="Set fade-out time" sid="276091449970646" type="text_menu">
+                            <param id="0" name="Fade-out time">0</param>
+                        </action>
+                        <action behavior="Fade2" id="1" name="Start fade" sid="108811670041872" type="text_menu" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="425283689893992" type="Apathe" />
+                        <action id="-15" name="Set visible" sid="130515957811655" type="text_menu">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="970381577113363" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="848627645576953" type="Apathe">
+                            <param id="0" name="Instance variable">menu</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="812000974769312">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="867778149926859" type="Apathe">
+                    <param id="0" name="Instance variable">menu</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="946885913851844">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="876182803418106" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">confirmer_non</param>
+                        </condition>
+                        <condition id="0" name="On key pressed" sid="896220144847173" type="Keyboard">
+                            <param id="0" name="Key">27</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Fade2" id="2" name="Set fade-in time" sid="251493032433516" type="text_menu">
+                            <param id="0" name="Fade-in time">0.3</param>
+                        </action>
+                        <action behavior="Fade2" id="4" name="Set fade-out time" sid="723387403329829" type="text_menu">
+                            <param id="0" name="Fade-out time">0</param>
+                        </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="991595595729788" type="Apathe">
+                            <param id="0" name="Fade-in time">0.3</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="243675666461761" type="Apathe">
+                            <param id="0" name="Fade-out time">0</param>
+                        </action>
+                        <action behavior="Fade2" id="1" name="Start fade" sid="702761570409350" type="text_menu" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="359022641691010" type="Apathe" />
+                        <action id="-15" name="Set visible" sid="385523226299506" type="text_menu">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade3" id="2" name="Set fade-in time" sid="478340946971808" type="text_confirmation">
+                            <param id="0" name="Fade-in time">0</param>
+                        </action>
+                        <action behavior="Fade3" id="4" name="Set fade-out time" sid="708165158939566" type="text_confirmation">
+                            <param id="0" name="Fade-out time">0.3</param>
+                        </action>
+                        <action behavior="Fade3" id="1" name="Start fade" sid="976477350573578" type="text_confirmation" />
+                        <action id="-15" name="Set visible" sid="401441647834019" type="text_confirmation">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="218643502937092" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="153972907412564" type="Apathe">
+                            <param id="0" name="Instance variable">menu</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="697354724673409">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="664573437200958" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">confirmer_oui</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Close" sid="824011617536395" type="Browser" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
