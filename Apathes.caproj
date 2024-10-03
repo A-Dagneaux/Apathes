@@ -941,7 +941,7 @@
         </object-type>
         <object-type name="TilemapSol1" sid="250675309557407">
             <plugin id="Tilemap" />
-            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmurtest.png" />
+            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap complétée.png" />
             <tiles />
         </object-type>
         <object-type name="Tilemap4" sid="862491937916404">
@@ -1208,7 +1208,7 @@
                     <behavior id="shadowcaster" />
                 </behavior-type>
             </behaviors>
-            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmurtest.png" />
+            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap complétée.png" />
             <tiles />
         </object-type>
         <object-type name="SpriteFont" sid="939398243982347">
