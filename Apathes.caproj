@@ -76,7 +76,61 @@
             <object-type name="Apathe_Hurleur" sid="600041083337749">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="813543833955046" speed="5">
+                    <animation framecount="1" loop="1" name="iddle_down" pingpong="0" repeatcount="1" repeatto="0" sid="813543833955046" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\HURLEUR\Apathe_HURLEUR_FACE.png" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="iddle_up" pingpong="0" repeatcount="1" repeatto="0" sid="406249785898646" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="5" loop="1" name="iddle_side" pingpong="0" repeatcount="1" repeatto="0" sid="519654291995290" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\HURLEUR\ANIMATION\ATTENTE\HURLEUR_ATTENTE_PROFIL_1.png">
+                            <collision-poly>
+                                <point x="0.226563" y="0" />
+                                <point x="0.753906" y="0" />
+                                <point x="0.753906" y="1" />
+                                <point x="0.226563" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\HURLEUR\ANIMATION\ATTENTE\HURLEUR_ATTENTE_PROFIL_2.png">
+                            <collision-poly>
+                                <point x="0.222656" y="0" />
+                                <point x="0.753906" y="0" />
+                                <point x="0.753906" y="1" />
+                                <point x="0.222656" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\HURLEUR\ANIMATION\ATTENTE\HURLEUR_ATTENTE_PROFIL_3.png">
+                            <collision-poly>
+                                <point x="0.222656" y="0" />
+                                <point x="0.761719" y="0" />
+                                <point x="0.761719" y="1" />
+                                <point x="0.222656" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\HURLEUR\ANIMATION\ATTENTE\HURLEUR_ATTENTE_PROFIL_4.png">
+                            <collision-poly>
+                                <point x="0.203125" y="0" />
+                                <point x="0.757813" y="0" />
+                                <point x="0.757813" y="1" />
+                                <point x="0.203125" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\HURLEUR\ANIMATION\ATTENTE\HURLEUR_ATTENTE_PROFIL_5.png">
+                            <collision-poly>
+                                <point x="0.226563" y="0" />
+                                <point x="0.761719" y="0" />
+                                <point x="0.761719" y="1" />
+                                <point x="0.226563" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="1" name="walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="831728333591251" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="285299881222762" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="312183724946412" speed="1.5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
@@ -84,7 +138,61 @@
             <object-type name="Apathe_MangeLumiere" sid="555858705963468">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="375710903015705" speed="5">
+                    <animation framecount="1" loop="1" name="iddle_down" pingpong="0" repeatcount="1" repeatto="0" sid="375710903015705" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\Apathe_MANGE-LUMIERE_FACE.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="iddle_up" pingpong="0" repeatcount="1" repeatto="0" sid="917815025667978" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="5" loop="1" name="iddle_side" pingpong="0" repeatcount="1" repeatto="0" sid="524144831509074" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\ATTENTE\MANGE-LUMIERE_PROFIL ATTENTE_1.png">
+                            <collision-poly>
+                                <point x="0.210938" y="0" />
+                                <point x="0.757813" y="0" />
+                                <point x="0.761719" y="1" />
+                                <point x="0.210938" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\ATTENTE\MANGE-LUMIERE_PROFIL ATTENTE_2.png">
+                            <collision-poly>
+                                <point x="0.210938" y="0" />
+                                <point x="0.757813" y="0" />
+                                <point x="0.757813" y="1" />
+                                <point x="0.210938" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\ATTENTE\MANGE-LUMIERE_PROFIL ATTENTE_3.png">
+                            <collision-poly>
+                                <point x="0.207031" y="0" />
+                                <point x="0.765625" y="0" />
+                                <point x="0.765625" y="1" />
+                                <point x="0.207031" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\ATTENTE\MANGE-LUMIERE_PROFIL ATTENTE_4.png">
+                            <collision-poly>
+                                <point x="0.210938" y="0" />
+                                <point x="0.757813" y="0" />
+                                <point x="0.757813" y="1" />
+                                <point x="0.210938" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\ATTENTE\MANGE-LUMIERE_PROFIL ATTENTE_5.png">
+                            <collision-poly>
+                                <point x="0.210938" y="0" />
+                                <point x="0.761719" y="0" />
+                                <point x="0.761719" y="1" />
+                                <point x="0.210938" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="1" name="walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="612191216959132" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="299038493975899" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="541221767900399" speed="1.5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
@@ -92,7 +200,65 @@
             <object-type name="Apathe_Obscur" sid="320317570480341">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708372910108099" speed="5">
+                    <animation framecount="5" loop="1" name="iddle_down" pingpong="0" repeatcount="1" repeatto="0" sid="708372910108099" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\Apathe_ANIMATION_OBSCUR_ATTENTE_1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\Apathe_ANIMATION_OBSCUR_ATTENTE_2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\Apathe_ANIMATION_OBSCUR_ATTENTE_3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\Apathe_ANIMATION_OBSCUR_ATTENTE_4.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\Apathe_ANIMATION_OBSCUR_ATTENTE_5.png" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="iddle_up" pingpong="0" repeatcount="1" repeatto="0" sid="758860916015789" speed="1.5">
+                        <frame duration="1" hotspotX="0.375" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\Apathe_ANIMATION_OBSCUR_ATTENTE_PROFIL_1.png" />
+                    </animation>
+                    <animation framecount="5" loop="1" name="iddle_side" pingpong="0" repeatcount="1" repeatto="0" sid="981826579635681" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\Apathe_ANIMATION_OBSCUR_ATTENTE_PROFIL_1.png">
+                            <collision-poly>
+                                <point x="0.195313" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0.195313" y="0.996094" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\Apathe_ANIMATION_OBSCUR_ATTENTE_PROFIL_2.png">
+                            <collision-poly>
+                                <point x="0.191406" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0.191406" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\Apathe_ANIMATION_OBSCUR_ATTENTE_PROFIL_3.png">
+                            <collision-poly>
+                                <point x="0.195313" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0.195313" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\Apathe_ANIMATION_OBSCURS _4.png">
+                            <collision-poly>
+                                <point x="0.191406" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0.191406" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\Apathe_ANIMATION_OBSCURS _5.png">
+                            <collision-poly>
+                                <point x="0.195313" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0.195313" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="1" name="walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="801526521674212" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="861946190860881" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="349468876030211" speed="1.5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
@@ -100,17 +266,61 @@
             <object-type name="Apathe_AntiBruit" sid="164218256417712">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Attaque" pingpong="0" repeatcount="1" repeatto="0" sid="775657855092622" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                    <animation framecount="1" loop="1" name="iddle_down" pingpong="0" repeatcount="1" repeatto="0" sid="870975342479704" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\Apathe_ANTI-BRUIT_FACE.png" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="iddle_up" pingpong="0" repeatcount="1" repeatto="0" sid="996835650225978" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="5" loop="1" name="iddle_side" pingpong="0" repeatcount="1" repeatto="0" sid="726781632922546" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\ATTENTE\ANTI-BRUIT_ATTENTE_PROFIL_1.png">
                             <collision-poly>
-                                <point x="0.228571" y="0" />
-                                <point x="0.747618" y="0" />
-                                <point x="0.719047" y="1" />
-                                <point x="0.214286" y="1" />
+                                <point x="0.207031" y="0" />
+                                <point x="0.761719" y="0" />
+                                <point x="0.761719" y="1" />
+                                <point x="0.207031" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\ATTENTE\ANTI-BRUIT_ATTENTE_PROFIL_2.png">
+                            <collision-poly>
+                                <point x="0.210938" y="0" />
+                                <point x="0.757813" y="0" />
+                                <point x="0.757813" y="1" />
+                                <point x="0.210938" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\ATTENTE\ANTI-BRUIT_ATTENTE_PROFIL_3.png">
+                            <collision-poly>
+                                <point x="0.210938" y="0" />
+                                <point x="0.761719" y="0" />
+                                <point x="0.761719" y="1" />
+                                <point x="0.210938" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\ATTENTE\ANTI-BRUIT_ATTENTE_PROFIL_4.png">
+                            <collision-poly>
+                                <point x="0.210938" y="0" />
+                                <point x="0.757813" y="0" />
+                                <point x="0.757813" y="1" />
+                                <point x="0.210938" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\ATTENTE\ANTI-BRUIT_ATTENTE_PROFIL_5.png">
+                            <collision-poly>
+                                <point x="0.222656" y="0" />
+                                <point x="0.761719" y="0" />
+                                <point x="0.761719" y="1" />
+                                <point x="0.222656" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="0" name="Marche" pingpong="0" repeatcount="1" repeatto="0" sid="148817204023356" speed="5">
+                    <animation framecount="1" loop="1" name="walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="344056364956501" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="579485305591713" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="1" name="walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="237163851214132" speed="1.5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
@@ -186,14 +396,6 @@
                                 <point x="0.295" y="0.995" />
                             </collision-poly>
                         </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="Apathe_Océjoli" sid="640521147167055">
-                <plugin id="Sprite" />
-                <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="443355327299716" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -712,27 +914,144 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="3" loop="0" name="craintive" pingpong="0" repeatcount="1" repeatto="0" sid="885676849387589" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\Hisia_CRAINTIVE_FACE.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\Hisia_CRAINTIVE_PROFIL.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\Hisia_CRAINTIVE_DERRIERE.png" />
+                <animation framecount="5" loop="1" name="c_iddle_down" pingpong="0" repeatcount="1" repeatto="0" sid="612377009586945" speed="2">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_ATTENTE\Hisia_CRAINTIVE_ATTENTE_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_ATTENTE\Hisia_CRAINTIVE_ATTENTE_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_ATTENTE\Hisia_CRAINTIVE_ATTENTE_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_ATTENTE\Hisia_CRAINTIVE_ATTENTE_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_ATTENTE\Hisia_CRAINTIVE_ATTENTE_5.png" />
                 </animation>
-                <animation framecount="3" loop="0" name="furieuse" pingpong="0" repeatcount="1" repeatto="0" sid="245673024823828" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\Hisia_FURIEUSE_FACE.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\Hisia_FURIEUSE_PROFIL.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\Hisia_FURIEUSE_DERRIERE.png" />
+                <animation framecount="1" loop="1" name="c_iddle_up" pingpong="0" repeatcount="1" repeatto="0" sid="998168365907643" speed="2">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
-                <animation framecount="3" loop="0" name="honteuse" pingpong="0" repeatcount="1" repeatto="0" sid="219747527356137" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\Hisia_HONTEUSE_FACE.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\Hisia_HONTEUSE_PROFIL.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\Hisia_DERRIERE.png" />
+                <animation framecount="5" loop="1" name="c_iddle_side" pingpong="0" repeatcount="1" repeatto="0" sid="881100101201601" speed="2">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_ATTENTE\Hisia_CRAINTIVE_ATTENTE_PROFIL_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_ATTENTE\Hisia_CRAINTIVE_ATTENTE_PROFIL_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_ATTENTE\Hisia_CRAINTIVE_ATTENTE_PROFIL_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_ATTENTE\Hisia_CRAINTIVE_ATTENTE_PROFIL_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_ATTENTE\Hisia_CRAINTIVE_ATTENTE_PROFIL_5.png" />
                 </animation>
-                <animation framecount="3" loop="0" name="rayonnante" pingpong="0" repeatcount="1" repeatto="0" sid="993589058763373" speed="0">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\Hisia_RAYONNANTE_FACE.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\Hisia_RAYONNANTE_PROFIL.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\Hisia_RAYONNANTE_DERRIERE.png" />
+                <animation framecount="5" loop="1" name="c_walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="867817733922613" speed="4">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_ANIMATION_MARCHE_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_ANIMATION_MARCHE_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515625" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_ANIMATION_MARCHE_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_ANIMATION_MARCHE_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515625" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_ANIMATION_MARCHE_5.png" />
                 </animation>
-                <animation framecount="1" loop="1" name="neutre" pingpong="0" repeatcount="1" repeatto="0" sid="702688949144009" speed="5">
+                <animation framecount="5" loop="1" name="c_walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="355573755227938" speed="4">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_ANIMATION_CRAINTIVE_MARCHE_DOS_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_ANIMATION_CRAINTIVE_MARCHE_DOS_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_ANIMATION_CRAINTIVE_MARCHE_DOS_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_ANIMATION_CRAINTIVE_MARCHE_DOS_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_ANIMATION_CRAINTIVE_MARCHE_DOS_5.png" />
+                </animation>
+                <animation framecount="5" loop="1" name="c_walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="474799099518909" speed="4">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_CRAINTIVE_MARCHE_PROFIL_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_CRAINTIVE_MARCHE_PROFIL_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_CRAINTIVE_MARCHE_PROFIL_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_CRAINTIVE_MARCHE_PROFIL_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_CRAINTIVE_MARCHE_PROFIL_5.png" />
+                </animation>
+                <animation framecount="5" loop="1" name="f_iddle_down" pingpong="0" repeatcount="1" repeatto="0" sid="274144768407226" speed="2">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_ATTENTE\Hisia_FURIEUSE_ATTENTE_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_ATTENTE\Hisia_FURIEUSE_ATTENTE_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_ATTENTE\Hisia_FURIEUSE_ATTENTE_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_ATTENTE\Hisia_FURIEUSE_ATTENTE_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_ATTENTE\Hisia_FURIEUSE_ATTENTE_5.png" />
+                </animation>
+                <animation framecount="1" loop="1" name="f_iddle_up" pingpong="0" repeatcount="1" repeatto="0" sid="838329841076887" speed="2">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="5" loop="1" name="f_iddle_side" pingpong="0" repeatcount="1" repeatto="0" sid="186106578568305" speed="2">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_ATTENTE\Hisia_FURIEUSE_ATTENTE_PROFIL_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_ATTENTE\Hisia_FURIEUSE_ATTENTE_PROFIL_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_ATTENTE\Hisia_FURIEUSE_ATTENTE_PROFIL_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_ATTENTE\Hisia_FURIEUSE_ATTENTE_PROFIL_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_ATTENTE\Hisia_FURIEUSE_ATTENTE_PROFIL_5.png" />
+                </animation>
+                <animation framecount="5" loop="1" name="f_walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="676442394940601" speed="4">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_MARCHE\Hisia_FURIEUSE_MARCHE_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_MARCHE\Hisia_FURIEUSE_MARCHE_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_MARCHE\Hisia_FURIEUSE_MARCHE_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_MARCHE\Hisia_FURIEUSE_MARCHE_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_MARCHE\Hisia_FURIEUSE_MARCHE_5.png" />
+                </animation>
+                <animation framecount="1" loop="1" name="f_walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="939906902880721" speed="4">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="5" loop="1" name="f_walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="272125504897929" speed="4">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_MARCHE\Hisia_FURIEUSE_MARCHE_PROFIL_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_MARCHE\Hisia_FURIEUSE_MARCHE_PROFIL_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_MARCHE\Hisia_FURIEUSE_MARCHE_PROFIL_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_MARCHE\Hisia_FURIEUSE_MARCHE_PROFIL_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_MARCHE\Hisia_FURIEUSE_MARCHE_PROFIL_5.png" />
+                </animation>
+                <animation framecount="5" loop="1" name="h_iddle_down" pingpong="0" repeatcount="1" repeatto="0" sid="708658911156579" speed="2">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_ATTENTE\Hisia_HONTEUSE__ATTENTE_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_ATTENTE\Hisia_HONTEUSE__ATTENTE_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_ATTENTE\Hisia_HONTEUSE__ATTENTE_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_ATTENTE\Hisia_HONTEUSE__ATTENTE_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_ATTENTE\Hisia_HONTEUSE__ATTENTE_5.png" />
+                </animation>
+                <animation framecount="1" loop="1" name="h_iddle_up" pingpong="0" repeatcount="1" repeatto="0" sid="980470449079833" speed="2">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="5" loop="1" name="h_iddle_side" pingpong="0" repeatcount="1" repeatto="0" sid="262062971196383" speed="2">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_ATTENTE\Hisia_HONTEUSE__ATTENTE_PROFIL_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_ATTENTE\Hisia_HONTEUSE__ATTENTE_PROFIL_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_ATTENTE\Hisia_HONTEUSE__ATTENTE_PROFIL_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_ATTENTE\Hisia_HONTEUSE__ATTENTE_PROFIL_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_ATTENTE\Hisia_HONTEUSE__ATTENTE_PROFIL_5.png" />
+                </animation>
+                <animation framecount="5" loop="1" name="h_walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="702026808069324" speed="4">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_MARCHE\Hisia_HONTEUSE_MARCHE_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_MARCHE\Hisia_HONTEUSE_MARCHE_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_MARCHE\Hisia_HONTEUSE_MARCHE_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_MARCHE\Hisia_HONTEUSE_MARCHE_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_MARCHE\Hisia_HONTEUSE_MARCHE_5.png" />
+                </animation>
+                <animation framecount="1" loop="1" name="h_walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="979499554542622" speed="4">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="5" loop="1" name="h_walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="661086648374344" speed="4">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_MARCHE\Hisia_HONTEUSE__MARCHE_PROFIL_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_MARCHE\Hisia_HONTEUSE__MARCHE_PROFIL_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_MARCHE\Hisia_HONTEUSE__MARCHE_PROFIL_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_MARCHE\Hisia_HONTEUSE__MARCHE_PROFIL_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_MARCHE\Hisia_HONTEUSE__MARCHE_PROFIL_5.png" />
+                </animation>
+                <animation framecount="5" loop="1" name="r_iddle_down" pingpong="0" repeatcount="1" repeatto="0" sid="437448784332746" speed="2">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_ATTENTE\Hisia_RAYONNANTE_ATTENTE_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_ATTENTE\Hisia_RAYONNANTE_ATTENTE_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_ATTENTE\Hisia_RAYONNANTE_ATTENTE_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_ATTENTE\Hisia_RAYONNANTE_ATTENTE_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_ATTENTE\Hisia_RAYONNANTE_ATTENTE_5.png" />
+                </animation>
+                <animation framecount="1" loop="1" name="r_iddle_up" pingpong="0" repeatcount="1" repeatto="0" sid="755883572252698" speed="2">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="5" loop="1" name="r_iddle_side" pingpong="0" repeatcount="1" repeatto="0" sid="396151499543897" speed="2">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.496094" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_ATTENTE\Hisia_ANIMATION_RAYONNANTE_PROFIL_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_ATTENTE\Hisia_ANIMATION_RAYONNANTE_PROFIL_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_ATTENTE\Hisia_ANIMATION_RAYONNANTE_PROFIL_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_ATTENTE\Hisia_ANIMATION_RAYONNANTE_PROFIL_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_ATTENTE\Hisia_ANIMATION_RAYONNANTE_PROFIL_5.png" />
+                </animation>
+                <animation framecount="5" loop="1" name="r_walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="760896612595096" speed="4">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_MARCHE\Hisia_ANIMATION_RAYONNANTE_MARCHE_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_MARCHE\Hisia_ANIMATION_RAYONNANTE_MARCHE_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_MARCHE\Hisia_ANIMATION_RAYONNANTE_MARCHE_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_MARCHE\Hisia_ANIMATION_RAYONNANTE_MARCHE_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_MARCHE\Hisia_ANIMATION_RAYONNANTE_MARCHE_5.png" />
+                </animation>
+                <animation framecount="5" loop="1" name="r_walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="513177450160005" speed="4">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_MARCHE\Hisia_ANIMATION_RAYONNANTE_MARCHE_DOS_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_MARCHE\Hisia_ANIMATION_RAYONNANTE_MARCHE_DOS_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_MARCHE\Hisia_ANIMATION_RAYONNANTE_MARCHE_DOS_3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_MARCHE\Hisia_ANIMATION_RAYONNANTE_MARCHE_DOS_4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_MARCHE\Hisia_ANIMATION_RAYONNANTE_MARCHE_DOS_5.png" />
+                </animation>
+                <animation framecount="1" loop="1" name="r_walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="521412870501549" speed="4">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>

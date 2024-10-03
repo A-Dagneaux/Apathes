@@ -371,7 +371,7 @@
             <instances>
                 <instance type="musique" uid="410">
                     <properties>
-                        <text>Musique</text>
+                        <text>Musiques</text>
                         <initial-visibility>Invisible</initial-visibility>
                         <font>Trajan Pro,-37,700,0</font>
                         <color>255,255,255</color>
