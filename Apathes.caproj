@@ -65,16 +65,8 @@
             <object-type name="Apathe_Base" sid="128374855682251">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="2" loop="0" name="Attaque" pingpong="0" repeatcount="1" repeatto="0" sid="612693076629339" speed="5">
+                    <animation framecount="1" loop="0" name="Attaque" pingpong="0" repeatcount="1" repeatto="0" sid="612693076629339" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.138095" y="0.00952381" />
-                                <point x="0.747618" y="0.00952381" />
-                                <point x="0.709523" y="0.995238" />
-                                <point x="0.219048" y="1" />
-                            </collision-poly>
-                        </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="Marche" pingpong="0" repeatcount="1" repeatto="0" sid="187996547537768" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -246,7 +238,14 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="197950830445909" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\User\Downloads\construct\brique.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.084375" y="0.398438" />
+                                <point x="0.90625" y="0.414063" />
+                                <point x="0.890625" y="0.914063" />
+                                <point x="0.1" y="0.90625" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -980,7 +979,7 @@
         </object-type>
         <object-type name="TilemapDécor1" sid="519738955970731">
             <plugin id="Tilemap" />
-            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\Tilemap Autres.png" />
+            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap complétée.png" />
             <tiles />
         </object-type>
         <object-type name="TilemapPlafond1" sid="464714664223468">
@@ -995,7 +994,7 @@
         </object-type>
         <object-type name="TilemapDécorSol1" sid="372915215250839">
             <plugin id="Tilemap" />
-            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmurtest.png" />
+            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap complétée.png" />
             <tiles />
         </object-type>
         <object-type name="TilemapSang" sid="648125621115032">
@@ -1217,6 +1216,14 @@
         </object-type>
         <object-type name="Browser" sid="750671492065125">
             <plugin id="Browser" />
+        </object-type>
+        <object-type name="Sprite15" sid="977682119096407">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="546757821607343" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families>

@@ -115,5 +115,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite17/" />
         <folder expanded="1" path="animation-folder/Sprite13/" />
         <folder expanded="1" path="animation-folder/collision_UI/" />
+        <folder expanded="1" path="animation-folder/Sprite15/" />
     </folders-expanded>
 </c2uistate>
