@@ -296,11 +296,14 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Porte" sid="922274266058586">
+            <object-type name="Gouffre" sid="922274266058586">
                 <plugin id="Sprite" />
                 <behaviors>
                     <behavior-type name="Solid" sid="367607351802308">
                         <behavior id="solid" />
+                    </behavior-type>
+                    <behavior-type name="ShadowCaster" sid="618243842525067">
+                        <behavior id="shadowcaster" />
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
@@ -353,6 +356,14 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301006641443305" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="PorteLevel2" sid="517102219547923">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="713476914237553" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
@@ -589,6 +600,9 @@
                 </animation-folder>
             </object-type>
             <object-type name="Dialog7bis3" sid="225041324718070">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Furieux" sid="243859037872024">
                 <plugin id="Text" />
             </object-type>
         </object-folder>
@@ -929,14 +943,6 @@
         </object-type>
         <object-type name="Text5" sid="247419770440379">
             <plugin id="Text" />
-        </object-type>
-        <object-type name="PorteLevel2" sid="517102219547923">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="713476914237553" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
         </object-type>
         <object-type name="TilemapSol1" sid="250675309557407">
             <plugin id="Tilemap" />

@@ -13,6 +13,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="0">Global_test</layout>
         <layout active="1" order="1">Rémi_Furieuse</layout>
         <event-sheet order="2">Rémi_Furieuse_ES</event-sheet>
+        <event-sheet order="3">Global_ES</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -61,13 +62,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite/" />
         <folder expanded="1" path="animation-folder/Mur1/" />
         <folder expanded="1" path="animation-folder/Barreaux/" />
-        <folder expanded="1" path="animation-folder/Porte/" />
+        <folder expanded="1" path="animation-folder/Gouffre/" />
         <folder expanded="1" path="animation-folder/portePrison/" />
         <folder expanded="1" path="animation-folder/nouriture/" />
         <folder expanded="1" path="animation-folder/table/" />
         <folder expanded="1" path="animation-folder/banc/" />
         <folder expanded="1" path="animation-folder/torcheEteint/" />
         <folder expanded="1" path="animation-folder/pillier/" />
+        <folder expanded="1" path="animation-folder/PorteLevel2/" />
         <folder expanded="1" path="animation-folder/rayonnante/" />
         <folder expanded="1" path="animation-folder/craintive/" />
         <folder expanded="1" path="animation-folder/furieuse/" />
@@ -102,7 +104,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/BloqueurDeVueSalle3/" />
         <folder expanded="1" path="animation-folder/Sprite3/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
-        <folder expanded="1" path="animation-folder/PorteLevel2/" />
         <folder expanded="1" path="animation-folder/Tilemap4/" />
         <folder expanded="1" path="animation-folder/Sprite7/" />
         <folder expanded="1" path="animation-folder/Sprite6/" />

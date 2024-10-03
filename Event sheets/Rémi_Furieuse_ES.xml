@@ -382,7 +382,7 @@
         <event-block sid="657360314655693">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="294826372468718" type="Hisia">
-                    <param id="0" name="Object">Porte</param>
+                    <param id="0" name="Object">Gouffre</param>
                 </condition>
             </conditions>
             <actions>
