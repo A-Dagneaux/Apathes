@@ -17,6 +17,10 @@
                             <param id="0" name="Width">lumière.size_normal</param>
                             <param id="1" name="Height">lumière.size_normal</param>
                         </action>
+                        <action id="4" name="Set animation" sid="313140076543266" type="lumière">
+                            <param id="0" name="Animation">&quot;autre&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
                         <action id="-7" name="Set size" sid="285330846386680" type="noise">
                             <param id="0" name="Width">noise.size_craintif</param>
                             <param id="1" name="Height">noise.size_craintif</param>
@@ -331,6 +335,80 @@
                                                     <actions>
                                                         <action id="-1" name="Set X" sid="952318168951339" type="MurPoussable">
                                                             <param id="0" name="X">MurPoussable.X + MurPoussable.speed</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="883887170022412">
+                                            <conditions>
+                                                <condition id="0" name="On collision with another object" sid="163313834463822" type="Hisia">
+                                                    <param id="0" name="Object">MurPoussable2</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="676981323530463">
+                                                    <conditions>
+                                                        <condition id="2" name="Key is down" sid="827344498375054" type="Keyboard">
+                                                            <param id="0" name="Key">83</param>
+                                                        </condition>
+                                                        <condition id="-2" name="Compare Y" sid="231334286892236" type="Hisia">
+                                                            <param id="0" name="Comparison">2</param>
+                                                            <param id="1" name="Y co-ordinate">MurPoussable2.Y</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-2" name="Set Y" sid="366486226707778" type="MurPoussable2">
+                                                            <param id="0" name="Y">MurPoussable2.Y + MurPoussable2.speed</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="410836317026212">
+                                                    <conditions>
+                                                        <condition id="2" name="Key is down" sid="904006066784277" type="Keyboard">
+                                                            <param id="0" name="Key">90</param>
+                                                        </condition>
+                                                        <condition id="-2" name="Compare Y" sid="874382985377536" type="Hisia">
+                                                            <param id="0" name="Comparison">4</param>
+                                                            <param id="1" name="Y co-ordinate">MurPoussable2.Y</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-2" name="Set Y" sid="141986296308488" type="MurPoussable">
+                                                            <param id="0" name="Y">MurPoussable2.Y - MurPoussable2.speed</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="948398611372766">
+                                                    <conditions>
+                                                        <condition id="2" name="Key is down" sid="227252143066942" type="Keyboard">
+                                                            <param id="0" name="Key">81</param>
+                                                        </condition>
+                                                        <condition id="-1" name="Compare X" sid="342289756252816" type="Hisia">
+                                                            <param id="0" name="Comparison">4</param>
+                                                            <param id="1" name="X co-ordinate">MurPoussable2.X</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-1" name="Set X" sid="789276695530424" type="MurPoussable">
+                                                            <param id="0" name="X">MurPoussable2.X - MurPoussable2.speed</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="255379497263551">
+                                                    <conditions>
+                                                        <condition id="2" name="Key is down" sid="173591973294399" type="Keyboard">
+                                                            <param id="0" name="Key">68</param>
+                                                        </condition>
+                                                        <condition id="-1" name="Compare X" sid="362243299865881" type="Hisia">
+                                                            <param id="0" name="Comparison">2</param>
+                                                            <param id="1" name="X co-ordinate">MurPoussable2.X</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="-1" name="Set X" sid="645997574084061" type="MurPoussable">
+                                                            <param id="0" name="X">MurPoussable2.X + MurPoussable2.speed</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
