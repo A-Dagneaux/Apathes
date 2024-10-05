@@ -1286,7 +1286,7 @@
         </object-type>
         <object-type name="tilemap_matheo_sol_plafond" sid="569667810071931">
             <plugin id="Tilemap" />
-            <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmurtest nv.png" />
+            <texture original-source="C:\Users\matpo\Downloads\tilemap_completee.png" />
             <tiles />
         </object-type>
         <object-type name="Sprite7" sid="434616623548446">
@@ -1363,7 +1363,7 @@
                     <behavior id="shadowcaster" />
                 </behavior-type>
             </behaviors>
-            <texture original-source="C:\Users\matpo\Downloads\tilemap_Solmurtest nv.png" />
+            <texture original-source="C:\Users\matpo\Downloads\tilemap_completee.png" />
             <tiles />
         </object-type>
         <object-type name="Sprite8" sid="955310016028994">
