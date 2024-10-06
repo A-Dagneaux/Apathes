@@ -758,5 +758,154 @@
                 </event-group>
             </sub-events>
         </event-group>
+        <event-block sid="714359206548700">
+            <conditions>
+                <condition behavior="8Direction" id="0" name="Is moving" sid="237907399836576" type="Hisia" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="108573412925389">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="205934526855654" type="Keyboard">
+                            <param id="0" name="Key">90</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="118555769661774">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="505254468578008" type="Hisia">
+                                    <param id="0" name="Instance variable">emotion</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;furieuse&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="236083182733331" type="Hisia">
+                                    <param id="0" name="Animation">&quot;f_walk_up&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="877131428173941">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="998219741847585" type="Keyboard">
+                            <param id="0" name="Key">81</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="933303838596196">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="481499918202988" type="Hisia">
+                                    <param id="0" name="Instance variable">emotion</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;furieuse&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="918790528168430" type="Hisia">
+                                    <param id="0" name="Animation">&quot;f_walk_side&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="191293074896449">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="502969021471075" type="Keyboard">
+                            <param id="0" name="Key">83</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="468750297646695">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="652775939118694" type="Hisia">
+                                    <param id="0" name="Instance variable">emotion</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;furieuse&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="4" name="Set animation" sid="127672166269521" type="Hisia">
+                                    <param id="0" name="Animation">&quot;f_walk_down&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="801494099209053">
+                    <conditions>
+                        <condition id="2" name="Key is down" sid="729843129930729" type="Keyboard">
+                            <param id="0" name="Key">68</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="747738839553152">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="838877257565635" type="Hisia">
+                                    <param id="0" name="Instance variable">emotion</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;furieuse&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="7" name="Set mirrored" sid="353885528986035" type="Hisia">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="270706578104777" type="Hisia">
+                                    <param id="0" name="Animation">&quot;f_walk_side&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="464487667524583">
+            <conditions>
+                <condition behavior="8Direction" id="0" inverted="1" name="Is moving" sid="897470293330979" type="Hisia" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="618030878327525">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="210471228128020" type="Hisia">
+                            <param id="0" name="Instance variable">emotion</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;craintive&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="329790455620774" type="Hisia">
+                            <param id="0" name="Animation">&quot;c_iddle_down&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="237712713374484">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="223452336685795" type="Hisia">
+                            <param id="0" name="Instance variable">emotion</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;furieuse&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="425384680438665" type="Hisia">
+                            <param id="0" name="Animation">&quot;f_iddle_down&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>
