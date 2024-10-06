@@ -11,9 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Global_test</layout>
-        <layout active="1" order="1">Rémi_Furieuse</layout>
+        <layout order="1">Rémi_Furieuse</layout>
         <event-sheet order="2">Rémi_Furieuse_ES</event-sheet>
-        <event-sheet order="3">Global_ES</event-sheet>
+        <event-sheet active="1" order="3">Global_ES</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -91,6 +91,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/DialogPonctuel1/" />
         <folder expanded="1" path="animation-folder/DialogPonctuel2/" />
         <folder expanded="1" path="animation-folder/DialogPonctuel3/" />
+        <folder expanded="1" path="animation-folder/DialogPonctuel4/" />
         <folder expanded="1" path="animation-folder/Apathe/" />
         <folder expanded="1" path="animation-folder/pause_background/" />
         <folder expanded="1" path="animation-folder/Hisia/" />
@@ -124,6 +125,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite15/" />
         <folder expanded="1" path="animation-folder/Sprite16/" />
         <folder expanded="1" path="animation-folder/Sprite19/" />
-        <folder expanded="1" path="animation-folder/DialogPonctuel4/" />
+        <folder expanded="1" path="animation-folder/BulleDialog2/" />
+        <folder expanded="1" path="animation-folder/BulleDialog3/" />
     </folders-expanded>
 </c2uistate>

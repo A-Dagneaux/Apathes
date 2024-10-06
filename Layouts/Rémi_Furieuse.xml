@@ -1863,6 +1863,7 @@
                         <SaveY>0</SaveY>
                         <size_normal>90</size_normal>
                         <size_honteuse>50</size_honteuse>
+                        <Cinématique>0</Cinématique>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="8Direction">

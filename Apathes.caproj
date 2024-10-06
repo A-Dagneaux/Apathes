@@ -943,6 +943,14 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="DialogPonctuel4" sid="806932860984984">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="384791525909436" speed="5">
+                        <frame duration="1" hotspotX="0.21" hotspotY="0.395" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Menus">
             <object-type name="nouvelle_partie" sid="933829949343017">
@@ -1037,6 +1045,7 @@
                 <instance-variable name="SaveY" sid="522484420078058" type="number" />
                 <instance-variable name="size_normal" sid="670245603820149" type="number" />
                 <instance-variable name="size_honteuse" sid="575682694574236" type="number" />
+                <instance-variable name="Cinématique" sid="876813629570444" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="8Direction" sid="958459754648602">
@@ -1712,11 +1721,25 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="DialogPonctuel4" sid="806932860984984">
+        <object-type name="Dialog9" sid="784449229117004">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Dialog10" sid="728935981719779">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="BulleDialog2" sid="285701023271662">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="384791525909436" speed="5">
-                    <frame duration="1" hotspotX="0.21" hotspotY="0.395" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="429085324707753" speed="5">
+                    <frame duration="1" hotspotX="0.245" hotspotY="0.375" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BulleDialog3" sid="404824659228206">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="184393495970880" speed="5">
+                    <frame duration="1" hotspotX="0.255" hotspotY="0.36" />
                 </animation>
             </animation-folder>
         </object-type>
