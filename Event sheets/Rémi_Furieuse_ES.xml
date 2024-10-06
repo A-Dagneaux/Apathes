@@ -65,12 +65,12 @@
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                                 <action id="-7" name="Set size" sid="419675558261261" type="BulleDialog">
-                                    <param id="0" name="Width">737</param>
-                                    <param id="1" name="Height">413</param>
+                                    <param id="0" name="Width">750</param>
+                                    <param id="1" name="Height">420</param>
                                 </action>
                                 <action id="-3" name="Set position" sid="796108257464448" type="BulleDialog">
-                                    <param id="0" name="X">1226</param>
-                                    <param id="1" name="Y">960</param>
+                                    <param id="0" name="X">1222</param>
+                                    <param id="1" name="Y">955</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="714424444593666" type="Dialog3">
                                     <param id="0" name="Visibility">1</param>
@@ -79,6 +79,9 @@
                                     <param id="0" name="Seconds">4.0</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="138533631226350" type="Dialog3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="355247741226683" type="BulleDialog">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                                 <action id="-10" name="Set value" sid="408282909873414" type="GardeNaration2">
@@ -100,6 +103,17 @@
                                     <param id="0" name="Instance variable">sens</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
+                                <action id="-7" name="Set size" sid="477244895530699" type="BulleDialog">
+                                    <param id="0" name="Width">654</param>
+                                    <param id="1" name="Height">368</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="455689866204970" type="BulleDialog">
+                                    <param id="0" name="X">910</param>
+                                    <param id="1" name="Y">681</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="128362373471593" type="BulleDialog">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
                                 <action id="-15" name="Set visible" sid="823484481527923" type="Dialog4">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
@@ -116,6 +130,14 @@
                                 </action>
                                 <action id="-15" name="Set visible" sid="535528755847693" type="Dialog4">
                                     <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-7" name="Set size" sid="439616904275962" type="BulleDialog">
+                                    <param id="0" name="Width">728</param>
+                                    <param id="1" name="Height">412</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="202634194533161" type="BulleDialog">
+                                    <param id="0" name="X">986</param>
+                                    <param id="1" name="Y">947</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="807873383228229" type="Dialog5">
                                     <param id="0" name="Visibility">1</param>
@@ -134,6 +156,14 @@
                                     <param id="0" name="Instance variable">sens</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
+                                <action id="-7" name="Set size" sid="138939864038823" type="BulleDialog">
+                                    <param id="0" name="Width">1125</param>
+                                    <param id="1" name="Height">580</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="904218666958182" type="BulleDialog">
+                                    <param id="0" name="X">1247</param>
+                                    <param id="1" name="Y">755</param>
+                                </action>
                                 <action id="-15" name="Set visible" sid="245409643237891" type="Dialog6">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
@@ -146,6 +176,14 @@
                                 <action behavior="8Direction" id="8" name="Set enabled" sid="776089232439639" type="Hisia">
                                     <param id="0" name="State">1</param>
                                 </action>
+                                <action id="-7" name="Set size" sid="195955541345664" type="BulleDialog">
+                                    <param id="0" name="Width">458</param>
+                                    <param id="1" name="Height">300</param>
+                                </action>
+                                <action id="-3" name="Set position" sid="109533966374808" type="BulleDialog">
+                                    <param id="0" name="X">506</param>
+                                    <param id="1" name="Y">237</param>
+                                </action>
                                 <action id="-15" name="Set visible" sid="590003452358058" type="Dialog7">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
@@ -153,6 +191,9 @@
                                     <param id="0" name="Seconds">4.0</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="178107954893540" type="Dialog7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="450607517930880" type="BulleDialog">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                             </actions>
@@ -219,6 +260,33 @@
                                 <action id="-9" name="Destroy" sid="413570122648411" type="GardeNaration2" />
                             </actions>
                         </event-block>
+                        <event-block sid="243013747322185">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="547205429027566" type="Hisia">
+                                    <param id="0" name="Object">AnimeText0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="482290573738316" type="DialogPonctuel2">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="348800451384320" type="Dialog7bis3">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="126249622613156" type="AnimeText0">
+                                    <param id="0" name="Collisions">0</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="189544860430671" type="System">
+                                    <param id="0" name="Seconds">3.0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="461399295701150" type="Dialog7bis3">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="188560654947956" type="DialogPonctuel2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
                         <event-block sid="236829936511832">
                             <conditions>
                                 <condition id="0" name="On collision with another object" sid="607856572444393" type="Hisia">
@@ -251,53 +319,12 @@
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="243013747322185">
-                            <conditions>
-                                <condition id="0" name="On collision with another object" sid="547205429027566" type="Hisia">
-                                    <param id="0" name="Object">AnimeText0</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-15" name="Set visible" sid="348800451384320" type="Dialog7bis3">
-                                    <param id="0" name="Visibility">1</param>
-                                </action>
-                                <action id="11" name="Set collisions enabled" sid="126249622613156" type="AnimeText0">
-                                    <param id="0" name="Collisions">0</param>
-                                </action>
-                                <action id="-16" name="Wait" sid="189544860430671" type="System">
-                                    <param id="0" name="Seconds">3.0</param>
-                                </action>
-                                <action id="-15" name="Set visible" sid="461399295701150" type="Dialog7bis3">
-                                    <param id="0" name="Visibility">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
                     </sub-events>
                 </event-group>
             </sub-events>
         </event-group>
         <event-group description="" sid="509844883207123" title="Apathe Acteur">
             <sub-events>
-                <event-block sid="541943631562097">
-                    <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="870416367674530" type="ApatheActeur">
-                            <param id="0" name="Instance variable">sens</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                </event-block>
-                <event-block sid="860581992683431">
-                    <conditions>
-                        <condition id="-7" name="Compare instance variable" sid="982312903528015" type="ApatheActeur">
-                            <param id="0" name="Instance variable">sens</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                </event-block>
                 <event-block sid="671546897155629">
                     <conditions>
                         <condition id="0" name="On collision with another object" sid="438385042493005" type="ApatheActeur">
@@ -357,6 +384,9 @@
                         <action id="-15" name="Set visible" sid="532097398753362" type="Dialog7bis">
                             <param id="0" name="Visibility">1</param>
                         </action>
+                        <action id="-15" name="Set visible" sid="960259939534494" type="DialogPonctuel1">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="992813918167380">
@@ -367,6 +397,9 @@
                     </conditions>
                     <actions>
                         <action id="-15" name="Set visible" sid="835190060575080" type="Dialog7bis">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="233482007703880" type="DialogPonctuel1">
                             <param id="0" name="Visibility">0</param>
                         </action>
                     </actions>
@@ -381,6 +414,9 @@
                         <action id="-15" name="Set visible" sid="416550071148029" type="Dialog7bis2">
                             <param id="0" name="Visibility">1</param>
                         </action>
+                        <action id="-15" name="Set visible" sid="937605233626447" type="DialogPonctuel">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="271111194474126">
@@ -391,6 +427,9 @@
                     </conditions>
                     <actions>
                         <action id="-15" name="Set visible" sid="523202375440224" type="Dialog7bis2">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="149952755055259" type="DialogPonctuel">
                             <param id="0" name="Visibility">0</param>
                         </action>
                     </actions>
@@ -438,16 +477,6 @@
                     <param id="0" name="Layout">&quot;Mathéo_Rayonnante&quot;</param>
                 </action>
             </actions>
-        </event-block>
-        <event-block sid="453166316554426">
-            <conditions>
-                <condition id="-7" name="Compare instance variable" sid="645100434624687" type="BulleDialog">
-                    <param id="0" name="Instance variable">scale</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
-            </conditions>
-            <actions />
         </event-block>
     </events>
 </c2eventsheet>
