@@ -8,15 +8,21 @@
                 <condition id="-2" name="On start of layout" sid="835469853115909" type="System" />
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="589686396578236" type="Audio">
+                    <param id="0" name="Audio file">menu_music</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-16" name="Wait" sid="869402425194793" type="System">
-                    <param id="0" name="Seconds">0.5</param>
+                    <param id="0" name="Seconds">0.1</param>
                 </action>
                 <action id="-15" name="Set visible" sid="352580702467766" type="Apathe">
                     <param id="0" name="Visibility">1</param>
                 </action>
                 <action behavior="Fade" id="1" name="Start fade" sid="384708974531311" type="Apathe" />
                 <action id="-16" name="Wait" sid="635106878327568" type="System">
-                    <param id="0" name="Seconds">0.2</param>
+                    <param id="0" name="Seconds">1.05</param>
                 </action>
                 <action id="-15" name="Set visible" sid="451910946416701" type="nouvelle_partie">
                     <param id="0" name="Visibility">1</param>
@@ -57,6 +63,33 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="251871026813251" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action behavior="Fade2" id="2" name="Set fade-in time" sid="135630398400362" type="text_menu">
+                            <param id="0" name="Fade-in time">0</param>
+                        </action>
+                        <action behavior="Fade2" id="4" name="Set fade-out time" sid="862740035680146" type="text_menu">
+                            <param id="0" name="Fade-out time">0.3</param>
+                        </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="843510049035719" type="Apathe">
+                            <param id="0" name="Fade-in time">0</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="326478087847126" type="Apathe">
+                            <param id="0" name="Fade-out time">0.3</param>
+                        </action>
+                        <action behavior="Fade2" id="1" name="Start fade" sid="165194243270822" type="text_menu" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="116036633969327" type="Apathe" />
+                        <action id="-15" name="Set visible" sid="561080977474543" type="text_menu">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="942518052409528" type="System">
+                            <param id="0" name="Seconds">0.4</param>
+                        </action>
+                        <action id="33" name="Stop all" sid="805509935691350" type="Audio" />
                         <action id="-2" name="Go to layout" sid="709304317554784" type="System">
                             <param id="0" name="Layout">Rémi_Furieuse</param>
                         </action>
@@ -71,6 +104,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="716379300435271" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action behavior="Fade2" id="2" name="Set fade-in time" sid="433577401034400" type="text_menu">
                             <param id="0" name="Fade-in time">0</param>
                         </action>
@@ -116,6 +155,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="642876755028351" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action behavior="Fade2" id="2" name="Set fade-in time" sid="951690661604635" type="text_menu">
                             <param id="0" name="Fade-in time">0</param>
                         </action>
@@ -176,6 +221,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="615672400229271" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action behavior="Fade2" id="2" name="Set fade-in time" sid="531745074572041" type="text_parameters">
                             <param id="0" name="Fade-in time">0</param>
                         </action>
@@ -236,6 +287,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="724156345874401" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action behavior="Fade2" id="2" name="Set fade-in time" sid="251493032433516" type="text_menu">
                             <param id="0" name="Fade-in time">0.3</param>
                         </action>
@@ -281,10 +338,124 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="779844818725110" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="1" name="Close" sid="824011617536395" type="Browser" />
                     </actions>
                 </event-block>
             </sub-events>
         </event-block>
+        <event-group description="" sid="366482219898665" title="Animation Texte">
+            <sub-events>
+                <event-block sid="979049953305014">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="442610065701759" type="Mouse">
+                            <param id="0" name="Object">text_menu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-27" name="Set effect enabled" sid="625124268879651" type="text_menu">
+                            <param id="0" name="Mode">0</param>
+                            <param id="1" name="Effect">&quot;Brightness&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="717796875625218">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="119173624519044" type="Mouse">
+                            <param id="0" name="Object">text_menu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-27" name="Set effect enabled" sid="790443621325783" type="text_menu">
+                            <param id="0" name="Mode">1</param>
+                            <param id="1" name="Effect">&quot;Brightness&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="212349981337135">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="906791443472698" type="Mouse">
+                            <param id="0" name="Object">confirmer_oui</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-27" name="Set effect enabled" sid="273695345163021" type="confirmer_oui">
+                            <param id="0" name="Mode">0</param>
+                            <param id="1" name="Effect">&quot;Brightness&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="410163597006811">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="201499595465805" type="Mouse">
+                            <param id="0" name="Object">confirmer_oui</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-27" name="Set effect enabled" sid="598131795746323" type="confirmer_oui">
+                            <param id="0" name="Mode">1</param>
+                            <param id="1" name="Effect">&quot;Brightness&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="249618046434746">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="351249715863129" type="Mouse">
+                            <param id="0" name="Object">confirmer_non</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-27" name="Set effect enabled" sid="379362459147703" type="confirmer_non">
+                            <param id="0" name="Mode">0</param>
+                            <param id="1" name="Effect">&quot;Brightness&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="141367106133069">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="802928935503002" type="Mouse">
+                            <param id="0" name="Object">confirmer_non</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-27" name="Set effect enabled" sid="762185741857253" type="confirmer_non">
+                            <param id="0" name="Mode">1</param>
+                            <param id="1" name="Effect">&quot;Brightness&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="646820131577570">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="380512185738529" type="Mouse">
+                            <param id="0" name="Object">retour</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-27" name="Set effect enabled" sid="721379455642400" type="retour">
+                            <param id="0" name="Mode">0</param>
+                            <param id="1" name="Effect">&quot;Brightness&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="547614346545455">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="884979508412994" type="Mouse">
+                            <param id="0" name="Object">retour</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-27" name="Set effect enabled" sid="435127612675229" type="retour">
+                            <param id="0" name="Mode">1</param>
+                            <param id="1" name="Effect">&quot;Brightness&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

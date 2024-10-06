@@ -3,7 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Global_ES</name>
     <events>
-        <variable comment="0 : NOT PAUSED ; 1 : PAUSED ; 2 : PARAMETERS ; 3 : PENDING CONFIRMATION" constant="0" name="is_paused" sid="217724313547951" static="0" type="number">0</variable>
+        <variable comment="1 : VICTORY ; 2 : DEFEAT" constant="0" name="player_state" sid="732504013306775" static="0" type="number">0</variable>
+        <variable comment="0 : NOT PAUSED ; 1 : PAUSED ; 2 : PARAMETERS ; 3 : PENDING CONFIRMATION ; 4 : IN VICTORY /  DEFEAT MENU" constant="0" name="is_paused" sid="217724313547951" static="0" type="number">0</variable>
         <variable constant="0" name="apathe_speed" sid="287228382108666" static="0" type="number">1.6</variable>
         <include>UI_ES</include>
         <event-group description="" sid="821477231640925" title="Start of layout">
@@ -455,6 +456,7 @@
                 </event-group>
                 <event-group description="début de travail sur une save//remettre les cartes à zéro" sid="918019254699734" title="Interaction Ennemi">
                     <sub-events>
+                        <comment>Condition de Défaite</comment>
                         <event-block sid="416337789003885">
                             <conditions>
                                 <condition id="0" name="On collision with another object" sid="560564266355735" type="Hisia">
@@ -470,7 +472,10 @@
                                     <param id="0" name="Instance variable">emotion</param>
                                     <param id="1" name="Value">&quot;Craintive&quot;</param>
                                 </action>
-                                <action id="-26" name="Restart layout" sid="730148154922134" type="System" />
+                                <action id="-9" name="Set value" sid="730148154922134" type="System">
+                                    <param id="0" name="Variable">player_state</param>
+                                    <param id="1" name="Value">2</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -962,6 +967,20 @@
                         </event-block>
                     </sub-events>
                 </event-group>
+                <comment>Condition de Victoire</comment>
+                <event-block sid="886859823882221">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="652959324795513" type="Hisia">
+                            <param id="0" name="Object">wayout</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="743047207202735" type="System">
+                            <param id="0" name="Variable">player_state</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-group description="" sid="978572723870566" title="Ennemis">

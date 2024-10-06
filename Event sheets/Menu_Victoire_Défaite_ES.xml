@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Menu_Victoire_Défaite_ES</name>
+    <events>
+        <event-group description="" sid="904481819187993" title="Victoire" />
+        <event-block sid="343340026726940">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="648086822435909" type="System">
+                    <param id="0" name="Variable">player_state</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="479167510633589" type="confirmer_nl">
+                    <param id="0" name="Instance variable">confirmation_nl</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="910473756476050" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="867342110180210" type="System">
+                    <param id="0" name="Variable">is_paused</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+                <action id="-28" name="Set effect parameter" sid="723403314259816" type="victoire_text">
+                    <param id="0" name="Effect">&quot;Brightness3&quot;</param>
+                    <param id="1" name="Parameter index">0</param>
+                    <param id="2" name="Value">100</param>
+                </action>
+                <action id="-28" name="Set effect parameter" sid="486475719793895" type="defeat_text">
+                    <param id="0" name="Effect">&quot;Brightness3&quot;</param>
+                    <param id="1" name="Parameter index">0</param>
+                    <param id="2" name="Value">100</param>
+                </action>
+                <action id="-28" name="Set effect parameter" sid="636735482330848" type="confirmer_nl">
+                    <param id="0" name="Effect">&quot;Brightness2&quot;</param>
+                    <param id="1" name="Parameter index">0</param>
+                    <param id="2" name="Value">100</param>
+                </action>
+                <action behavior="Fade" id="2" name="Set fade-in time" sid="750613841763626" type="text_nextlevel">
+                    <param id="0" name="Fade-in time">0.2</param>
+                </action>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="687699981102523" type="text_nextlevel">
+                    <param id="0" name="Fade-out time">0</param>
+                </action>
+                <action behavior="Fade" id="2" name="Set fade-in time" sid="219172512689663" type="pause_background">
+                    <param id="0" name="Fade-in time">0.2</param>
+                </action>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="819682508742541" type="pause_background">
+                    <param id="0" name="Fade-out time">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="116675045915570" type="text_nextlevel">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="811942331519605" type="pause_background">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="657601027434301" type="pause_background" />
+                <action behavior="Fade" id="1" name="Start fade" sid="232539833962929" type="text_nextlevel" />
+            </actions>
+        </event-block>
+        <comment>Victoire</comment>
+        <event-block sid="904401984388152">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="389366224463872" type="System">
+                    <param id="0" name="Variable">player_state</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="344820736377597" type="defeat_text">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="590471725137298" type="playagain">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="179176636333730">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="751271299140515" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">nextlevel_text</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="435664871545230" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="550236788315569" type="confirmer_nl">
+                            <param id="0" name="Instance variable">confirmation_nl</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="352935370247808" type="text_nextlevel">
+                            <param id="0" name="Fade-in time">0</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="443529317000719" type="text_nextlevel">
+                            <param id="0" name="Fade-out time">0.2</param>
+                        </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="895304082661362" type="text_confirmation_nl">
+                            <param id="0" name="Fade-in time">0.2</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="165461011135718" type="text_confirmation_nl">
+                            <param id="0" name="Fade-out time">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="446584622158892" type="text_confirmation_nl">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="918928706954768" type="text_nextlevel" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="691027318085252" type="text_confirmation_nl" />
+                        <action id="-15" name="Set visible" sid="505758725141310" type="text_nextlevel">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment>Défaite</comment>
+        <event-block sid="825628019805737">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="970981813824050" type="System">
+                    <param id="0" name="Variable">player_state</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="440686495052721" type="victoire_text">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="869476951716501" type="nextlevel_text">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="961014119161986">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="156325297599194" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">playagain</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="313035944802201" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="330823694905823" type="confirmer_nl">
+                            <param id="0" name="Instance variable">confirmation_nl</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="402993022098357" type="text_nextlevel">
+                            <param id="0" name="Fade-in time">0</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="385708787257866" type="text_nextlevel">
+                            <param id="0" name="Fade-out time">0.2</param>
+                        </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="333027570017974" type="text_confirmation_nl">
+                            <param id="0" name="Fade-in time">0.2</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="771003362613012" type="text_confirmation_nl">
+                            <param id="0" name="Fade-out time">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="398866870866333" type="text_confirmation_nl">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="576643109052161" type="text_nextlevel" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="312874851375144" type="text_confirmation_nl" />
+                        <action id="-15" name="Set visible" sid="992853563104360" type="text_nextlevel">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="983517186730265">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="565729252355962" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">confirmer_oui_nl</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="894965365201421">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="479193449614952" type="confirmer_nl">
+                            <param id="0" name="Instance variable">confirmation_nl</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="376952713380676" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="33" name="Stop all" sid="732559452551438" type="Audio" />
+                        <action id="-10" name="Set value" sid="879031894677409" type="confirmer_nl">
+                            <param id="0" name="Instance variable">confirmation_nl</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-21" name="Reset global variables" sid="142085096638182" type="System" />
+                        <action id="-16" name="Wait" sid="527583286474570" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="-25" name="Go to layout (by name)" sid="308314078386360" type="System">
+                            <param id="0" name="Layout">&quot;Menu Principal&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="203148199240000">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="367903318842894" type="confirmer_nl">
+                            <param id="0" name="Instance variable">confirmation_nl</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="971811921395288" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="1" name="Close" sid="406064081058056" type="Browser" />
+                    </actions>
+                </event-block>
+                <event-block sid="279930526529755">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="724275692094054" type="confirmer_nl">
+                            <param id="0" name="Instance variable">confirmation_nl</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="341984280987440" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="33" name="Stop all" sid="198623721218282" type="Audio" />
+                        <action id="-16" name="Wait" sid="457287874732863" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="630351616978067" type="confirmer_nl">
+                            <param id="0" name="Instance variable">confirmation_nl</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-21" name="Reset global variables" sid="936578653951544" type="System" />
+                        <action id="-25" name="Go to layout (by name)" sid="524234201447243" type="System">
+                            <param id="0" name="Layout">&quot;Mathéo_Rayonnante&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="514387334934121">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="115754187208141" type="confirmer_nl">
+                            <param id="0" name="Instance variable">confirmation_nl</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="501969293118787" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="33" name="Stop all" sid="144726342368114" type="Audio" />
+                        <action id="-10" name="Set value" sid="225642704137242" type="confirmer_nl">
+                            <param id="0" name="Instance variable">confirmation_nl</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="559686472574824" type="System" />
+                        <action id="-21" name="Reset global variables" sid="428371190141487" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="627387845059042">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="375328764759664" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">confirmer_non_nl</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="431106647890063" type="confirmer_nl">
+                    <param id="0" name="Instance variable">confirmation_nl</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="417401212836541" type="Audio">
+                    <param id="0" name="Audio file">button_pressed</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-10" name="Set value" sid="476494030240395" type="confirmer_nl">
+                    <param id="0" name="Instance variable">confirmation_nl</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action behavior="Fade" id="2" name="Set fade-in time" sid="159869924416762" type="text_confirmation_nl">
+                    <param id="0" name="Fade-in time">0</param>
+                </action>
+                <action behavior="Fade" id="4" name="Set fade-out time" sid="221145970511155" type="text_confirmation_nl">
+                    <param id="0" name="Fade-out time">0.2</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="351694951622950" type="text_confirmation_nl" />
+                <action id="-15" name="Set visible" sid="488123518415087" type="text_confirmation_nl">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="862423864364409">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="466120257765119" type="System">
+                    <param id="0" name="Variable">player_state</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="768603941859761" type="confirmer_nl">
+                    <param id="0" name="Instance variable">confirmation_nl</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="459196292556750">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="279002837077328" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">menu_principal_nl</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="924875633382058" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="639919082106176" type="confirmer_nl">
+                            <param id="0" name="Instance variable">confirmation_nl</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="565679544495648" type="text_nextlevel">
+                            <param id="0" name="Fade-in time">0</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="243044577919913" type="text_nextlevel">
+                            <param id="0" name="Fade-out time">0.2</param>
+                        </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="563008943612522" type="text_confirmation_nl">
+                            <param id="0" name="Fade-in time">0.2</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="864132845910865" type="text_confirmation_nl">
+                            <param id="0" name="Fade-out time">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="912860807959168" type="text_confirmation_nl">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="189721934568932" type="text_nextlevel" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="247358440063863" type="text_confirmation_nl" />
+                        <action id="-15" name="Set visible" sid="776472502955738" type="text_nextlevel">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="420705638054489">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="689345292720328" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">quitter_jeu_nl</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="448268611799558" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="903663781008931" type="confirmer_nl">
+                            <param id="0" name="Instance variable">confirmation_nl</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="336299808065075" type="text_nextlevel">
+                            <param id="0" name="Fade-in time">0</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="638010319429442" type="text_nextlevel">
+                            <param id="0" name="Fade-out time">0.2</param>
+                        </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="341590816371093" type="text_confirmation_nl">
+                            <param id="0" name="Fade-in time">0.2</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="334886520812906" type="text_confirmation_nl">
+                            <param id="0" name="Fade-out time">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="729235004196542" type="text_confirmation_nl">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="686143462163769" type="text_nextlevel" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="427701773764897" type="text_confirmation_nl" />
+                        <action id="-15" name="Set visible" sid="707673818352012" type="text_nextlevel">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-group description="" sid="593607471706175" title="Animation Texte VD Menu">
+            <sub-events>
+                <event-block sid="942774173857174">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="582218567256996" type="Mouse">
+                            <param id="0" name="Object">text_nextlevel</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-27" name="Set effect enabled" sid="399652553149759" type="text_nextlevel">
+                            <param id="0" name="Mode">0</param>
+                            <param id="1" name="Effect">&quot;Brightness3&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="763338389759349">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="229165152267224" type="Mouse">
+                            <param id="0" name="Object">text_nextlevel</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-27" name="Set effect enabled" sid="755567196309256" type="text_nextlevel">
+                            <param id="0" name="Mode">1</param>
+                            <param id="1" name="Effect">&quot;Brightness3&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="870180774695189">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="377229070223258" type="Mouse">
+                            <param id="0" name="Object">text_confirmation_nl</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-27" name="Set effect enabled" sid="334472014983704" type="text_confirmation_nl">
+                            <param id="0" name="Mode">0</param>
+                            <param id="1" name="Effect">&quot;Brightness2&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="666264502668997">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="758754097411683" type="Mouse">
+                            <param id="0" name="Object">text_confirmation_nl</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-27" name="Set effect enabled" sid="976483311383784" type="text_confirmation_nl">
+                            <param id="0" name="Mode">1</param>
+                            <param id="1" name="Effect">&quot;Brightness2&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

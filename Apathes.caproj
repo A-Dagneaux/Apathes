@@ -34,7 +34,9 @@
         <behavior author="Scirra" id="shadowcaster" version="1">Shadow Caster</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
-    <used-effects />
+    <used-effects>
+        <effect author="Scirra" id="brightness">Brightness</effect>
+    </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
@@ -1084,7 +1086,7 @@
             <object-type name="menu_principal" sid="948547871115516">
                 <plugin id="Text" />
             </object-type>
-            <object-type name="pause_background" sid="218058474939567">
+            <object-type name="menu_background" sid="218058474939567">
                 <plugin id="Sprite" />
                 <behaviors>
                     <behavior-type name="Fade" sid="975752366448245">
@@ -1105,9 +1107,19 @@
             </object-type>
             <object-type name="confirmer_non" sid="817902299367247">
                 <plugin id="Text" />
+                <effects>
+                    <effect-type name="Brightness">
+                        <effect id="brightness" />
+                    </effect-type>
+                </effects>
             </object-type>
             <object-type name="confirmer_oui" sid="873811965063423">
                 <plugin id="Text" />
+                <effects>
+                    <effect-type name="Brightness">
+                        <effect id="brightness" />
+                    </effect-type>
+                </effects>
             </object-type>
             <object-type name="musique" sid="434287631462946">
                 <plugin id="Text" />
@@ -1117,6 +1129,39 @@
             </object-type>
             <object-type name="retour" sid="445102706686005">
                 <plugin id="Text" />
+                <effects>
+                    <effect-type name="Brightness">
+                        <effect id="brightness" />
+                    </effect-type>
+                </effects>
+            </object-type>
+            <object-type name="menu_principal_nl" sid="804300131547748">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="quitter_jeu_nl" sid="429991219440035">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="confirmer_nl" sid="984057855180492">
+                <plugin id="Text" />
+                <instance-variables>
+                    <instance-variable comment="0 : no confirmation ; 1 : back to menu ; 2 : quit game ; 3 : next level ; 4 : restart level" name="confirmation_nl" sid="396046474150764" type="number" />
+                </instance-variables>
+            </object-type>
+            <object-type name="confirmer_non_nl" sid="384101084166798">
+                <plugin id="Text" />
+                <effects>
+                    <effect-type name="Brightness">
+                        <effect id="brightness" />
+                    </effect-type>
+                </effects>
+            </object-type>
+            <object-type name="confirmer_oui_nl" sid="401038885271252">
+                <plugin id="Text" />
+                <effects>
+                    <effect-type name="Brightness">
+                        <effect id="brightness" />
+                    </effect-type>
+                </effects>
             </object-type>
         </object-folder>
         <object-type name="Hisia" sid="396807986507934">
@@ -1392,14 +1437,6 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="179054382389019" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="out" sid="755860061497724">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="855466657570719" speed="5">
-                    <frame duration="1" hotspotX="0.505556" hotspotY="0.495208" original-source="C:\Users\dagne\Desktop\Screenshot_1.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -1827,6 +1864,53 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="pause_background" sid="495033720684967">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="374699618892964">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="179912641802328" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text6" sid="972727512550307">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="nextlevel_text" sid="307071873623065">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text8" sid="788861106951195">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="victoire_text" sid="510645109400712">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="defeat_text" sid="689861920675807">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="playagain" sid="983476929265143">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite18" sid="857228419112182">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="128557105144943" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="wayout" sid="801439948163053">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="678119279619661" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Apathes" plugin-id="Sprite" sid="195361571858189">
@@ -1889,6 +1973,11 @@
                     <behavior id="Fade" />
                 </behavior-type>
             </behaviors>
+            <effects>
+                <effect-type name="Brightness">
+                    <effect id="brightness" />
+                </effect-type>
+            </effects>
         </family>
         <family name="text_confirmation" plugin-id="Text" sid="796536784202108">
             <members>
@@ -1914,6 +2003,43 @@
                 </behavior-type>
             </behaviors>
         </family>
+        <family name="text_nextlevel" plugin-id="Text" sid="786127216450618">
+            <members>
+                <member>defeat_text</member>
+                <member>menu_principal_nl</member>
+                <member>nextlevel_text</member>
+                <member>playagain</member>
+                <member>quitter_jeu_nl</member>
+                <member>victoire_text</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Fade" sid="756350078311267">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <effects>
+                <effect-type name="Brightness3">
+                    <effect id="brightness" />
+                </effect-type>
+            </effects>
+        </family>
+        <family name="text_confirmation_nl" plugin-id="Text" sid="918473435462006">
+            <members>
+                <member>confirmer_nl</member>
+                <member>confirmer_non_nl</member>
+                <member>confirmer_oui_nl</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Fade" sid="262115359753825">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <effects>
+                <effect-type name="Brightness2">
+                    <effect id="brightness" />
+                </effect-type>
+            </effects>
+        </family>
     </families>
     <layout-folder>
         <layout>Global_test.xml</layout>
@@ -1922,6 +2048,7 @@
         <layout>UI.xml</layout>
         <layout>Menu Principal.xml</layout>
         <layout>Menu Pause.xml</layout>
+        <layout>Menu Victoire &amp; Défaite.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Global_ES.xml</event-sheet>
@@ -1930,6 +2057,7 @@
         <event-sheet>UI_ES.xml</event-sheet>
         <event-sheet>Menu_Principal_ES.xml</event-sheet>
         <event-sheet>Menu_Pause_ES.xml</event-sheet>
+        <event-sheet>Menu_Victoire_Défaite_ES.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="543" />
@@ -1944,7 +2072,7 @@
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
-                <play-in-background>No</play-in-background>
+                <play-in-background>Yes</play-in-background>
                 <positioned-audio></positioned-audio>
                 <panning-model>HRTF</panning-model>
                 <distance-model>Inverse</distance-model>
@@ -1957,27 +2085,16 @@
         <global-instance type="Browser" uid="401" />
     </global-instances>
     <sounds-folder>
-        <file name="sfx_step_grass_l.m4a" />
-        <file name="sfx_step_grass_l.ogg" />
-        <file name="sfx_step_grass_r.m4a" />
-        <file name="sfx_step_grass_r.ogg" />
-        <file name="SnowWalk.ogg" />
-        <file name="SnowWalk2.ogg" />
-        <file name="snow_step_wet-01.m4a" />
-        <file name="snow_step_wet-02.m4a" />
-        <file name="snow_step_wet-03.m4a" />
-        <file name="snow_step_wet-04.m4a" />
-        <file name="snow_step_wet-05.m4a" />
-        <file name="snow_step_wet-06.m4a" />
-        <file name="snow_step_wet-07.m4a" />
-        <file name="snow_step_wet-08.m4a" />
-        <file name="snow_step_wet-09.m4a" />
         <file name="pj_marche.m4a" />
         <file name="pj_marche.ogg" />
+        <file name="button_pressed.m4a" />
+        <file name="button_pressed.ogg" />
     </sounds-folder>
     <music-folder>
         <file name="music_test.m4a" />
         <file name="music_test.ogg" />
+        <file name="menu_music.m4a" />
+        <file name="menu_music.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">

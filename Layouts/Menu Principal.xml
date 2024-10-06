@@ -54,7 +54,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>960</x>
-                        <y>215</y>
+                        <y>228</y>
                         <z>0</z>
                         <width>1274</width>
                         <height>521</height>
@@ -97,11 +97,18 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="Brightness">
+                            <parameters>
+                                <brightness>0.5</brightness>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
+                    <effect-fallback>1</effect-fallback>
                     <world>
                         <x>960</x>
-                        <y>426</y>
+                        <y>439</y>
                         <z>0</z>
                         <width>347</width>
                         <height>68</height>
@@ -135,11 +142,18 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="Brightness">
+                            <parameters>
+                                <brightness>0.5</brightness>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>960</x>
-                        <y>576</y>
+                        <y>589</y>
                         <z>0</z>
                         <width>250</width>
                         <height>77</height>
@@ -173,11 +187,18 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="Brightness">
+                            <parameters>
+                                <brightness>0.5</brightness>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>960</x>
-                        <y>726</y>
+                        <y>739</y>
                         <z>0</z>
                         <width>306</width>
                         <height>84</height>

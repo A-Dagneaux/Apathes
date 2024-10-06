@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Rémi_Furieuse_ES</name>
     <events>
+        <include>Menu_Victoire_Défaite_ES</include>
         <include>Menu_Pause_ES</include>
         <include>Global_ES</include>
         <include>UI_ES</include>
@@ -446,18 +447,6 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="668103949476269">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="472781793306976" type="Hisia">
-                    <param id="0" name="Object">PorteLevel2</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-25" name="Go to layout (by name)" sid="196572946507142" type="System">
-                    <param id="0" name="Layout">&quot;Mathéo_Rayonnante&quot;</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="569837991731930">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="799306836130247" type="Hisia">

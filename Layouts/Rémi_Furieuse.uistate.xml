@@ -23,22 +23,23 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="Personnage et items" />
+    <active-layer name="victory_defeat_menu" />
     <layers>
         <layer locked="1" name="immobile" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Sol" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Murs" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Tache et Sang" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="Décor sol" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="light" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="shadow blocker" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="Personnage et items" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Décor sol" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="light" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="shadow blocker" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Personnage et items" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Décor voit à travers" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Plafond" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Narration" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="UI" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="pause_menu" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="confirmation_menu" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="parameters_menu" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="pause_menu" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="parameters_menu" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="confirmation_menu" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="victory_defeat_menu" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>

@@ -10,14 +10,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Global_test</layout>
-        <layout active="1" order="1">Rémi_Furieuse</layout>
-        <layout order="4">UI</layout>
-        <layout order="5">Menu Principal</layout>
-        <layout order="6">Menu Pause</layout>
-        <event-sheet order="2">Rémi_Furieuse_ES</event-sheet>
-        <event-sheet order="3">Global_ES</event-sheet>
-        <event-sheet order="7">Menu_Pause_ES</event-sheet>
+        <layout order="0">Menu Principal</layout>
+        <layout order="3">Menu Victoire &amp; Défaite</layout>
+        <layout order="4">Rémi_Furieuse</layout>
+        <layout order="7">Global_test</layout>
+        <layout order="8">Menu Pause</layout>
+        <layout order="10">Mathéo_Rayonnante</layout>
+        <event-sheet order="1">Menu_Pause_ES</event-sheet>
+        <event-sheet order="2">Menu_Principal_ES</event-sheet>
+        <event-sheet order="5">Rémi_Furieuse_ES</event-sheet>
+        <event-sheet order="6">Global_ES</event-sheet>
+        <event-sheet order="9">Menu_Victoire_Défaite_ES</event-sheet>
+        <event-sheet active="1" order="11">Mathéo_Rayonnante_ES</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -30,17 +34,19 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <family expanded="0" name="Masques" />
         <family expanded="0" name="UI" />
         <family expanded="0" name="text_menu" />
-        <family expanded="0" name="text_confirmation" />
+        <family expanded="1" name="text_confirmation" />
         <family expanded="0" name="text_parameters" />
+        <family expanded="0" name="text_nextlevel" />
+        <family expanded="1" name="text_confirmation_nl" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="1" path="object-folder/Apathes/" />
-        <folder expanded="1" path="object-folder/décor/" />
-        <folder expanded="1" path="object-folder/cartes/" />
-        <folder expanded="1" path="object-folder/cartes/par terre/" />
-        <folder expanded="1" path="object-folder/UI/" />
-        <folder expanded="1" path="object-folder/Textes/" />
+        <folder expanded="0" path="object-folder/Apathes/" />
+        <folder expanded="0" path="object-folder/décor/" />
+        <folder expanded="0" path="object-folder/cartes/" />
+        <folder expanded="0" path="object-folder/cartes/par terre/" />
+        <folder expanded="0" path="object-folder/UI/" />
+        <folder expanded="0" path="object-folder/Textes/" />
         <folder expanded="1" path="object-folder/Menus/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
@@ -100,7 +106,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/DialogPonctuel3/" />
         <folder expanded="1" path="animation-folder/DialogPonctuel4/" />
         <folder expanded="1" path="animation-folder/Apathe/" />
-        <folder expanded="1" path="animation-folder/pause_background/" />
+        <folder expanded="1" path="animation-folder/menu_background/" />
         <folder expanded="1" path="animation-folder/Hisia/" />
         <folder expanded="1" path="animation-folder/lumière/" />
         <folder expanded="1" path="animation-folder/pioche/" />
@@ -108,7 +114,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sortie/" />
         <folder expanded="1" path="animation-folder/Sprite5/" />
         <folder expanded="1" path="animation-folder/block/" />
-        <folder expanded="1" path="animation-folder/out/" />
         <folder expanded="1" path="animation-folder/wall/" />
         <folder expanded="1" path="animation-folder/noise/" />
         <folder expanded="1" path="animation-folder/lightblocker/" />
@@ -134,5 +139,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite19/" />
         <folder expanded="1" path="animation-folder/BulleDialog2/" />
         <folder expanded="1" path="animation-folder/BulleDialog3/" />
+        <folder expanded="1" path="animation-folder/pause_background/" />
+        <folder expanded="1" path="animation-folder/Sprite18/" />
+        <folder expanded="1" path="animation-folder/wayout/" />
     </folders-expanded>
 </c2uistate>

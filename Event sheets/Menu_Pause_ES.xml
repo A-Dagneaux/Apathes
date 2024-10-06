@@ -38,7 +38,7 @@
                             <param id="0" name="Visibility">1</param>
                         </action>
                         <action behavior="Fade2" id="1" name="Start fade" sid="956472125749283" type="text_menu" />
-                        <action id="-15" name="Set visible" sid="684205882766440" type="pause_background">
+                        <action id="-15" name="Set visible" sid="684205882766440" type="menu_background">
                             <param id="0" name="Visibility">1</param>
                         </action>
                         <action id="-16" name="Wait" sid="971874118867433" type="System">
@@ -89,7 +89,7 @@
                             <param id="0" name="Fade-in time">0</param>
                         </action>
                         <action behavior="Fade2" id="1" name="Start fade" sid="662363961639584" type="text_menu" />
-                        <action id="-15" name="Set visible" sid="672973937655170" type="pause_background">
+                        <action id="-15" name="Set visible" sid="672973937655170" type="menu_background">
                             <param id="0" name="Visibility">0</param>
                         </action>
                         <action id="-16" name="Wait" sid="665173486585974" type="System">
@@ -377,6 +377,131 @@
                         </action>
                     </actions>
                 </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="535630749540878">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="158352115671313" type="System">
+                    <param id="0" name="Variable">is_paused</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="364467244605922" type="System">
+                    <param id="0" name="Variable">is_paused</param>
+                    <param id="1" name="Comparison">1</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-group description="" sid="585019791320566" title="Animation Texte Pause">
+                    <sub-events>
+                        <event-block sid="746682307068042">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="828549951050349" type="Mouse">
+                                    <param id="0" name="Object">text_menu</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-27" name="Set effect enabled" sid="406875018744032" type="text_menu">
+                                    <param id="0" name="Mode">0</param>
+                                    <param id="1" name="Effect">&quot;Brightness&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="261837500141891">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="864502800617007" type="Mouse">
+                                    <param id="0" name="Object">text_menu</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-27" name="Set effect enabled" sid="525463091683344" type="text_menu">
+                                    <param id="0" name="Mode">1</param>
+                                    <param id="1" name="Effect">&quot;Brightness&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="861084812067909">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="721628835041732" type="Mouse">
+                                    <param id="0" name="Object">confirmer_oui</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-27" name="Set effect enabled" sid="998236120786690" type="confirmer_oui">
+                                    <param id="0" name="Mode">0</param>
+                                    <param id="1" name="Effect">&quot;Brightness&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="195803054689043">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="843430046440365" type="Mouse">
+                                    <param id="0" name="Object">confirmer_oui</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-27" name="Set effect enabled" sid="676201309812329" type="confirmer_oui">
+                                    <param id="0" name="Mode">1</param>
+                                    <param id="1" name="Effect">&quot;Brightness&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="758047712023809">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="911548494954409" type="Mouse">
+                                    <param id="0" name="Object">confirmer_non</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-27" name="Set effect enabled" sid="946336905892380" type="confirmer_non">
+                                    <param id="0" name="Mode">0</param>
+                                    <param id="1" name="Effect">&quot;Brightness&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="449252609369494">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="537074119013582" type="Mouse">
+                                    <param id="0" name="Object">confirmer_non</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-27" name="Set effect enabled" sid="709167231977214" type="confirmer_non">
+                                    <param id="0" name="Mode">1</param>
+                                    <param id="1" name="Effect">&quot;Brightness&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="242546241482750">
+                            <conditions>
+                                <condition id="7" name="Cursor is over object" sid="453231375390185" type="Mouse">
+                                    <param id="0" name="Object">retour</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-27" name="Set effect enabled" sid="523725818651252" type="retour">
+                                    <param id="0" name="Mode">0</param>
+                                    <param id="1" name="Effect">&quot;Brightness&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="329031657307706">
+                            <conditions>
+                                <condition id="7" inverted="1" name="Cursor is over object" sid="705469190710562" type="Mouse">
+                                    <param id="0" name="Object">retour</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-27" name="Set effect enabled" sid="181776326389194" type="retour">
+                                    <param id="0" name="Mode">1</param>
+                                    <param id="1" name="Effect">&quot;Brightness&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
             </sub-events>
         </event-block>
     </events>
