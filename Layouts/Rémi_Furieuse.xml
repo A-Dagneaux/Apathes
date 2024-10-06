@@ -1889,8 +1889,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>153</x>
-                        <y>1455</y>
+                        <x>2194</x>
+                        <y>871</y>
                         <z>0</z>
                         <width>90</width>
                         <height>90</height>
@@ -3234,7 +3234,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PorteFermée" uid="145">
+                <instance type="Goufre" uid="145">
                     <properties>
                         <text>Moi pas sauter ça ! </text>
                         <initial-visibility>Invisible</initial-visibility>
@@ -3397,6 +3397,50 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="DialogPonctuel3" uid="423">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2034.288818359</x>
+                        <y>1227.119018555</y>
+                        <z>0</z>
+                        <width>623</width>
+                        <height>305</height>
+                        <depth>0</depth>
+                        <hotspotX>0.209999993</hotspotX>
+                        <hotspotY>0.375</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="DialogPonctuel4" uid="424">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>91</x>
+                        <y>1752</y>
+                        <z>0</z>
+                        <width>450</width>
+                        <height>207</height>
+                        <depth>0</depth>
+                        <hotspotX>0.209999993</hotspotX>
+                        <hotspotY>0.395000011</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

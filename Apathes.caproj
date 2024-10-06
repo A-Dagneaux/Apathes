@@ -877,7 +877,7 @@
             <object-type name="Dialog8" sid="280938911291169">
                 <plugin id="Text" />
             </object-type>
-            <object-type name="PorteFermée" sid="972414848684708">
+            <object-type name="Goufre" sid="972414848684708">
                 <plugin id="Text" />
             </object-type>
             <object-type name="Dialog7bis" sid="383543680926637">
@@ -908,6 +908,38 @@
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="776523744384334" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="DialogPonctuel" sid="797145334143171">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="247246084935383" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="DialogPonctuel1" sid="246836751093612">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="615375160696399" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="DialogPonctuel2" sid="948372824409714">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="611333482687452" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="DialogPonctuel3" sid="464104996218451">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="394742902342629" speed="5">
+                        <frame duration="1" hotspotX="0.21" hotspotY="0.375" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1680,27 +1712,11 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="DialogPonctuel" sid="797145334143171">
+        <object-type name="DialogPonctuel4" sid="806932860984984">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="247246084935383" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="DialogPonctuel1" sid="246836751093612">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="615375160696399" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="DialogPonctuel2" sid="948372824409714">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="611333482687452" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="384791525909436" speed="5">
+                    <frame duration="1" hotspotX="0.21" hotspotY="0.395" />
                 </animation>
             </animation-folder>
         </object-type>
