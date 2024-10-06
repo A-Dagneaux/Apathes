@@ -663,6 +663,90 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Gouffre2" sid="739056296135832">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="826320556209850">
+                        <behavior id="solid" />
+                    </behavior-type>
+                    <behavior-type name="ShadowCaster" sid="242488298302697">
+                        <behavior id="shadowcaster" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="164337547944225" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.158854" y="0.484375" />
+                                <point x="0.844076" y="0.483399" />
+                                <point x="0.88737" y="0.684245" />
+                                <point x="0.856771" y="0.765626" />
+                                <point x="0.73698" y="0.802084" />
+                                <point x="0.489583" y="0.785156" />
+                                <point x="0.302083" y="0.814453" />
+                                <point x="0.153646" y="0.78125" />
+                                <point x="0.111979" y="0.677084" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Gouffre3" sid="687608626212310">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="949195704467153">
+                        <behavior id="solid" />
+                    </behavior-type>
+                    <behavior-type name="ShadowCaster" sid="972097647710547">
+                        <behavior id="shadowcaster" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="943051711064498" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.117188" y="0.494793" />
+                                <point x="0.886719" y="0.494792" />
+                                <point x="0.894531" y="0.744792" />
+                                <point x="0.791016" y="0.79948" />
+                                <point x="0.637695" y="0.785157" />
+                                <point x="0.505249" y="0.809408" />
+                                <point x="0.35791" y="0.777995" />
+                                <point x="0.1875" y="0.822917" />
+                                <point x="0.0957031" y="0.739584" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Gouffre1" sid="363062644530666">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="645946964913545">
+                        <behavior id="solid" />
+                    </behavior-type>
+                    <behavior-type name="ShadowCaster" sid="247227832162391">
+                        <behavior id="shadowcaster" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="449138342522878" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.0234375" y="0.138672" />
+                                <point x="0.558594" y="0.132813" />
+                                <point x="0.787109" y="0.177734" />
+                                <point x="0.827148" y="0.27832" />
+                                <point x="0.757324" y="0.375488" />
+                                <point x="0.800537" y="0.513916" />
+                                <point x="0.76355" y="0.630005" />
+                                <point x="0.792969" y="0.830078" />
+                                <point x="0.0078125" y="0.841797" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="cartes">
             <object-folder name="par terre">

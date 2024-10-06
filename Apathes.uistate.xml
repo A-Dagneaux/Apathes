@@ -11,9 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Global_test</layout>
-        <layout order="1">Rémi_Furieuse</layout>
+        <layout active="1" order="1">Rémi_Furieuse</layout>
         <event-sheet order="2">Rémi_Furieuse_ES</event-sheet>
-        <event-sheet active="1" order="3">Global_ES</event-sheet>
+        <event-sheet order="3">Global_ES</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -70,6 +70,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/pillier/" />
         <folder expanded="1" path="animation-folder/PorteLevel2/" />
         <folder expanded="1" path="animation-folder/MurPoussable2/" />
+        <folder expanded="1" path="animation-folder/Gouffre2/" />
+        <folder expanded="1" path="animation-folder/Gouffre3/" />
+        <folder expanded="1" path="animation-folder/Gouffre1/" />
         <folder expanded="1" path="animation-folder/rayonnante/" />
         <folder expanded="1" path="animation-folder/craintive/" />
         <folder expanded="1" path="animation-folder/furieuse/" />
