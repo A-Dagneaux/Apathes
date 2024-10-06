@@ -11,9 +11,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Global_test</layout>
-        <layout active="1" order="1">Rémi_Furieuse</layout>
+        <layout order="1">Rémi_Furieuse</layout>
+        <layout order="4">UI</layout>
+        <layout order="5">Menu Principal</layout>
+        <layout order="6">Menu Pause</layout>
         <event-sheet order="2">Rémi_Furieuse_ES</event-sheet>
         <event-sheet order="3">Global_ES</event-sheet>
+        <event-sheet active="1" order="7">Menu_Pause_ES</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
