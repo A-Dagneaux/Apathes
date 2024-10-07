@@ -3061,6 +3061,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="slider_effects" sid="705896245383478">
+            <plugin id="sliderbar" />
+        </object-type>
     </object-folder>
     <families>
         <family name="Apathes" plugin-id="Sprite" sid="195361571858189">

@@ -137,6 +137,12 @@
                         <action id="-15" name="Set visible" sid="880328023946712" type="text_parameters">
                             <param id="0" name="Visibility">1</param>
                         </action>
+                        <action id="1" name="Set visible" sid="375072109545866" type="slider_musique">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="1" name="Set visible" sid="838679731099021" type="slider_effects">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
                         <action id="-16" name="Wait" sid="953495183593562" type="System">
                             <param id="0" name="Seconds">0.3</param>
                         </action>
@@ -209,6 +215,28 @@
             </conditions>
             <actions />
             <sub-events>
+                <event-block sid="125066412937406">
+                    <conditions>
+                        <condition id="2" name="On changed" sid="316331631800703" type="slider_musique" />
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set volume" sid="600403159228733" type="Audio">
+                            <param id="0" name="Tag">&quot;menu_musique.m4a&quot;</param>
+                            <param id="1" name="dB">slider_musique.Value</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="786515632041131">
+                    <conditions>
+                        <condition id="2" name="On changed" sid="227259702486225" type="slider_musique" />
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set volume" sid="922003666850910" type="Audio">
+                            <param id="0" name="Tag">&quot;pj_marche.m4a&quot;</param>
+                            <param id="1" name="dB">slider_effects.Value</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block any="1" sid="884111579208763">
                     <conditions>
                         <condition id="6" name="On object clicked" sid="158522815693146" type="Mouse">
@@ -235,6 +263,12 @@
                         </action>
                         <action behavior="Fade2" id="1" name="Start fade" sid="194133035711212" type="text_parameters" />
                         <action id="-15" name="Set visible" sid="868471747228327" type="text_parameters">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="1" name="Set visible" sid="749319973444704" type="slider_musique">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="1" name="Set visible" sid="554954802274889" type="slider_effects">
                             <param id="0" name="Visibility">0</param>
                         </action>
                         <action behavior="Fade" id="2" name="Set fade-in time" sid="952537026253537" type="Apathe">

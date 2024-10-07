@@ -535,8 +535,8 @@
                 <instance type="slider_musique" uid="445">
                     <properties>
                         <value>0</value>
-                        <minimum>0</minimum>
-                        <maximum>100</maximum>
+                        <minimum>-100</minimum>
+                        <maximum>0</maximum>
                         <step>1</step>
                         <tooltip></tooltip>
                         <initial-visibility>Invisible</initial-visibility>
@@ -546,8 +546,32 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>829</x>
+                        <x>830</x>
                         <y>353</y>
+                        <z>0</z>
+                        <width>535</width>
+                        <height>25</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                    </world>
+                </instance>
+                <instance type="slider_effects" uid="304">
+                    <properties>
+                        <value>0</value>
+                        <minimum>-100</minimum>
+                        <maximum>0</maximum>
+                        <step>1</step>
+                        <tooltip></tooltip>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <enabled>Yes</enabled>
+                        <id-optional></id-optional>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>830</x>
+                        <y>542</y>
                         <z>0</z>
                         <width>535</width>
                         <height>25</height>

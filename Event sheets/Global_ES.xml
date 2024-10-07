@@ -1004,95 +1004,73 @@
                 <event-group description="Comportements pour tous les Apathes : &#x0D;&#x0A;- retourne à sa place quand il n&apos;a plujs de ligne de vue" sid="143205985739188" title="Base">
                     <sub-events>
                         <comment>Si pas ligne de vue, retourne à sa place initiale. </comment>
-                        <event-block sid="977020596307553">
+                        <event-block sid="571389972258589">
                             <conditions>
-                                <condition behavior="LineOfSight" id="0" inverted="1" name="Has LOS to object" sid="337035224653352" type="Apathes">
-                                    <param id="0" name="Object">Hisia</param>
-                                </condition>
-                                <condition id="-7" name="Compare instance variable" sid="637213530569343" type="Apathes">
-                                    <param id="0" name="Instance variable">Y_initial</param>
-                                    <param id="1" name="Comparison">1</param>
-                                    <param id="2" name="Value">Apathes.Y</param>
-                                </condition>
-                                <condition id="-7" name="Compare instance variable" sid="312057422979540" type="Apathes">
-                                    <param id="0" name="Instance variable">X_initial</param>
-                                    <param id="1" name="Comparison">1</param>
-                                    <param id="2" name="Value">Apathes.X</param>
+                                <condition id="-14" name="Compare variable" sid="641466914307436" type="System">
+                                    <param id="0" name="Variable">is_paused</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="-22" name="Set angle toward position" sid="397117121205494" type="Apathes">
-                                    <param id="0" name="X">Apathes.X_initial</param>
-                                    <param id="1" name="Y">Apathes.Y_initial</param>
-                                </action>
-                                <action id="-17" name="Move forward" sid="907655349570072" type="Apathes">
-                                    <param id="0" name="Distance">3</param>
-                                </action>
-                            </actions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="977020596307553">
+                                    <conditions>
+                                        <condition behavior="LineOfSight" id="0" inverted="1" name="Has LOS to object" sid="337035224653352" type="Apathes">
+                                            <param id="0" name="Object">Hisia</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="637213530569343" type="Apathes">
+                                            <param id="0" name="Instance variable">Y_initial</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">Apathes.Y</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="312057422979540" type="Apathes">
+                                            <param id="0" name="Instance variable">X_initial</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">Apathes.X</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-22" name="Set angle toward position" sid="397117121205494" type="Apathes">
+                                            <param id="0" name="X">Apathes.X_initial</param>
+                                            <param id="1" name="Y">Apathes.Y_initial</param>
+                                        </action>
+                                        <action id="-17" name="Move forward" sid="907655349570072" type="Apathes">
+                                            <param id="0" name="Distance">3</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                     </sub-events>
                 </event-group>
                 <event-group description="quand le joueur s’approche avec Enjoué d’activé, il le poursuit." sid="731629042920509" title="Mange Lumière">
                     <sub-events>
-                        <event-block sid="819534617838525">
+                        <event-block sid="283367306873884">
                             <conditions>
-                                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="692072655452469" type="Apathe_MangeLumiere">
-                                    <param id="0" name="Object">Hisia</param>
-                                </condition>
-                                <condition id="1" name="Is overlapping another object" sid="728258828821429" type="lumière">
-                                    <param id="0" name="Object">Apathe_MangeLumiere</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-22" name="Set angle toward position" sid="264966473187228" type="Apathe_MangeLumiere">
-                                    <param id="0" name="X">Hisia.X</param>
-                                    <param id="1" name="Y">Hisia.Y</param>
-                                </action>
-                                <action id="-17" name="Move forward" sid="398548799532076" type="Apathe_MangeLumiere">
-                                    <param id="0" name="Distance">apathe_speed</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
-                </event-group>
-                <event-group description="quand le joueur s’approche avec Enjoué d’activé, il recule." sid="814662479975936" title="Oscur">
-                    <sub-events>
-                        <event-block sid="520512012118217">
-                            <conditions>
-                                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="865874439411076" type="Apathe_Obscur">
-                                    <param id="0" name="Object">Hisia</param>
+                                <condition id="-14" name="Compare variable" sid="280360901823283" type="System">
+                                    <param id="0" name="Variable">is_paused</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
                                 </condition>
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="335026406195738">
+                                <event-block sid="819534617838525">
                                     <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="569398112737274" type="Hisia">
-                                            <param id="0" name="Instance variable">emotion</param>
-                                            <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Value">&quot;rayonnante&quot;</param>
+                                        <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="692072655452469" type="Apathe_MangeLumiere">
+                                            <param id="0" name="Object">Hisia</param>
+                                        </condition>
+                                        <condition id="1" name="Is overlapping another object" sid="728258828821429" type="lumière">
+                                            <param id="0" name="Object">Apathe_MangeLumiere</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-22" name="Set angle toward position" sid="776507190960975" type="Apathe_Obscur">
+                                        <action id="-22" name="Set angle toward position" sid="264966473187228" type="Apathe_MangeLumiere">
                                             <param id="0" name="X">Hisia.X</param>
                                             <param id="1" name="Y">Hisia.Y</param>
                                         </action>
-                                        <action id="-17" name="Move forward" sid="135723795473277" type="Apathe_Obscur">
-                                            <param id="0" name="Distance">- apathe_speed</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="109212209990886">
-                                    <conditions>
-                                        <condition id="-22" name="Else" sid="481949100826630" type="System" />
-                                    </conditions>
-                                    <actions>
-                                        <action id="-22" name="Set angle toward position" sid="312333346197384" type="Apathe_Obscur">
-                                            <param id="0" name="X">Hisia.X</param>
-                                            <param id="1" name="Y">Hisia.Y</param>
-                                        </action>
-                                        <action id="-17" name="Move forward" sid="702263204676007" type="Apathe_Obscur">
+                                        <action id="-17" name="Move forward" sid="398548799532076" type="Apathe_MangeLumiere">
                                             <param id="0" name="Distance">apathe_speed</param>
                                         </action>
                                     </actions>
@@ -1101,59 +1079,141 @@
                         </event-block>
                     </sub-events>
                 </event-group>
-                <event-group description="Quand le joueur se déplace avec Furieux d’activé, il peut le sentir et se déplacer vers lui. &#x0D;&#x0A;" sid="292971181668268" title="AntiBruit">
+                <event-group description="quand le joueur s’approche avec Enjoué d’activé, il recule." sid="814662479975936" title="Oscur">
                     <sub-events>
-                        <event-block sid="672456616805429">
+                        <event-block sid="713756908816429">
                             <conditions>
-                                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="614248509871467" type="Apathe_AntiBruit">
-                                    <param id="0" name="Object">Hisia</param>
-                                </condition>
-                                <condition id="1" name="Is overlapping another object" sid="557309178098764" type="Apathe_AntiBruit">
-                                    <param id="0" name="Object">noise</param>
+                                <condition id="-14" name="Compare variable" sid="357930204489063" type="System">
+                                    <param id="0" name="Variable">is_paused</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="-22" name="Set angle toward position" sid="335349323981065" type="Apathe_AntiBruit">
-                                    <param id="0" name="X">Hisia.X</param>
-                                    <param id="1" name="Y">Hisia.Y</param>
-                                </action>
-                                <action id="-17" name="Move forward" sid="244537633158707" type="Apathe_AntiBruit">
-                                    <param id="0" name="Distance">apathe_speed</param>
-                                </action>
-                            </actions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="520512012118217">
+                                    <conditions>
+                                        <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="865874439411076" type="Apathe_Obscur">
+                                            <param id="0" name="Object">Hisia</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="335026406195738">
+                                            <conditions>
+                                                <condition id="-7" name="Compare instance variable" sid="569398112737274" type="Hisia">
+                                                    <param id="0" name="Instance variable">emotion</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Value">&quot;rayonnante&quot;</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-22" name="Set angle toward position" sid="776507190960975" type="Apathe_Obscur">
+                                                    <param id="0" name="X">Hisia.X</param>
+                                                    <param id="1" name="Y">Hisia.Y</param>
+                                                </action>
+                                                <action id="-17" name="Move forward" sid="135723795473277" type="Apathe_Obscur">
+                                                    <param id="0" name="Distance">- apathe_speed</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="109212209990886">
+                                            <conditions>
+                                                <condition id="-22" name="Else" sid="481949100826630" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="-22" name="Set angle toward position" sid="312333346197384" type="Apathe_Obscur">
+                                                    <param id="0" name="X">Hisia.X</param>
+                                                    <param id="1" name="Y">Hisia.Y</param>
+                                                </action>
+                                                <action id="-17" name="Move forward" sid="702263204676007" type="Apathe_Obscur">
+                                                    <param id="0" name="Distance">apathe_speed</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="Quand le joueur se déplace avec Furieux d’activé, il peut le sentir et se déplacer vers lui. &#x0D;&#x0A;" sid="292971181668268" title="AntiBruit">
+                    <sub-events>
+                        <event-block sid="375356152389166">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="763945251214985" type="System">
+                                    <param id="0" name="Variable">is_paused</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="672456616805429">
+                                    <conditions>
+                                        <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="614248509871467" type="Apathe_AntiBruit">
+                                            <param id="0" name="Object">Hisia</param>
+                                        </condition>
+                                        <condition id="1" name="Is overlapping another object" sid="557309178098764" type="Apathe_AntiBruit">
+                                            <param id="0" name="Object">noise</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-22" name="Set angle toward position" sid="335349323981065" type="Apathe_AntiBruit">
+                                            <param id="0" name="X">Hisia.X</param>
+                                            <param id="1" name="Y">Hisia.Y</param>
+                                        </action>
+                                        <action id="-17" name="Move forward" sid="244537633158707" type="Apathe_AntiBruit">
+                                            <param id="0" name="Distance">apathe_speed</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                     </sub-events>
                 </event-group>
                 <event-group description="quand le joueur passe près de lui, il se met à hurler et tous les autres Apathie accourent vers lui.   &#x0D;&#x0A;" sid="365544888620343" title="Hurleur">
                     <sub-events>
-                        <event-block sid="567055868242764">
+                        <event-block sid="930451670369844">
                             <conditions>
-                                <condition id="1" name="Is overlapping another object" sid="514535338725808" type="Apathe_Hurleur">
-                                    <param id="0" name="Object">noise</param>
+                                <condition id="-14" name="Compare variable" sid="231963913913717" type="System">
+                                    <param id="0" name="Variable">is_paused</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
                                 </condition>
-                                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="895575912124244" type="Apathe_Hurleur">
-                                    <param id="0" name="Object">Hisia</param>
-                                </condition>
-                                <condition id="-3" name="Is on-screen" sid="803020025754633" type="Apathes" />
                             </conditions>
-                            <actions>
-                                <action id="-22" name="Set angle toward position" sid="322635978816965" type="Apathe_Hurleur">
-                                    <param id="0" name="X">Hisia.X</param>
-                                    <param id="1" name="Y">Hisia.Y</param>
-                                </action>
-                                <action behavior="Pathfinding" id="0" name="Find path" sid="671554518229765" type="Apathes">
-                                    <param id="0" name="X">Hisia.X</param>
-                                    <param id="1" name="Y">Hisia.Y</param>
-                                </action>
-                            </actions>
+                            <actions />
                             <sub-events>
-                                <event-block sid="261270963990872">
+                                <event-block sid="567055868242764">
                                     <conditions>
-                                        <condition behavior="Pathfinding" id="0" name="On path found" sid="977375221116255" type="Apathes" />
+                                        <condition id="1" name="Is overlapping another object" sid="514535338725808" type="Apathe_Hurleur">
+                                            <param id="0" name="Object">noise</param>
+                                        </condition>
+                                        <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="895575912124244" type="Apathe_Hurleur">
+                                            <param id="0" name="Object">Hisia</param>
+                                        </condition>
+                                        <condition id="-3" name="Is on-screen" sid="803020025754633" type="Apathes" />
                                     </conditions>
                                     <actions>
-                                        <action behavior="Pathfinding" id="1" name="Move along path" sid="294546848865546" type="Apathes" />
+                                        <action id="-22" name="Set angle toward position" sid="322635978816965" type="Apathe_Hurleur">
+                                            <param id="0" name="X">Hisia.X</param>
+                                            <param id="1" name="Y">Hisia.Y</param>
+                                        </action>
+                                        <action behavior="Pathfinding" id="0" name="Find path" sid="671554518229765" type="Apathes">
+                                            <param id="0" name="X">Hisia.X</param>
+                                            <param id="1" name="Y">Hisia.Y</param>
+                                        </action>
                                     </actions>
+                                    <sub-events>
+                                        <event-block sid="261270963990872">
+                                            <conditions>
+                                                <condition behavior="Pathfinding" id="0" name="On path found" sid="977375221116255" type="Apathes" />
+                                            </conditions>
+                                            <actions>
+                                                <action behavior="Pathfinding" id="1" name="Move along path" sid="294546848865546" type="Apathes" />
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
                                 </event-block>
                             </sub-events>
                         </event-block>

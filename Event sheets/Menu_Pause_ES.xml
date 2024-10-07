@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Menu_Pause_ES</name>
     <events>
+        <comment>is_pause=0 : en jeu</comment>
         <event-block sid="519124280433760">
             <conditions>
                 <condition id="-14" name="Compare variable" sid="977045124669728" type="System">
@@ -52,6 +53,7 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <comment>is_pause=1 : menu pause</comment>
         <event-block sid="803771884535732">
             <conditions>
                 <condition id="-14" name="Compare variable" sid="780807147123121" type="System">
@@ -208,6 +210,12 @@
                         <action id="-15" name="Set visible" sid="701437035135777" type="text_parameters">
                             <param id="0" name="Visibility">1</param>
                         </action>
+                        <action id="1" name="Set visible" sid="842897702789314" type="slider_musique">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="1" name="Set visible" sid="867347220883633" type="slider_effects">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
                         <action id="-9" name="Set value" sid="140786361118593" type="System">
                             <param id="0" name="Variable">is_paused</param>
                             <param id="1" name="Value">2</param>
@@ -216,6 +224,7 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <comment>is_pause=2 : paramètres</comment>
         <event-block sid="897367785533566">
             <conditions>
                 <condition id="-14" name="Compare variable" sid="262900038951158" type="System">
@@ -252,6 +261,12 @@
                         <action id="-15" name="Set visible" sid="376801497540291" type="text_parameters">
                             <param id="0" name="Visibility">0</param>
                         </action>
+                        <action id="1" name="Set visible" sid="143122014920080" type="slider_musique">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="1" name="Set visible" sid="451318920418962" type="slider_effects">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
                         <action behavior="Fade2" id="2" name="Set fade-in time" sid="994072450364985" type="text_menu">
                             <param id="0" name="Fade-in time">0.3</param>
                         </action>
@@ -264,8 +279,29 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="245255235924074">
+                    <conditions>
+                        <condition id="2" name="On changed" sid="350148788292894" type="slider_musique" />
+                    </conditions>
+                    <actions>
+                        <action id="10" name="Set master volume" sid="700826675175778" type="Audio">
+                            <param id="0" name="dB">slider_musique.Value</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="593215254020042">
+                    <conditions>
+                        <condition id="2" name="On changed" sid="626094961756110" type="slider_effects" />
+                    </conditions>
+                    <actions>
+                        <action id="10" name="Set master volume" sid="759389404213406" type="Audio">
+                            <param id="0" name="dB">slider_effects.Value</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-block>
+        <comment>is_pause=3 : pending confirmation</comment>
         <event-block sid="654121513690619">
             <conditions>
                 <condition id="-14" name="Compare variable" sid="486093445005267" type="System">
@@ -503,17 +539,6 @@
                     </sub-events>
                 </event-group>
             </sub-events>
-        </event-block>
-        <comment>changer le volume</comment>
-        <event-block disabled="1" sid="245255235924074">
-            <conditions>
-                <condition id="2" name="On changed" sid="350148788292894" type="slider_musique" />
-            </conditions>
-            <actions>
-                <action id="10" name="Set master volume" sid="700826675175778" type="Audio">
-                    <param id="0" name="dB">slider_musique.Value</param>
-                </action>
-            </actions>
         </event-block>
     </events>
 </c2eventsheet>
