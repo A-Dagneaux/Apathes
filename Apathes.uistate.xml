@@ -12,10 +12,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">Menu Principal</layout>
         <layout order="3">Menu Victoire &amp; Défaite</layout>
-        <layout active="1" order="4">Rémi_Furieuse</layout>
+        <layout order="4">Rémi_Furieuse</layout>
         <layout order="7">Global_test</layout>
         <layout order="8">Menu Pause</layout>
-        <layout order="10">Mathéo_Rayonnante</layout>
+        <layout active="1" order="10">Mathéo_Rayonnante</layout>
         <event-sheet order="1">Menu_Pause_ES</event-sheet>
         <event-sheet order="2">Menu_Principal_ES</event-sheet>
         <event-sheet order="5">Rémi_Furieuse_ES</event-sheet>
@@ -85,6 +85,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Gouffre3/" />
         <folder expanded="1" path="animation-folder/Gouffre1/" />
         <folder expanded="1" path="animation-folder/SolidMeuble/" />
+        <folder expanded="1" path="animation-folder/MurPoussable3/" />
         <folder expanded="1" path="animation-folder/rayonnante/" />
         <folder expanded="1" path="animation-folder/craintive/" />
         <folder expanded="1" path="animation-folder/furieuse/" />
@@ -144,5 +145,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/pause_background/" />
         <folder expanded="1" path="animation-folder/Sprite18/" />
         <folder expanded="1" path="animation-folder/wayout/" />
+        <folder expanded="1" path="animation-folder/Sprite20/" />
     </folders-expanded>
 </c2uistate>
