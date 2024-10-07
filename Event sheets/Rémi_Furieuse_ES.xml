@@ -121,16 +121,11 @@
                                 <action id="-15" name="Set visible" sid="823484481527923" type="Dialog4">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
-                                <action id="-10" name="Set value" sid="649174189623753" type="GardeNaration">
-                                    <param id="0" name="Instance variable">sens</param>
-                                    <param id="1" name="Value">2</param>
+                                <action id="7" name="Set mirrored" sid="649174189623753" type="GardeNaration">
+                                    <param id="0" name="State">1</param>
                                 </action>
                                 <action id="-16" name="Wait" sid="424196139370881" type="System">
                                     <param id="0" name="Seconds">1.5</param>
-                                </action>
-                                <action id="-10" name="Set value" sid="438877840666833" type="GardeNaration">
-                                    <param id="0" name="Instance variable">sens</param>
-                                    <param id="1" name="Value">0</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="535528755847693" type="Dialog4">
                                     <param id="0" name="Visibility">0</param>
@@ -151,6 +146,9 @@
                                 </action>
                                 <action id="-15" name="Set visible" sid="242486645236279" type="Dialog5">
                                     <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="651537523656078" type="GardeNaration">
+                                    <param id="0" name="State">0</param>
                                 </action>
                                 <action id="-10" name="Set value" sid="211656743361875" type="GardeNaration">
                                     <param id="0" name="Instance variable">sens</param>
@@ -199,6 +197,9 @@
                                 </action>
                                 <action id="-15" name="Set visible" sid="450607517930880" type="BulleDialog">
                                     <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="714941033409711" type="ApatheActeur2">
+                                    <param id="0" name="State">0</param>
                                 </action>
                             </actions>
                         </event-block>
