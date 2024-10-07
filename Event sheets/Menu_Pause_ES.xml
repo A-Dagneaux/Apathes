@@ -504,5 +504,16 @@
                 </event-group>
             </sub-events>
         </event-block>
+        <comment>changer le volume</comment>
+        <event-block disabled="1" sid="245255235924074">
+            <conditions>
+                <condition id="2" name="On changed" sid="350148788292894" type="slider_musique" />
+            </conditions>
+            <actions>
+                <action id="10" name="Set master volume" sid="700826675175778" type="Audio">
+                    <param id="0" name="dB">slider_musique.Value</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
