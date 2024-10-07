@@ -26,7 +26,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <active-layer name="confirmation_menu" />
     <layers>
         <layer locked="1" name="Menu Principal" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="confirmation_menu" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="parameters_menu" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="confirmation_menu" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="parameters_menu" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>

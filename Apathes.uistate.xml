@@ -12,11 +12,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <open-tabs>
         <layout order="0">Menu Principal</layout>
         <layout order="3">Menu Victoire &amp; Défaite</layout>
-        <layout order="4">Rémi_Furieuse</layout>
+        <layout active="1" order="4">Rémi_Furieuse</layout>
         <layout order="7">Global_test</layout>
         <layout order="8">Menu Pause</layout>
         <layout order="10">Mathéo_Rayonnante</layout>
-        <event-sheet active="1" order="1">Menu_Pause_ES</event-sheet>
+        <event-sheet order="1">Menu_Pause_ES</event-sheet>
         <event-sheet order="2">Menu_Principal_ES</event-sheet>
         <event-sheet order="5">Rémi_Furieuse_ES</event-sheet>
         <event-sheet order="6">Global_ES</event-sheet>

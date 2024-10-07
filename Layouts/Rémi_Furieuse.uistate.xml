@@ -4,11 +4,11 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>1285.63</position-x>
-        <position-y>1044.24</position-y>
+        <position-x>2048</position-x>
+        <position-y>1585.36</position-y>
         <position-z>282.953</position-z>
-        <lookat-x>1285.63</lookat-x>
-        <lookat-y>1044.24</lookat-y>
+        <lookat-x>2048</lookat-x>
+        <lookat-y>1585.36</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>0</snap-to-grid>
@@ -23,23 +23,23 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="victory_defeat_menu" />
+    <active-layer name="Personnage et items" />
     <layers>
         <layer locked="1" name="immobile" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Sol" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Murs" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Tache et Sang" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Décor sol" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="light" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="shadow blocker" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="Décor sol" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="light" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="shadow blocker" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Personnage et items" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Décor voit à travers" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Plafond" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Narration" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="UI" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="pause_menu" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="parameters_menu" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="confirmation_menu" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="pause_menu" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="parameters_menu" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="confirmation_menu" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="victory_defeat_menu" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>
