@@ -953,8 +953,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1888</x>
-                        <y>549</y>
+                        <x>1869</x>
+                        <y>443</y>
                         <z>0</z>
                         <width>819.200012207</width>
                         <height>1495.040039063</height>
@@ -2282,6 +2282,17 @@
                                 <rotate-speed>135</rotate-speed>
                                 <rotate-object>Yes</rotate-object>
                                 <diagonals>Enabled</diagonals>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>200</max-speed>
+                                <acceleration>600</acceleration>
+                                <deceleration>500</deceleration>
+                                <directions>8 directions</directions>
+                                <set-angle>360 degree (smooth)</set-angle>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
