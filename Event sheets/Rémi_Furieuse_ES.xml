@@ -33,9 +33,6 @@
                                 <action behavior="8Direction" disabled="1" id="8" name="Set enabled" sid="902759013569258" type="Hisia">
                                     <param id="0" name="State">0</param>
                                 </action>
-                                <action id="7" name="Set mirrored" sid="644483245427312" type="ApatheActeur2">
-                                    <param id="0" name="State">0</param>
-                                </action>
                                 <action id="-16" name="Wait" sid="795358626060925" type="System">
                                     <param id="0" name="Seconds">3</param>
                                 </action>
@@ -84,6 +81,12 @@
                                 </action>
                                 <action id="-15" name="Set visible" sid="355247741226683" type="BulleDialog">
                                     <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="386762152007747" type="GardeNaration">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="321511233084949" type="GardeNaration2">
+                                    <param id="0" name="State">0</param>
                                 </action>
                                 <action id="-10" name="Set value" sid="408282909873414" type="GardeNaration2">
                                     <param id="0" name="Instance variable">sens</param>
@@ -447,125 +450,173 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="569837991731930">
+        <event-block sid="787862122738245">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="799306836130247" type="Hisia">
-                    <param id="0" name="Object">Gouffre1</param>
-                </condition>
+                <condition behavior="8Direction" id="0" name="Is moving" sid="291921352297266" type="GardeNaration" />
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="675625096519591" type="DialogPonctuel4">
-                    <param id="0" name="X">Hisia.X-50</param>
-                    <param id="1" name="Y">Hisia.Y-200</param>
-                </action>
-                <action id="-15" name="Set visible" sid="994918528424455" type="DialogPonctuel4">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="526612062413800" type="Goufre">
-                    <param id="0" name="X">Hisia.X-50</param>
-                    <param id="1" name="Y">Hisia.Y-200</param>
-                </action>
-                <action id="-15" name="Set visible" sid="526064543884237" type="Goufre">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-16" name="Wait" sid="439742481648673" type="System">
-                    <param id="0" name="Seconds">2.0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="212689999427226" type="Goufre">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="291810338653250" type="DialogPonctuel4">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-10" name="Set value" sid="255908463817051" type="Hisia">
-                    <param id="0" name="Instance variable">SaveX</param>
-                    <param id="1" name="Value">Hisia.X</param>
-                </action>
-                <action id="-10" name="Set value" sid="107352062526265" type="Hisia">
-                    <param id="0" name="Instance variable">SaveY</param>
-                    <param id="1" name="Value">Hisia.Y</param>
+                <action id="4" name="Set animation" sid="994397897628184" type="GardeNaration">
+                    <param id="0" name="Animation">&quot;mouvement&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="490305250851105">
+        <event-block sid="173166325801239">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="623574863640059" type="Hisia">
-                    <param id="0" name="Object">Gouffre2</param>
-                </condition>
+                <condition behavior="8Direction" id="0" name="Is moving" sid="707686360408282" type="GardeNaration2" />
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="136126662650246" type="DialogPonctuel4">
-                    <param id="0" name="X">Hisia.X-50</param>
-                    <param id="1" name="Y">Hisia.Y-200</param>
-                </action>
-                <action id="-15" name="Set visible" sid="406358599985650" type="DialogPonctuel4">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="832281559678764" type="Goufre">
-                    <param id="0" name="X">Hisia.X-50</param>
-                    <param id="1" name="Y">Hisia.Y-200</param>
-                </action>
-                <action id="-15" name="Set visible" sid="479726437600495" type="Goufre">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-16" name="Wait" sid="111394544098122" type="System">
-                    <param id="0" name="Seconds">2.0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="102733832638463" type="Goufre">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="811853261641077" type="DialogPonctuel4">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-10" name="Set value" sid="141692032245327" type="Hisia">
-                    <param id="0" name="Instance variable">SaveX</param>
-                    <param id="1" name="Value">Hisia.X</param>
-                </action>
-                <action id="-10" name="Set value" sid="982571304575286" type="Hisia">
-                    <param id="0" name="Instance variable">SaveY</param>
-                    <param id="1" name="Value">Hisia.Y</param>
+                <action id="4" name="Set animation" sid="978243817703092" type="GardeNaration2">
+                    <param id="0" name="Animation">&quot;Mouvement&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="508546506588614">
+        <event-block sid="816008497120405">
             <conditions>
-                <condition id="0" name="On collision with another object" sid="237371300989540" type="Hisia">
-                    <param id="0" name="Object">Gouffre3</param>
-                </condition>
+                <condition behavior="8Direction" id="0" inverted="1" name="Is moving" sid="374354709274213" type="GardeNaration" />
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="122639856675430" type="DialogPonctuel4">
-                    <param id="0" name="X">Hisia.X-50</param>
-                    <param id="1" name="Y">Hisia.Y-200</param>
-                </action>
-                <action id="-15" name="Set visible" sid="253927024336198" type="DialogPonctuel4">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-3" name="Set position" sid="775340836235473" type="Goufre">
-                    <param id="0" name="X">Hisia.X-50</param>
-                    <param id="1" name="Y">Hisia.Y-200</param>
-                </action>
-                <action id="-15" name="Set visible" sid="369903997017592" type="Goufre">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action id="-16" name="Wait" sid="984567020194050" type="System">
-                    <param id="0" name="Seconds">2.0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="839884729536585" type="Goufre">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-15" name="Set visible" sid="365795112495349" type="DialogPonctuel4">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-                <action id="-10" name="Set value" sid="640170070378518" type="Hisia">
-                    <param id="0" name="Instance variable">SaveX</param>
-                    <param id="1" name="Value">Hisia.X</param>
-                </action>
-                <action id="-10" name="Set value" sid="324327234259632" type="Hisia">
-                    <param id="0" name="Instance variable">SaveY</param>
-                    <param id="1" name="Value">Hisia.Y</param>
+                <action id="4" name="Set animation" sid="566709568710290" type="GardeNaration">
+                    <param id="0" name="Animation">&quot;Statique&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
+        <event-block sid="904404463061578">
+            <conditions>
+                <condition behavior="8Direction" id="0" inverted="1" name="Is moving" sid="575132221597877" type="GardeNaration2" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="615335125537559" type="GardeNaration2">
+                    <param id="0" name="Animation">&quot;Statique&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="686904117752118" title="Texte Gouffre">
+            <sub-events>
+                <event-block sid="569837991731930">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="799306836130247" type="Hisia">
+                            <param id="0" name="Object">Gouffre1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="675625096519591" type="DialogPonctuel4">
+                            <param id="0" name="X">Hisia.X-50</param>
+                            <param id="1" name="Y">Hisia.Y-200</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="994918528424455" type="DialogPonctuel4">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="526612062413800" type="Goufre">
+                            <param id="0" name="X">Hisia.X-50</param>
+                            <param id="1" name="Y">Hisia.Y-200</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="526064543884237" type="Goufre">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="439742481648673" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="212689999427226" type="Goufre">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="291810338653250" type="DialogPonctuel4">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="255908463817051" type="Hisia">
+                            <param id="0" name="Instance variable">SaveX</param>
+                            <param id="1" name="Value">Hisia.X</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="107352062526265" type="Hisia">
+                            <param id="0" name="Instance variable">SaveY</param>
+                            <param id="1" name="Value">Hisia.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="490305250851105">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="623574863640059" type="Hisia">
+                            <param id="0" name="Object">Gouffre2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="136126662650246" type="DialogPonctuel4">
+                            <param id="0" name="X">Hisia.X-50</param>
+                            <param id="1" name="Y">Hisia.Y-200</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="406358599985650" type="DialogPonctuel4">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="832281559678764" type="Goufre">
+                            <param id="0" name="X">Hisia.X-50</param>
+                            <param id="1" name="Y">Hisia.Y-200</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="479726437600495" type="Goufre">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="111394544098122" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="102733832638463" type="Goufre">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="811853261641077" type="DialogPonctuel4">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="141692032245327" type="Hisia">
+                            <param id="0" name="Instance variable">SaveX</param>
+                            <param id="1" name="Value">Hisia.X</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="982571304575286" type="Hisia">
+                            <param id="0" name="Instance variable">SaveY</param>
+                            <param id="1" name="Value">Hisia.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="508546506588614">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="237371300989540" type="Hisia">
+                            <param id="0" name="Object">Gouffre3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="122639856675430" type="DialogPonctuel4">
+                            <param id="0" name="X">Hisia.X-50</param>
+                            <param id="1" name="Y">Hisia.Y-200</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="253927024336198" type="DialogPonctuel4">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="775340836235473" type="Goufre">
+                            <param id="0" name="X">Hisia.X-50</param>
+                            <param id="1" name="Y">Hisia.Y-200</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="369903997017592" type="Goufre">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="984567020194050" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="839884729536585" type="Goufre">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="365795112495349" type="DialogPonctuel4">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="640170070378518" type="Hisia">
+                            <param id="0" name="Instance variable">SaveX</param>
+                            <param id="1" name="Value">Hisia.X</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="324327234259632" type="Hisia">
+                            <param id="0" name="Instance variable">SaveY</param>
+                            <param id="1" name="Value">Hisia.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

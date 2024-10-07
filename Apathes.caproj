@@ -317,13 +317,19 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="1" loop="1" name="walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="344056364956501" speed="1.5">
+                    <animation framecount="4" loop="1" name="walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="344056364956501" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                     <animation framecount="1" loop="1" name="walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="579485305591713" speed="1.5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
-                    <animation framecount="1" loop="1" name="walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="237163851214132" speed="1.5">
+                    <animation framecount="4" loop="1" name="walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="237163851214132" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
@@ -340,8 +346,18 @@
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="450055212581842" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <animation framecount="5" loop="1" name="Statique" pingpong="0" repeatcount="1" repeatto="0" sid="450055212581842" speed="3">
+                        <frame duration="1" hotspotX="0.503906" hotspotY="0.527344" />
+                        <frame duration="1" hotspotX="0.496094" hotspotY="0.472656" />
+                        <frame duration="1" hotspotX="0.496094" hotspotY="0.472656" />
+                        <frame duration="1" hotspotX="0.496094" hotspotY="0.472656" />
+                        <frame duration="1" hotspotX="0.496094" hotspotY="0.472656" />
+                    </animation>
+                    <animation framecount="4" loop="1" name="mouvement" pingpong="0" repeatcount="1" repeatto="0" sid="194345295498941" speed="5">
+                        <frame duration="1" hotspotX="0.503906" hotspotY="0.480469" />
+                        <frame duration="1" hotspotX="0.503906" hotspotY="0.480469" />
+                        <frame duration="1" hotspotX="0.503906" hotspotY="0.480469" />
+                        <frame duration="1" hotspotX="0.503906" hotspotY="0.480469" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -356,8 +372,18 @@
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="501288228233585" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <animation framecount="5" loop="1" name="Statique" pingpong="0" repeatcount="1" repeatto="0" sid="501288228233585" speed="3">
+                        <frame duration="1" hotspotX="0.480469" hotspotY="0.996094" />
+                        <frame duration="1" hotspotX="0.480469" hotspotY="0.996094" />
+                        <frame duration="1" hotspotX="0.480469" hotspotY="0.996094" />
+                        <frame duration="1" hotspotX="0.480469" hotspotY="0.996094" />
+                        <frame duration="1" hotspotX="0.480469" hotspotY="0.996094" />
+                    </animation>
+                    <animation framecount="4" loop="1" name="Mouvement" pingpong="0" repeatcount="1" repeatto="0" sid="544451911051836" speed="5">
+                        <frame duration="1" hotspotX="0.480469" hotspotY="0.996094" />
+                        <frame duration="1" hotspotX="0.480469" hotspotY="0.996094" />
+                        <frame duration="1" hotspotX="0.480469" hotspotY="0.996094" />
+                        <frame duration="1" hotspotX="0.480469" hotspotY="0.996094" />
                     </animation>
                 </animation-folder>
             </object-type>
