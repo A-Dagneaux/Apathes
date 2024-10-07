@@ -1269,6 +1269,19 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="SolidMeuble" sid="726835218407945">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="927601256087698">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="291524188512994" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="cartes">
             <object-folder name="par terre">
@@ -2687,12 +2700,12 @@
         </object-type>
         <object-type name="TilemapDécorSol1" sid="372915215250839">
             <plugin id="Tilemap" />
-            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap complétée.png" />
+            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap complétée 2.png" />
             <tiles />
         </object-type>
         <object-type name="TilemapSang" sid="648125621115032">
             <plugin id="Tilemap" />
-            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmurtest.png" />
+            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap complétée 2.png" />
             <tiles />
         </object-type>
         <object-type name="Sprite6" sid="558085463541488">
@@ -3005,6 +3018,11 @@
         </object-type>
         <object-type name="slider_musique" sid="424440567745191">
             <plugin id="sliderbar" />
+        </object-type>
+        <object-type name="TilemapMeuble" sid="769100647415572">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap complétée 2.png" />
+            <tiles />
         </object-type>
     </object-folder>
     <families>

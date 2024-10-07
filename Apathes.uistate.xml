@@ -84,6 +84,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Gouffre2/" />
         <folder expanded="1" path="animation-folder/Gouffre3/" />
         <folder expanded="1" path="animation-folder/Gouffre1/" />
+        <folder expanded="1" path="animation-folder/SolidMeuble/" />
         <folder expanded="1" path="animation-folder/rayonnante/" />
         <folder expanded="1" path="animation-folder/craintive/" />
         <folder expanded="1" path="animation-folder/furieuse/" />
