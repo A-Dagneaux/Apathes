@@ -43,7 +43,7 @@
                         <action id="0" name="Play" sid="376912666196729" type="Audio">
                             <param id="0" name="Audio file">music_test</param>
                             <param id="2" name="Loop">1</param>
-                            <param id="3" name="Volume">slider_musique.Value</param>
+                            <param id="3" name="Volume">slider_musique.Value-15</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
@@ -144,28 +144,52 @@
                                             <param id="1" name="Comparison">0</param>
                                             <param id="2" name="Value">&quot;craintive&quot;</param>
                                         </condition>
-                                        <condition id="-4" name="Trigger once while true" sid="626478515462319" type="System" />
                                     </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="347758240148400" type="Hisia">
-                                            <param id="0" name="Animation">&quot;craintive&quot;</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action behavior="8Direction" id="4" name="Set max speed" sid="141631388792404" type="Hisia">
-                                            <param id="0" name="Max Speed">Hisia.speed</param>
-                                        </action>
-                                        <action id="-7" name="Set size" sid="836838240328878" type="noise">
-                                            <param id="0" name="Width">noise.size_craintif</param>
-                                            <param id="1" name="Height">noise.size_craintif</param>
-                                        </action>
-                                        <action id="-7" name="Set size" sid="603944722055750" type="Hisia">
-                                            <param id="0" name="Width">hisia.size_normal</param>
-                                            <param id="1" name="Height">hisia.size_normal</param>
-                                        </action>
-                                        <action id="9" name="Set scale" sid="896269174539113" type="lumière">
-                                            <param id="0" name="Scale">1</param>
-                                        </action>
-                                    </actions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="964053114039926">
+                                            <conditions>
+                                                <condition id="-4" name="Trigger once while true" sid="626478515462319" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="4" name="Set animation" sid="347758240148400" type="Hisia">
+                                                    <param id="0" name="Animation">&quot;craintive&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                                <action behavior="8Direction" id="4" name="Set max speed" sid="141631388792404" type="Hisia">
+                                                    <param id="0" name="Max Speed">Hisia.speed</param>
+                                                </action>
+                                                <action id="-7" name="Set size" sid="836838240328878" type="noise">
+                                                    <param id="0" name="Width">noise.size_craintif</param>
+                                                    <param id="1" name="Height">noise.size_craintif</param>
+                                                </action>
+                                                <action id="-7" name="Set size" sid="603944722055750" type="Hisia">
+                                                    <param id="0" name="Width">hisia.size_normal</param>
+                                                    <param id="1" name="Height">hisia.size_normal</param>
+                                                </action>
+                                                <action id="9" name="Set scale" sid="896269174539113" type="lumière">
+                                                    <param id="0" name="Scale">1</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="363956166112784">
+                                            <conditions>
+                                                <condition behavior="8Direction" id="0" name="Is moving" sid="204809033563193" type="Hisia" />
+                                                <condition id="-4" name="Trigger once while true" sid="533225166361596" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="6" name="Stop" sid="427436496722884" type="Audio">
+                                                    <param id="0" name="Tag">&quot;walk&quot;</param>
+                                                </action>
+                                                <action id="0" name="Play" sid="729311819009868" type="Audio">
+                                                    <param id="0" name="Audio file">pj_walk_normal</param>
+                                                    <param id="2" name="Loop">1</param>
+                                                    <param id="3" name="Volume">slider_effects.Value+20</param>
+                                                    <param id="1" name="Tag (optional)">&quot;walk&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
                                 </event-block>
                             </sub-events>
                         </event-group>
@@ -178,28 +202,67 @@
                                             <param id="1" name="Comparison">0</param>
                                             <param id="2" name="Value">&quot;honteuse&quot;</param>
                                         </condition>
-                                        <condition id="-4" name="Trigger once while true" sid="772895843146918" type="System" />
                                     </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="467782572263139" type="Hisia">
-                                            <param id="0" name="Animation">&quot;honteuse&quot;</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action behavior="8Direction" id="4" name="Set max speed" sid="786753962572832" type="Hisia">
-                                            <param id="0" name="Max Speed">Hisia.speed - Hisia.slow_honteuse</param>
-                                        </action>
-                                        <action id="-7" name="Set size" sid="135752677400873" type="noise">
-                                            <param id="0" name="Width">noise.size_honteux</param>
-                                            <param id="1" name="Height">noise.size_honteux</param>
-                                        </action>
-                                        <action id="-7" name="Set size" sid="443289847152536" type="Hisia">
-                                            <param id="0" name="Width">Hisia.size_honteuse</param>
-                                            <param id="1" name="Height">Hisia.size_honteuse</param>
-                                        </action>
-                                        <action id="9" name="Set scale" sid="514427000266757" type="lumière">
-                                            <param id="0" name="Scale">1</param>
-                                        </action>
-                                    </actions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="759937048361614">
+                                            <conditions>
+                                                <condition id="-4" name="Trigger once while true" sid="772895843146918" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="4" name="Set animation" sid="467782572263139" type="Hisia">
+                                                    <param id="0" name="Animation">&quot;honteuse&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                                <action behavior="8Direction" id="4" name="Set max speed" sid="786753962572832" type="Hisia">
+                                                    <param id="0" name="Max Speed">Hisia.speed - Hisia.slow_honteuse</param>
+                                                </action>
+                                                <action id="-7" name="Set size" sid="135752677400873" type="noise">
+                                                    <param id="0" name="Width">noise.size_honteux</param>
+                                                    <param id="1" name="Height">noise.size_honteux</param>
+                                                </action>
+                                                <action id="-7" name="Set size" sid="443289847152536" type="Hisia">
+                                                    <param id="0" name="Width">Hisia.size_honteuse</param>
+                                                    <param id="1" name="Height">Hisia.size_honteuse</param>
+                                                </action>
+                                                <action id="9" name="Set scale" sid="514427000266757" type="lumière">
+                                                    <param id="0" name="Scale">1</param>
+                                                </action>
+                                                <action id="0" name="Play" sid="317193748876705" type="Audio">
+                                                    <param id="0" name="Audio file">honteuse_newstate</param>
+                                                    <param id="2" name="Loop">0</param>
+                                                    <param id="3" name="Volume">slider_effects.Value-10</param>
+                                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                                </action>
+                                                <action id="6" name="Stop" sid="281272560672833" type="Audio">
+                                                    <param id="0" name="Tag">&quot;emotion&quot;</param>
+                                                </action>
+                                                <action id="0" name="Play" sid="625023618743704" type="Audio">
+                                                    <param id="0" name="Audio file">honteuse_loop</param>
+                                                    <param id="2" name="Loop">1</param>
+                                                    <param id="3" name="Volume">slider_effects.Value-28</param>
+                                                    <param id="1" name="Tag (optional)">&quot;emotion&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="309377919067922">
+                                            <conditions>
+                                                <condition behavior="8Direction" id="0" name="Is moving" sid="173902798352556" type="Hisia" />
+                                                <condition id="-4" name="Trigger once while true" sid="268684385404650" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="6" name="Stop" sid="137557208347662" type="Audio">
+                                                    <param id="0" name="Tag">&quot;walk&quot;</param>
+                                                </action>
+                                                <action id="0" name="Play" sid="235339057016306" type="Audio">
+                                                    <param id="0" name="Audio file">pj_walk_honteuse</param>
+                                                    <param id="2" name="Loop">1</param>
+                                                    <param id="3" name="Volume">slider_effects.Value+20</param>
+                                                    <param id="1" name="Tag (optional)">&quot;walk&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
                                 </event-block>
                             </sub-events>
                         </event-group>
@@ -264,6 +327,21 @@
                                                 </action>
                                                 <action id="9" name="Set scale" sid="261104193274899" type="lumière">
                                                     <param id="0" name="Scale">1</param>
+                                                </action>
+                                                <action id="0" name="Play" sid="133643239578857" type="Audio">
+                                                    <param id="0" name="Audio file">furieuse_newstate</param>
+                                                    <param id="2" name="Loop">0</param>
+                                                    <param id="3" name="Volume">slider_effects.Value-15</param>
+                                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                                </action>
+                                                <action id="6" name="Stop" sid="183570735200927" type="Audio">
+                                                    <param id="0" name="Tag">&quot;emotion&quot;</param>
+                                                </action>
+                                                <action id="0" name="Play" sid="668591026970809" type="Audio">
+                                                    <param id="0" name="Audio file">furieuse_loop</param>
+                                                    <param id="2" name="Loop">1</param>
+                                                    <param id="3" name="Volume">slider_effects.Value-40</param>
+                                                    <param id="1" name="Tag (optional)">&quot;emotion&quot;</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -415,6 +493,23 @@
                                                 </event-block>
                                             </sub-events>
                                         </event-block>
+                                        <event-block sid="579934882424626">
+                                            <conditions>
+                                                <condition behavior="8Direction" id="0" name="Is moving" sid="585269262960571" type="Hisia" />
+                                                <condition id="-4" name="Trigger once while true" sid="658583098625542" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="6" name="Stop" sid="825174382845293" type="Audio">
+                                                    <param id="0" name="Tag">&quot;walk&quot;</param>
+                                                </action>
+                                                <action id="0" name="Play" sid="892189763373133" type="Audio">
+                                                    <param id="0" name="Audio file">pj_walk_furieuse</param>
+                                                    <param id="2" name="Loop">1</param>
+                                                    <param id="3" name="Volume">slider_effects.Value+20</param>
+                                                    <param id="1" name="Tag (optional)">&quot;walk&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
                                     </sub-events>
                                 </event-block>
                             </sub-events>
@@ -428,27 +523,66 @@
                                             <param id="1" name="Comparison">0</param>
                                             <param id="2" name="Value">&quot;rayonnante&quot;</param>
                                         </condition>
-                                        <condition id="-4" name="Trigger once while true" sid="384439884494481" type="System" />
                                     </conditions>
-                                    <actions>
-                                        <action id="4" name="Set animation" sid="541850501093356" type="Hisia">
-                                            <param id="0" name="Animation">&quot;rayonnante&quot;</param>
-                                            <param id="1" name="From">1</param>
-                                        </action>
-                                        <action behavior="8Direction" id="4" name="Set max speed" sid="286039606690694" type="Hisia">
-                                            <param id="0" name="Max Speed">Hisia.speed</param>
-                                        </action>
-                                        <action id="9" name="Set scale" sid="989094632268751" type="lumière">
-                                            <param id="0" name="Scale">2</param>
-                                        </action>
-                                        <action behavior="LineOfSight" id="1" name="Set cone of view" sid="895868132947525" type="Hisia">
-                                            <param id="0" name="Cone of view">600</param>
-                                        </action>
-                                        <action id="-7" name="Set size" sid="840900952775083" type="Hisia">
-                                            <param id="0" name="Width">hisia.size_normal</param>
-                                            <param id="1" name="Height">hisia.size_normal</param>
-                                        </action>
-                                    </actions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="999604077798381">
+                                            <conditions>
+                                                <condition id="-4" name="Trigger once while true" sid="384439884494481" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="4" name="Set animation" sid="541850501093356" type="Hisia">
+                                                    <param id="0" name="Animation">&quot;rayonnante&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                                <action behavior="8Direction" id="4" name="Set max speed" sid="286039606690694" type="Hisia">
+                                                    <param id="0" name="Max Speed">Hisia.speed</param>
+                                                </action>
+                                                <action id="9" name="Set scale" sid="989094632268751" type="lumière">
+                                                    <param id="0" name="Scale">2</param>
+                                                </action>
+                                                <action behavior="LineOfSight" id="1" name="Set cone of view" sid="895868132947525" type="Hisia">
+                                                    <param id="0" name="Cone of view">600</param>
+                                                </action>
+                                                <action id="-7" name="Set size" sid="840900952775083" type="Hisia">
+                                                    <param id="0" name="Width">hisia.size_normal</param>
+                                                    <param id="1" name="Height">hisia.size_normal</param>
+                                                </action>
+                                                <action id="0" name="Play" sid="863224787331178" type="Audio">
+                                                    <param id="0" name="Audio file">rayonnante_newstate</param>
+                                                    <param id="2" name="Loop">0</param>
+                                                    <param id="3" name="Volume">slider_effects.Value-15</param>
+                                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                                </action>
+                                                <action id="6" name="Stop" sid="882647085521393" type="Audio">
+                                                    <param id="0" name="Tag">&quot;emotion&quot;</param>
+                                                </action>
+                                                <action id="0" name="Play" sid="332063787877190" type="Audio">
+                                                    <param id="0" name="Audio file">rayonnante_loop</param>
+                                                    <param id="2" name="Loop">1</param>
+                                                    <param id="3" name="Volume">slider_effects.Value-40</param>
+                                                    <param id="1" name="Tag (optional)">&quot;emotion&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="322484102773122">
+                                            <conditions>
+                                                <condition behavior="8Direction" id="0" name="Is moving" sid="881324169102541" type="Hisia" />
+                                                <condition id="-4" name="Trigger once while true" sid="214517331487179" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="6" name="Stop" sid="609856926824747" type="Audio">
+                                                    <param id="0" name="Tag">&quot;walk&quot;</param>
+                                                </action>
+                                                <action id="0" name="Play" sid="313029240937536" type="Audio">
+                                                    <param id="0" name="Audio file">pj_walk_normal</param>
+                                                    <param id="2" name="Loop">1</param>
+                                                    <param id="3" name="Volume">slider_effects.Value+20</param>
+                                                    <param id="1" name="Tag (optional)">&quot;walk&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
                                 </event-block>
                             </sub-events>
                         </event-group>
@@ -585,20 +719,6 @@
                             </sub-events>
                         </event-block>
                         <comment>Son</comment>
-                        <event-block sid="363956166112784">
-                            <conditions>
-                                <condition behavior="8Direction" id="0" name="Is moving" sid="204809033563193" type="Hisia" />
-                                <condition id="-4" name="Trigger once while true" sid="533225166361596" type="System" />
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Play" sid="940533886724096" type="Audio">
-                                    <param id="0" name="Audio file">pj_marche</param>
-                                    <param id="2" name="Loop">1</param>
-                                    <param id="3" name="Volume">slider_effects.Value</param>
-                                    <param id="1" name="Tag (optional)">&quot;walk&quot;</param>
-                                </action>
-                            </actions>
-                        </event-block>
                         <event-block sid="970281627189831">
                             <conditions>
                                 <condition behavior="8Direction" id="0" inverted="1" name="Is moving" sid="296737306207294" type="Hisia" />

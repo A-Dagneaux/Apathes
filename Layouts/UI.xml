@@ -155,7 +155,7 @@
                         <line-height>0</line-height>
                     </properties>
                     <instance-variables>
-                        <value>0</value>
+                        <value>10</value>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -185,7 +185,7 @@
                         <line-height>0</line-height>
                     </properties>
                     <instance-variables>
-                        <value>0</value>
+                        <value>10</value>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -215,7 +215,7 @@
                         <line-height>0</line-height>
                     </properties>
                     <instance-variables>
-                        <value>0</value>
+                        <value>10</value>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -245,7 +245,7 @@
                         <line-height>0</line-height>
                     </properties>
                     <instance-variables>
-                        <value>0</value>
+                        <value>10</value>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>

@@ -27,19 +27,19 @@
                             <param id="0" name="X">furieuse_UI.X</param>
                             <param id="1" name="Y">furieuse_UI.Y+ 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="219044130737292" type="text_honteuse">
+                        <action id="-3" name="Set position" sid="532625344964455" type="text_rayonnante">
                             <param id="0" name="X">honteuse_UI.X</param>
                             <param id="1" name="Y">honteuse_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="879754980155113" type="shortcut_honteuse">
+                        <action id="-3" name="Set position" sid="821059286426994" type="shortcut_rayonnante">
                             <param id="0" name="X">honteuse_UI.X</param>
                             <param id="1" name="Y">honteuse_UI.Y+ 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="806086670426330" type="text_rayonnante">
+                        <action id="-3" name="Set position" sid="217176414416805" type="text_honteuse">
                             <param id="0" name="X">rayonnante_UI.X</param>
                             <param id="1" name="Y">rayonnante_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="430113271930296" type="shortcut_rayonnante">
+                        <action id="-3" name="Set position" sid="385442065001506" type="shortcut_honteuse">
                             <param id="0" name="X">rayonnante_UI.X</param>
                             <param id="1" name="Y">rayonnante_UI.Y+ 30</param>
                         </action>
@@ -187,19 +187,19 @@
                             <param id="0" name="X">furieuse_UI.X</param>
                             <param id="1" name="Y">furieuse_UI.Y+ 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="881864840496809" type="text_honteuse">
+                        <action id="-3" name="Set position" sid="596376054279420" type="text_rayonnante">
                             <param id="0" name="X">honteuse_UI.X</param>
                             <param id="1" name="Y">honteuse_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="483625698193366" type="shortcut_honteuse">
+                        <action id="-3" name="Set position" sid="495445831221730" type="shortcut_rayonnante">
                             <param id="0" name="X">honteuse_UI.X</param>
                             <param id="1" name="Y">honteuse_UI.Y+ 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="596376054279420" type="text_rayonnante">
+                        <action id="-3" name="Set position" sid="881864840496809" type="text_honteuse">
                             <param id="0" name="X">rayonnante_UI.X</param>
                             <param id="1" name="Y">rayonnante_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="495445831221730" type="shortcut_rayonnante">
+                        <action id="-3" name="Set position" sid="483625698193366" type="shortcut_honteuse">
                             <param id="0" name="X">rayonnante_UI.X</param>
                             <param id="1" name="Y">rayonnante_UI.Y+ 30</param>
                         </action>
@@ -241,19 +241,19 @@
                             <param id="0" name="X">furieuse_UI.X</param>
                             <param id="1" name="Y">furieuse_UI.Y+ 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="588293986066801" type="text_honteuse">
+                        <action id="-3" name="Set position" sid="382032994325023" type="text_rayonnante">
                             <param id="0" name="X">honteuse_UI.X</param>
                             <param id="1" name="Y">honteuse_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="723449840397620" type="shortcut_honteuse">
+                        <action id="-3" name="Set position" sid="638682532125724" type="shortcut_rayonnante">
                             <param id="0" name="X">honteuse_UI.X</param>
                             <param id="1" name="Y">honteuse_UI.Y+ 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="976394352277307" type="text_rayonnante">
+                        <action id="-3" name="Set position" sid="885256589756303" type="text_honteuse">
                             <param id="0" name="X">rayonnante_UI.X</param>
                             <param id="1" name="Y">rayonnante_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="222726908554805" type="shortcut_rayonnante">
+                        <action id="-3" name="Set position" sid="366686023290287" type="shortcut_honteuse">
                             <param id="0" name="X">rayonnante_UI.X</param>
                             <param id="1" name="Y">rayonnante_UI.Y+ 30</param>
                         </action>
@@ -342,6 +342,19 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="443622361527981">
+                            <conditions>
+                                <condition id="-4" name="Trigger once while true" sid="708981265620849" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Play" sid="504546838004861" type="Audio">
+                                    <param id="0" name="Audio file">mask_pickup</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">slider_effects.Value-25</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
                     </sub-events>
                 </event-block>
             </sub-events>
@@ -350,206 +363,286 @@
             <sub-events>
                 <comment>Si joueur utilise masque, changement émotion si pas déjà dans le même état et valeur utilisable -1</comment>
                 <comment>Craintive</comment>
-                <event-block any="1" sid="302893839740183">
+                <event-block sid="768330260007974">
                     <conditions>
-                        <condition id="0" name="On key pressed" sid="482433583791326" type="Keyboard">
-                            <param id="0" name="Key">49</param>
-                        </condition>
-                        <condition id="3" name="Is button down" sid="444278912922578" type="Gamepad">
-                            <param id="0" name="Gamepad">0</param>
-                            <param id="1" name="Button">12</param>
+                        <condition id="-14" name="Compare variable" sid="109096999495416" type="System">
+                            <param id="0" name="Variable">is_paused</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions />
                     <sub-events>
-                        <event-block sid="677357612503832">
+                        <event-block any="1" sid="302893839740183">
                             <conditions>
-                                <condition id="-7" name="Compare instance variable" sid="331910191877308" type="text_craintive">
-                                    <param id="0" name="Instance variable">value</param>
-                                    <param id="1" name="Comparison">4</param>
-                                    <param id="2" name="Value">0</param>
+                                <condition id="0" name="On key pressed" sid="482433583791326" type="Keyboard">
+                                    <param id="0" name="Key">49</param>
                                 </condition>
-                                <condition id="-7" name="Compare instance variable" sid="303016733642673" type="Hisia">
-                                    <param id="0" name="Instance variable">emotion</param>
-                                    <param id="1" name="Comparison">1</param>
-                                    <param id="2" name="Value">&quot;craintive&quot;</param>
-                                </condition>
-                                <condition id="-14" name="Compare variable" sid="473784052309188" type="System">
-                                    <param id="0" name="Variable">is_paused</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">0</param>
+                                <condition id="3" name="Is button down" sid="444278912922578" type="Gamepad">
+                                    <param id="0" name="Gamepad">0</param>
+                                    <param id="1" name="Button">12</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="-12" name="Subtract from" sid="664983965924755" type="text_craintive">
-                                    <param id="0" name="Instance variable">value</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                                <action id="0" name="Set text" sid="167274751608435" type="text_craintive">
-                                    <param id="0" name="Text">text_craintive.value</param>
-                                </action>
-                                <action id="-10" name="Set value" sid="717371620058909" type="Hisia">
-                                    <param id="0" name="Instance variable">emotion</param>
-                                    <param id="1" name="Value">&quot;craintive&quot;</param>
-                                </action>
-                                <action id="4" name="Set animation" sid="267543104337647" type="hisia_state_UI">
-                                    <param id="0" name="Animation">&quot;craintive&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                            </actions>
+                            <actions />
+                            <sub-events>
+                                <event-block any="1" sid="499905858270744">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="682375869445320" type="text_craintive">
+                                            <param id="0" name="Instance variable">value</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="539222528348048" type="Hisia">
+                                            <param id="0" name="Instance variable">emotion</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;craintive&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="308332387458008" type="Audio">
+                                            <param id="0" name="Audio file">mask_not_usable</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">slider_effects.Value-15</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="677357612503832">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="331910191877308" type="text_craintive">
+                                            <param id="0" name="Instance variable">value</param>
+                                            <param id="1" name="Comparison">4</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="303016733642673" type="Hisia">
+                                            <param id="0" name="Instance variable">emotion</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">&quot;craintive&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="664983965924755" type="text_craintive">
+                                            <param id="0" name="Instance variable">value</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="0" name="Set text" sid="167274751608435" type="text_craintive">
+                                            <param id="0" name="Text">text_craintive.value</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="717371620058909" type="Hisia">
+                                            <param id="0" name="Instance variable">emotion</param>
+                                            <param id="1" name="Value">&quot;craintive&quot;</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="267543104337647" type="hisia_state_UI">
+                                            <param id="0" name="Animation">&quot;craintive&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
-                    </sub-events>
-                </event-block>
-                <comment>Furieuse</comment>
-                <event-block any="1" sid="695565757043159">
-                    <conditions>
-                        <condition id="0" name="On key pressed" sid="945349283907100" type="Keyboard">
-                            <param id="0" name="Key">50</param>
-                        </condition>
-                        <condition id="3" name="Is button down" sid="699036406902356" type="Gamepad">
-                            <param id="0" name="Gamepad">0</param>
-                            <param id="1" name="Button">15</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="796366611558334">
+                        <comment>Furieuse</comment>
+                        <event-block any="1" sid="695565757043159">
                             <conditions>
-                                <condition id="-7" name="Compare instance variable" sid="815258844181829" type="text_furieuse">
-                                    <param id="0" name="Instance variable">value</param>
-                                    <param id="1" name="Comparison">4</param>
-                                    <param id="2" name="Value">0</param>
+                                <condition id="0" name="On key pressed" sid="945349283907100" type="Keyboard">
+                                    <param id="0" name="Key">50</param>
                                 </condition>
-                                <condition id="-7" name="Compare instance variable" sid="441033581293474" type="Hisia">
-                                    <param id="0" name="Instance variable">emotion</param>
-                                    <param id="1" name="Comparison">1</param>
-                                    <param id="2" name="Value">&quot;furieuse&quot;</param>
-                                </condition>
-                                <condition id="-14" name="Compare variable" sid="484695620624017" type="System">
-                                    <param id="0" name="Variable">is_paused</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">0</param>
+                                <condition id="3" name="Is button down" sid="699036406902356" type="Gamepad">
+                                    <param id="0" name="Gamepad">0</param>
+                                    <param id="1" name="Button">15</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="-12" name="Subtract from" sid="968948636661057" type="text_furieuse">
-                                    <param id="0" name="Instance variable">value</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                                <action id="0" name="Set text" sid="477449710396417" type="text_furieuse">
-                                    <param id="0" name="Text">text_furieuse.value</param>
-                                </action>
-                                <action id="-10" name="Set value" sid="475462550448065" type="Hisia">
-                                    <param id="0" name="Instance variable">emotion</param>
-                                    <param id="1" name="Value">&quot;furieuse&quot;</param>
-                                </action>
-                                <action id="4" name="Set animation" sid="767173677096474" type="hisia_state_UI">
-                                    <param id="0" name="Animation">&quot;furieuse&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                            </actions>
+                            <actions />
+                            <sub-events>
+                                <event-block any="1" sid="685695887518015">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="808551649923085" type="text_furieuse">
+                                            <param id="0" name="Instance variable">value</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="549529998880973" type="Hisia">
+                                            <param id="0" name="Instance variable">emotion</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;furieuse&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="311439374915477" type="Audio">
+                                            <param id="0" name="Audio file">mask_not_usable</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">slider_effects.Value-15</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="796366611558334">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="815258844181829" type="text_furieuse">
+                                            <param id="0" name="Instance variable">value</param>
+                                            <param id="1" name="Comparison">4</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="441033581293474" type="Hisia">
+                                            <param id="0" name="Instance variable">emotion</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">&quot;furieuse&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="968948636661057" type="text_furieuse">
+                                            <param id="0" name="Instance variable">value</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="0" name="Set text" sid="477449710396417" type="text_furieuse">
+                                            <param id="0" name="Text">text_furieuse.value</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="475462550448065" type="Hisia">
+                                            <param id="0" name="Instance variable">emotion</param>
+                                            <param id="1" name="Value">&quot;furieuse&quot;</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="767173677096474" type="hisia_state_UI">
+                                            <param id="0" name="Animation">&quot;furieuse&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
-                    </sub-events>
-                </event-block>
-                <comment>Honteuse</comment>
-                <event-block any="1" sid="811042164202152">
-                    <conditions>
-                        <condition id="0" name="On key pressed" sid="926079809862864" type="Keyboard">
-                            <param id="0" name="Key">51</param>
-                        </condition>
-                        <condition id="3" name="Is button down" sid="562717072871963" type="Gamepad">
-                            <param id="0" name="Gamepad">0</param>
-                            <param id="1" name="Button">13</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="263327525168417">
+                        <comment>Honteuse</comment>
+                        <event-block any="1" sid="811042164202152">
                             <conditions>
-                                <condition id="-7" name="Compare instance variable" sid="284584539873166" type="text_honteuse">
-                                    <param id="0" name="Instance variable">value</param>
-                                    <param id="1" name="Comparison">4</param>
-                                    <param id="2" name="Value">0</param>
+                                <condition id="0" name="On key pressed" sid="926079809862864" type="Keyboard">
+                                    <param id="0" name="Key">52</param>
                                 </condition>
-                                <condition id="-7" name="Compare instance variable" sid="617584016491287" type="Hisia">
-                                    <param id="0" name="Instance variable">emotion</param>
-                                    <param id="1" name="Comparison">1</param>
-                                    <param id="2" name="Value">&quot;honteuse&quot;</param>
-                                </condition>
-                                <condition id="-14" name="Compare variable" sid="115877097792032" type="System">
-                                    <param id="0" name="Variable">is_paused</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">0</param>
+                                <condition id="3" name="Is button down" sid="562717072871963" type="Gamepad">
+                                    <param id="0" name="Gamepad">0</param>
+                                    <param id="1" name="Button">13</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="-12" name="Subtract from" sid="999221024608264" type="text_honteuse">
-                                    <param id="0" name="Instance variable">value</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                                <action id="0" name="Set text" sid="384405769972330" type="text_honteuse">
-                                    <param id="0" name="Text">text_honteuse.value</param>
-                                </action>
-                                <action id="-10" name="Set value" sid="749014034589235" type="Hisia">
-                                    <param id="0" name="Instance variable">emotion</param>
-                                    <param id="1" name="Value">&quot;honteuse&quot;</param>
-                                </action>
-                                <action id="4" name="Set animation" sid="512226814652668" type="hisia_state_UI">
-                                    <param id="0" name="Animation">&quot;honteuse&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                            </actions>
+                            <actions />
+                            <sub-events>
+                                <event-block any="1" sid="780023694162427">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="622717053008120" type="text_honteuse">
+                                            <param id="0" name="Instance variable">value</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="460182865240409" type="Hisia">
+                                            <param id="0" name="Instance variable">emotion</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;honteuse&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="156603254331358" type="Audio">
+                                            <param id="0" name="Audio file">mask_not_usable</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">slider_effects.Value-15</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="263327525168417">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="284584539873166" type="text_honteuse">
+                                            <param id="0" name="Instance variable">value</param>
+                                            <param id="1" name="Comparison">4</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="617584016491287" type="Hisia">
+                                            <param id="0" name="Instance variable">emotion</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">&quot;honteuse&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="999221024608264" type="text_honteuse">
+                                            <param id="0" name="Instance variable">value</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="0" name="Set text" sid="384405769972330" type="text_honteuse">
+                                            <param id="0" name="Text">text_honteuse.value</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="749014034589235" type="Hisia">
+                                            <param id="0" name="Instance variable">emotion</param>
+                                            <param id="1" name="Value">&quot;honteuse&quot;</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="512226814652668" type="hisia_state_UI">
+                                            <param id="0" name="Animation">&quot;honteuse&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
-                    </sub-events>
-                </event-block>
-                <comment>Rayonnante</comment>
-                <event-block any="1" sid="367592843446813">
-                    <conditions>
-                        <condition id="0" name="On key pressed" sid="334450704717205" type="Keyboard">
-                            <param id="0" name="Key">52</param>
-                        </condition>
-                        <condition id="3" name="Is button down" sid="481178199298127" type="Gamepad">
-                            <param id="0" name="Gamepad">0</param>
-                            <param id="1" name="Button">14</param>
-                        </condition>
-                    </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="784404098662525">
+                        <comment>Rayonnante</comment>
+                        <event-block any="1" sid="367592843446813">
                             <conditions>
-                                <condition id="-7" name="Compare instance variable" sid="412194065693440" type="text_rayonnante">
-                                    <param id="0" name="Instance variable">value</param>
-                                    <param id="1" name="Comparison">4</param>
-                                    <param id="2" name="Value">0</param>
+                                <condition id="0" name="On key pressed" sid="334450704717205" type="Keyboard">
+                                    <param id="0" name="Key">51</param>
                                 </condition>
-                                <condition id="-7" name="Compare instance variable" sid="654750319201260" type="Hisia">
-                                    <param id="0" name="Instance variable">emotion</param>
-                                    <param id="1" name="Comparison">1</param>
-                                    <param id="2" name="Value">&quot;rayonnante&quot;</param>
-                                </condition>
-                                <condition id="-14" name="Compare variable" sid="642355411815616" type="System">
-                                    <param id="0" name="Variable">is_paused</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">0</param>
+                                <condition id="3" name="Is button down" sid="481178199298127" type="Gamepad">
+                                    <param id="0" name="Gamepad">0</param>
+                                    <param id="1" name="Button">14</param>
                                 </condition>
                             </conditions>
-                            <actions>
-                                <action id="-12" name="Subtract from" sid="865236580323228" type="text_rayonnante">
-                                    <param id="0" name="Instance variable">value</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                                <action id="0" name="Set text" sid="504590588153690" type="text_rayonnante">
-                                    <param id="0" name="Text">text_rayonnante.value</param>
-                                </action>
-                                <action id="-10" name="Set value" sid="368949191652017" type="Hisia">
-                                    <param id="0" name="Instance variable">emotion</param>
-                                    <param id="1" name="Value">&quot;rayonnante&quot;</param>
-                                </action>
-                                <action id="4" name="Set animation" sid="686065818770098" type="hisia_state_UI">
-                                    <param id="0" name="Animation">&quot;rayonnante&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                            </actions>
+                            <actions />
+                            <sub-events>
+                                <event-block any="1" sid="694556012301598">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="153229309620429" type="text_rayonnante">
+                                            <param id="0" name="Instance variable">value</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="188168755710931" type="Hisia">
+                                            <param id="0" name="Instance variable">emotion</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">&quot;rayonnante&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Play" sid="452635892735134" type="Audio">
+                                            <param id="0" name="Audio file">mask_not_usable</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">slider_effects.Value-15</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="784404098662525">
+                                    <conditions>
+                                        <condition id="-7" name="Compare instance variable" sid="412194065693440" type="text_rayonnante">
+                                            <param id="0" name="Instance variable">value</param>
+                                            <param id="1" name="Comparison">4</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                        <condition id="-7" name="Compare instance variable" sid="654750319201260" type="Hisia">
+                                            <param id="0" name="Instance variable">emotion</param>
+                                            <param id="1" name="Comparison">1</param>
+                                            <param id="2" name="Value">&quot;rayonnante&quot;</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Subtract from" sid="865236580323228" type="text_rayonnante">
+                                            <param id="0" name="Instance variable">value</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="0" name="Set text" sid="504590588153690" type="text_rayonnante">
+                                            <param id="0" name="Text">text_rayonnante.value</param>
+                                        </action>
+                                        <action id="-10" name="Set value" sid="368949191652017" type="Hisia">
+                                            <param id="0" name="Instance variable">emotion</param>
+                                            <param id="1" name="Value">&quot;rayonnante&quot;</param>
+                                        </action>
+                                        <action id="4" name="Set animation" sid="686065818770098" type="hisia_state_UI">
+                                            <param id="0" name="Animation">&quot;rayonnante&quot;</param>
+                                            <param id="1" name="From">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                     </sub-events>
                 </event-block>

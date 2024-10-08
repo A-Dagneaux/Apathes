@@ -2854,8 +2854,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3740</x>
-                        <y>462</y>
+                        <x>2177</x>
+                        <y>1859</y>
                         <z>0</z>
                         <width>90</width>
                         <height>90</height>
@@ -3736,6 +3736,131 @@
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="furieuse" uid="305">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Type>Furieuse</Type>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2034</x>
+                        <y>2467</y>
+                        <z>0</z>
+                        <width>100</width>
+                        <height>56</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.607142866</hotspotY>
+                        <angle>0.052359879</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="furieuse" uid="311">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Type>Furieuse</Type>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2147</x>
+                        <y>2450</y>
+                        <z>0</z>
+                        <width>100</width>
+                        <height>56</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.607142866</hotspotY>
+                        <angle>0.052359879</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="furieuse" uid="312">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Type>Furieuse</Type>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2169</x>
+                        <y>2358</y>
+                        <z>0</z>
+                        <width>100</width>
+                        <height>56</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.607142866</hotspotY>
+                        <angle>0.052359879</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="furieuse" uid="313">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Type>Furieuse</Type>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2320</x>
+                        <y>2397</y>
+                        <z>0</z>
+                        <width>100</width>
+                        <height>56</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.607142866</hotspotY>
+                        <angle>0.052359879</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="furieuse" uid="314">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Type>Furieuse</Type>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2275</x>
+                        <y>2491</y>
+                        <z>0</z>
+                        <width>100</width>
+                        <height>56</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.607142866</hotspotY>
+                        <angle>0.052359879</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
