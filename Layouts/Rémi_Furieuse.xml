@@ -2854,13 +2854,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-<<<<<<< HEAD
-                        <x>368</x>
-                        <y>313</y>
-=======
                         <x>1975</x>
                         <y>2858</y>
->>>>>>> 5fa2907d9e48458d5b43b4452485c6db28f4d1a7
                         <z>0</z>
                         <width>90</width>
                         <height>90</height>
