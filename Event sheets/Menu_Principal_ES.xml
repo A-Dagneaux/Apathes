@@ -74,7 +74,7 @@
                         <action id="0" name="Play" sid="251871026813251" type="Audio">
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">slider_effects.Value</param>
+                            <param id="3" name="Volume">slider_effects.Value-10</param>
                             <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action behavior="Fade2" id="2" name="Set fade-in time" sid="135630398400362" type="text_menu">
@@ -118,7 +118,7 @@
                         <action id="0" name="Play" sid="218647284942841" type="Audio">
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">slider_effects.Value</param>
+                            <param id="3" name="Volume">slider_effects.Value-10</param>
                             <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action behavior="Fade2" id="2" name="Set fade-in time" sid="433577401034400" type="text_menu">
@@ -175,7 +175,7 @@
                         <action id="0" name="Play" sid="634297005197289" type="Audio">
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">slider_effects.Value</param>
+                            <param id="3" name="Volume">slider_effects.Value-10</param>
                             <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action behavior="Fade2" id="2" name="Set fade-in time" sid="951690661604635" type="text_menu">
@@ -241,7 +241,7 @@
                         <action id="0" name="Play" sid="789378623921739" type="Audio">
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">slider_effects.Value</param>
+                            <param id="3" name="Volume">slider_effects.Value-10</param>
                             <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action behavior="Fade2" id="2" name="Set fade-in time" sid="531745074572041" type="text_parameters">
@@ -313,7 +313,7 @@
                         <action id="0" name="Play" sid="975936524675512" type="Audio">
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">slider_effects.Value</param>
+                            <param id="3" name="Volume">slider_effects.Value-10</param>
                             <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action behavior="Fade2" id="2" name="Set fade-in time" sid="251493032433516" type="text_menu">
@@ -364,7 +364,7 @@
                         <action id="0" name="Play" sid="382190154493566" type="Audio">
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">slider_effects.Value</param>
+                            <param id="3" name="Volume">slider_effects.Value-10</param>
                             <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action id="1" name="Close" sid="824011617536395" type="Browser" />

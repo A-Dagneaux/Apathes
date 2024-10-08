@@ -3382,10 +3382,32 @@
         <global-instance type="Browser" uid="401" />
     </global-instances>
     <sounds-folder>
-        <file name="pj_marche.m4a" />
-        <file name="pj_marche.ogg" />
         <file name="button_pressed.m4a" />
         <file name="button_pressed.ogg" />
+        <file name="pj_walk_normal.m4a" />
+        <file name="pj_walk_normal.ogg" />
+        <file name="furieuse_loop.m4a" />
+        <file name="furieuse_loop.ogg" />
+        <file name="furieuse_newstate.m4a" />
+        <file name="furieuse_newstate.ogg" />
+        <file name="honteuse_loop.m4a" />
+        <file name="honteuse_loop.ogg" />
+        <file name="honteuse_newstate.m4a" />
+        <file name="honteuse_newstate.ogg" />
+        <file name="pj_walk_furieuse.m4a" />
+        <file name="pj_walk_furieuse.ogg" />
+        <file name="pj_walk_honteuse.m4a" />
+        <file name="pj_walk_honteuse.ogg" />
+        <file name="mask_not_usable.m4a" />
+        <file name="mask_not_usable.ogg" />
+        <file name="mask_pickup.m4a" />
+        <file name="mask_pickup.ogg" />
+        <file name="rayonnante_newstate.m4a" />
+        <file name="rayonnante_newstate.ogg" />
+        <file name="rayonnante_loop.m4a" />
+        <file name="rayonnante_loop.ogg" />
+        <file name="craintive_newstate.m4a" />
+        <file name="craintive_newstate.ogg" />
     </sounds-folder>
     <music-folder>
         <file name="music_test.m4a" />
