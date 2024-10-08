@@ -37,9 +37,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layer locked="1" name="Décor voit à travers" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Plafond" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Narration" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="UI" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="UI" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="pause_menu" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="parameters_menu" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="parameters_menu" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="confirmation_menu" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="victory_defeat_menu" parallax-in-editor="0" visible="1" />
     </layers>
