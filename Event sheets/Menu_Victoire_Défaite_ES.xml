@@ -119,6 +119,20 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="787147703472496">
+                    <conditions>
+                        <condition id="-4" name="Trigger once while true" sid="534826749107408" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="33" name="Stop all" sid="896815779859358" type="Audio" />
+                        <action id="0" name="Play" sid="159795601769129" type="Audio">
+                            <param id="0" name="Audio file">victory</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-block>
         <comment>Défaite</comment>
@@ -177,6 +191,20 @@
                         <action behavior="Fade" id="1" name="Start fade" sid="312874851375144" type="text_confirmation_nl" />
                         <action id="-15" name="Set visible" sid="992853563104360" type="text_nextlevel">
                             <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="106452914686343">
+                    <conditions>
+                        <condition id="-4" name="Trigger once while true" sid="243763656757148" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="33" name="Stop all" sid="314617768804602" type="Audio" />
+                        <action id="0" name="Play" sid="414752957978435" type="Audio">
+                            <param id="0" name="Audio file">defeat</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>

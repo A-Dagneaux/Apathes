@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Apathe" uid="398">
+                <instance type="Apathes_logo" uid="398">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -54,10 +54,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>960</x>
-                        <y>228</y>
+                        <y>230</y>
                         <z>0</z>
-                        <width>1274</width>
-                        <height>521</height>
+                        <width>1311.098999023</width>
+                        <height>536.171569824</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.500959694</hotspotY>

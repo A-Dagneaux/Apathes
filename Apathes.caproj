@@ -1615,10 +1615,10 @@
             <object-type name="quitter_jeu" sid="653158544096434">
                 <plugin id="Text" />
             </object-type>
-            <object-type name="Apathe" sid="217033066533506">
+            <object-type name="Apathes_logo" sid="217033066533506">
                 <plugin id="Sprite" />
                 <instance-variables>
-                    <instance-variable comment="0 : NOTHING ; 1 : PARAMETERS ; 2 : PENDING CONFIRMATION" name="menu" sid="721482404709401" type="number" />
+                    <instance-variable comment="0 : NOTHING ; 1 : PARAMETERS ; 2 : PENDING CONFIRMATION ; 3 : WAIT FOR FADE IN TO COMPLETE" name="menu" sid="721482404709401" type="number" />
                 </instance-variables>
                 <behaviors>
                     <behavior-type name="Fade" sid="299208899812505">
@@ -1627,18 +1627,7 @@
                 </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="831139604926235" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.50096" original-source="C:\Users\dagne\Desktop\Apathe.png">
-                            <collision-poly>
-                                <point x="0.189953" y="0.464491" />
-                                <point x="0.5" y="0.236084" />
-                                <point x="0.810832" y="0.462572" />
-                                <point x="0.810047" y="0.49904" />
-                                <point x="0.802198" y="0.516315" />
-                                <point x="0.5" y="0.259117" />
-                                <point x="0.198587" y="0.514395" />
-                                <point x="0.182889" y="0.49904" />
-                            </collision-poly>
-                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50096" original-source="C:\Users\dagne\Desktop\Apathe.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -3248,6 +3237,10 @@
         <file name="music_test.ogg" />
         <file name="menu_music.m4a" />
         <file name="menu_music.ogg" />
+        <file name="defeat.m4a" />
+        <file name="defeat.ogg" />
+        <file name="victory.m4a" />
+        <file name="victory.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">

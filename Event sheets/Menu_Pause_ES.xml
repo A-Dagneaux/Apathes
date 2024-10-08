@@ -42,12 +42,15 @@
                         <action id="-15" name="Set visible" sid="684205882766440" type="menu_background">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="-16" name="Wait" sid="971874118867433" type="System">
-                            <param id="0" name="Seconds">0.3</param>
+                        <action id="-16" name="Wait" sid="210662802558671" type="System">
+                            <param id="0" name="Seconds">0.1</param>
                         </action>
                         <action id="-9" name="Set value" sid="491531943744367" type="System">
                             <param id="0" name="Variable">is_paused</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="971874118867433" type="System">
+                            <param id="0" name="Seconds">0.3</param>
                         </action>
                     </actions>
                 </event-block>
@@ -84,6 +87,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="663529431498849" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action behavior="Fade2" id="4" name="Set fade-out time" sid="913196765602742" type="text_menu">
                             <param id="0" name="Fade-out time">0.2</param>
                         </action>
@@ -112,6 +121,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="108981139456111" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-9" name="Set value" sid="408383687832524" type="System">
                             <param id="0" name="Variable">is_paused</param>
                             <param id="1" name="Value">3</param>
@@ -151,6 +166,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="416246701390808" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-9" name="Set value" sid="125466581962187" type="System">
                             <param id="0" name="Variable">is_paused</param>
                             <param id="1" name="Value">3</param>
@@ -190,6 +211,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="673252603717094" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action behavior="Fade2" id="2" name="Set fade-in time" sid="619811449891957" type="text_menu">
                             <param id="0" name="Fade-in time">0</param>
                         </action>
@@ -219,6 +246,19 @@
                         <action id="-9" name="Set value" sid="140786361118593" type="System">
                             <param id="0" name="Variable">is_paused</param>
                             <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="526785836662700">
+                    <conditions>
+                        <condition id="-4" name="Trigger once while true" sid="132990489566503" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="792754716704980" type="Audio">
+                            <param id="0" name="Audio file">button_pressed</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -331,6 +371,12 @@
                                 </condition>
                             </conditions>
                             <actions>
+                                <action id="0" name="Play" sid="793999060834975" type="Audio">
+                                    <param id="0" name="Audio file">button_pressed</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">-10</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                                 <action id="-10" name="Set value" sid="617543324551358" type="confirmer">
                                     <param id="0" name="Instance variable">confirmation</param>
                                     <param id="1" name="Value">0</param>
@@ -366,6 +412,12 @@
                                 </condition>
                             </conditions>
                             <actions>
+                                <action id="0" name="Play" sid="205605937763793" type="Audio">
+                                    <param id="0" name="Audio file">button_pressed</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">-10</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                                 <action id="1" name="Close" sid="314746398015111" type="Browser" />
                             </actions>
                         </event-block>
