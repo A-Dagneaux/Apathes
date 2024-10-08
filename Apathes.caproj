@@ -3053,6 +3053,161 @@
         <object-type name="slider_effects" sid="705896245383478">
             <plugin id="sliderbar" />
         </object-type>
+        <object-type name="Sprite21" sid="256841346515519">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="835473805916749" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501901" original-source="C:\Users\matpo\OneDrive\Bureau\table2.png">
+                        <collision-poly>
+                            <point x="0.128906" y="0.257813" />
+                            <point x="0.871094" y="0.257813" />
+                            <point x="0.929688" y="0.5" />
+                            <point x="0.90625" y="0.8125" />
+                            <point x="0.5" y="0.84375" />
+                            <point x="0.09375" y="0.8125" />
+                            <point x="0.0703125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite22" sid="331125745147333">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="308095799601238" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\matpo\Downloads\banc.png">
+                        <collision-poly>
+                            <point x="0.101563" y="0.40625" />
+                            <point x="0.898438" y="0.40625" />
+                            <point x="0.941406" y="0.5" />
+                            <point x="0.960938" y="0.84375" />
+                            <point x="0.5" y="0.875" />
+                            <point x="0.0390625" y="0.84375" />
+                            <point x="0.0585938" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite23" sid="758489724361350">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="423031158584015" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\matpo\Downloads\table.png">
+                        <collision-poly>
+                            <point x="0.128906" y="0.257813" />
+                            <point x="0.871094" y="0.257813" />
+                            <point x="0.929688" y="0.5" />
+                            <point x="0.90625" y="0.8125" />
+                            <point x="0.5" y="0.84375" />
+                            <point x="0.09375" y="0.8125" />
+                            <point x="0.0703125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite24" sid="337210477793054">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="136145012575497" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501901" original-source="C:\Users\matpo\OneDrive\Bureau\table2.png">
+                        <collision-poly>
+                            <point x="0.128906" y="0.257813" />
+                            <point x="0.871094" y="0.257813" />
+                            <point x="0.929688" y="0.5" />
+                            <point x="0.90625" y="0.8125" />
+                            <point x="0.5" y="0.84375" />
+                            <point x="0.09375" y="0.8125" />
+                            <point x="0.0703125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite25" sid="566096258813778">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="573373083925216" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502836" original-source="C:\Users\matpo\OneDrive\Bureau\table2.png">
+                        <collision-poly>
+                            <point x="0.929688" y="0.5" />
+                            <point x="0.90625" y="0.8125" />
+                            <point x="0.5" y="0.84375" />
+                            <point x="0.09375" y="0.8125" />
+                            <point x="0.070312" y="0.5" />
+                            <point x="0.128906" y="0.257813" />
+                            <point x="0.871094" y="0.257813" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite26" sid="471944928566218">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="366951621861425" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502836" original-source="C:\Users\matpo\OneDrive\Bureau\table2.png">
+                        <collision-poly>
+                            <point x="0.929688" y="0.5" />
+                            <point x="0.90625" y="0.8125" />
+                            <point x="0.5" y="0.84375" />
+                            <point x="0.09375" y="0.8125" />
+                            <point x="0.070312" y="0.5" />
+                            <point x="0.128906" y="0.257813" />
+                            <point x="0.871094" y="0.257813" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite27" sid="760729711884202">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="829771635746069" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\matpo\OneDrive\Bureau\banc2.png">
+                        <collision-poly>
+                            <point x="0.00862069" y="0.0378151" />
+                            <point x="0.5" y="0" />
+                            <point x="0.989464" y="0.0462185" />
+                            <point x="0.979885" y="0.911765" />
+                            <point x="0.5" y="0.890756" />
+                            <point x="0.0210728" y="0.907563" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite28" sid="559361783233462">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="962045596516660" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\matpo\OneDrive\Bureau\haut de table.png">
+                        <collision-poly>
+                            <point x="0.00310559" y="0.0136364" />
+                            <point x="0.5" y="0" />
+                            <point x="0.987578" y="0.0545455" />
+                            <point x="0.994824" y="0.977273" />
+                            <point x="0.5" y="1" />
+                            <point x="0.00517598" y="0.977273" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite29" sid="746928487455844">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="744193660962892" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Tilemap_matheo_perspective" sid="127889444120725">
+            <plugin id="Tilemap" />
+            <texture original-source="C:\Users\matpo\Downloads\tilemap_completee_2.png" />
+            <tiles />
+        </object-type>
     </object-folder>
     <families>
         <family name="Apathes" plugin-id="Sprite" sid="195361571858189">
