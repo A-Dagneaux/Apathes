@@ -43,7 +43,7 @@
                         <action id="0" name="Play" sid="376912666196729" type="Audio">
                             <param id="0" name="Audio file">music_test</param>
                             <param id="2" name="Loop">1</param>
-                            <param id="3" name="Volume">-5</param>
+                            <param id="3" name="Volume">slider_musique.Value</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
@@ -594,7 +594,7 @@
                                 <action id="0" name="Play" sid="940533886724096" type="Audio">
                                     <param id="0" name="Audio file">pj_marche</param>
                                     <param id="2" name="Loop">1</param>
-                                    <param id="3" name="Volume">-15</param>
+                                    <param id="3" name="Volume">slider_effects.Value</param>
                                     <param id="1" name="Tag (optional)">&quot;walk&quot;</param>
                                 </action>
                             </actions>

@@ -534,8 +534,8 @@
                 </instance>
                 <instance type="slider_musique" uid="445">
                     <properties>
-                        <value>0</value>
-                        <minimum>-100</minimum>
+                        <value>-15</value>
+                        <minimum>-50</minimum>
                         <maximum>0</maximum>
                         <step>1</step>
                         <tooltip></tooltip>
@@ -558,8 +558,8 @@
                 </instance>
                 <instance type="slider_effects" uid="304">
                     <properties>
-                        <value>0</value>
-                        <minimum>-100</minimum>
+                        <value>-20</value>
+                        <minimum>-50</minimum>
                         <maximum>0</maximum>
                         <step>1</step>
                         <tooltip></tooltip>

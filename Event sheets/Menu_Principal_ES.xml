@@ -15,7 +15,7 @@
                 <action id="0" name="Play" sid="589686396578236" type="Audio">
                     <param id="0" name="Audio file">menu_music</param>
                     <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">0</param>
+                    <param id="3" name="Volume">slider_musique.Value</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
                 <action id="-16" name="Wait" sid="869402425194793" type="System">
@@ -74,7 +74,7 @@
                         <action id="0" name="Play" sid="251871026813251" type="Audio">
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">-10</param>
+                            <param id="3" name="Volume">slider_effects.Value</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action behavior="Fade2" id="2" name="Set fade-in time" sid="135630398400362" type="text_menu">
@@ -115,10 +115,10 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Play" sid="716379300435271" type="Audio">
+                        <action id="0" name="Play" sid="218647284942841" type="Audio">
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">-10</param>
+                            <param id="3" name="Volume">slider_effects.Value</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action behavior="Fade2" id="2" name="Set fade-in time" sid="433577401034400" type="text_menu">
@@ -172,10 +172,10 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Play" sid="642876755028351" type="Audio">
+                        <action id="0" name="Play" sid="634297005197289" type="Audio">
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">-10</param>
+                            <param id="3" name="Volume">slider_effects.Value</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action behavior="Fade2" id="2" name="Set fade-in time" sid="951690661604635" type="text_menu">
@@ -260,10 +260,10 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Play" sid="615672400229271" type="Audio">
+                        <action id="0" name="Play" sid="789378623921739" type="Audio">
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">-10</param>
+                            <param id="3" name="Volume">slider_effects.Value</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action behavior="Fade2" id="2" name="Set fade-in time" sid="531745074572041" type="text_parameters">
@@ -332,10 +332,10 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Play" sid="724156345874401" type="Audio">
+                        <action id="0" name="Play" sid="975936524675512" type="Audio">
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">-10</param>
+                            <param id="3" name="Volume">slider_effects.Value</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action behavior="Fade2" id="2" name="Set fade-in time" sid="251493032433516" type="text_menu">
@@ -383,10 +383,10 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Play" sid="779844818725110" type="Audio">
+                        <action id="0" name="Play" sid="382190154493566" type="Audio">
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">-10</param>
+                            <param id="3" name="Volume">slider_effects.Value</param>
                             <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                         <action id="1" name="Close" sid="824011617536395" type="Browser" />
