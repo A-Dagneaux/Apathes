@@ -10,8 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="1">Rémi_Furieuse</layout>
-        <layout order="3">UI</layout>
+        <layout order="1">Rémi_Furieuse</layout>
+        <layout active="1" order="3">UI</layout>
         <layout order="6">Menu Principal</layout>
         <layout order="8">Mathéo_Rayonnante</layout>
         <layout order="9">Global_test</layout>
