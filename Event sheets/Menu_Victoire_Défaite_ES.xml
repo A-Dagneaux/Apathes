@@ -91,7 +91,7 @@
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">slider_effects.Value</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                            <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action id="-10" name="Set value" sid="550236788315569" type="confirmer_nl">
                             <param id="0" name="Instance variable">confirmation_nl</param>
@@ -129,7 +129,7 @@
                             <param id="0" name="Audio file">victory</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">slider_musique.Value</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                            <param id="1" name="Tag (optional)">&quot;Musiques&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -166,7 +166,7 @@
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">-10</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                            <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action id="-10" name="Set value" sid="330823694905823" type="confirmer_nl">
                             <param id="0" name="Instance variable">confirmation_nl</param>
@@ -204,7 +204,7 @@
                             <param id="0" name="Audio file">defeat</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">slider_musique.Value</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                            <param id="1" name="Tag (optional)">&quot;Musiques&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -233,7 +233,7 @@
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">slider_effects.Value</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                            <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action id="33" name="Stop all" sid="732559452551438" type="Audio" />
                         <action id="-10" name="Set value" sid="879031894677409" type="confirmer_nl">
@@ -262,7 +262,7 @@
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">slider_effects.Value</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                            <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action id="1" name="Close" sid="406064081058056" type="Browser" />
                     </actions>
@@ -280,7 +280,7 @@
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">slider_effects.Value</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                            <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action id="33" name="Stop all" sid="198623721218282" type="Audio" />
                         <action id="-16" name="Wait" sid="457287874732863" type="System">
@@ -309,7 +309,7 @@
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">slider_effects.Value</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                            <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action id="33" name="Stop all" sid="144726342368114" type="Audio" />
                         <action id="-10" name="Set value" sid="225642704137242" type="confirmer_nl">
@@ -340,7 +340,7 @@
                     <param id="0" name="Audio file">button_pressed</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">slider_effects.Value</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                    <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                 </action>
                 <action id="-10" name="Set value" sid="476494030240395" type="confirmer_nl">
                     <param id="0" name="Instance variable">confirmation_nl</param>
@@ -386,7 +386,7 @@
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">slider_effects.Value</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                            <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action id="-10" name="Set value" sid="639919082106176" type="confirmer_nl">
                             <param id="0" name="Instance variable">confirmation_nl</param>
@@ -427,7 +427,7 @@
                             <param id="0" name="Audio file">button_pressed</param>
                             <param id="2" name="Loop">0</param>
                             <param id="3" name="Volume">slider_effects.Value</param>
-                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                            <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action id="-10" name="Set value" sid="903663781008931" type="confirmer_nl">
                             <param id="0" name="Instance variable">confirmation_nl</param>
