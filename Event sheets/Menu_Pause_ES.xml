@@ -8,8 +8,8 @@
                 <condition id="2" name="On changed" sid="350148788292894" type="slider_musique" />
             </conditions>
             <actions>
-                <action disabled="1" id="3" name="Set volume" sid="700826675175778" type="Audio">
-                    <param id="0" name="Tag">&quot;Musiques&quot;</param>
+                <action id="3" name="Set volume" sid="700826675175778" type="Audio">
+                    <param id="0" name="Tag">&quot;music&quot;</param>
                     <param id="1" name="dB">slider_musique.Value</param>
                 </action>
                 <action disabled="1" id="10" name="Set master volume" sid="820458135504211" type="Audio">
