@@ -3241,6 +3241,92 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite6" sid="655265930515725">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="ShadowCaster" sid="703912665125416">
+                    <behavior id="shadowcaster" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="601063387828652" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite31" sid="919923713337821">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="ShadowCaster" sid="765531463044666">
+                    <behavior id="shadowcaster" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="843181182078096" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.376812" />
+                            <point x="0.853155" y="0.380435" />
+                            <point x="0.682039" y="0.410628" />
+                            <point x="0.446602" y="0.357488" />
+                            <point x="0.257281" y="0.415459" />
+                            <point x="0" y="0.439614" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite32" sid="397473964593165">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="ShadowCaster" sid="648118519396547">
+                    <behavior id="shadowcaster" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="690119031342769" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.361158" y="0.0820513" />
+                            <point x="0.329642" y="0.0034188" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.313458" y="1" />
+                            <point x="0.408007" y="0.955556" />
+                            <point x="0.410988" y="0.811752" />
+                            <point x="0.458262" y="0.678205" />
+                            <point x="0.477001" y="0.363248" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite33" sid="274110482758906">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="ShadowCaster" sid="386837441117410">
+                    <behavior id="shadowcaster" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="125583308070189" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="1">
+                        <collision-poly>
+                            <point x="0" y="0.589507" />
+                            <point x="0.270124" y="0.797841" />
+                            <point x="0.445433" y="0.803242" />
+                            <point x="0.614551" y="0.793212" />
+                            <point x="0.782508" y="0.733025" />
+                            <point x="1" y="0.567901" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Apathes" plugin-id="Sprite" sid="195361571858189">
