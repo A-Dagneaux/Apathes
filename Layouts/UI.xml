@@ -155,7 +155,7 @@
                         <line-height>0</line-height>
                     </properties>
                     <instance-variables>
-                        <value>0</value>
+                        <value>10</value>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -185,7 +185,7 @@
                         <line-height>0</line-height>
                     </properties>
                     <instance-variables>
-                        <value>0</value>
+                        <value>10</value>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -215,7 +215,7 @@
                         <line-height>0</line-height>
                     </properties>
                     <instance-variables>
-                        <value>0</value>
+                        <value>10</value>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -245,7 +245,7 @@
                         <line-height>0</line-height>
                     </properties>
                     <instance-variables>
-                        <value>0</value>
+                        <value>10</value>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -338,7 +338,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="shortcut_honteuse" uid="114">
+                <instance type="shortcut_rayonnante" uid="114">
                     <properties>
                         <text>&apos;</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -365,7 +365,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="shortcut_rayonnante" uid="122">
+                <instance type="shortcut_honteuse" uid="122">
                     <properties>
                         <text>&quot;</text>
                         <initial-visibility>Visible</initial-visibility>

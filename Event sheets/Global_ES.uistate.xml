@@ -25,25 +25,22 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <nest>22</nest>
         <nest>22</nest>
         <nest>22</nest>
-        <nest>16</nest>
+        <nest>18</nest>
     </condition-namecolumns>
     <events>
+        <event collapsed="1" sid="821477231640925" />
         <event collapsed="1" sid="154874922171303" />
-<<<<<<< HEAD
-        <event collapsed="1" sid="962978388100371" />
+        <event collapsed="1" sid="682569156688677" />
         <event collapsed="1" sid="822161048303203" />
         <event collapsed="1" sid="532384889775768" />
         <event collapsed="1" sid="931579110664720" />
-=======
-        <event collapsed="1" sid="682569156688677" />
->>>>>>> d3bde4200744e80baa199633bd1a0653a9707b07
         <event collapsed="1" sid="235422452958813" />
         <event collapsed="1" sid="941559513471577" />
         <event collapsed="1" sid="883887170022412" />
+        <event collapsed="1" sid="657144367363517" />
         <event collapsed="1" sid="918019254699734" />
         <event collapsed="1" sid="127120533936886" />
         <event collapsed="1" sid="464487667524583" />
-        <event collapsed="1" sid="978572723870566" />
         <event collapsed="1" sid="819534617838525" />
         <event collapsed="1" sid="520512012118217" />
         <event collapsed="1" sid="335026406195738" />
