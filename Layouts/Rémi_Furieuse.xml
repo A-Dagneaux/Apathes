@@ -2855,8 +2855,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>387</x>
-                        <y>375</y>
+                        <x>702</x>
+                        <y>296</y>
                         <z>0</z>
                         <width>90</width>
                         <height>90</height>
@@ -3340,7 +3340,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2610</x>
+                        <x>2587</x>
                         <y>1752</y>
                         <z>0</z>
                         <width>100</width>
@@ -3584,68 +3584,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Apathe_AntiBruit" uid="247">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <X_initial>0</X_initial>
-                        <Y_initial>0</Y_initial>
-                        <ismoving>false</ismoving>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="LineOfSight">
-                            <properties>
-                                <obstacles>Solids</obstacles>
-                                <range>0</range>
-                                <cone-of-view>360</cone-of-view>
-                                <use-collision-cells>Yes</use-collision-cells>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pathfinding">
-                            <properties>
-                                <cell-size>30</cell-size>
-                                <cell-border>-1</cell-border>
-                                <obstacles>Solids</obstacles>
-                                <max-speed>200</max-speed>
-                                <acceleration>1000</acceleration>
-                                <deceleration>2000</deceleration>
-                                <rotate-speed>135</rotate-speed>
-                                <rotate-object>Yes</rotate-object>
-                                <diagonals>Enabled</diagonals>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="8Direction">
-                            <properties>
-                                <max-speed>200</max-speed>
-                                <acceleration>10000</acceleration>
-                                <deceleration>10000</deceleration>
-                                <directions>8 directions</directions>
-                                <set-angle>No</set-angle>
-                                <default-controls>No</default-controls>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>291</x>
-                        <y>2109</y>
-                        <z>0</z>
-                        <width>150</width>
-                        <height>150</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="MurPoussable" uid="144">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -3844,8 +3782,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3572</x>
-                        <y>2932</y>
+                        <x>3548</x>
+                        <y>2839</y>
                         <z>0</z>
                         <width>150</width>
                         <height>150</height>
@@ -3970,6 +3908,68 @@
                     <world>
                         <x>2326</x>
                         <y>2012</y>
+                        <z>0</z>
+                        <width>150</width>
+                        <height>150</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Apathe_AntiBruit" uid="247">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <X_initial>0</X_initial>
+                        <Y_initial>0</Y_initial>
+                        <ismoving>false</ismoving>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="LineOfSight">
+                            <properties>
+                                <obstacles>Solids</obstacles>
+                                <range>500</range>
+                                <cone-of-view>360</cone-of-view>
+                                <use-collision-cells>Yes</use-collision-cells>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pathfinding">
+                            <properties>
+                                <cell-size>30</cell-size>
+                                <cell-border>-1</cell-border>
+                                <obstacles>Solids</obstacles>
+                                <max-speed>200</max-speed>
+                                <acceleration>1000</acceleration>
+                                <deceleration>2000</deceleration>
+                                <rotate-speed>135</rotate-speed>
+                                <rotate-object>Yes</rotate-object>
+                                <diagonals>Enabled</diagonals>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>200</max-speed>
+                                <acceleration>10000</acceleration>
+                                <deceleration>10000</deceleration>
+                                <directions>8 directions</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>160</x>
+                        <y>2151</y>
                         <z>0</z>
                         <width>150</width>
                         <height>150</height>

@@ -14,6 +14,9 @@
                         <condition id="-2" name="On start of layout" sid="944285129053324" type="System" />
                     </conditions>
                     <actions>
+                        <action behavior="8Direction" disabled="1" id="8" name="Set enabled" sid="974215157428376" type="Hisia">
+                            <param id="0" name="State">0</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="712050825911398" type="Dialog9">
                             <param id="0" name="Visibility">1</param>
                         </action>
@@ -28,6 +31,9 @@
                         </action>
                         <action id="-15" name="Set visible" sid="107139312669605" type="Dialog10">
                             <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="8Direction" id="8" name="Set enabled" sid="125002437497063" type="Hisia">
+                            <param id="0" name="State">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -82,5 +88,52 @@
             </sub-events>
         </event-group>
         <event-group description="" sid="457113517715335" title="Apathes qui pousse" />
+        <event-block sid="137624419243762">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="373477235992844" type="ActiveDialog2">
+                    <param id="0" name="Object">Hisia</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="8" name="Set enabled" sid="449460141064856" type="Hisia">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="276775904511264" type="BulleDialog4">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="151013941080047" type="Dialog11">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="412220720160875" type="System">
+                    <param id="0" name="Seconds">3.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="687203918472164" type="Dialog11">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="662708861363044" type="BulleDialog4">
+                    <param id="0" name="X">613</param>
+                    <param id="1" name="Y">2867</param>
+                </action>
+                <action id="-7" name="Set size" sid="348110456562433" type="BulleDialog4">
+                    <param id="0" name="Width">455</param>
+                    <param id="1" name="Height">264</param>
+                </action>
+                <action id="-15" name="Set visible" sid="340527091784288" type="Dialog12">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="765472107443873" type="System">
+                    <param id="0" name="Seconds">3.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="540443332378606" type="Dialog12">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="570124524139334" type="BulleDialog4">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action behavior="8Direction" id="8" name="Set enabled" sid="114932023719041" type="Hisia">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

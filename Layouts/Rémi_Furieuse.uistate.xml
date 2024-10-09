@@ -4,10 +4,10 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>2131.45</position-x>
+        <position-x>2048</position-x>
         <position-y>1513.29</position-y>
         <position-z>282.951</position-z>
-        <lookat-x>2131.45</lookat-x>
+        <lookat-x>2048</lookat-x>
         <lookat-y>1513.29</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
@@ -33,7 +33,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layer locked="1" name="Meuble solide" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="light" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="shadow blocker" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Personnage et items" parallax-in-editor="0" visible="1" />
+        <layer locked="1" name="Personnage et items" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Décor voit à travers" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Plafond" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Narration" parallax-in-editor="0" visible="1" />

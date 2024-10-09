@@ -38,7 +38,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <family expanded="0" name="text_parameters" />
         <family expanded="0" name="text_nextlevel" />
         <family expanded="0" name="text_confirmation_nl" />
-        <family expanded="1" name="Solids" />
+        <family expanded="0" name="Solids" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
@@ -110,6 +110,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/DialogPonctuel2/" />
         <folder expanded="1" path="animation-folder/DialogPonctuel3/" />
         <folder expanded="1" path="animation-folder/DialogPonctuel4/" />
+        <folder expanded="1" path="animation-folder/ActiveDialog2/" />
+        <folder expanded="1" path="animation-folder/BulleDialog2/" />
+        <folder expanded="1" path="animation-folder/BulleDialog4/" />
+        <folder expanded="1" path="animation-folder/BulleDialog3/" />
         <folder expanded="1" path="animation-folder/Apathes_logo/" />
         <folder expanded="1" path="animation-folder/menu_background/" />
         <folder expanded="1" path="animation-folder/Hisia/" />
@@ -140,8 +144,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite15/" />
         <folder expanded="1" path="animation-folder/Sprite16/" />
         <folder expanded="1" path="animation-folder/Sprite19/" />
-        <folder expanded="1" path="animation-folder/BulleDialog2/" />
-        <folder expanded="1" path="animation-folder/BulleDialog3/" />
         <folder expanded="1" path="animation-folder/pause_background/" />
         <folder expanded="1" path="animation-folder/Sprite18/" />
         <folder expanded="1" path="animation-folder/wayout/" />
@@ -158,9 +160,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite30/" />
         <folder expanded="1" path="animation-folder/fadeinout/" />
         <folder expanded="1" path="animation-folder/matheoGouffre1/" />
-        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Gouffre4/" />
         <folder expanded="1" path="animation-folder/Sprite31/" />
         <folder expanded="1" path="animation-folder/Sprite32/" />
         <folder expanded="1" path="animation-folder/Sprite33/" />
+        <folder expanded="1" path="animation-folder/Sprite34/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
     </folders-expanded>
 </c2uistate>
