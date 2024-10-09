@@ -3276,6 +3276,18 @@
                 </effect-type>
             </effects>
         </family>
+        <family name="Solids" plugin-id="Sprite" sid="521513176001508">
+            <members>
+                <member>Gouffre1</member>
+                <member>Gouffre2</member>
+                <member>Gouffre3</member>
+                <member>Mur1</member>
+                <member>MurPoussable</member>
+                <member>MurPoussable2</member>
+                <member>MurPoussable3</member>
+                <member>SolidMeuble</member>
+            </members>
+        </family>
     </families>
     <layout-folder>
         <layout>Global_test.xml</layout>

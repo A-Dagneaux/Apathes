@@ -1022,11 +1022,8 @@
                         <event-block any="1" sid="464487667524583">
                             <conditions>
                                 <condition behavior="8Direction" id="0" inverted="1" name="Is moving" sid="897470293330979" type="Hisia" />
-                                <condition id="1" name="Is overlapping another object" sid="936309764071760" type="Hisia">
-                                    <param id="0" name="Object">Mur1</param>
-                                </condition>
-                                <condition id="1" name="Is overlapping another object" sid="812040609579621" type="Hisia">
-                                    <param id="0" name="Object">SolidMeuble</param>
+                                <condition id="1" name="Is overlapping another object" sid="298337760747609" type="Hisia">
+                                    <param id="0" name="Object">Solids</param>
                                 </condition>
                             </conditions>
                             <actions>

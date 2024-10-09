@@ -13,13 +13,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="0">Global_test</layout>
         <layout order="1">UI</layout>
         <layout order="5">Menu Principal</layout>
-        <layout active="1" order="6">Rémi_Furieuse</layout>
+        <layout order="6">Rémi_Furieuse</layout>
         <layout order="9">Mathéo_Rayonnante</layout>
         <event-sheet order="2">UI_ES</event-sheet>
         <event-sheet order="3">Menu_Principal_ES</event-sheet>
         <event-sheet order="4">Menu_Pause_ES</event-sheet>
         <event-sheet order="7">Rémi_Furieuse_ES</event-sheet>
-        <event-sheet order="8">Global_ES</event-sheet>
+        <event-sheet active="1" order="8">Global_ES</event-sheet>
         <event-sheet order="10">Mathéo_Rayonnante_ES</event-sheet>
         <event-sheet order="11">Menu_Victoire_Défaite_ES</event-sheet>
     </open-tabs>
@@ -38,6 +38,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <family expanded="0" name="text_parameters" />
         <family expanded="0" name="text_nextlevel" />
         <family expanded="0" name="text_confirmation_nl" />
+        <family expanded="0" name="Solids" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
