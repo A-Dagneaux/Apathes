@@ -27,19 +27,19 @@
                             <param id="0" name="X">furieuse_UI.X</param>
                             <param id="1" name="Y">furieuse_UI.Y+ 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="532625344964455" type="text_rayonnante">
+                        <action id="-3" name="Set position" sid="532625344964455" type="text_honteuse">
                             <param id="0" name="X">honteuse_UI.X</param>
                             <param id="1" name="Y">honteuse_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="821059286426994" type="shortcut_rayonnante">
+                        <action id="-3" name="Set position" sid="821059286426994" type="shortcut_honteuse">
                             <param id="0" name="X">honteuse_UI.X</param>
                             <param id="1" name="Y">honteuse_UI.Y+ 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="217176414416805" type="text_honteuse">
+                        <action id="-3" name="Set position" sid="217176414416805" type="text_rayonnante">
                             <param id="0" name="X">rayonnante_UI.X</param>
                             <param id="1" name="Y">rayonnante_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="385442065001506" type="shortcut_honteuse">
+                        <action id="-3" name="Set position" sid="385442065001506" type="shortcut_rayonnante">
                             <param id="0" name="X">rayonnante_UI.X</param>
                             <param id="1" name="Y">rayonnante_UI.Y+ 30</param>
                         </action>
@@ -187,19 +187,19 @@
                             <param id="0" name="X">furieuse_UI.X</param>
                             <param id="1" name="Y">furieuse_UI.Y+ 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="596376054279420" type="text_rayonnante">
+                        <action id="-3" name="Set position" sid="596376054279420" type="text_honteuse">
                             <param id="0" name="X">honteuse_UI.X</param>
                             <param id="1" name="Y">honteuse_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="495445831221730" type="shortcut_rayonnante">
+                        <action id="-3" name="Set position" sid="495445831221730" type="shortcut_honteuse">
                             <param id="0" name="X">honteuse_UI.X</param>
                             <param id="1" name="Y">honteuse_UI.Y+ 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="881864840496809" type="text_honteuse">
+                        <action id="-3" name="Set position" sid="881864840496809" type="text_rayonnante">
                             <param id="0" name="X">rayonnante_UI.X</param>
                             <param id="1" name="Y">rayonnante_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="483625698193366" type="shortcut_honteuse">
+                        <action id="-3" name="Set position" sid="483625698193366" type="shortcut_rayonnante">
                             <param id="0" name="X">rayonnante_UI.X</param>
                             <param id="1" name="Y">rayonnante_UI.Y+ 30</param>
                         </action>
@@ -241,19 +241,19 @@
                             <param id="0" name="X">furieuse_UI.X</param>
                             <param id="1" name="Y">furieuse_UI.Y+ 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="382032994325023" type="text_rayonnante">
+                        <action id="-3" name="Set position" sid="382032994325023" type="text_honteuse">
                             <param id="0" name="X">honteuse_UI.X</param>
                             <param id="1" name="Y">honteuse_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="638682532125724" type="shortcut_rayonnante">
+                        <action id="-3" name="Set position" sid="638682532125724" type="shortcut_honteuse">
                             <param id="0" name="X">honteuse_UI.X</param>
                             <param id="1" name="Y">honteuse_UI.Y+ 30</param>
                         </action>
-                        <action id="-3" name="Set position" sid="885256589756303" type="text_honteuse">
+                        <action id="-3" name="Set position" sid="885256589756303" type="text_rayonnante">
                             <param id="0" name="X">rayonnante_UI.X</param>
                             <param id="1" name="Y">rayonnante_UI.Y - 20</param>
                         </action>
-                        <action id="-3" name="Set position" sid="366686023290287" type="shortcut_honteuse">
+                        <action id="-3" name="Set position" sid="366686023290287" type="shortcut_rayonnante">
                             <param id="0" name="X">rayonnante_UI.X</param>
                             <param id="1" name="Y">rayonnante_UI.Y+ 30</param>
                         </action>
@@ -667,10 +667,10 @@
                         <action id="0" name="Set text" sid="362231176680859" type="shortcut_furieuse">
                             <param id="0" name="Text">&quot;é&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="458434975892060" type="shortcut_honteuse">
+                        <action id="0" name="Set text" sid="458434975892060" type="shortcut_rayonnante">
                             <param id="0" name="Text">&quot;&quot;&quot;&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="994335529874699" type="shortcut_rayonnante">
+                        <action id="0" name="Set text" sid="994335529874699" type="shortcut_honteuse">
                             <param id="0" name="Text">&quot;&apos;&quot;</param>
                         </action>
                         <action id="-15" name="Set visible" sid="116041609199047" type="square_ui">
@@ -699,10 +699,10 @@
                         <action id="0" name="Set text" sid="518897899485985" type="shortcut_furieuse">
                             <param id="0" name="Text">&quot;→&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="850975371498209" type="shortcut_honteuse">
+                        <action id="0" name="Set text" sid="850975371498209" type="shortcut_rayonnante">
                             <param id="0" name="Text">&quot;↓&quot;</param>
                         </action>
-                        <action id="0" name="Set text" sid="502348085051008" type="shortcut_rayonnante">
+                        <action id="0" name="Set text" sid="502348085051008" type="shortcut_honteuse">
                             <param id="0" name="Text">&quot;←&quot;</param>
                         </action>
                         <action id="-15" name="Set visible" sid="269721890262006" type="square_ui">

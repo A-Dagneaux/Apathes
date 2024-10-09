@@ -1400,10 +1400,10 @@
             <object-type name="shortcut_craintive" sid="342743179070266">
                 <plugin id="Text" />
             </object-type>
-            <object-type name="shortcut_honteuse" sid="530015032606309">
+            <object-type name="shortcut_rayonnante" sid="530015032606309">
                 <plugin id="Text" />
             </object-type>
-            <object-type name="shortcut_rayonnante" sid="372756850862913">
+            <object-type name="shortcut_honteuse" sid="372756850862913">
                 <plugin id="Text" />
             </object-type>
             <object-type name="shortcut_furieuse" sid="777112253882698">
