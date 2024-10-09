@@ -1019,9 +1019,15 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block sid="464487667524583">
+                        <event-block any="1" sid="464487667524583">
                             <conditions>
                                 <condition behavior="8Direction" id="0" inverted="1" name="Is moving" sid="897470293330979" type="Hisia" />
+                                <condition id="1" name="Is overlapping another object" sid="936309764071760" type="Hisia">
+                                    <param id="0" name="Object">Mur1</param>
+                                </condition>
+                                <condition id="1" name="Is overlapping another object" sid="812040609579621" type="Hisia">
+                                    <param id="0" name="Object">SolidMeuble</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="6" name="Stop" sid="932151937733920" type="Audio">
@@ -1088,6 +1094,22 @@
                                             <param id="1" name="From">1</param>
                                         </action>
                                     </actions>
+                                </event-block>
+                                <event-block sid="824345383678489">
+                                    <conditions>
+                                        <condition id="0" name="On collision with another object" sid="351374217376228" type="Hisia">
+                                            <param id="0" name="Object">Mur1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                </event-block>
+                                <event-block sid="752581167696777">
+                                    <conditions>
+                                        <condition id="0" name="On collision with another object" sid="251062276435576" type="Hisia">
+                                            <param id="0" name="Object">Mur1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
                                 </event-block>
                             </sub-events>
                         </event-block>

@@ -7037,7 +7037,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <size_normal>800</size_normal>
+                        <size_normal>500</size_normal>
                         <size_rayonnante>1200</size_rayonnante>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
