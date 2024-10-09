@@ -2855,8 +2855,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>225</x>
-                        <y>1321</y>
+                        <x>379</x>
+                        <y>319</y>
                         <z>0</z>
                         <width>90</width>
                         <height>90</height>
@@ -3600,7 +3600,7 @@
                         <behavior-instance type="LineOfSight">
                             <properties>
                                 <obstacles>Solids</obstacles>
-                                <range>500</range>
+                                <range>0</range>
                                 <cone-of-view>360</cone-of-view>
                                 <use-collision-cells>Yes</use-collision-cells>
                             </properties>
@@ -3634,8 +3634,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>155</x>
-                        <y>2128</y>
+                        <x>291</x>
+                        <y>2109</y>
                         <z>0</z>
                         <width>150</width>
                         <height>150</height>

@@ -1025,6 +1025,9 @@
                                 <condition id="1" name="Is overlapping another object" sid="298337760747609" type="Hisia">
                                     <param id="0" name="Object">Solids</param>
                                 </condition>
+                                <condition id="1" name="Is overlapping another object" sid="177112759710373" type="Hisia">
+                                    <param id="0" name="Object">Tilemap_mahteo_limit</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="6" name="Stop" sid="932151937733920" type="Audio">

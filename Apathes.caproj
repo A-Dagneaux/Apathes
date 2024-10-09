@@ -1256,6 +1256,61 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="MurPoussable4" sid="901007676930099">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="speed" sid="861673635776732" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Solid" sid="719055157741162">
+                        <behavior id="solid" />
+                    </behavior-type>
+                    <behavior-type name="8Direction" sid="987090204907660">
+                        <behavior id="EightDir" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="vertical" pingpong="0" repeatcount="1" repeatto="0" sid="586215032999649" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="709902361351564" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.084375" y="0.398438" />
+                                <point x="0.90625" y="0.414063" />
+                                <point x="0.890625" y="0.914063" />
+                                <point x="0.1" y="0.90625" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="MurPoussable5" sid="144012692381679">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="speed" sid="471497916165535" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Solid" sid="845420794520577">
+                        <behavior id="solid" />
+                    </behavior-type>
+                    <behavior-type name="8Direction" sid="756533071919492">
+                        <behavior id="EightDir" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="461068055441371" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.234375" y="0.109375" />
+                                <point x="0.734375" y="0.109375" />
+                                <point x="0.78125" y="0.859375" />
+                                <point x="0.25" y="0.882813" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="cartes">
             <object-folder name="par terre">
@@ -3143,6 +3198,49 @@
             <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap complétée.png" />
             <tiles />
         </object-type>
+        <object-type name="matheoGouffre1" sid="617869710776616">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="ShadowCaster" sid="922973360155655">
+                    <behavior id="shadowcaster" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="549389710388034" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="1">
+                        <collision-poly>
+                            <point x="0.039548" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.997882" y="0.812001" />
+                            <point x="0.859706" y="0.807875" />
+                            <point x="0.859242" y="0.56375" />
+                            <point x="0.815346" y="0.575625" />
+                            <point x="0.784924" y="0.561563" />
+                            <point x="0.749939" y="0.578531" />
+                            <point x="0.717779" y="0.5635" />
+                            <point x="0.714512" y="0.433" />
+                            <point x="0.682158" y="0.43625" />
+                            <point x="0.64698" y="0.4195" />
+                            <point x="0.611802" y="0.43075" />
+                            <point x="0.575211" y="0.42" />
+                            <point x="0.572033" y="0.826" />
+                            <point x="0.432203" y="0.812" />
+                            <point x="0.431497" y="0.562" />
+                            <point x="0.386653" y="0.585" />
+                            <point x="0.352225" y="0.5565" />
+                            <point x="0.317355" y="0.57825" />
+                            <point x="0.289548" y="0.572" />
+                            <point x="0.282751" y="0.501" />
+                            <point x="0.287959" y="0.426" />
+                            <point x="0.059675" y="0.43" />
+                            <point x="0.0598516" y="0.321" />
+                            <point x="0.0713277" y="0.172" />
+                            <point x="0.0617938" y="0.0819999" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Apathes" plugin-id="Sprite" sid="195361571858189">
@@ -3285,6 +3383,8 @@
                 <member>MurPoussable</member>
                 <member>MurPoussable2</member>
                 <member>MurPoussable3</member>
+                <member>MurPoussable4</member>
+                <member>MurPoussable5</member>
                 <member>SolidMeuble</member>
             </members>
         </family>
