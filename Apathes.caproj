@@ -1385,13 +1385,13 @@
                     <instance-variable comment="Nombre utilisation Furieuse" name="value" sid="839082995210290" type="number" />
                 </instance-variables>
             </object-type>
-            <object-type name="text_rayonnante" sid="114936501146354">
+            <object-type name="text_honteuse" sid="114936501146354">
                 <plugin id="Text" />
                 <instance-variables>
                     <instance-variable comment="Nombre utilisation Rayonnante" name="value" sid="612868426340931" type="number" />
                 </instance-variables>
             </object-type>
-            <object-type name="text_honteuse" sid="796146112244881">
+            <object-type name="text_rayonnante" sid="796146112244881">
                 <plugin id="Text" />
                 <instance-variables>
                     <instance-variable comment="Nombre utilisation Honteuse" name="value" sid="283933429365403" type="number" />

@@ -155,7 +155,7 @@
                         <line-height>0</line-height>
                     </properties>
                     <instance-variables>
-                        <value>10</value>
+                        <value>0</value>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -172,7 +172,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="text_honteuse" uid="81">
+                <instance type="text_rayonnante" uid="81">
                     <properties>
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -185,7 +185,7 @@
                         <line-height>0</line-height>
                     </properties>
                     <instance-variables>
-                        <value>10</value>
+                        <value>0</value>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -202,7 +202,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="text_rayonnante" uid="82">
+                <instance type="text_honteuse" uid="82">
                     <properties>
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -215,7 +215,7 @@
                         <line-height>0</line-height>
                     </properties>
                     <instance-variables>
-                        <value>10</value>
+                        <value>0</value>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -245,7 +245,7 @@
                         <line-height>0</line-height>
                     </properties>
                     <instance-variables>
-                        <value>10</value>
+                        <value>0</value>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>

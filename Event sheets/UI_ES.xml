@@ -317,12 +317,12 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-11" name="Add to" sid="850060783415173" type="text_honteuse">
+                                <action id="-11" name="Add to" sid="850060783415173" type="text_rayonnante">
                                     <param id="0" name="Instance variable">value</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
-                                <action id="0" name="Set text" sid="946365410234594" type="text_honteuse">
-                                    <param id="0" name="Text">text_honteuse.value</param>
+                                <action id="0" name="Set text" sid="946365410234594" type="text_rayonnante">
+                                    <param id="0" name="Text">text_rayonnante.value</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -333,12 +333,12 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-11" name="Add to" sid="571592998071294" type="text_rayonnante">
+                                <action id="-11" name="Add to" sid="571592998071294" type="text_honteuse">
                                     <param id="0" name="Instance variable">value</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
-                                <action id="0" name="Set text" sid="345918624396447" type="text_rayonnante">
-                                    <param id="0" name="Text">text_rayonnante.value</param>
+                                <action id="0" name="Set text" sid="345918624396447" type="text_honteuse">
+                                    <param id="0" name="Text">text_honteuse.value</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -523,7 +523,7 @@
                             <sub-events>
                                 <event-block any="1" sid="780023694162427">
                                     <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="622717053008120" type="text_honteuse">
+                                        <condition id="-7" name="Compare instance variable" sid="622717053008120" type="text_rayonnante">
                                             <param id="0" name="Instance variable">value</param>
                                             <param id="1" name="Comparison">0</param>
                                             <param id="2" name="Value">0</param>
@@ -545,7 +545,7 @@
                                 </event-block>
                                 <event-block sid="263327525168417">
                                     <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="284584539873166" type="text_honteuse">
+                                        <condition id="-7" name="Compare instance variable" sid="284584539873166" type="text_rayonnante">
                                             <param id="0" name="Instance variable">value</param>
                                             <param id="1" name="Comparison">4</param>
                                             <param id="2" name="Value">0</param>
@@ -557,12 +557,12 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-12" name="Subtract from" sid="999221024608264" type="text_honteuse">
+                                        <action id="-12" name="Subtract from" sid="999221024608264" type="text_rayonnante">
                                             <param id="0" name="Instance variable">value</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="0" name="Set text" sid="384405769972330" type="text_honteuse">
-                                            <param id="0" name="Text">text_honteuse.value</param>
+                                        <action id="0" name="Set text" sid="384405769972330" type="text_rayonnante">
+                                            <param id="0" name="Text">text_rayonnante.value</param>
                                         </action>
                                         <action id="-10" name="Set value" sid="749014034589235" type="Hisia">
                                             <param id="0" name="Instance variable">emotion</param>
@@ -591,7 +591,7 @@
                             <sub-events>
                                 <event-block any="1" sid="694556012301598">
                                     <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="153229309620429" type="text_rayonnante">
+                                        <condition id="-7" name="Compare instance variable" sid="153229309620429" type="text_honteuse">
                                             <param id="0" name="Instance variable">value</param>
                                             <param id="1" name="Comparison">0</param>
                                             <param id="2" name="Value">0</param>
@@ -613,7 +613,7 @@
                                 </event-block>
                                 <event-block sid="784404098662525">
                                     <conditions>
-                                        <condition id="-7" name="Compare instance variable" sid="412194065693440" type="text_rayonnante">
+                                        <condition id="-7" name="Compare instance variable" sid="412194065693440" type="text_honteuse">
                                             <param id="0" name="Instance variable">value</param>
                                             <param id="1" name="Comparison">4</param>
                                             <param id="2" name="Value">0</param>
@@ -625,12 +625,12 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-12" name="Subtract from" sid="865236580323228" type="text_rayonnante">
+                                        <action id="-12" name="Subtract from" sid="865236580323228" type="text_honteuse">
                                             <param id="0" name="Instance variable">value</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
-                                        <action id="0" name="Set text" sid="504590588153690" type="text_rayonnante">
-                                            <param id="0" name="Text">text_rayonnante.value</param>
+                                        <action id="0" name="Set text" sid="504590588153690" type="text_honteuse">
+                                            <param id="0" name="Text">text_honteuse.value</param>
                                         </action>
                                         <action id="-10" name="Set value" sid="368949191652017" type="Hisia">
                                             <param id="0" name="Instance variable">emotion</param>
