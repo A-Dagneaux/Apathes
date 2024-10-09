@@ -2639,16 +2639,6 @@
             <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap complétée.png" />
             <tiles />
         </object-type>
-        <object-type name="TilemapPlafond1" sid="464714664223468">
-            <plugin id="Tilemap" />
-            <behaviors>
-                <behavior-type name="ShadowCaster" sid="817590451381111">
-                    <behavior id="shadowcaster" />
-                </behavior-type>
-            </behaviors>
-            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap Solmur.png" />
-            <tiles />
-        </object-type>
         <object-type name="TilemapDécorSol1" sid="372915215250839">
             <plugin id="Tilemap" />
             <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap complétée 2.png" />
@@ -3142,6 +3132,16 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="TilemapPlafond1" sid="917723921282902">
+            <plugin id="Tilemap" />
+            <behaviors>
+                <behavior-type name="ShadowCaster" sid="712461541440038">
+                    <behavior id="shadowcaster" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap complétée.png" />
+            <tiles />
         </object-type>
     </object-folder>
     <families>
