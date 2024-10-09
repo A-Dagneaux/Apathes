@@ -1382,8 +1382,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1287</x>
-                        <y>2862</y>
+                        <x>1005</x>
+                        <y>2788</y>
                         <z>0</z>
                         <width>75</width>
                         <height>73</height>
@@ -1480,7 +1480,7 @@
                         <behavior-instance type="LineOfSight">
                             <properties>
                                 <obstacles>Solids</obstacles>
-                                <range>1000</range>
+                                <range>300</range>
                                 <cone-of-view>360</cone-of-view>
                                 <use-collision-cells>Yes</use-collision-cells>
                             </properties>
@@ -1700,8 +1700,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2894</x>
-                        <y>828</y>
+                        <x>2878</x>
+                        <y>881</y>
                         <z>0</z>
                         <width>150</width>
                         <height>150</height>
@@ -1824,8 +1824,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1904</x>
-                        <y>2077</y>
+                        <x>1855</x>
+                        <y>1993</y>
                         <z>0</z>
                         <width>150</width>
                         <height>150</height>
@@ -1886,8 +1886,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1901</x>
-                        <y>2295</y>
+                        <x>1860</x>
+                        <y>2345</y>
                         <z>0</z>
                         <width>150</width>
                         <height>150</height>
@@ -1914,7 +1914,7 @@
                         <behavior-instance type="LineOfSight">
                             <properties>
                                 <obstacles>Solids</obstacles>
-                                <range>0</range>
+                                <range>300</range>
                                 <cone-of-view>360</cone-of-view>
                                 <use-collision-cells>Yes</use-collision-cells>
                             </properties>
@@ -1976,7 +1976,7 @@
                         <behavior-instance type="LineOfSight">
                             <properties>
                                 <obstacles>Solids</obstacles>
-                                <range>0</range>
+                                <range>300</range>
                                 <cone-of-view>360</cone-of-view>
                                 <use-collision-cells>Yes</use-collision-cells>
                             </properties>
@@ -2093,7 +2093,7 @@
                     </properties>
                     <instance-variables>
                         <emotion>craintive</emotion>
-                        <speed>100</speed>
+                        <speed>500</speed>
                         <slow_honteuse>300</slow_honteuse>
                         <SaveX>0</SaveX>
                         <SaveY>0</SaveY>
@@ -2127,8 +2127,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>253</x>
-                        <y>455</y>
+                        <x>851</x>
+                        <y>2725</y>
                         <z>0</z>
                         <width>90</width>
                         <height>92</height>
@@ -2252,7 +2252,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>3072</x>
-                        <y>1297</y>
+                        <y>1272</y>
                         <z>0</z>
                         <width>150</width>
                         <height>150</height>
@@ -2901,7 +2901,7 @@
             <effects />
         </layer>
         <layer name="Narration" sid="482635694693516">
-            <initially-visible>0</initially-visible>
+            <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
             <parallax>
