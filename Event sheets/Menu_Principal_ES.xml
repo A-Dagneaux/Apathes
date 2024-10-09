@@ -15,8 +15,8 @@
                 <action id="0" name="Play" sid="589686396578236" type="Audio">
                     <param id="0" name="Audio file">menu_music</param>
                     <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">slider_musique.Value</param>
-                    <param id="1" name="Tag (optional)">&quot;Musiques&quot;</param>
+                    <param id="3" name="Volume">slider_musique.Value-10</param>
+                    <param id="1" name="Tag (optional)">&quot;music&quot;</param>
                 </action>
                 <action id="-16" name="Wait" sid="869402425194793" type="System">
                     <param id="0" name="Seconds">0.1</param>
@@ -46,10 +46,14 @@
                 <action id="-15" name="Set visible" sid="308556850910931" type="quitter_jeu">
                     <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="-16" name="Wait" sid="301108180265903" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
                 <action id="-10" name="Set value" sid="166064658680234" type="Apathes_logo">
                     <param id="0" name="Instance variable">menu</param>
                     <param id="1" name="Value">0</param>
                 </action>
+                <action id="-21" name="Reset global variables" sid="278266562324891" type="System" />
             </actions>
         </event-block>
         <event-block sid="458703809650184">

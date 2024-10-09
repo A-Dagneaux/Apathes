@@ -397,6 +397,16 @@
                                     <param id="0" name="Instance variable">confirmation</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
+                                <action behavior="Fade" id="2" name="Set fade-in time" sid="807481760793623" type="fadeinout">
+                                    <param id="0" name="Fade-in time">0.2</param>
+                                </action>
+                                <action behavior="Fade" id="4" name="Set fade-out time" sid="972255044579214" type="fadeinout">
+                                    <param id="0" name="Fade-out time">0</param>
+                                </action>
+                                <action behavior="Fade" id="1" name="Start fade" sid="818183394842920" type="fadeinout" />
+                                <action id="-16" name="Wait" sid="643528161639282" type="System">
+                                    <param id="0" name="Seconds">0.3</param>
+                                </action>
                                 <action id="-2" name="Go to layout" sid="464909269098826" type="System">
                                     <param id="0" name="Layout">Menu Principal</param>
                                 </action>
@@ -433,6 +443,16 @@
                                     <param id="2" name="Loop">0</param>
                                     <param id="3" name="Volume">slider_effects.Value</param>
                                     <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
+                                </action>
+                                <action behavior="Fade" id="2" name="Set fade-in time" sid="288588794108225" type="fadeinout">
+                                    <param id="0" name="Fade-in time">0.2</param>
+                                </action>
+                                <action behavior="Fade" id="4" name="Set fade-out time" sid="971766395403558" type="fadeinout">
+                                    <param id="0" name="Fade-out time">0</param>
+                                </action>
+                                <action behavior="Fade" id="1" name="Start fade" sid="750946683460139" type="fadeinout" />
+                                <action id="-16" name="Wait" sid="895318751909493" type="System">
+                                    <param id="0" name="Seconds">0.3</param>
                                 </action>
                                 <action id="1" name="Close" sid="314746398015111" type="Browser" />
                             </actions>

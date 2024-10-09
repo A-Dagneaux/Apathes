@@ -199,47 +199,8 @@
             <object-type name="Apathe_Hurleur" sid="600041083337749">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="5" loop="1" name="iddle_down" pingpong="0" repeatcount="1" repeatto="0" sid="813543833955046" speed="1.5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.285156" y="0.0664063" />
-                                <point x="0.71875" y="0.132813" />
-                                <point x="0.675781" y="0.996094" />
-                                <point x="0.371094" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.285156" y="0.0664063" />
-                                <point x="0.71875" y="0.132813" />
-                                <point x="0.675781" y="0.996094" />
-                                <point x="0.371094" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.285156" y="0.0664063" />
-                                <point x="0.71875" y="0.132813" />
-                                <point x="0.675781" y="0.996094" />
-                                <point x="0.371094" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.285156" y="0.0664063" />
-                                <point x="0.71875" y="0.132813" />
-                                <point x="0.675781" y="0.996094" />
-                                <point x="0.371094" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.285156" y="0.0664063" />
-                                <point x="0.71875" y="0.132813" />
-                                <point x="0.675781" y="0.996094" />
-                                <point x="0.371094" y="1" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="1" loop="1" name="iddle_down" pingpong="0" repeatcount="1" repeatto="0" sid="813543833955046" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\HURLEUR\Apathe_HURLEUR_FACE.png" />
                     </animation>
                     <animation framecount="1" loop="1" name="iddle_up" pingpong="0" repeatcount="1" repeatto="0" sid="406249785898646" speed="1.5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -287,38 +248,10 @@
                         </frame>
                     </animation>
                     <animation framecount="4" loop="1" name="walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="831728333591251" speed="1.5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.253333" y="0.0733333" />
-                                <point x="0.686667" y="0.0866667" />
-                                <point x="0.733334" y="1" />
-                                <point x="0.306667" y="0.993333" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.253333" y="0.0733333" />
-                                <point x="0.686667" y="0.0866667" />
-                                <point x="0.733334" y="1" />
-                                <point x="0.306667" y="0.993333" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.253333" y="0.0733333" />
-                                <point x="0.686667" y="0.0866667" />
-                                <point x="0.733334" y="1" />
-                                <point x="0.306667" y="0.993333" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.253333" y="0.0733333" />
-                                <point x="0.686667" y="0.0866667" />
-                                <point x="0.733334" y="1" />
-                                <point x="0.306667" y="0.993333" />
-                            </collision-poly>
-                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\HURLEUR\ANIMATION\MARCHE\HURLEUR_MARCHE_1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\HURLEUR\ANIMATION\MARCHE\HURLEUR_MARCHE_2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\HURLEUR\ANIMATION\MARCHE\HURLEUR_MARCHE_3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\HURLEUR\ANIMATION\MARCHE\HURLEUR_MARCHE_4.png" />
                     </animation>
                     <animation framecount="1" loop="1" name="walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="285299881222762" speed="1.5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
@@ -331,85 +264,18 @@
                         </frame>
                     </animation>
                     <animation framecount="4" loop="1" name="walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="312183724946412" speed="1.5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.300781" y="0.0703125" />
-                                <point x="0.71875" y="0.0546875" />
-                                <point x="0.746094" y="1" />
-                                <point x="0.257813" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.300781" y="0.0703125" />
-                                <point x="0.71875" y="0.0546875" />
-                                <point x="0.746094" y="1" />
-                                <point x="0.257813" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.300781" y="0.0703125" />
-                                <point x="0.71875" y="0.0546875" />
-                                <point x="0.746094" y="1" />
-                                <point x="0.257813" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.300781" y="0.0703125" />
-                                <point x="0.71875" y="0.0546875" />
-                                <point x="0.746094" y="1" />
-                                <point x="0.257813" y="1" />
-                            </collision-poly>
-                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\HURLEUR\ANIMATION\MARCHE\HURLEUR_MARCHE_PROFIL_1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\HURLEUR\ANIMATION\MARCHE\HURLEUR_MARCHE_PROFIL_2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\HURLEUR\ANIMATION\MARCHE\HURLEUR_MARCHE_PROFIL_3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\HURLEUR\ANIMATION\MARCHE\HURLEUR_MARCHE_PROFIL_4.png" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="Apathe_MangeLumiere" sid="555858705963468">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="5" loop="1" name="iddle_down" pingpong="0" repeatcount="1" repeatto="0" sid="375710903015705" speed="1.5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.277344" y="0.078125" />
-                                <point x="0.726563" y="0.078125" />
-                                <point x="0.707031" y="1" />
-                                <point x="0.28125" y="0.996094" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.277344" y="0.078125" />
-                                <point x="0.726563" y="0.078125" />
-                                <point x="0.707031" y="1" />
-                                <point x="0.28125" y="0.996094" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.277344" y="0.078125" />
-                                <point x="0.726563" y="0.078125" />
-                                <point x="0.707031" y="1" />
-                                <point x="0.28125" y="0.996094" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.277344" y="0.078125" />
-                                <point x="0.726563" y="0.078125" />
-                                <point x="0.707031" y="1" />
-                                <point x="0.28125" y="0.996094" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.277344" y="0.078125" />
-                                <point x="0.726563" y="0.078125" />
-                                <point x="0.707031" y="1" />
-                                <point x="0.28125" y="0.996094" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="1" loop="1" name="iddle_down" pingpong="0" repeatcount="1" repeatto="0" sid="375710903015705" speed="1.5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\Apathe_MANGE-LUMIERE_FACE.png" />
                     </animation>
                     <animation framecount="1" loop="0" name="iddle_up" pingpong="0" repeatcount="1" repeatto="0" sid="917815025667978" speed="1.5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -456,107 +322,23 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="4" loop="1" name="walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="612191216959132" speed="1.5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.125" y="0.148438" />
-                                <point x="0.8125" y="0.128906" />
-                                <point x="0.71875" y="0.996094" />
-                                <point x="0.257813" y="0.992188" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.125" y="0.148438" />
-                                <point x="0.8125" y="0.128906" />
-                                <point x="0.71875" y="0.996094" />
-                                <point x="0.257813" y="0.992188" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.125" y="0.148438" />
-                                <point x="0.8125" y="0.128906" />
-                                <point x="0.71875" y="0.996094" />
-                                <point x="0.257813" y="0.992188" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.125" y="0.148438" />
-                                <point x="0.8125" y="0.128906" />
-                                <point x="0.71875" y="0.996094" />
-                                <point x="0.257813" y="0.992188" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="4" loop="1" name="walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="612191216959132" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\MARCHE\MANGE-LUMIERE_MARCHE_1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\MARCHE\MANGE-LUMIERE_MARCHE_2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\MARCHE\MANGE-LUMIERE_MARCHE_3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\MARCHE\MANGE-LUMIERE_MARCHE_4.png" />
                     </animation>
-                    <animation framecount="4" loop="1" name="walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="299038493975899" speed="1.5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.105469" y="0.0351563" />
-                                <point x="0.921875" y="0.0273438" />
-                                <point x="0.722656" y="0.984375" />
-                                <point x="0.316406" y="0.988281" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.105469" y="0.0351563" />
-                                <point x="0.921875" y="0.0273438" />
-                                <point x="0.722656" y="0.984375" />
-                                <point x="0.316406" y="0.988281" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.105469" y="0.0351563" />
-                                <point x="0.921875" y="0.0273438" />
-                                <point x="0.722656" y="0.984375" />
-                                <point x="0.316406" y="0.988281" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.105469" y="0.0351563" />
-                                <point x="0.921875" y="0.0273438" />
-                                <point x="0.722656" y="0.984375" />
-                                <point x="0.316406" y="0.988281" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="4" loop="1" name="walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="299038493975899" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\MARCHE\ANTI-BRUIT_MARCHE_DOS_1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\MARCHE\ANTI-BRUIT_MARCHE_DOS_2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\MARCHE\ANTI-BRUIT_MARCHE_DOS_3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\MARCHE\ANTI-BRUIT_MARCHE_DOS_4.png" />
                     </animation>
-                    <animation framecount="4" loop="1" name="walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="541221767900399" speed="1.5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.261719" y="0.105469" />
-                                <point x="0.734375" y="0.0898438" />
-                                <point x="0.769531" y="0.992188" />
-                                <point x="0.253906" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.261719" y="0.105469" />
-                                <point x="0.734375" y="0.0898438" />
-                                <point x="0.769531" y="0.992188" />
-                                <point x="0.253906" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.261719" y="0.105469" />
-                                <point x="0.734375" y="0.0898438" />
-                                <point x="0.769531" y="0.992188" />
-                                <point x="0.253906" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.261719" y="0.105469" />
-                                <point x="0.734375" y="0.0898438" />
-                                <point x="0.769531" y="0.992188" />
-                                <point x="0.253906" y="1" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="4" loop="1" name="walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="541221767900399" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\MARCHE\MANGE-LUMIERE_MARCHE_PROFIL_1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\MARCHE\MANGE-LUMIERE_MARCHE_PROFIL_2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\MARCHE\MANGE-LUMIERE_MARCHE_PROFIL_3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\MANGE-LUMIÉRE\ANIMATION\MARCHE\MANGE-LUMIERE_MARCHE_PROFIL_4.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -606,7 +388,7 @@
                         </frame>
                     </animation>
                     <animation framecount="1" loop="1" name="iddle_up" pingpong="0" repeatcount="1" repeatto="0" sid="758860916015789" speed="1.5">
-                        <frame duration="1" hotspotX="0.375" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\Apathe_ANIMATION_OBSCUR_ATTENTE_PROFIL_1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\Apathe_OBSCUR_DOS.png" />
                     </animation>
                     <animation framecount="5" loop="1" name="iddle_side" pingpong="0" repeatcount="1" repeatto="0" sid="981826579635681" speed="1.5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\Apathe_ANIMATION_OBSCUR_ATTENTE_PROFIL_1.png">
@@ -650,117 +432,28 @@
                             </collision-poly>
                         </frame>
                     </animation>
-                    <animation framecount="4" loop="1" name="walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="801526521674212" speed="1.5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.203125" y="0.0898438" />
-                                <point x="0.785156" y="0.105469" />
-                                <point x="0.898438" y="1" />
-                                <point x="0.101563" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.203125" y="0.0898438" />
-                                <point x="0.785156" y="0.105469" />
-                                <point x="0.898438" y="1" />
-                                <point x="0.101563" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.203125" y="0.0898438" />
-                                <point x="0.785156" y="0.105469" />
-                                <point x="0.898438" y="1" />
-                                <point x="0.101563" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.203125" y="0.0898438" />
-                                <point x="0.785156" y="0.105469" />
-                                <point x="0.898438" y="1" />
-                                <point x="0.101563" y="1" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="4" loop="1" name="walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="801526521674212" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\MARCHE\Apathe_ANIMATION_OBSCUR_MARCHE_1_N.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\MARCHE\Apathe_ANIMATION_OBSCUR_MARCHE_2_N.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\MARCHE\Apathe_ANIMATION_OBSCUR_MARCHE_3_N.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\MARCHE\Apathe_ANIMATION_OBSCUR_MARCHE_4_N.png" />
                     </animation>
-                    <animation framecount="4" loop="1" name="walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="861946190860881" speed="1.5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.140625" y="0.0546875" />
-                                <point x="0.8125" y="0.0429688" />
-                                <point x="0.871094" y="1" />
-                                <point x="0.144531" y="0.992188" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.140625" y="0.0546875" />
-                                <point x="0.8125" y="0.0429688" />
-                                <point x="0.871094" y="1" />
-                                <point x="0.144531" y="0.992188" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.140625" y="0.0546875" />
-                                <point x="0.8125" y="0.0429688" />
-                                <point x="0.871094" y="1" />
-                                <point x="0.144531" y="0.992188" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.140625" y="0.0546875" />
-                                <point x="0.8125" y="0.0429688" />
-                                <point x="0.871094" y="1" />
-                                <point x="0.144531" y="0.992188" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="4" loop="1" name="walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="861946190860881" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\MARCHE\OBSCUR_MARCHE_DOS_1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\MARCHE\OBSCUR_MARCHE_DOS_2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\MARCHE\OBSCUR_MARCHE_DOS_3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\MARCHE\OBSCUR_MARCHE_DOS_4.png" />
                     </animation>
-                    <animation framecount="4" loop="1" name="walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="349468876030211" speed="1.5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.222656" y="0.0898438" />
-                                <point x="0.886719" y="0.0429688" />
-                                <point x="0.847656" y="0.996094" />
-                                <point x="0.238281" y="0.996094" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.222656" y="0.0898438" />
-                                <point x="0.886719" y="0.0429688" />
-                                <point x="0.847656" y="0.996094" />
-                                <point x="0.238281" y="0.996094" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.222656" y="0.0898438" />
-                                <point x="0.886719" y="0.0429688" />
-                                <point x="0.847656" y="0.996094" />
-                                <point x="0.238281" y="0.996094" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.222656" y="0.0898438" />
-                                <point x="0.886719" y="0.0429688" />
-                                <point x="0.847656" y="0.996094" />
-                                <point x="0.238281" y="0.996094" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="4" loop="1" name="walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="349468876030211" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\MARCHE\OBSCUR_MARCHE_PROFIL_1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\MARCHE\OBSCUR_MARCHE_PROFIL_2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\MARCHE\OBSCUR_MARCHE_PROFIL_3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\OBSCUR\ANIMATION\MARCHE\OBSCUR_MARCHE_PROFIL_4.png" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="Apathe_AntiBruit" sid="164218256417712">
                 <plugin id="Sprite" />
-                <behaviors>
-                    <behavior-type name="8Direction" sid="458608555386087">
-                        <behavior id="EightDir" />
-                    </behavior-type>
-                </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="1" name="iddle_down" pingpong="0" repeatcount="1" repeatto="0" sid="870975342479704" speed="1.5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\Apathe_ANTI-BRUIT_FACE.png" />
@@ -769,61 +462,26 @@
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                     <animation framecount="5" loop="1" name="iddle_side" pingpong="0" repeatcount="1" repeatto="0" sid="726781632922546" speed="1.5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\ATTENTE\ANTI-BRUIT_ATTENTE_PROFIL_1.png">
-                            <collision-poly>
-                                <point x="0.207031" y="0" />
-                                <point x="0.761719" y="0" />
-                                <point x="0.761719" y="1" />
-                                <point x="0.207031" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\ATTENTE\ANTI-BRUIT_ATTENTE_PROFIL_2.png">
-                            <collision-poly>
-                                <point x="0.210938" y="0" />
-                                <point x="0.757813" y="0" />
-                                <point x="0.757813" y="1" />
-                                <point x="0.210938" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\ATTENTE\ANTI-BRUIT_ATTENTE_PROFIL_3.png">
-                            <collision-poly>
-                                <point x="0.210938" y="0" />
-                                <point x="0.761719" y="0" />
-                                <point x="0.761719" y="1" />
-                                <point x="0.210938" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\ATTENTE\ANTI-BRUIT_ATTENTE_PROFIL_4.png">
-                            <collision-poly>
-                                <point x="0.210938" y="0" />
-                                <point x="0.757813" y="0" />
-                                <point x="0.757813" y="1" />
-                                <point x="0.210938" y="1" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\ATTENTE\ANTI-BRUIT_ATTENTE_PROFIL_5.png">
-                            <collision-poly>
-                                <point x="0.222656" y="0" />
-                                <point x="0.761719" y="0" />
-                                <point x="0.761719" y="1" />
-                                <point x="0.222656" y="1" />
-                            </collision-poly>
-                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\ATTENTE\ANTI-BRUIT_ATTENTE_PROFIL_1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\ATTENTE\ANTI-BRUIT_ATTENTE_PROFIL_2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\ATTENTE\ANTI-BRUIT_ATTENTE_PROFIL_3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\ATTENTE\ANTI-BRUIT_ATTENTE_PROFIL_4.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\ATTENTE\ANTI-BRUIT_ATTENTE_PROFIL_5.png" />
                     </animation>
-                    <animation framecount="4" loop="1" name="walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="344056364956501" speed="1.5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <animation framecount="4" loop="1" name="walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="344056364956501" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\MARCHE\ANTI-BRUIT_MARCHE_1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\MARCHE\ANTI-BRUIT_MARCHE_2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\MARCHE\ANTI-BRUIT_MARCHE_3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\MARCHE\ANTI-BRUIT_MARCHE_4.png" />
                     </animation>
-                    <animation framecount="1" loop="1" name="walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="579485305591713" speed="1.5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <animation framecount="1" loop="1" name="walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="579485305591713" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\Apathe_ANTI-BRUIT_DOS.png" />
                     </animation>
-                    <animation framecount="4" loop="1" name="walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="237163851214132" speed="1.5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <animation framecount="4" loop="1" name="walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="237163851214132" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\MARCHE\ANTI-BRUIT_MARCHE_PROFIL_1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\MARCHE\ANTI-BRUIT_MARCHE_PROFIL_2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\MARCHE\ANTI-BRUIT_MARCHE_PROFIL_3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\Apathe\ANTI-BRUIT\ANIMATION\MARCHE\ANTI-BRUIT_PROFIL_4.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1726,6 +1384,7 @@
                 <instance-variable name="size_normal" sid="670245603820149" type="number" />
                 <instance-variable name="size_honteuse" sid="575682694574236" type="number" />
                 <instance-variable name="Cinématique" sid="876813629570444" type="number" />
+                <instance-variable comment="Pour ne pas que le son craintive se joue au startup" name="on_startup" sid="447774807844331" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="8Direction" sid="958459754648602">
@@ -1789,9 +1448,9 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_ATTENTE\Hisia_CRAINTIVE_ATTENTE_PROFIL_2.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_ATTENTE\Hisia_CRAINTIVE_ATTENTE_PROFIL_3.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_ATTENTE\Hisia_CRAINTIVE_ATTENTE_PROFIL_4.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_ATTENTE\Hisia_CRAINTIVE_ATTENTE_PROFIL_5.png" />
+                    <frame duration="5" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_ATTENTE\Hisia_CRAINTIVE_ATTENTE_PROFIL_5.png" />
                 </animation>
-                <animation framecount="5" loop="1" name="c_walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="867817733922613" speed="4">
+                <animation framecount="5" loop="1" name="c_walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="867817733922613" speed="6">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_ANIMATION_MARCHE_1.png">
                         <collision-poly>
                             <point x="0.296875" y="0.101563" />
@@ -1833,7 +1492,7 @@
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="5" loop="1" name="c_walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="355573755227938" speed="4">
+                <animation framecount="5" loop="1" name="c_walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="355573755227938" speed="6">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_ANIMATION_CRAINTIVE_MARCHE_DOS_1.png">
                         <collision-poly>
                             <point x="0.265625" y="0.0859375" />
@@ -1875,7 +1534,7 @@
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="5" loop="1" name="c_walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="474799099518909" speed="4">
+                <animation framecount="5" loop="1" name="c_walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="474799099518909" speed="6">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\CRAINTIVE\SPRITE_MARCHE\Hisia_CRAINTIVE_MARCHE_PROFIL_1.png">
                         <collision-poly>
                             <point x="0.3125" y="0.0546875" />
@@ -1969,7 +1628,7 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_ATTENTE\Hisia_FURIEUSE_ATTENTE_PROFIL_4.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_ATTENTE\Hisia_FURIEUSE_ATTENTE_PROFIL_5.png" />
                 </animation>
-                <animation framecount="5" loop="1" name="f_walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="676442394940601" speed="4">
+                <animation framecount="5" loop="1" name="f_walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="676442394940601" speed="6">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_MARCHE\Hisia_FURIEUSE_MARCHE_1.png">
                         <collision-poly>
                             <point x="0.257813" y="0.09375" />
@@ -2011,7 +1670,7 @@
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="5" loop="1" name="f_walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="939906902880721" speed="4">
+                <animation framecount="5" loop="1" name="f_walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="939906902880721" speed="6">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                         <collision-poly>
                             <point x="0.242188" y="0.0703125" />
@@ -2053,7 +1712,7 @@
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="5" loop="1" name="f_walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="272125504897929" speed="4">
+                <animation framecount="5" loop="1" name="f_walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="272125504897929" speed="6">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\FURIEUSE\SPRITE_MARCHE\Hisia_FURIEUSE_MARCHE_PROFIL_1.png">
                         <collision-poly>
                             <point x="0.242188" y="0.0859375" />
@@ -2147,7 +1806,7 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_ATTENTE\Hisia_HONTEUSE__ATTENTE_PROFIL_4.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_ATTENTE\Hisia_HONTEUSE__ATTENTE_PROFIL_5.png" />
                 </animation>
-                <animation framecount="5" loop="1" name="h_walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="702026808069324" speed="4">
+                <animation framecount="5" loop="1" name="h_walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="702026808069324" speed="6">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_MARCHE\Hisia_HONTEUSE_MARCHE_1.png">
                         <collision-poly>
                             <point x="0.25" y="0.09375" />
@@ -2189,7 +1848,7 @@
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="5" loop="1" name="h_walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="979499554542622" speed="4">
+                <animation framecount="5" loop="1" name="h_walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="979499554542622" speed="6">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                         <collision-poly>
                             <point x="0.265625" y="0.0703125" />
@@ -2231,7 +1890,7 @@
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="5" loop="1" name="h_walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="661086648374344" speed="4">
+                <animation framecount="5" loop="1" name="h_walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="661086648374344" speed="6">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\HONTEUSE\SPRITE_MARCHE\Hisia_HONTEUSE__MARCHE_PROFIL_1.png">
                         <collision-poly>
                             <point x="0.28125" y="0.078125" />
@@ -2325,7 +1984,7 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_ATTENTE\Hisia_ANIMATION_RAYONNANTE_PROFIL_4.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_ATTENTE\Hisia_ANIMATION_RAYONNANTE_PROFIL_5.png" />
                 </animation>
-                <animation framecount="5" loop="1" name="r_walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="760896612595096" speed="4">
+                <animation framecount="5" loop="1" name="r_walk_down" pingpong="0" repeatcount="1" repeatto="0" sid="760896612595096" speed="6">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_MARCHE\Hisia_ANIMATION_RAYONNANTE_MARCHE_1.png">
                         <collision-poly>
                             <point x="0.242188" y="0.078125" />
@@ -2367,7 +2026,7 @@
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="5" loop="1" name="r_walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="513177450160005" speed="4">
+                <animation framecount="5" loop="1" name="r_walk_up" pingpong="0" repeatcount="1" repeatto="0" sid="513177450160005" speed="6">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Google Drive\Artline\02 - Développement de Jeux Vidéo\Projet Apathes\P03\Personnage_GA_WB\HISIA\RAYONNANTE\SPRITE_MARCHE\Hisia_ANIMATION_RAYONNANTE_MARCHE_DOS_1.png">
                         <collision-poly>
                             <point x="0.242188" y="0.078125" />
@@ -2409,7 +2068,7 @@
                         </collision-poly>
                     </frame>
                 </animation>
-                <animation framecount="5" loop="1" name="r_walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="521412870501549" speed="4">
+                <animation framecount="5" loop="1" name="r_walk_side" pingpong="0" repeatcount="1" repeatto="0" sid="521412870501549" speed="6">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                         <collision-poly>
                             <point x="0.257813" y="0.0625" />
@@ -2472,10 +2131,10 @@
                 <animation framecount="1" loop="0" name="autre" pingpong="0" repeatcount="1" repeatto="0" sid="134222850221585" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                         <collision-poly>
-                            <point x="0.344" y="0.376" />
-                            <point x="0.687999" y="0.356" />
-                            <point x="0.707999" y="0.671999" />
-                            <point x="0.316" y="0.679999" />
+                            <point x="0.14" y="0.138" />
+                            <point x="0.854002" y="0.138" />
+                            <point x="0.854002" y="0.832002" />
+                            <point x="0.14" y="0.832002" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -3208,6 +2867,27 @@
             <texture original-source="C:\Users\matpo\Downloads\tilemap_completee_2.png" />
             <tiles />
         </object-type>
+        <object-type name="Sprite30" sid="780030499674223">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="536156815090564" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fadeinout" sid="114131046604883">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="297693841935902">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="616157048231437" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Apathes" plugin-id="Sprite" sid="195361571858189">
@@ -3224,6 +2904,7 @@
             <instance-variables>
                 <instance-variable name="X_initial" sid="706110401807351" type="number" />
                 <instance-variable name="Y_initial" sid="292876268318931" type="number" />
+                <instance-variable comment="Savoir si l&apos;Apathe se déplace" name="ismoving" sid="859090947970928" type="boolean" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="LineOfSight" sid="777928021925118">
@@ -3231,6 +2912,9 @@
                 </behavior-type>
                 <behavior-type name="Pathfinding" sid="482105994565292">
                     <behavior id="Pathfinding" />
+                </behavior-type>
+                <behavior-type name="8Direction" sid="393242757713038">
+                    <behavior id="EightDir" />
                 </behavior-type>
             </behaviors>
         </family>
@@ -3408,16 +3092,28 @@
         <file name="rayonnante_loop.ogg" />
         <file name="craintive_newstate.m4a" />
         <file name="craintive_newstate.ogg" />
+        <file name="apathe_walk.m4a" />
+        <file name="apathe_walk.ogg" />
+        <file name="antibruit_chase.m4a" />
+        <file name="antibruit_chase.ogg" />
+        <file name="mangelumiere_chase.m4a" />
+        <file name="mangelumiere_chase.ogg" />
+        <file name="obscur_chase.m4a" />
+        <file name="obscur_chase.ogg" />
+        <file name="obscur_scared.m4a" />
+        <file name="obscur_scared.ogg" />
+        <file name="apathe_chase_violin.m4a" />
+        <file name="apathe_chase_violin.ogg" />
     </sounds-folder>
     <music-folder>
-        <file name="music_test.m4a" />
-        <file name="music_test.ogg" />
         <file name="menu_music.m4a" />
         <file name="menu_music.ogg" />
         <file name="defeat.m4a" />
         <file name="defeat.ogg" />
         <file name="victory.m4a" />
         <file name="victory.ogg" />
+        <file name="level.m4a" />
+        <file name="level.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">

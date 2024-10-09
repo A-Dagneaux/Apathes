@@ -128,8 +128,8 @@
                         <action id="0" name="Play" sid="159795601769129" type="Audio">
                             <param id="0" name="Audio file">victory</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">slider_musique.Value</param>
-                            <param id="1" name="Tag (optional)">&quot;Musiques&quot;</param>
+                            <param id="3" name="Volume">slider_musique.Value-10</param>
+                            <param id="1" name="Tag (optional)">&quot;music&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -203,8 +203,8 @@
                         <action id="0" name="Play" sid="414752957978435" type="Audio">
                             <param id="0" name="Audio file">defeat</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">slider_musique.Value</param>
-                            <param id="1" name="Tag (optional)">&quot;Musiques&quot;</param>
+                            <param id="3" name="Volume">slider_musique.Value-10</param>
+                            <param id="1" name="Tag (optional)">&quot;music&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -236,13 +236,20 @@
                             <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action id="33" name="Stop all" sid="732559452551438" type="Audio" />
+                        <action id="-21" name="Reset global variables" sid="142085096638182" type="System" />
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="845744207348884" type="fadeinout">
+                            <param id="0" name="Fade-in time">0.2</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="465912910289974" type="fadeinout">
+                            <param id="0" name="Fade-out time">0</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="854747579905899" type="fadeinout" />
+                        <action id="-16" name="Wait" sid="527583286474570" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
                         <action id="-10" name="Set value" sid="879031894677409" type="confirmer_nl">
                             <param id="0" name="Instance variable">confirmation_nl</param>
                             <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-21" name="Reset global variables" sid="142085096638182" type="System" />
-                        <action id="-16" name="Wait" sid="527583286474570" type="System">
-                            <param id="0" name="Seconds">0.3</param>
                         </action>
                         <action id="-25" name="Go to layout (by name)" sid="308314078386360" type="System">
                             <param id="0" name="Layout">&quot;Menu Principal&quot;</param>
@@ -283,6 +290,13 @@
                             <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action id="33" name="Stop all" sid="198623721218282" type="Audio" />
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="196804894185138" type="fadeinout">
+                            <param id="0" name="Fade-in time">0.2</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="869338623148322" type="fadeinout">
+                            <param id="0" name="Fade-out time">0</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="105076101258216" type="fadeinout" />
                         <action id="-16" name="Wait" sid="457287874732863" type="System">
                             <param id="0" name="Seconds">0.3</param>
                         </action>
@@ -312,6 +326,16 @@
                             <param id="1" name="Tag (optional)">&quot;Bruitages&quot;</param>
                         </action>
                         <action id="33" name="Stop all" sid="144726342368114" type="Audio" />
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="824360869759812" type="fadeinout">
+                            <param id="0" name="Fade-in time">0.2</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="697545254232394" type="fadeinout">
+                            <param id="0" name="Fade-out time">0</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="258288005788304" type="fadeinout" />
+                        <action id="-16" name="Wait" sid="169406700669380" type="System">
+                            <param id="0" name="Seconds">0.3</param>
+                        </action>
                         <action id="-10" name="Set value" sid="225642704137242" type="confirmer_nl">
                             <param id="0" name="Instance variable">confirmation_nl</param>
                             <param id="1" name="Value">0</param>

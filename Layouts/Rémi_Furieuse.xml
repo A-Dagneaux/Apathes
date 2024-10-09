@@ -2828,6 +2828,7 @@
                         <size_normal>90</size_normal>
                         <size_honteuse>50</size_honteuse>
                         <Cinématique>0</Cinématique>
+                        <on_startup>1</on_startup>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="8Direction">
@@ -2854,8 +2855,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1975</x>
-                        <y>2858</y>
+                        <x>3734</x>
+                        <y>687</y>
                         <z>0</z>
                         <width>90</width>
                         <height>90</height>
@@ -2901,6 +2902,7 @@
                     <instance-variables>
                         <X_initial>0</X_initial>
                         <Y_initial>0</Y_initial>
+                        <ismoving>false</ismoving>
                         <sens>0</sens>
                     </instance-variables>
                     <behavior-instances>
@@ -2923,6 +2925,17 @@
                                 <rotate-speed>135</rotate-speed>
                                 <rotate-object>Yes</rotate-object>
                                 <diagonals>Enabled</diagonals>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>200</max-speed>
+                                <acceleration>10000</acceleration>
+                                <deceleration>10000</deceleration>
+                                <directions>8 directions</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -2952,6 +2965,7 @@
                     <instance-variables>
                         <X_initial>0</X_initial>
                         <Y_initial>0</Y_initial>
+                        <ismoving>false</ismoving>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LineOfSight">
@@ -2973,6 +2987,17 @@
                                 <rotate-speed>135</rotate-speed>
                                 <rotate-object>Yes</rotate-object>
                                 <diagonals>Enabled</diagonals>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>200</max-speed>
+                                <acceleration>10000</acceleration>
+                                <deceleration>10000</deceleration>
+                                <directions>8 directions</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -3002,12 +3027,13 @@
                     <instance-variables>
                         <X_initial>0</X_initial>
                         <Y_initial>0</Y_initial>
+                        <ismoving>false</ismoving>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LineOfSight">
                             <properties>
                                 <obstacles>Solids</obstacles>
-                                <range>10000</range>
+                                <range>1000</range>
                                 <cone-of-view>360</cone-of-view>
                                 <use-collision-cells>Yes</use-collision-cells>
                             </properties>
@@ -3029,10 +3055,10 @@
                         <behavior-instance type="8Direction">
                             <properties>
                                 <max-speed>200</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
+                                <acceleration>10000</acceleration>
+                                <deceleration>10000</deceleration>
                                 <directions>8 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3063,12 +3089,13 @@
                     <instance-variables>
                         <X_initial>0</X_initial>
                         <Y_initial>0</Y_initial>
+                        <ismoving>false</ismoving>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LineOfSight">
                             <properties>
                                 <obstacles>Solids</obstacles>
-                                <range>10000</range>
+                                <range>1000</range>
                                 <cone-of-view>360</cone-of-view>
                                 <use-collision-cells>Yes</use-collision-cells>
                             </properties>
@@ -3090,10 +3117,10 @@
                         <behavior-instance type="8Direction">
                             <properties>
                                 <max-speed>200</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
+                                <acceleration>10000</acceleration>
+                                <deceleration>10000</deceleration>
                                 <directions>8 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3124,6 +3151,7 @@
                     <instance-variables>
                         <X_initial>0</X_initial>
                         <Y_initial>0</Y_initial>
+                        <ismoving>false</ismoving>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LineOfSight">
@@ -3145,6 +3173,17 @@
                                 <rotate-speed>135</rotate-speed>
                                 <rotate-object>Yes</rotate-object>
                                 <diagonals>Enabled</diagonals>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>200</max-speed>
+                                <acceleration>10000</acceleration>
+                                <deceleration>10000</deceleration>
+                                <directions>8 directions</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -3174,12 +3213,13 @@
                     <instance-variables>
                         <X_initial>0</X_initial>
                         <Y_initial>0</Y_initial>
+                        <ismoving>false</ismoving>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LineOfSight">
                             <properties>
                                 <obstacles>Solids</obstacles>
-                                <range>10000</range>
+                                <range>1000</range>
                                 <cone-of-view>360</cone-of-view>
                                 <use-collision-cells>Yes</use-collision-cells>
                             </properties>
@@ -3201,10 +3241,10 @@
                         <behavior-instance type="8Direction">
                             <properties>
                                 <max-speed>200</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
+                                <acceleration>10000</acceleration>
+                                <deceleration>10000</deceleration>
                                 <directions>8 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3235,12 +3275,13 @@
                     <instance-variables>
                         <X_initial>0</X_initial>
                         <Y_initial>0</Y_initial>
+                        <ismoving>false</ismoving>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LineOfSight">
                             <properties>
                                 <obstacles>Solids</obstacles>
-                                <range>10000</range>
+                                <range>1000</range>
                                 <cone-of-view>360</cone-of-view>
                                 <use-collision-cells>Yes</use-collision-cells>
                             </properties>
@@ -3262,10 +3303,10 @@
                         <behavior-instance type="8Direction">
                             <properties>
                                 <max-speed>200</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
+                                <acceleration>10000</acceleration>
+                                <deceleration>10000</deceleration>
                                 <directions>8 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3296,6 +3337,7 @@
                     <instance-variables>
                         <X_initial>0</X_initial>
                         <Y_initial>0</Y_initial>
+                        <ismoving>false</ismoving>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LineOfSight">
@@ -3317,6 +3359,17 @@
                                 <rotate-speed>135</rotate-speed>
                                 <rotate-object>Yes</rotate-object>
                                 <diagonals>Enabled</diagonals>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="8Direction">
+                            <properties>
+                                <max-speed>200</max-speed>
+                                <acceleration>10000</acceleration>
+                                <deceleration>10000</deceleration>
+                                <directions>8 directions</directions>
+                                <set-angle>No</set-angle>
+                                <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
@@ -3514,12 +3567,13 @@
                     <instance-variables>
                         <X_initial>0</X_initial>
                         <Y_initial>0</Y_initial>
+                        <ismoving>false</ismoving>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LineOfSight">
                             <properties>
                                 <obstacles>Solids</obstacles>
-                                <range>10000</range>
+                                <range>1000</range>
                                 <cone-of-view>360</cone-of-view>
                                 <use-collision-cells>Yes</use-collision-cells>
                             </properties>
@@ -3541,10 +3595,10 @@
                         <behavior-instance type="8Direction">
                             <properties>
                                 <max-speed>200</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
+                                <acceleration>10000</acceleration>
+                                <deceleration>10000</deceleration>
                                 <directions>8 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -3602,12 +3656,13 @@
                     <instance-variables>
                         <X_initial>0</X_initial>
                         <Y_initial>0</Y_initial>
+                        <ismoving>false</ismoving>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="LineOfSight">
                             <properties>
                                 <obstacles>Solids</obstacles>
-                                <range>10000</range>
+                                <range>1000</range>
                                 <cone-of-view>360</cone-of-view>
                                 <use-collision-cells>Yes</use-collision-cells>
                             </properties>
@@ -3629,10 +3684,10 @@
                         <behavior-instance type="8Direction">
                             <properties>
                                 <max-speed>200</max-speed>
-                                <acceleration>600</acceleration>
-                                <deceleration>500</deceleration>
+                                <acceleration>10000</acceleration>
+                                <deceleration>10000</deceleration>
                                 <directions>8 directions</directions>
-                                <set-angle>360 degree (smooth)</set-angle>
+                                <set-angle>No</set-angle>
                                 <default-controls>No</default-controls>
                                 <initial-state>Enabled</initial-state>
                             </properties>
@@ -4552,6 +4607,24 @@
             <effects />
         </layer>
         <layer name="victory_defeat_menu" sid="156796455620352">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances />
+            <effects />
+        </layer>
+        <layer name="fade in out" sid="831096795500489">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
