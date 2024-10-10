@@ -35,6 +35,10 @@
                         <action behavior="8Direction" id="8" name="Set enabled" sid="125002437497063" type="Hisia">
                             <param id="0" name="State">1</param>
                         </action>
+                        <action id="-9" name="Set value" sid="154198836230461" type="System">
+                            <param id="0" name="Variable">level</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="578459288705644">

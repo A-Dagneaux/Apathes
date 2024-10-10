@@ -46,6 +46,13 @@
                 <action id="-15" name="Set visible" sid="308556850910931" type="quitter_jeu">
                     <param id="0" name="Visibility">1</param>
                 </action>
+                <action id="-16" name="Wait" sid="697217444101599" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="964778241144161" type="menu_shortcuts" />
+                <action id="-15" name="Set visible" sid="218020108823115" type="menu_shortcuts">
+                    <param id="0" name="Visibility">1</param>
+                </action>
                 <action id="-16" name="Wait" sid="301108180265903" type="System">
                     <param id="0" name="Seconds">0.5</param>
                 </action>
@@ -93,8 +100,15 @@
                         <action behavior="Fade" id="4" name="Set fade-out time" sid="326478087847126" type="Apathes_logo">
                             <param id="0" name="Fade-out time">0.3</param>
                         </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="949166695959681" type="menu_shortcuts">
+                            <param id="0" name="Fade-in time">0</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="288064599084144" type="menu_shortcuts">
+                            <param id="0" name="Fade-out time">0.3</param>
+                        </action>
                         <action behavior="Fade2" id="1" name="Start fade" sid="165194243270822" type="text_menu" />
                         <action behavior="Fade" id="1" name="Start fade" sid="116036633969327" type="Apathes_logo" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="225478193876849" type="menu_shortcuts" />
                         <action id="-16" name="Wait" sid="942518052409528" type="System">
                             <param id="0" name="Seconds">0.4</param>
                         </action>
@@ -102,6 +116,9 @@
                             <param id="0" name="Visibility">0</param>
                         </action>
                         <action id="-15" name="Set visible" sid="177612238690944" type="Apathes_logo">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="596845358125017" type="Apathes">
                             <param id="0" name="Visibility">0</param>
                         </action>
                         <action id="33" name="Stop all" sid="805509935691350" type="Audio" />
@@ -137,6 +154,13 @@
                         <action behavior="Fade" id="4" name="Set fade-out time" sid="541908684233847" type="Apathes_logo">
                             <param id="0" name="Fade-out time">0.3</param>
                         </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="101241268883721" type="menu_shortcuts">
+                            <param id="0" name="Fade-in time">0</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="505409850910934" type="menu_shortcuts">
+                            <param id="0" name="Fade-out time">0.3</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="453109980770093" type="menu_shortcuts" />
                         <action behavior="Fade2" id="1" name="Start fade" sid="871128732134280" type="text_menu" />
                         <action behavior="Fade" id="1" name="Start fade" sid="406118136472076" type="Apathes_logo" />
                         <action id="-15" name="Set visible" sid="371302205067838" type="text_menu">
@@ -194,6 +218,13 @@
                         <action behavior="Fade" id="4" name="Set fade-out time" sid="536442445089202" type="Apathes_logo">
                             <param id="0" name="Fade-out time">0.3</param>
                         </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="536909193722331" type="menu_shortcuts">
+                            <param id="0" name="Fade-in time">0</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="430210747072257" type="menu_shortcuts">
+                            <param id="0" name="Fade-out time">0.3</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="621201709764522" type="menu_shortcuts" />
                         <action behavior="Fade2" id="1" name="Start fade" sid="284849652749350" type="text_menu" />
                         <action behavior="Fade" id="1" name="Start fade" sid="329329400496171" type="Apathes_logo" />
                         <action id="-15" name="Set visible" sid="733849093665813" type="text_menu">
@@ -276,6 +307,13 @@
                         <action behavior="Fade2" id="4" name="Set fade-out time" sid="276091449970646" type="text_menu">
                             <param id="0" name="Fade-out time">0</param>
                         </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="264798868685384" type="menu_shortcuts">
+                            <param id="0" name="Fade-in time">0.3</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="827731828735850" type="menu_shortcuts">
+                            <param id="0" name="Fade-out time">0</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="210295908270422" type="menu_shortcuts" />
                         <action behavior="Fade2" id="1" name="Start fade" sid="108811670041872" type="text_menu" />
                         <action behavior="Fade" id="1" name="Start fade" sid="425283689893992" type="Apathes_logo" />
                         <action id="-15" name="Set visible" sid="130515957811655" type="text_menu">
@@ -332,6 +370,13 @@
                         <action behavior="Fade" id="4" name="Set fade-out time" sid="243675666461761" type="Apathes_logo">
                             <param id="0" name="Fade-out time">0</param>
                         </action>
+                        <action behavior="Fade" id="2" name="Set fade-in time" sid="273899855331359" type="menu_shortcuts">
+                            <param id="0" name="Fade-in time">0.3</param>
+                        </action>
+                        <action behavior="Fade" id="4" name="Set fade-out time" sid="873322362924390" type="menu_shortcuts">
+                            <param id="0" name="Fade-out time">0</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="657253148713748" type="menu_shortcuts" />
                         <action behavior="Fade2" id="1" name="Start fade" sid="702761570409350" type="text_menu" />
                         <action behavior="Fade" id="1" name="Start fade" sid="359022641691010" type="Apathes_logo" />
                         <action id="-15" name="Set visible" sid="385523226299506" type="text_menu">

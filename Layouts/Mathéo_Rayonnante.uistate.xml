@@ -4,11 +4,11 @@
 It is entirely optional and the project will load without it.  If you are placing the project under source control,
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
-        <position-x>2048</position-x>
-        <position-y>1600</position-y>
-        <position-z>366.489</position-z>
-        <lookat-x>2048</lookat-x>
-        <lookat-y>1600</lookat-y>
+        <position-x>2221.74</position-x>
+        <position-y>1802.6</position-y>
+        <position-z>250.317</position-z>
+        <lookat-x>2221.74</lookat-x>
+        <lookat-y>1802.6</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>0</snap-to-grid>
@@ -34,7 +34,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layer locked="1" name="details" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="masque" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="tilmmap details" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="apathe hisia" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="apathe hisia" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="perspective table" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="details perspective" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="timemap detail perspective" parallax-in-editor="0" visible="1" />
@@ -44,11 +44,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layer locked="1" name="fin de niveau" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="mini limite" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="Narration" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="UI" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="UI" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="pause_menu" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="confirmation_menu" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="parameters_menu" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="victory_defeat_menu" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="confirmation_menu" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="parameters_menu" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="victory_defeat_menu" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="fade in out" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>

@@ -2829,6 +2829,7 @@
                         <size_honteuse>50</size_honteuse>
                         <Cinématique>0</Cinématique>
                         <on_startup>1</on_startup>
+                        <apathe_scream>true</apathe_scream>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="8Direction">
@@ -2855,8 +2856,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>702</x>
-                        <y>296</y>
+                        <x>641</x>
+                        <y>295</y>
                         <z>0</z>
                         <width>90</width>
                         <height>90</height>
@@ -3575,13 +3576,13 @@
                         <x>4442.5</x>
                         <y>59.5</y>
                         <z>0</z>
-                        <width>455</width>
-                        <height>440</height>
+                        <width>500</width>
+                        <height>500</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.544502616</hotspotY>
                         <angle>0</angle>
-                        <opacity>1</opacity>
+                        <opacity>0.5</opacity>
                     </world>
                 </instance>
                 <instance type="MurPoussable" uid="144">

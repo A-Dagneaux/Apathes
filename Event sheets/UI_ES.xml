@@ -378,9 +378,9 @@
                                 <condition id="0" name="On key pressed" sid="482433583791326" type="Keyboard">
                                     <param id="0" name="Key">49</param>
                                 </condition>
-                                <condition id="3" name="Is button down" sid="444278912922578" type="Gamepad">
+                                <condition id="6" name="On button pressed" sid="444278912922578" type="Gamepad">
                                     <param id="0" name="Gamepad">0</param>
-                                    <param id="1" name="Button">12</param>
+                                    <param id="1" name="Button">3</param>
                                 </condition>
                             </conditions>
                             <actions />
@@ -446,9 +446,9 @@
                                 <condition id="0" name="On key pressed" sid="945349283907100" type="Keyboard">
                                     <param id="0" name="Key">50</param>
                                 </condition>
-                                <condition id="3" name="Is button down" sid="699036406902356" type="Gamepad">
+                                <condition id="6" name="On button pressed" sid="699036406902356" type="Gamepad">
                                     <param id="0" name="Gamepad">0</param>
-                                    <param id="1" name="Button">15</param>
+                                    <param id="1" name="Button">1</param>
                                 </condition>
                             </conditions>
                             <actions />
@@ -514,9 +514,9 @@
                                 <condition id="0" name="On key pressed" sid="926079809862864" type="Keyboard">
                                     <param id="0" name="Key">52</param>
                                 </condition>
-                                <condition id="3" name="Is button down" sid="562717072871963" type="Gamepad">
+                                <condition id="6" name="On button pressed" sid="562717072871963" type="Gamepad">
                                     <param id="0" name="Gamepad">0</param>
-                                    <param id="1" name="Button">13</param>
+                                    <param id="1" name="Button">2</param>
                                 </condition>
                             </conditions>
                             <actions />
@@ -582,9 +582,9 @@
                                 <condition id="0" name="On key pressed" sid="334450704717205" type="Keyboard">
                                     <param id="0" name="Key">51</param>
                                 </condition>
-                                <condition id="3" name="Is button down" sid="481178199298127" type="Gamepad">
+                                <condition id="6" name="On button pressed" sid="481178199298127" type="Gamepad">
                                     <param id="0" name="Gamepad">0</param>
-                                    <param id="1" name="Button">14</param>
+                                    <param id="1" name="Button">0</param>
                                 </condition>
                             </conditions>
                             <actions />
@@ -694,16 +694,16 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Set text" sid="670946061514664" type="shortcut_craintive">
-                            <param id="0" name="Text">&quot;↑&quot;</param>
+                            <param id="0" name="Text">&quot;Y&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="518897899485985" type="shortcut_furieuse">
-                            <param id="0" name="Text">&quot;→&quot;</param>
+                            <param id="0" name="Text">&quot;B&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="850975371498209" type="shortcut_honteuse">
-                            <param id="0" name="Text">&quot;↓&quot;</param>
+                            <param id="0" name="Text">&quot;A&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="502348085051008" type="shortcut_rayonnante">
-                            <param id="0" name="Text">&quot;←&quot;</param>
+                            <param id="0" name="Text">&quot;X&quot;</param>
                         </action>
                         <action id="-15" name="Set visible" sid="269721890262006" type="square_ui">
                             <param id="0" name="Visibility">0</param>

@@ -29,6 +29,28 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
+                <instance type="collision_UI" uid="379">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>171.5</x>
+                        <y>836.5</y>
+                        <z>0</z>
+                        <width>339</width>
+                        <height>484</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="background_UI" uid="123">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -42,16 +64,16 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>0</x>
-                        <y>1080</y>
+                        <x>89.185432434</x>
+                        <y>961.031738281</y>
                         <z>0</z>
-                        <width>160</width>
-                        <height>255</height>
+                        <width>178.886962891</width>
+                        <height>279.325653076</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>1</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.568181813</hotspotY>
                         <angle>0</angle>
-                        <opacity>0.5</opacity>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
                 <instance type="furieuse_UI" uid="41">
@@ -64,8 +86,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>140</x>
-                        <y>960</y>
+                        <x>146</x>
+                        <y>952</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -86,8 +108,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>80</x>
-                        <y>1040</y>
+                        <x>89</x>
+                        <y>1022</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -108,8 +130,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>80</x>
-                        <y>869</y>
+                        <x>89</x>
+                        <y>866</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -130,8 +152,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>21</x>
-                        <y>960</y>
+                        <x>32</x>
+                        <y>952</y>
                         <z>0</z>
                         <width>50</width>
                         <height>50</height>
@@ -272,8 +294,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>80</x>
-                        <y>953</y>
+                        <x>89</x>
+                        <y>945</y>
                         <z>0</z>
                         <width>80</width>
                         <height>80</height>
@@ -561,28 +583,6 @@
                         <z>0</z>
                         <width>28.079999924</width>
                         <height>28.079999924</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="collision_UI" uid="379">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>132</x>
-                        <y>896</y>
-                        <z>0</z>
-                        <width>260</width>
-                        <height>365</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

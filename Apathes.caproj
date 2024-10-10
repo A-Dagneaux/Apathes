@@ -1511,7 +1511,7 @@
                 </instance-variables>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="970843394788699" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="1" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.568182" original-source="C:\Users\dagne\Desktop\ui_background.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1798,6 +1798,22 @@
                     </effect-type>
                 </effects>
             </object-type>
+            <object-type name="menu_deplacements" sid="175684826734836">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="856721936342013" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dagne\Desktop\menu_deplacements_blanc.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="menu_masques" sid="577771410410636">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="382403130800847" speed="5">
+                        <frame duration="1" hotspotX="0.499699" hotspotY="0.49697" original-source="C:\Users\dagne\Desktop\menu_masques.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="Hisia" sid="396807986507934">
             <plugin id="Sprite" />
@@ -1811,6 +1827,7 @@
                 <instance-variable name="size_honteuse" sid="575682694574236" type="number" />
                 <instance-variable name="Cinématique" sid="876813629570444" type="number" />
                 <instance-variable comment="Pour ne pas que le son craintive se joue au startup" name="on_startup" sid="447774807844331" type="number" />
+                <instance-variable comment="timer pour cri Apathe" name="apathe_scream" sid="206555271921601" type="boolean" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="8Direction" sid="958459754648602">
@@ -2673,14 +2690,7 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="720559526824216" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                        <collision-poly>
-                            <point x="1" y="0" />
-                            <point x="1" y="1" />
-                            <point x="0" y="1" />
-                            <point x="0" y="0" />
-                        </collision-poly>
-                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.544503" original-source="C:\Users\dagne\Desktop\noise.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -3426,6 +3436,88 @@
             <texture />
             <tiles />
         </object-type>
+        <object-type name="menu_masques_m" sid="800899684117162">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="178449693100806" speed="5">
+                    <frame duration="1" hotspotX="0.507051" hotspotY="0.486216" original-source="C:\Users\dagne\Desktop\menu_masques_manette.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="menu_short_controler" sid="419141664451984">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="404056130551385" speed="5">
+                    <frame duration="1" hotspotX="0.500202" hotspotY="0.500861" original-source="C:\Users\dagne\Desktop\manette_texte.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="menu_short_keyboard" sid="536560785673154">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="879050136967414" speed="5">
+                    <frame duration="1" hotspotX="0.493885" hotspotY="0.603053" original-source="C:\Users\dagne\Desktop\clavier_texte.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite36" sid="722052673326576">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="199936566716601">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="788590909983947" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.476923" original-source="C:\Users\dagne\Desktop\victoire.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite37" sid="528315608942424">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="416894480989086" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="menu_deplacements_m" sid="198540162779230">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="888624688413676" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\dagne\Desktop\menu_deplacements_manette.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite38" sid="203492632323320">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760415098232228" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite39" sid="812506965096934">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="555881753080981" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="remerciements" sid="197700815793372">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="120162122367651">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="137688330793003" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\dagne\Desktop\remerciement.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Apathes" plugin-id="Sprite" sid="195361571858189">
@@ -3572,6 +3664,21 @@
                 <member>MurPoussable5</member>
                 <member>SolidMeuble</member>
             </members>
+        </family>
+        <family name="menu_shortcuts" plugin-id="Sprite" sid="600963732858677">
+            <members>
+                <member>menu_deplacements</member>
+                <member>menu_deplacements_m</member>
+                <member>menu_masques</member>
+                <member>menu_masques_m</member>
+                <member>menu_short_controler</member>
+                <member>menu_short_keyboard</member>
+            </members>
+            <behaviors>
+                <behavior-type name="Fade" sid="588231528918379">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
         </family>
     </families>
     <layout-folder>

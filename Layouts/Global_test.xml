@@ -7113,11 +7113,11 @@
                         <x>16</x>
                         <y>344</y>
                         <z>0</z>
-                        <width>29.793102264</width>
-                        <height>26.482757568</height>
+                        <width>124.137924194</width>
+                        <height>105.379302979</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.544502616</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -7936,6 +7936,7 @@
                         <size_honteuse>50</size_honteuse>
                         <Cinématique>0</Cinématique>
                         <on_startup>1</on_startup>
+                        <apathe_scream>true</apathe_scream>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="8Direction">

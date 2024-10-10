@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Global_ES</name>
     <events>
+        <variable comment="1 : level Rémi ; 2 : level Mathéo" constant="0" name="level" sid="497452387181565" static="0" type="number">0</variable>
         <variable comment="1 : VICTORY ; 2 : DEFEAT" constant="0" name="player_state" sid="732504013306775" static="0" type="number">0</variable>
         <variable comment="0 : NOT PAUSED ; 1 : PAUSED ; 2 : PARAMETERS ; 3 : PENDING CONFIRMATION ; 4 : IN VICTORY /  DEFEAT MENU" constant="0" name="is_paused" sid="217724313547951" static="0" type="number">0</variable>
         <variable constant="0" name="apathe_speed" sid="287228382108666" static="0" type="number">200</variable>
@@ -1267,8 +1268,15 @@
                                             <conditions>
                                                 <condition behavior="8Direction" id="0" name="Is moving" sid="703869671871459" type="Apathe_MangeLumiere" />
                                                 <condition id="-4" name="Trigger once while true" sid="384871717075043" type="System" />
+                                                <condition id="-8" name="Is boolean instance variable set" sid="773355174864996" type="Hisia">
+                                                    <param id="0" name="Instance variable">apathe_scream</param>
+                                                </condition>
                                             </conditions>
                                             <actions>
+                                                <action id="-13" name="Set boolean" sid="553197081231517" type="Hisia">
+                                                    <param id="0" name="Instance variable">apathe_scream</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
                                                 <action id="6" name="Stop" sid="312999968802078" type="Audio">
                                                     <param id="0" name="Tag">&quot;mangelumiere_chase&quot;</param>
                                                 </action>
@@ -1277,6 +1285,13 @@
                                                     <param id="2" name="Loop">0</param>
                                                     <param id="3" name="Volume">slider_effects.Value-10</param>
                                                     <param id="1" name="Tag (optional)">&quot;mangelumiere_chase&quot;</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="220441274669171" type="System">
+                                                    <param id="0" name="Seconds">2</param>
+                                                </action>
+                                                <action id="-13" name="Set boolean" sid="464712470214752" type="Hisia">
+                                                    <param id="0" name="Instance variable">apathe_scream</param>
+                                                    <param id="1" name="Value">1</param>
                                                 </action>
                                             </actions>
                                         </event-block>
@@ -1480,8 +1495,15 @@
                                                     <conditions>
                                                         <condition behavior="8Direction" id="0" name="Is moving" sid="391621164753414" type="Apathe_Obscur" />
                                                         <condition id="-4" name="Trigger once while true" sid="686766240328431" type="System" />
+                                                        <condition id="-8" name="Is boolean instance variable set" sid="134625101317931" type="Hisia">
+                                                            <param id="0" name="Instance variable">apathe_scream</param>
+                                                        </condition>
                                                     </conditions>
                                                     <actions>
+                                                        <action id="-13" name="Set boolean" sid="239810254406069" type="Hisia">
+                                                            <param id="0" name="Instance variable">apathe_scream</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
                                                         <action id="6" name="Stop" sid="822167650890128" type="Audio">
                                                             <param id="0" name="Tag">&quot;obscur_scared&quot;</param>
                                                         </action>
@@ -1490,6 +1512,13 @@
                                                             <param id="2" name="Loop">0</param>
                                                             <param id="3" name="Volume">slider_effects.Value-10</param>
                                                             <param id="1" name="Tag (optional)">&quot;obscur_scared&quot;</param>
+                                                        </action>
+                                                        <action id="-16" name="Wait" sid="629190296849350" type="System">
+                                                            <param id="0" name="Seconds">2</param>
+                                                        </action>
+                                                        <action id="-13" name="Set boolean" sid="466960426940368" type="Hisia">
+                                                            <param id="0" name="Instance variable">apathe_scream</param>
+                                                            <param id="1" name="Value">1</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -1648,8 +1677,15 @@
                                                     <conditions>
                                                         <condition behavior="8Direction" id="0" name="Is moving" sid="936448937919072" type="Apathe_Obscur" />
                                                         <condition id="-4" name="Trigger once while true" sid="333663410264491" type="System" />
+                                                        <condition id="-8" name="Is boolean instance variable set" sid="390355615100341" type="Hisia">
+                                                            <param id="0" name="Instance variable">apathe_scream</param>
+                                                        </condition>
                                                     </conditions>
                                                     <actions>
+                                                        <action id="-13" name="Set boolean" sid="705147791135256" type="Hisia">
+                                                            <param id="0" name="Instance variable">apathe_scream</param>
+                                                            <param id="1" name="Value">0</param>
+                                                        </action>
                                                         <action id="6" name="Stop" sid="103651695038187" type="Audio">
                                                             <param id="0" name="Tag">&quot;obscur_chase&quot;</param>
                                                         </action>
@@ -1658,6 +1694,13 @@
                                                             <param id="2" name="Loop">0</param>
                                                             <param id="3" name="Volume">slider_effects.Value-10</param>
                                                             <param id="1" name="Tag (optional)">&quot;obscur_chase&quot;</param>
+                                                        </action>
+                                                        <action id="-16" name="Wait" sid="728898943125733" type="System">
+                                                            <param id="0" name="Seconds">2</param>
+                                                        </action>
+                                                        <action id="-13" name="Set boolean" sid="238974874049460" type="Hisia">
+                                                            <param id="0" name="Instance variable">apathe_scream</param>
+                                                            <param id="1" name="Value">1</param>
                                                         </action>
                                                     </actions>
                                                 </event-block>
@@ -1851,8 +1894,18 @@
                                             <conditions>
                                                 <condition behavior="8Direction" id="0" name="Is moving" sid="166178205870535" type="Apathe_AntiBruit" />
                                                 <condition id="-4" name="Trigger once while true" sid="420189177812268" type="System" />
+                                                <condition id="-8" name="Is boolean instance variable set" sid="985922881929549" type="Hisia">
+                                                    <param id="0" name="Instance variable">apathe_scream</param>
+                                                </condition>
                                             </conditions>
                                             <actions>
+                                                <action id="-13" name="Set boolean" sid="901496691586522" type="Hisia">
+                                                    <param id="0" name="Instance variable">apathe_scream</param>
+                                                    <param id="1" name="Value">0</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="699317550850413" type="System">
+                                                    <param id="0" name="Seconds">2</param>
+                                                </action>
                                                 <action id="6" name="Stop" sid="719308697919005" type="Audio">
                                                     <param id="0" name="Tag">&quot;antibruit_chase&quot;</param>
                                                 </action>
@@ -1861,6 +1914,10 @@
                                                     <param id="2" name="Loop">0</param>
                                                     <param id="3" name="Volume">slider_effects.Value-5</param>
                                                     <param id="1" name="Tag (optional)">&quot;antibruit_chase&quot;</param>
+                                                </action>
+                                                <action id="-13" name="Set boolean" sid="122750878554553" type="Hisia">
+                                                    <param id="0" name="Instance variable">apathe_scream</param>
+                                                    <param id="1" name="Value">1</param>
                                                 </action>
                                             </actions>
                                         </event-block>
