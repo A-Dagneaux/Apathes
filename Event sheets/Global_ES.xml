@@ -15,11 +15,11 @@
                         <condition id="-2" name="On start of layout" sid="184606891831459" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-7" name="Set size" sid="213695390404454" type="lumière">
-                            <param id="0" name="Width">lumière.size_normal</param>
-                            <param id="1" name="Height">lumière.size_normal</param>
+                        <action id="-7" name="Set size" sid="213695390404454" type="lumiere">
+                            <param id="0" name="Width">lumiere.size_normal</param>
+                            <param id="1" name="Height">lumiere.size_normal</param>
                         </action>
-                        <action id="4" name="Set animation" sid="313140076543266" type="lumière">
+                        <action id="4" name="Set animation" sid="313140076543266" type="lumiere">
                             <param id="0" name="Animation">&quot;autre&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
@@ -42,7 +42,7 @@
                             <param id="0" name="Obstacle">Mur1</param>
                         </action>
                         <action behavior="LineOfSight" id="0" name="Set range" sid="831291046078929" type="Hisia">
-                            <param id="0" name="Range">lumière.size_normal</param>
+                            <param id="0" name="Range">lumiere.size_normal</param>
                         </action>
                         <action id="0" name="Play" sid="270743403856521" type="Audio">
                             <param id="0" name="Audio file">level</param>
@@ -77,7 +77,7 @@
                                 <condition id="-1" name="Every tick" sid="902247256186706" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-4" name="Set position to another object" sid="890133120597680" type="lumière">
+                                <action id="-4" name="Set position to another object" sid="890133120597680" type="lumiere">
                                     <param id="0" name="Object">Hisia</param>
                                     <param id="1" name="Image point (optional)">0</param>
                                 </action>
@@ -171,7 +171,7 @@
                                                     <param id="0" name="Width">hisia.size_normal</param>
                                                     <param id="1" name="Height">hisia.size_normal</param>
                                                 </action>
-                                                <action id="9" name="Set scale" sid="896269174539113" type="lumière">
+                                                <action id="9" name="Set scale" sid="896269174539113" type="lumiere">
                                                     <param id="0" name="Scale">1</param>
                                                 </action>
                                             </actions>
@@ -246,7 +246,7 @@
                                                     <param id="0" name="Width">Hisia.size_honteuse</param>
                                                     <param id="1" name="Height">Hisia.size_honteuse</param>
                                                 </action>
-                                                <action id="9" name="Set scale" sid="514427000266757" type="lumière">
+                                                <action id="9" name="Set scale" sid="514427000266757" type="lumiere">
                                                     <param id="0" name="Scale">1</param>
                                                 </action>
                                                 <action id="6" name="Stop" sid="406372409161795" type="Audio">
@@ -345,7 +345,7 @@
                                                     <param id="0" name="Width">hisia.size_normal</param>
                                                     <param id="1" name="Height">hisia.size_normal</param>
                                                 </action>
-                                                <action id="9" name="Set scale" sid="261104193274899" type="lumière">
+                                                <action id="9" name="Set scale" sid="261104193274899" type="lumiere">
                                                     <param id="0" name="Scale">1</param>
                                                 </action>
                                                 <action id="6" name="Stop" sid="386771715577606" type="Audio">
@@ -557,7 +557,7 @@
                                                 <action behavior="8Direction" id="4" name="Set max speed" sid="286039606690694" type="Hisia">
                                                     <param id="0" name="Max Speed">Hisia.speed</param>
                                                 </action>
-                                                <action id="9" name="Set scale" sid="989094632268751" type="lumière">
+                                                <action id="9" name="Set scale" sid="989094632268751" type="lumiere">
                                                     <param id="0" name="Scale">2</param>
                                                 </action>
                                                 <action behavior="LineOfSight" id="1" name="Set cone of view" sid="895868132947525" type="Hisia">
@@ -1207,7 +1207,7 @@
                                             <param id="0" name="Object">Hisia</param>
                                         </condition>
                                         <condition id="1" name="Is overlapping another object" sid="728258828821429" type="Apathe_MangeLumiere">
-                                            <param id="0" name="Object">lumière</param>
+                                            <param id="0" name="Object">lumiere</param>
                                         </condition>
                                     </conditions>
                                     <actions />

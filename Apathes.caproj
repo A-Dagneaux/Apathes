@@ -2564,7 +2564,7 @@
         <object-type name="ShadowLight" sid="430893487699317">
             <plugin id="shadowlight" />
         </object-type>
-        <object-type name="lumière" sid="961317367370314">
+        <object-type name="lumiere" sid="961317367370314">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="size_normal" sid="549376967119111" type="number" />
@@ -2783,12 +2783,12 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="TilemapDécor1" sid="519738955970731">
+        <object-type name="TilemapDecor1" sid="519738955970731">
             <plugin id="Tilemap" />
             <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap complétée.png" />
             <tiles />
         </object-type>
-        <object-type name="TilemapDécorSol1" sid="372915215250839">
+        <object-type name="TilemapDecorSol1" sid="372915215250839">
             <plugin id="Tilemap" />
             <texture original-source="C:\Users\ramir\Documents\Artline Année 3\Développement de jeu\image\décor\tilemap complétée 2.png" />
             <tiles />

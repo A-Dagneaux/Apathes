@@ -2652,7 +2652,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TilemapDécorSol1" uid="325">
+                <instance type="TilemapDecorSol1" uid="325">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <tile-width>64</tile-width>
@@ -4000,7 +4000,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TilemapDécor1" uid="323">
+                <instance type="TilemapDecor1" uid="323">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <tile-width>64</tile-width>
