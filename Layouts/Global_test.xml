@@ -7928,8 +7928,8 @@
                     </properties>
                     <instance-variables>
                         <emotion>craintive</emotion>
-                        <speed>500</speed>
-                        <slow_honteuse>300</slow_honteuse>
+                        <speed>400</speed>
+                        <slow_honteuse>200</slow_honteuse>
                         <SaveX>0</SaveX>
                         <SaveY>0</SaveY>
                         <size_normal>90</size_normal>

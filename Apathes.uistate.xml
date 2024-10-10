@@ -88,6 +88,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/MurPoussable3/" />
         <folder expanded="1" path="animation-folder/MurPoussable4/" />
         <folder expanded="1" path="animation-folder/MurPoussable5/" />
+        <folder expanded="1" path="animation-folder/PorteLevel3/" />
         <folder expanded="1" path="animation-folder/rayonnante/" />
         <folder expanded="1" path="animation-folder/craintive/" />
         <folder expanded="1" path="animation-folder/furieuse/" />
@@ -166,5 +167,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite33/" />
         <folder expanded="1" path="animation-folder/Sprite34/" />
         <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Sprite35/" />
     </folders-expanded>
 </c2uistate>
