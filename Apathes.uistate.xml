@@ -10,18 +10,19 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Global_test</layout>
-        <layout order="1">UI</layout>
-        <layout order="5">Menu Principal</layout>
-        <layout order="6">Rémi_Furieuse</layout>
-        <layout order="9">Mathéo_Rayonnante</layout>
-        <event-sheet order="2">UI_ES</event-sheet>
-        <event-sheet order="3">Menu_Principal_ES</event-sheet>
-        <event-sheet active="1" order="4">Menu_Pause_ES</event-sheet>
-        <event-sheet order="7">Rémi_Furieuse_ES</event-sheet>
-        <event-sheet order="8">Global_ES</event-sheet>
-        <event-sheet order="10">Mathéo_Rayonnante_ES</event-sheet>
-        <event-sheet order="11">Menu_Victoire_Défaite_ES</event-sheet>
+        <layout order="0">UI</layout>
+        <layout active="1" order="4">Menu Principal</layout>
+        <layout order="5">Rémi_Furieuse</layout>
+        <layout order="8">Mathéo_Rayonnante</layout>
+        <layout order="11">Menu Victoire &amp; Défaite</layout>
+        <layout order="12">Menu Pause</layout>
+        <event-sheet order="1">UI_ES</event-sheet>
+        <event-sheet order="2">Menu_Principal_ES</event-sheet>
+        <event-sheet order="3">Menu_Pause_ES</event-sheet>
+        <event-sheet order="6">Rémi_Furieuse_ES</event-sheet>
+        <event-sheet order="7">Global_ES</event-sheet>
+        <event-sheet order="9">Mathéo_Rayonnante_ES</event-sheet>
+        <event-sheet order="10">Menu_Victoire_Défaite_ES</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -43,11 +44,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="1" path="object-folder/Apathes/" />
-        <folder expanded="1" path="object-folder/décor/" />
-        <folder expanded="1" path="object-folder/cartes/" />
-        <folder expanded="1" path="object-folder/cartes/par terre/" />
-        <folder expanded="1" path="object-folder/UI/" />
+        <folder expanded="0" path="object-folder/Apathes/" />
+        <folder expanded="0" path="object-folder/decor/" />
+        <folder expanded="0" path="object-folder/cartes/" />
+        <folder expanded="0" path="object-folder/cartes/par terre/" />
+        <folder expanded="0" path="object-folder/UI/" />
         <folder expanded="0" path="object-folder/Textes/" />
         <folder expanded="0" path="object-folder/Menus/" />
         <folder expanded="1" path="layout-folder/" />

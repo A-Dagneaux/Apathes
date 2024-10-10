@@ -963,7 +963,7 @@
                 </animation-folder>
             </object-type>
         </object-folder>
-        <object-folder name="décor">
+        <object-folder name="decor">
             <object-type name="fond" sid="392868419353482">
                 <plugin id="Sprite" />
                 <animation-folder>
