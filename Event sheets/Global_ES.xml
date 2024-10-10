@@ -1903,9 +1903,6 @@
                                                     <param id="0" name="Instance variable">apathe_scream</param>
                                                     <param id="1" name="Value">0</param>
                                                 </action>
-                                                <action id="-16" name="Wait" sid="699317550850413" type="System">
-                                                    <param id="0" name="Seconds">2</param>
-                                                </action>
                                                 <action id="6" name="Stop" sid="719308697919005" type="Audio">
                                                     <param id="0" name="Tag">&quot;antibruit_chase&quot;</param>
                                                 </action>
@@ -1914,6 +1911,9 @@
                                                     <param id="2" name="Loop">0</param>
                                                     <param id="3" name="Volume">slider_effects.Value-5</param>
                                                     <param id="1" name="Tag (optional)">&quot;antibruit_chase&quot;</param>
+                                                </action>
+                                                <action id="-16" name="Wait" sid="699317550850413" type="System">
+                                                    <param id="0" name="Seconds">2</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="122750878554553" type="Hisia">
                                                     <param id="0" name="Instance variable">apathe_scream</param>
