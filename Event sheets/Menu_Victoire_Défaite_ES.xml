@@ -183,7 +183,7 @@
                         <action id="0" name="Play" sid="159795601769129" type="Audio">
                             <param id="0" name="Audio file">victory</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">slider_musique.Value-10</param>
+                            <param id="3" name="Volume">slider_musique.Value</param>
                             <param id="1" name="Tag (optional)">&quot;music&quot;</param>
                         </action>
                     </actions>
@@ -271,7 +271,7 @@
                         <action id="0" name="Play" sid="414752957978435" type="Audio">
                             <param id="0" name="Audio file">defeat</param>
                             <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">slider_musique.Value-10</param>
+                            <param id="3" name="Volume">slider_musique.Value</param>
                             <param id="1" name="Tag (optional)">&quot;music&quot;</param>
                         </action>
                     </actions>

@@ -15,7 +15,7 @@
                 <action id="0" name="Play" sid="589686396578236" type="Audio">
                     <param id="0" name="Audio file">menu_music</param>
                     <param id="2" name="Loop">1</param>
-                    <param id="3" name="Volume">slider_musique.Value-10</param>
+                    <param id="3" name="Volume">slider_musique.Value</param>
                     <param id="1" name="Tag (optional)">&quot;music&quot;</param>
                 </action>
                 <action id="-16" name="Wait" sid="869402425194793" type="System">
@@ -529,5 +529,16 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="152595531043639">
+            <conditions>
+                <condition id="2" name="On changed" sid="836467938089032" type="slider_musique" />
+            </conditions>
+            <actions>
+                <action id="3" name="Set volume" sid="516383454341695" type="Audio">
+                    <param id="0" name="Tag">&quot;music&quot;</param>
+                    <param id="1" name="dB">slider_musique.Value</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

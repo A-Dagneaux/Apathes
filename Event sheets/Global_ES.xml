@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Global_ES</name>
     <events>
+        <variable constant="0" name="volume_music" sid="352223798449038" static="0" type="number">0</variable>
         <variable comment="1 : level Rémi ; 2 : level Mathéo" constant="0" name="level" sid="497452387181565" static="0" type="number">0</variable>
         <variable comment="1 : VICTORY ; 2 : DEFEAT" constant="0" name="player_state" sid="732504013306775" static="0" type="number">0</variable>
         <variable comment="0 : NOT PAUSED ; 1 : PAUSED ; 2 : PARAMETERS ; 3 : PENDING CONFIRMATION ; 4 : IN VICTORY /  DEFEAT MENU" constant="0" name="is_paused" sid="217724313547951" static="0" type="number">0</variable>
@@ -47,7 +48,7 @@
                         <action id="0" name="Play" sid="270743403856521" type="Audio">
                             <param id="0" name="Audio file">level</param>
                             <param id="2" name="Loop">1</param>
-                            <param id="3" name="Volume">-15</param>
+                            <param id="3" name="Volume">slider_musique.Value</param>
                             <param id="1" name="Tag (optional)">&quot;music&quot;</param>
                         </action>
                     </actions>
@@ -110,7 +111,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-15" name="Set visible" sid="491506384608083" type="Apathes">
+                                <action id="-15" name="Set visible" sid="834513072417826" type="Apathes">
                                     <param id="0" name="Visibility">0</param>
                                 </action>
                             </actions>
@@ -376,69 +377,121 @@
                                             </conditions>
                                             <actions />
                                             <sub-events>
-                                                <event-block sid="308060639194509">
+                                                <event-block any="1" sid="308060639194509">
                                                     <conditions>
                                                         <condition id="2" name="Key is down" sid="326394592350986" type="Keyboard">
                                                             <param id="0" name="Key">83</param>
                                                         </condition>
-                                                        <condition id="-2" name="Compare Y" sid="944626677976071" type="Hisia">
-                                                            <param id="0" name="Comparison">2</param>
-                                                            <param id="1" name="Y co-ordinate">MurPoussable.Y</param>
+                                                        <condition id="5" name="Compare axis" sid="924383949980106" type="Gamepad">
+                                                            <param id="0" name="Gamepad">0</param>
+                                                            <param id="1" name="Axis">1</param>
+                                                            <param id="2" name="Comparison">4</param>
+                                                            <param id="3" name="Value">30</param>
                                                         </condition>
                                                     </conditions>
-                                                    <actions>
-                                                        <action id="-2" name="Set Y" sid="904450683506392" type="MurPoussable">
-                                                            <param id="0" name="Y">MurPoussable.Y + MurPoussable.speed</param>
-                                                        </action>
-                                                    </actions>
+                                                    <actions />
+                                                    <sub-events>
+                                                        <event-block sid="257385798738029">
+                                                            <conditions>
+                                                                <condition id="-2" name="Compare Y" sid="944626677976071" type="Hisia">
+                                                                    <param id="0" name="Comparison">2</param>
+                                                                    <param id="1" name="Y co-ordinate">MurPoussable.Y</param>
+                                                                </condition>
+                                                            </conditions>
+                                                            <actions>
+                                                                <action id="-2" name="Set Y" sid="904450683506392" type="MurPoussable">
+                                                                    <param id="0" name="Y">MurPoussable.Y + MurPoussable.speed</param>
+                                                                </action>
+                                                            </actions>
+                                                        </event-block>
+                                                    </sub-events>
                                                 </event-block>
-                                                <event-block sid="612111293225007">
+                                                <event-block any="1" sid="612111293225007">
                                                     <conditions>
                                                         <condition id="2" name="Key is down" sid="318554545537854" type="Keyboard">
                                                             <param id="0" name="Key">90</param>
                                                         </condition>
-                                                        <condition id="-2" name="Compare Y" sid="461758676182454" type="Hisia">
-                                                            <param id="0" name="Comparison">4</param>
-                                                            <param id="1" name="Y co-ordinate">MurPoussable.Y</param>
+                                                        <condition id="5" name="Compare axis" sid="857216532753912" type="Gamepad">
+                                                            <param id="0" name="Gamepad">0</param>
+                                                            <param id="1" name="Axis">1</param>
+                                                            <param id="2" name="Comparison">2</param>
+                                                            <param id="3" name="Value">-30</param>
                                                         </condition>
                                                     </conditions>
-                                                    <actions>
-                                                        <action id="-2" name="Set Y" sid="467862248910274" type="MurPoussable">
-                                                            <param id="0" name="Y">MurPoussable.Y - MurPoussable.speed</param>
-                                                        </action>
-                                                    </actions>
+                                                    <actions />
+                                                    <sub-events>
+                                                        <event-block sid="877226590538776">
+                                                            <conditions>
+                                                                <condition id="-2" name="Compare Y" sid="461758676182454" type="Hisia">
+                                                                    <param id="0" name="Comparison">4</param>
+                                                                    <param id="1" name="Y co-ordinate">MurPoussable.Y</param>
+                                                                </condition>
+                                                            </conditions>
+                                                            <actions>
+                                                                <action id="-2" name="Set Y" sid="467862248910274" type="MurPoussable">
+                                                                    <param id="0" name="Y">MurPoussable.Y - MurPoussable.speed</param>
+                                                                </action>
+                                                            </actions>
+                                                        </event-block>
+                                                    </sub-events>
                                                 </event-block>
-                                                <event-block sid="518789875394111">
+                                                <event-block any="1" sid="518789875394111">
                                                     <conditions>
                                                         <condition id="2" name="Key is down" sid="321403441763779" type="Keyboard">
                                                             <param id="0" name="Key">81</param>
                                                         </condition>
-                                                        <condition id="-1" name="Compare X" sid="567127628565368" type="Hisia">
-                                                            <param id="0" name="Comparison">4</param>
-                                                            <param id="1" name="X co-ordinate">MurPoussable.X</param>
+                                                        <condition id="5" name="Compare axis" sid="775724376566552" type="Gamepad">
+                                                            <param id="0" name="Gamepad">0</param>
+                                                            <param id="1" name="Axis">0</param>
+                                                            <param id="2" name="Comparison">2</param>
+                                                            <param id="3" name="Value">-30</param>
                                                         </condition>
                                                     </conditions>
-                                                    <actions>
-                                                        <action id="-1" name="Set X" sid="146912073164284" type="MurPoussable">
-                                                            <param id="0" name="X">MurPoussable.X - MurPoussable.speed</param>
-                                                        </action>
-                                                    </actions>
+                                                    <actions />
+                                                    <sub-events>
+                                                        <event-block sid="795255517451675">
+                                                            <conditions>
+                                                                <condition id="-1" name="Compare X" sid="567127628565368" type="Hisia">
+                                                                    <param id="0" name="Comparison">4</param>
+                                                                    <param id="1" name="X co-ordinate">MurPoussable.X</param>
+                                                                </condition>
+                                                            </conditions>
+                                                            <actions>
+                                                                <action id="-1" name="Set X" sid="146912073164284" type="MurPoussable">
+                                                                    <param id="0" name="X">MurPoussable.X - MurPoussable.speed</param>
+                                                                </action>
+                                                            </actions>
+                                                        </event-block>
+                                                    </sub-events>
                                                 </event-block>
-                                                <event-block sid="415325344103646">
+                                                <event-block any="1" sid="415325344103646">
                                                     <conditions>
                                                         <condition id="2" name="Key is down" sid="462550403823600" type="Keyboard">
                                                             <param id="0" name="Key">68</param>
                                                         </condition>
-                                                        <condition id="-1" name="Compare X" sid="731467091429876" type="Hisia">
-                                                            <param id="0" name="Comparison">2</param>
-                                                            <param id="1" name="X co-ordinate">MurPoussable.X</param>
+                                                        <condition id="5" name="Compare axis" sid="963098245424367" type="Gamepad">
+                                                            <param id="0" name="Gamepad">0</param>
+                                                            <param id="1" name="Axis">0</param>
+                                                            <param id="2" name="Comparison">4</param>
+                                                            <param id="3" name="Value">30</param>
                                                         </condition>
                                                     </conditions>
-                                                    <actions>
-                                                        <action id="-1" name="Set X" sid="952318168951339" type="MurPoussable">
-                                                            <param id="0" name="X">MurPoussable.X + MurPoussable.speed</param>
-                                                        </action>
-                                                    </actions>
+                                                    <actions />
+                                                    <sub-events>
+                                                        <event-block sid="853645592259600">
+                                                            <conditions>
+                                                                <condition id="-1" name="Compare X" sid="731467091429876" type="Hisia">
+                                                                    <param id="0" name="Comparison">2</param>
+                                                                    <param id="1" name="X co-ordinate">MurPoussable.X</param>
+                                                                </condition>
+                                                            </conditions>
+                                                            <actions>
+                                                                <action id="-1" name="Set X" sid="952318168951339" type="MurPoussable">
+                                                                    <param id="0" name="X">MurPoussable.X + MurPoussable.speed</param>
+                                                                </action>
+                                                            </actions>
+                                                        </event-block>
+                                                    </sub-events>
                                                 </event-block>
                                             </sub-events>
                                         </event-block>
@@ -450,69 +503,121 @@
                                             </conditions>
                                             <actions />
                                             <sub-events>
-                                                <event-block sid="676981323530463">
+                                                <event-block any="1" sid="676981323530463">
                                                     <conditions>
                                                         <condition id="2" name="Key is down" sid="827344498375054" type="Keyboard">
                                                             <param id="0" name="Key">83</param>
                                                         </condition>
-                                                        <condition id="-2" name="Compare Y" sid="231334286892236" type="Hisia">
-                                                            <param id="0" name="Comparison">2</param>
-                                                            <param id="1" name="Y co-ordinate">MurPoussable2.Y</param>
+                                                        <condition id="5" name="Compare axis" sid="261340680353051" type="Gamepad">
+                                                            <param id="0" name="Gamepad">0</param>
+                                                            <param id="1" name="Axis">1</param>
+                                                            <param id="2" name="Comparison">4</param>
+                                                            <param id="3" name="Value">30</param>
                                                         </condition>
                                                     </conditions>
-                                                    <actions>
-                                                        <action id="-2" name="Set Y" sid="366486226707778" type="MurPoussable2">
-                                                            <param id="0" name="Y">MurPoussable2.Y + MurPoussable2.speed</param>
-                                                        </action>
-                                                    </actions>
+                                                    <actions />
+                                                    <sub-events>
+                                                        <event-block sid="656247308486995">
+                                                            <conditions>
+                                                                <condition id="-2" name="Compare Y" sid="231334286892236" type="Hisia">
+                                                                    <param id="0" name="Comparison">2</param>
+                                                                    <param id="1" name="Y co-ordinate">MurPoussable2.Y</param>
+                                                                </condition>
+                                                            </conditions>
+                                                            <actions>
+                                                                <action id="-2" name="Set Y" sid="366486226707778" type="MurPoussable2">
+                                                                    <param id="0" name="Y">MurPoussable2.Y + MurPoussable2.speed</param>
+                                                                </action>
+                                                            </actions>
+                                                        </event-block>
+                                                    </sub-events>
                                                 </event-block>
-                                                <event-block sid="410836317026212">
+                                                <event-block any="1" sid="410836317026212">
                                                     <conditions>
                                                         <condition id="2" name="Key is down" sid="904006066784277" type="Keyboard">
                                                             <param id="0" name="Key">90</param>
                                                         </condition>
-                                                        <condition id="-2" name="Compare Y" sid="874382985377536" type="Hisia">
-                                                            <param id="0" name="Comparison">4</param>
-                                                            <param id="1" name="Y co-ordinate">MurPoussable2.Y</param>
+                                                        <condition id="5" name="Compare axis" sid="362844728440169" type="Gamepad">
+                                                            <param id="0" name="Gamepad">0</param>
+                                                            <param id="1" name="Axis">1</param>
+                                                            <param id="2" name="Comparison">2</param>
+                                                            <param id="3" name="Value">-30</param>
                                                         </condition>
                                                     </conditions>
-                                                    <actions>
-                                                        <action id="-2" name="Set Y" sid="141986296308488" type="MurPoussable2">
-                                                            <param id="0" name="Y">MurPoussable2.Y - MurPoussable2.speed</param>
-                                                        </action>
-                                                    </actions>
+                                                    <actions />
+                                                    <sub-events>
+                                                        <event-block sid="372293660451358">
+                                                            <conditions>
+                                                                <condition id="-2" name="Compare Y" sid="874382985377536" type="Hisia">
+                                                                    <param id="0" name="Comparison">4</param>
+                                                                    <param id="1" name="Y co-ordinate">MurPoussable2.Y</param>
+                                                                </condition>
+                                                            </conditions>
+                                                            <actions>
+                                                                <action id="-2" name="Set Y" sid="141986296308488" type="MurPoussable2">
+                                                                    <param id="0" name="Y">MurPoussable2.Y - MurPoussable2.speed</param>
+                                                                </action>
+                                                            </actions>
+                                                        </event-block>
+                                                    </sub-events>
                                                 </event-block>
-                                                <event-block sid="948398611372766">
+                                                <event-block any="1" sid="948398611372766">
                                                     <conditions>
                                                         <condition id="2" name="Key is down" sid="227252143066942" type="Keyboard">
                                                             <param id="0" name="Key">81</param>
                                                         </condition>
-                                                        <condition id="-1" name="Compare X" sid="342289756252816" type="Hisia">
-                                                            <param id="0" name="Comparison">4</param>
-                                                            <param id="1" name="X co-ordinate">MurPoussable2.X</param>
+                                                        <condition id="5" name="Compare axis" sid="807599652591370" type="Gamepad">
+                                                            <param id="0" name="Gamepad">0</param>
+                                                            <param id="1" name="Axis">0</param>
+                                                            <param id="2" name="Comparison">2</param>
+                                                            <param id="3" name="Value">-30</param>
                                                         </condition>
                                                     </conditions>
-                                                    <actions>
-                                                        <action id="-1" name="Set X" sid="789276695530424" type="MurPoussable2">
-                                                            <param id="0" name="X">MurPoussable2.X - MurPoussable2.speed</param>
-                                                        </action>
-                                                    </actions>
+                                                    <actions />
+                                                    <sub-events>
+                                                        <event-block sid="448207519463184">
+                                                            <conditions>
+                                                                <condition id="-1" name="Compare X" sid="342289756252816" type="Hisia">
+                                                                    <param id="0" name="Comparison">4</param>
+                                                                    <param id="1" name="X co-ordinate">MurPoussable2.X</param>
+                                                                </condition>
+                                                            </conditions>
+                                                            <actions>
+                                                                <action id="-1" name="Set X" sid="789276695530424" type="MurPoussable2">
+                                                                    <param id="0" name="X">MurPoussable2.X - MurPoussable2.speed</param>
+                                                                </action>
+                                                            </actions>
+                                                        </event-block>
+                                                    </sub-events>
                                                 </event-block>
-                                                <event-block sid="255379497263551">
+                                                <event-block any="1" sid="255379497263551">
                                                     <conditions>
                                                         <condition id="2" name="Key is down" sid="173591973294399" type="Keyboard">
                                                             <param id="0" name="Key">68</param>
                                                         </condition>
-                                                        <condition id="-1" name="Compare X" sid="362243299865881" type="Hisia">
-                                                            <param id="0" name="Comparison">2</param>
-                                                            <param id="1" name="X co-ordinate">MurPoussable2.X</param>
+                                                        <condition id="5" name="Compare axis" sid="440928292565054" type="Gamepad">
+                                                            <param id="0" name="Gamepad">0</param>
+                                                            <param id="1" name="Axis">0</param>
+                                                            <param id="2" name="Comparison">4</param>
+                                                            <param id="3" name="Value">30</param>
                                                         </condition>
                                                     </conditions>
-                                                    <actions>
-                                                        <action id="-1" name="Set X" sid="645997574084061" type="MurPoussable2">
-                                                            <param id="0" name="X">MurPoussable2.X + MurPoussable2.speed</param>
-                                                        </action>
-                                                    </actions>
+                                                    <actions />
+                                                    <sub-events>
+                                                        <event-block sid="580974714490161">
+                                                            <conditions>
+                                                                <condition id="-1" name="Compare X" sid="362243299865881" type="Hisia">
+                                                                    <param id="0" name="Comparison">2</param>
+                                                                    <param id="1" name="X co-ordinate">MurPoussable2.X</param>
+                                                                </condition>
+                                                            </conditions>
+                                                            <actions>
+                                                                <action id="-1" name="Set X" sid="645997574084061" type="MurPoussable2">
+                                                                    <param id="0" name="X">MurPoussable2.X + MurPoussable2.speed</param>
+                                                                </action>
+                                                            </actions>
+                                                        </event-block>
+                                                    </sub-events>
                                                 </event-block>
                                             </sub-events>
                                         </event-block>
@@ -831,6 +936,101 @@
                                                 </event-block>
                                             </sub-events>
                                         </event-block>
+                                        <event-block sid="440122817809090">
+                                            <conditions>
+                                                <condition id="5" inverted="1" name="Compare axis" sid="540907832570131" type="Gamepad">
+                                                    <param id="0" name="Gamepad">0</param>
+                                                    <param id="1" name="Axis">1</param>
+                                                    <param id="2" name="Comparison">2</param>
+                                                    <param id="3" name="Value">-30</param>
+                                                </condition>
+                                                <condition id="5" inverted="1" name="Compare axis" sid="354682830592264" type="Gamepad">
+                                                    <param id="0" name="Gamepad">0</param>
+                                                    <param id="1" name="Axis">1</param>
+                                                    <param id="2" name="Comparison">4</param>
+                                                    <param id="3" name="Value">30</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="205184212681849">
+                                                    <conditions>
+                                                        <condition id="-7" name="Compare instance variable" sid="432193154871471" type="Hisia">
+                                                            <param id="0" name="Instance variable">emotion</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">&quot;craintive&quot;</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="7" name="Set mirrored" sid="259308252107667" type="Hisia">
+                                                            <param id="0" name="State">1</param>
+                                                        </action>
+                                                        <action id="4" name="Set animation" sid="966952322393475" type="Hisia">
+                                                            <param id="0" name="Animation">&quot;c_walk_side&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="577828768503914">
+                                                    <conditions>
+                                                        <condition id="-7" name="Compare instance variable" sid="804439582327792" type="Hisia">
+                                                            <param id="0" name="Instance variable">emotion</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">&quot;furieuse&quot;</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="7" name="Set mirrored" sid="626158046468623" type="Hisia">
+                                                            <param id="0" name="State">1</param>
+                                                        </action>
+                                                        <action id="4" name="Set animation" sid="842925559232364" type="Hisia">
+                                                            <param id="0" name="Animation">&quot;f_walk_side&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="809075334356911">
+                                                    <conditions>
+                                                        <condition id="-7" name="Compare instance variable" sid="219871995338924" type="Hisia">
+                                                            <param id="0" name="Instance variable">emotion</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">&quot;rayonnante&quot;</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="7" name="Set mirrored" sid="607557402396281" type="Hisia">
+                                                            <param id="0" name="State">1</param>
+                                                        </action>
+                                                        <action id="4" name="Set animation" sid="919642127610324" type="Hisia">
+                                                            <param id="0" name="Animation">&quot;r_walk_side&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="316568529770202">
+                                                    <conditions>
+                                                        <condition id="-7" name="Compare instance variable" sid="290594469185826" type="Hisia">
+                                                            <param id="0" name="Instance variable">emotion</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">&quot;honteuse&quot;</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="7" name="Set mirrored" sid="418714633050692" type="Hisia">
+                                                            <param id="0" name="State">1</param>
+                                                        </action>
+                                                        <action id="4" name="Set animation" sid="705195233495606" type="Hisia">
+                                                            <param id="0" name="Animation">&quot;h_walk_side&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="669229855887353">
+                                                    <conditions />
+                                                    <actions />
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
                                     </sub-events>
                                 </event-block>
                                 <event-block any="1" sid="318368563495748">
@@ -1009,6 +1209,97 @@
                                                             <param id="0" name="State">0</param>
                                                         </action>
                                                         <action id="4" name="Set animation" sid="496715706571811" type="Hisia">
+                                                            <param id="0" name="Animation">&quot;h_walk_side&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                            </sub-events>
+                                        </event-block>
+                                        <event-block sid="250710769936231">
+                                            <conditions>
+                                                <condition id="5" inverted="1" name="Compare axis" sid="633417672780467" type="Gamepad">
+                                                    <param id="0" name="Gamepad">0</param>
+                                                    <param id="1" name="Axis">1</param>
+                                                    <param id="2" name="Comparison">2</param>
+                                                    <param id="3" name="Value">-30</param>
+                                                </condition>
+                                                <condition id="5" inverted="1" name="Compare axis" sid="404397279943289" type="Gamepad">
+                                                    <param id="0" name="Gamepad">0</param>
+                                                    <param id="1" name="Axis">1</param>
+                                                    <param id="2" name="Comparison">4</param>
+                                                    <param id="3" name="Value">30</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions />
+                                            <sub-events>
+                                                <event-block sid="567605958197531">
+                                                    <conditions>
+                                                        <condition id="-7" name="Compare instance variable" sid="153672253779962" type="Hisia">
+                                                            <param id="0" name="Instance variable">emotion</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">&quot;craintive&quot;</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="7" name="Set mirrored" sid="109753033687497" type="Hisia">
+                                                            <param id="0" name="State">0</param>
+                                                        </action>
+                                                        <action id="4" name="Set animation" sid="509733188773405" type="Hisia">
+                                                            <param id="0" name="Animation">&quot;c_walk_side&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="919341624406695">
+                                                    <conditions>
+                                                        <condition id="-7" name="Compare instance variable" sid="262566543772531" type="Hisia">
+                                                            <param id="0" name="Instance variable">emotion</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">&quot;furieuse&quot;</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="7" name="Set mirrored" sid="640364614412992" type="Hisia">
+                                                            <param id="0" name="State">0</param>
+                                                        </action>
+                                                        <action id="4" name="Set animation" sid="420151209821415" type="Hisia">
+                                                            <param id="0" name="Animation">&quot;f_walk_side&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="490091226422160">
+                                                    <conditions>
+                                                        <condition id="-7" name="Compare instance variable" sid="782196729147135" type="Hisia">
+                                                            <param id="0" name="Instance variable">emotion</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">&quot;rayonnante&quot;</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="7" name="Set mirrored" sid="858606654033057" type="Hisia">
+                                                            <param id="0" name="State">0</param>
+                                                        </action>
+                                                        <action id="4" name="Set animation" sid="870153100510887" type="Hisia">
+                                                            <param id="0" name="Animation">&quot;r_walk_side&quot;</param>
+                                                            <param id="1" name="From">1</param>
+                                                        </action>
+                                                    </actions>
+                                                </event-block>
+                                                <event-block sid="313516702940316">
+                                                    <conditions>
+                                                        <condition id="-7" name="Compare instance variable" sid="127394871530018" type="Hisia">
+                                                            <param id="0" name="Instance variable">emotion</param>
+                                                            <param id="1" name="Comparison">0</param>
+                                                            <param id="2" name="Value">&quot;honteuse&quot;</param>
+                                                        </condition>
+                                                    </conditions>
+                                                    <actions>
+                                                        <action id="7" name="Set mirrored" sid="926625723396870" type="Hisia">
+                                                            <param id="0" name="State">0</param>
+                                                        </action>
+                                                        <action id="4" name="Set animation" sid="954188966777727" type="Hisia">
                                                             <param id="0" name="Animation">&quot;h_walk_side&quot;</param>
                                                             <param id="1" name="From">1</param>
                                                         </action>
